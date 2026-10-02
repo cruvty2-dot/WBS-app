@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "id": null,
+  "request_id": null,
+  "title": null,
+  "primary_category_id": null,
+  "related_category_ids": [],
+  "wbs_task_ids": [],
+  "input_files": [],
+  "code_files": [],
+  "result_files": [],
+  "created_at": null,
+  "author": null,
+  "review_status": "draft",
+  "measurements": [],
+  "assumptions": [],
+  "limitations": [],
+  "standard_refs": [],
+  "environment": {
+    "python_version": null,
+    "packages": [],
+    "git_commit": null
+  },
+  "_template_note": "빈 양식이다. null 필드를 채우고 파일과 분류 ID를 검증한 뒤 실제 분석 기록으로 저장한다."
+}
