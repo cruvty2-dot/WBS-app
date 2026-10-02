@@ -1,0 +1,844 @@
+{
+  "schema_version": "1.0",
+  "page_number_basis": "1-based PDF physical page",
+  "mappings": [
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 11
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 12
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 100
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 101
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 102
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 8,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 103
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 9,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 104
+    },
+    {
+      "topic_id": "topic.guide",
+      "pdf_path": "References/topics/00_학습지도·용어·공식.pdf",
+      "pdf_page": 10,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 13
+    },
+    {
+      "topic_id": "topic.material-basics",
+      "pdf_path": "References/topics/01_소재_특성·결정·전자구조.pdf",
+      "pdf_page": 3,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 3
+    },
+    {
+      "topic_id": "topic.material-basics",
+      "pdf_path": "References/topics/01_소재_특성·결정·전자구조.pdf",
+      "pdf_page": 4,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 4
+    },
+    {
+      "topic_id": "topic.material-basics",
+      "pdf_path": "References/topics/01_소재_특성·결정·전자구조.pdf",
+      "pdf_page": 5,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 5
+    },
+    {
+      "topic_id": "topic.electrochemistry",
+      "pdf_path": "References/topics/02_전기화학_기초.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 13
+    },
+    {
+      "topic_id": "topic.electrochemistry",
+      "pdf_path": "References/topics/02_전기화학_기초.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 14
+    },
+    {
+      "topic_id": "topic.electrochemistry",
+      "pdf_path": "References/topics/02_전기화학_기초.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 15
+    },
+    {
+      "topic_id": "topic.electrochemistry",
+      "pdf_path": "References/topics/02_전기화학_기초.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 16
+    },
+    {
+      "topic_id": "topic.electrochemistry",
+      "pdf_path": "References/topics/02_전기화학_기초.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 17
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 18
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 19
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 20
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 21
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 22
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 8,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 23
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 9,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 24
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 10,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 25
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 11,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 26
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 12,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 27
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 13,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 28
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 14,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 29
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 15,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 30
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 16,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 31
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 17,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 32
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 18,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 33
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 19,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 34
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 20,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 35
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 21,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 36
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 22,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 37
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 23,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 38
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 24,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 39
+    },
+    {
+      "topic_id": "topic.cathodes",
+      "pdf_path": "References/topics/03_양극재·반응·열화.pdf",
+      "pdf_page": 25,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 40
+    },
+    {
+      "topic_id": "topic.anodes",
+      "pdf_path": "References/topics/04_음극재·리튬_석출.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 41
+    },
+    {
+      "topic_id": "topic.anodes",
+      "pdf_path": "References/topics/04_음극재·리튬_석출.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 42
+    },
+    {
+      "topic_id": "topic.anodes",
+      "pdf_path": "References/topics/04_음극재·리튬_석출.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 43
+    },
+    {
+      "topic_id": "topic.anodes",
+      "pdf_path": "References/topics/04_음극재·리튬_석출.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 44
+    },
+    {
+      "topic_id": "topic.anodes",
+      "pdf_path": "References/topics/04_음극재·리튬_석출.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 45
+    },
+    {
+      "topic_id": "topic.electrolyte-and-additives",
+      "pdf_path": "References/topics/05_전해질·바인더·보조소재.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 46
+    },
+    {
+      "topic_id": "topic.electrolyte-and-additives",
+      "pdf_path": "References/topics/05_전해질·바인더·보조소재.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 47
+    },
+    {
+      "topic_id": "topic.electrolyte-and-additives",
+      "pdf_path": "References/topics/05_전해질·바인더·보조소재.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 48
+    },
+    {
+      "topic_id": "topic.electrolyte-and-additives",
+      "pdf_path": "References/topics/05_전해질·바인더·보조소재.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 49
+    },
+    {
+      "topic_id": "topic.electrode-and-cell-design",
+      "pdf_path": "References/topics/06_전극·셀_설계_계산.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 50
+    },
+    {
+      "topic_id": "topic.electrode-and-cell-design",
+      "pdf_path": "References/topics/06_전극·셀_설계_계산.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 51
+    },
+    {
+      "topic_id": "topic.electrode-and-cell-design",
+      "pdf_path": "References/topics/06_전극·셀_설계_계산.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 52
+    },
+    {
+      "topic_id": "topic.electrode-and-cell-design",
+      "pdf_path": "References/topics/06_전극·셀_설계_계산.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 53
+    },
+    {
+      "topic_id": "topic.assembly-and-formation",
+      "pdf_path": "References/topics/07_셀_조립·함침·화성.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 54
+    },
+    {
+      "topic_id": "topic.assembly-and-formation",
+      "pdf_path": "References/topics/07_셀_조립·함침·화성.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 55
+    },
+    {
+      "topic_id": "topic.assembly-and-formation",
+      "pdf_path": "References/topics/07_셀_조립·함침·화성.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 56
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 57
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 58
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 59
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 60
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 61
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 8,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 62
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 9,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 63
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 10,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 64
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 11,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 65
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 12,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 66
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 13,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 67
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 14,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 68
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 15,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 9
+    },
+    {
+      "topic_id": "topic.evaluation-and-analysis",
+      "pdf_path": "References/topics/08_평가·기기분석·데이터_해석.pdf",
+      "pdf_page": 16,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 10
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 69
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 70
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 71
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 72
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 73
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 8,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 74
+    },
+    {
+      "topic_id": "topic.degradation-and-next-generation",
+      "pdf_path": "References/topics/09_열화·안전·차세대전지.pdf",
+      "pdf_page": 9,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 75
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 77
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 78
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 79
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 80
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 81
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 8,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 82
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 9,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 83
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 10,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 84
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 11,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 85
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 12,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 86
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 13,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 6
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 14,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 7
+    },
+    {
+      "topic_id": "topic.electrode-manufacturing",
+      "pdf_path": "References/topics/10_전극_제조·혼합·도공·건조·압연.pdf",
+      "pdf_page": 15,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 8
+    },
+    {
+      "topic_id": "topic.dry-electrode-and-quality",
+      "pdf_path": "References/topics/11_건식전극·스케일업·품질.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 87
+    },
+    {
+      "topic_id": "topic.dry-electrode-and-quality",
+      "pdf_path": "References/topics/11_건식전극·스케일업·품질.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 88
+    },
+    {
+      "topic_id": "topic.dry-electrode-and-quality",
+      "pdf_path": "References/topics/11_건식전극·스케일업·품질.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 89
+    },
+    {
+      "topic_id": "topic.dry-electrode-and-quality",
+      "pdf_path": "References/topics/11_건식전극·스케일업·품질.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 90
+    },
+    {
+      "topic_id": "topic.dry-electrode-and-quality",
+      "pdf_path": "References/topics/11_건식전극·스케일업·품질.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 91
+    },
+    {
+      "topic_id": "topic.dry-electrode-and-quality",
+      "pdf_path": "References/topics/11_건식전극·스케일업·품질.pdf",
+      "pdf_page": 8,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 92
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 3,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 94
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 4,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 95
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 5,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 96
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 6,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 97
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 7,
+      "source_id": "battery",
+      "source_filename": "배터리정리_최종본.pdf",
+      "source_page": 98
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 8,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 11
+    },
+    {
+      "topic_id": "topic.recycling-and-applications",
+      "pdf_path": "References/topics/12_공급망·재사용·재활용·직무.pdf",
+      "pdf_page": 9,
+      "source_id": "fundamentals",
+      "source_filename": "배터리_전공정리_2026.09.04.pdf",
+      "source_page": 12
+    }
+  ],
+  "omitted_pages": {
+    "battery": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      76,
+      93,
+      99
+    ],
+    "fundamentals": [
+      1,
+      2
+    ]
+  },
+  "omission_reason": "원본 표지·기존 통합 목차·부 표지. 새 주제 표지·목차로 대체; 본문과 질문은 유지."
+}
