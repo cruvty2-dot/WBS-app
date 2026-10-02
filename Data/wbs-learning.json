@@ -1,0 +1,4007 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02",
+  "status_note": "학습 완료 기록이 없어 미학습으로 초기화한다. 문서 수준은 학습 상태와 별도로 관리한다.",
+  "sources": {
+    "battery": {
+      "title": "DOE, DOE Explains...Batteries",
+      "url": "https://www.energy.gov/science/doe-explainsbatteries",
+      "checked_at": "2026-10-02"
+    },
+    "chemistry": {
+      "title": "OpenStax, Chemistry 2e: Electrochemistry",
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-summary",
+      "checked_at": "2026-10-02"
+    },
+    "elements": {
+      "title": "Royal Society of Chemistry, Periodic Table",
+      "url": "https://periodic-table.rsc.org/",
+      "checked_at": "2026-10-02"
+    },
+    "ncm": {
+      "title": "Ni-rich layered oxide cathodes, Nature Communications (2024)",
+      "url": "https://doi.org/10.1038/s41467-024-54637-9",
+      "checked_at": "2026-10-02"
+    },
+    "lfp": {
+      "title": "Phospho-Olivine as Advanced Cathode Material (2015)",
+      "url": "https://scholarworks.bwise.kr/hanyang/bitstream/2021.sw.hanyang/173351/1/500-Article%20Text-754-1-10-20180417.pdf",
+      "checked_at": "2026-10-02"
+    },
+    "lmfp": {
+      "title": "Hydrothermally synthesized LiMnxFe1-xPO4, Scientific Reports (2021)",
+      "url": "https://doi.org/10.1038/s41598-021-91881-1",
+      "checked_at": "2026-10-02"
+    },
+    "lmfp2": {
+      "title": "LiMn0.5Fe0.5PO4/carbon composite, Scientific Reports (2019)",
+      "url": "https://doi.org/10.1038/s41598-019-43140-7",
+      "checked_at": "2026-10-02"
+    },
+    "lmo": {
+      "title": "Core-shell LiMn2O4, Communications Chemistry (2022)",
+      "url": "https://doi.org/10.1038/s42004-022-00670-y",
+      "checked_at": "2026-10-02"
+    },
+    "precursor": {
+      "title": "Hierarchical nickel valence gradient, Nature Communications (2021)",
+      "url": "https://doi.org/10.1038/s41467-021-22635-w",
+      "checked_at": "2026-10-02"
+    },
+    "calcination": {
+      "title": "In situ probing of Ni-rich cathode synthesis, Nature Chemistry (2022)",
+      "url": "https://doi.org/10.1038/s41557-022-00915-2",
+      "checked_at": "2026-10-02"
+    },
+    "surface": {
+      "title": "Gradient-doping and coating of Ni-rich cathode, Nature Communications (2021)",
+      "url": "https://doi.org/10.1038/s41467-021-24893-0",
+      "checked_at": "2026-10-02"
+    },
+    "air": {
+      "title": "Cathode-air interfacial reactions, Nature Communications (2020)",
+      "url": "https://doi.org/10.1038/s41467-020-17050-6",
+      "checked_at": "2026-10-02"
+    },
+    "graphite": {
+      "title": "Synthesis of graphite, Nature Communications (2020)",
+      "url": "https://doi.org/10.1038/s41467-020-20380-0",
+      "checked_at": "2026-10-02"
+    },
+    "silicon": {
+      "title": "Silicon-graphite anodes, Nature Communications (2021)",
+      "url": "https://doi.org/10.1038/s41467-021-22662-7",
+      "checked_at": "2026-10-02"
+    },
+    "binders": {
+      "title": "Chemical staining of binders, Nature Communications (2026)",
+      "url": "https://doi.org/10.1038/s41467-026-69002-1",
+      "checked_at": "2026-10-02"
+    },
+    "paa": {
+      "title": "Binder from rice husk, Scientific Reports (2021)",
+      "url": "https://doi.org/10.1038/s41598-021-95297-9",
+      "checked_at": "2026-10-02"
+    },
+    "dry": {
+      "title": "Solvent-free dry electrode processing, Communications Materials (2026)",
+      "url": "https://doi.org/10.1038/s43246-025-01046-0",
+      "checked_at": "2026-10-02"
+    },
+    "dry2": {
+      "title": "Solvent-Free Manufacturing of Electrodes, Scientific Reports (2016)",
+      "url": "https://doi.org/10.1038/srep23150",
+      "checked_at": "2026-10-02"
+    },
+    "electrolyte": {
+      "title": "High-voltage ether electrolyte, Nature Communications (2023)",
+      "url": "https://doi.org/10.1038/s41467-023-36647-1",
+      "checked_at": "2026-10-02"
+    },
+    "sulfide": {
+      "title": "Advanced sulfide solid electrolyte, Nature Communications (2018)",
+      "url": "https://doi.org/10.1038/s41467-018-06123-2",
+      "checked_at": "2026-10-02"
+    },
+    "solid": {
+      "title": "Glassy solid electrolyte, Nature Communications (2022)",
+      "url": "https://doi.org/10.1038/s41467-022-30517-y",
+      "checked_at": "2026-10-02"
+    },
+    "sulfur": {
+      "title": "Quasi-solid-state Li2S batteries, Nature Communications (2022)",
+      "url": "https://doi.org/10.1038/s41467-022-32031-7",
+      "checked_at": "2026-10-02"
+    },
+    "degradation": {
+      "title": "Degradation mode analysis, Nature Communications (2025)",
+      "url": "https://doi.org/10.1038/s41467-025-57968-3",
+      "checked_at": "2026-10-02"
+    },
+    "lithium": {
+      "title": "Royal Society of Chemistry, Lithium",
+      "url": "https://periodic-table.rsc.org/element/3/lithium",
+      "checked_at": "2026-10-02"
+    },
+    "limetal": {
+      "title": "DOE, Why Is It So Hard to Make Batteries Smaller and Lighter?",
+      "url": "https://www.energy.gov/science/bes/articles/why-it-so-hard-make-batteries-smaller-and-lighter",
+      "checked_at": "2026-10-02"
+    },
+    "electrode": {
+      "title": "Rate performance in battery electrodes, Nature Communications (2019)",
+      "url": "https://doi.org/10.1038/s41467-019-09792-9",
+      "checked_at": "2026-10-02"
+    },
+    "formation": {
+      "title": "Photochemically driven SEI, Nature Communications (2021)",
+      "url": "https://doi.org/10.1038/s41467-021-27095-w",
+      "checked_at": "2026-10-02"
+    },
+    "wetting": {
+      "title": "Gamry, EIS in Wetting of Li-ion Battery Materials",
+      "url": "https://www.gamry.com/application-notes/EIS/eis-wetting-li-ion-battery-materials/",
+      "checked_at": "2026-10-02"
+    },
+    "eis": {
+      "title": "Gamry, EIS: Potentiostatic or Galvanostatic Mode",
+      "url": "https://www.gamry.com/application-notes/EIS/eis-potentiostatic-galvanostatic-mode/",
+      "checked_at": "2026-10-02"
+    },
+    "gitt": {
+      "title": "Gamry, Galvanostatic Intermittent Titration Technique",
+      "url": "https://help.gamry.com/Framework/experiments_j_galvanostaticintermittenttitrationtechnique.html",
+      "checked_at": "2026-10-02"
+    },
+    "cv": {
+      "title": "Gamry, Cyclic Voltammetry Setup Parameters",
+      "url": "https://help.gamry.com/Framework/experiments_j_cyclicvoltammetry_setupparameters.html",
+      "checked_at": "2026-10-02"
+    },
+    "cycling": {
+      "title": "Gamry, Cyclic Charge Discharge",
+      "url": "https://www.gamry.com/support-2/technical-support/getting-started-with-gamry-software/your-first-experiment-cyclic-charge-discharge",
+      "checked_at": "2026-10-02"
+    },
+    "xrd": {
+      "title": "Malvern Panalytical, Laboratory XRD characterization",
+      "url": "https://www.malvernpanalytical.com/kr/learn/knowledge-center/whitepapers/wp201201characterizationcatalyticmaterialsxrd",
+      "checked_at": "2026-10-02"
+    },
+    "bet": {
+      "title": "Malvern Panalytical, BET Surface Area",
+      "url": "https://www.malvernpanalytical.com/en/products/category/bet-surface-area-analyzers",
+      "checked_at": "2026-10-02"
+    },
+    "xps": {
+      "title": "Thermo Fisher Scientific, XPS and SEM analysis",
+      "url": "https://www.thermofisher.com/kr/en/home/materials-science/surface-analysis/techniques/cisa.html",
+      "checked_at": "2026-10-02"
+    },
+    "icp": {
+      "title": "Shimadzu, ICP-MS overview",
+      "url": "https://www.shimadzu.com/an/service-support/technical-support/inductively-coupled-plasma-mass-spectrometry/overview/index.html",
+      "checked_at": "2026-10-02"
+    },
+    "gc": {
+      "title": "Shimadzu, Gas Chromatography fundamentals",
+      "url": "https://www.ssi.shimadzu.com/service-support/technical-support/analysis-basics/fundamentals/gc.html",
+      "checked_at": "2026-10-02"
+    },
+    "thermal": {
+      "title": "Shimadzu, Basics of Thermal Analysis",
+      "url": "https://www.shimadzu.com/an/service-support/technical-support/thermal/overview.html",
+      "checked_at": "2026-10-02"
+    },
+    "statistics": {
+      "title": "NIST/SEMATECH Engineering Statistics Handbook",
+      "url": "https://www.itl.nist.gov/div898/handbook/",
+      "checked_at": "2026-10-02"
+    },
+    "recycle": {
+      "title": "Argonne, ReCell Center and direct recycling",
+      "url": "https://www.anl.gov/article/recell-center-could-save-costly-nickel-and-cobalt-transform-battery-recycling-worldwide",
+      "checked_at": "2026-10-02"
+    },
+    "hydro": {
+      "title": "Argonne, Hydrometallurgical Recycling of NCM622",
+      "url": "https://www.anl.gov/argonne-scientific-publications/pub/186862",
+      "checked_at": "2026-10-02"
+    },
+    "recycle2": {
+      "title": "Argonne, EV Battery Recycling (2022)",
+      "url": "https://www.anl.gov/sites/www/files/2022-12/EV_Batteries_Recycling_FINAL%2012-14-22.pdf",
+      "checked_at": "2026-10-02"
+    },
+    "health": {
+      "title": "National Laboratory of the Rockies, Battery health and safety diagnosis (2023)",
+      "url": "https://research-hub.nlr.gov/en/publications/rapid-electrochemical-diagnosis-of-battery-health-and-safety-from/",
+      "checked_at": "2026-10-02"
+    },
+    "secondlife": {
+      "title": "National Laboratory of the Rockies, Second Life for EV Batteries (2015)",
+      "url": "https://research-hub.nlr.gov/en/publications/second-life-for-electric-vehicle-batteries-answering-questions-on/",
+      "checked_at": "2026-10-02"
+    },
+    "orbital": {
+      "title": "OpenStax, Chemistry 2e: Molecular Orbital Theory",
+      "url": "https://openstax.org/books/chemistry-2e/pages/8-4-molecular-orbital-theory",
+      "checked_at": "2026-10-02"
+    },
+    "lattice": {
+      "title": "OpenStax, Chemistry 2e: Lattice Structures",
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids",
+      "checked_at": "2026-10-02"
+    },
+    "hardcarbon": {
+      "title": "Closed pores in hard carbon, Nature Communications (2023)",
+      "url": "https://doi.org/10.1038/s41467-023-39637-5",
+      "checked_at": "2026-10-02"
+    },
+    "lto": {
+      "title": "Atomic-scale storage in Li4Ti5O12, Nature Communications (2013)",
+      "url": "https://doi.org/10.1038/ncomms2878",
+      "checked_at": "2026-10-02"
+    },
+    "lnmo": {
+      "title": "Graphene-wrapped LiNi0.5Mn1.5O4, Scientific Reports (2015)",
+      "url": "https://doi.org/10.1038/srep11958",
+      "checked_at": "2026-10-02"
+    }
+  },
+  "items": [
+    {
+      "id": "design",
+      "wbs": "1",
+      "label": "설계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "목표 성능에서 출발해 소재·전극·셀 변수와 평가 기준을 정한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.material",
+      "wbs": "1.1",
+      "label": "소재·재료",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "활물질·전해질·바인더 등 각 소재의 기능과 상호 적합성을 구분한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.basics",
+      "wbs": "1.1.1",
+      "label": "소재 특성·전공 기초",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "조성·구조·전달·표면 특성을 연결해 소재의 거동을 이해한다.",
+      "source_ids": [
+        "lattice"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.elements",
+      "wbs": "1.1.1.1",
+      "label": "원소·이온",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원소 이름, 이온의 전하, 화합물의 조성을 서로 구분한다.",
+      "source_ids": [
+        "elements"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.li",
+      "wbs": "1.1.1.1.1",
+      "label": "Li: 원소·Li⁺·금속 음극",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "Li 원소·Li⁺ 이온·리튬 금속을 구분하며 각각의 역할을 읽는다.",
+      "source_ids": [
+        "lithium",
+        "battery",
+        "limetal"
+      ],
+      "prerequisite_ids": [
+        "d.elements",
+        "d.electronic.bond"
+      ],
+      "next_ids": [
+        "d.electronic.redox",
+        "material.limetal",
+        "d.deg.lli"
+      ],
+      "basics": [
+        [
+          "원소와 이온",
+          "Li는 원소 기호, Li⁺는 전자 하나를 잃은 이온이다. 화합물 속 Li와 금속 Li는 상태와 물성이 다르다."
+        ],
+        [
+          "산화·환원",
+          "Li ⇄ Li⁺ + e⁻는 금속의 용출·석출을 나타내는 반응이다. 양극재의 Li 탈삽입은 호스트 구조와 함께 읽는다."
+        ],
+        [
+          "질량 기준",
+          "비용량을 비교할 때 Li 금속 질량, 활물질 질량, 전극 질량, 셀 질량 중 무엇을 분모로 썼는지 구분한다."
+        ]
+      ],
+      "sections": [
+        [
+          "Li의 기본 물성",
+          "원자번호 3, 상대 원자질량 약 6.94, 전자배치 [He]2s¹이다. 금속 Li의 대표 밀도는 약 0.534 g/cm³, 녹는점은 약 180.5 °C다. 이 숫자는 LiFePO₄ 같은 화합물의 밀도·녹는점으로 옮겨 쓰지 않는다."
+        ],
+        [
+          "배터리에서 읽는 세 가지 상태",
+          "원소 Li는 조성에 포함된 원소를 뜻한다. Li⁺는 전해질과 전극 구조 안에서 이동·저장되는 이온이다. 금속 Li는 별도의 금속상으로, 금속 음극 또는 원치 않는 석출물로 존재할 수 있다. Li가 들어 있는 양극재를 리튬 금속이라고 부르지 않는다."
+        ],
+        [
+          "금속 Li의 이론 비용량",
+          "한 Li 원자당 전자 1개가 반응한다고 두면 q = nF/(3.6M). n = 1, F ≈ 96485 C/mol, M ≈ 6.94 g/mol이므로 약 3862 mAh/g, 통상 약 3860 mAh/g이다. 계산값은 Li 금속 질량 기준이며 실제 셀의 비용량을 뜻하지 않는다."
+        ],
+        [
+          "전위 기준과 반응성",
+          "Li/Li⁺를 기준으로 표시한 전위에서 Li 금속 평형은 0 V다. 이 기준을 사용한 양극 전위와 셀 전압을 구분한다. Li 금속은 수분·공기와 반응하므로 금속 Li의 물성·보관을 일반 Li 화합물에 일괄 적용하지 않는다."
+        ]
+      ],
+      "question": "LiFePO₄에 포함된 Li와 음극에 석출된 금속 Li의 상태·역할이 어떻게 다른지 설명할 수 있는가?"
+    },
+    {
+      "id": "element.ni",
+      "wbs": "1.1.1.1.2",
+      "label": "Ni: 니켈",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "NCM의 구성 원소이며 조성 변화에 따라 용량과 안정성이 달라진다.",
+      "source_ids": [
+        "ncm"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.co",
+      "wbs": "1.1.1.1.3",
+      "label": "Co: 코발트",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "NCM·NCA·LCO의 구성 원소이며 금속 Co와 화합물 속 Co를 구분한다.",
+      "source_ids": [
+        "elements"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.mn",
+      "wbs": "1.1.1.1.4",
+      "label": "Mn: 망간",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LMO·LMFP 등의 구성 원소로, 산화수와 결정구조에 따라 거동이 달라진다.",
+      "source_ids": [
+        "lmo"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.fe",
+      "wbs": "1.1.1.1.5",
+      "label": "Fe: 철",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LFP·LMFP에서 Fe의 산화·환원이 전하 저장에 관여한다.",
+      "source_ids": [
+        "lmfp"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.p",
+      "wbs": "1.1.1.1.6",
+      "label": "P: 인",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "인산염 양극의 PO₄ 골격을 이루는 원소로, 인 원소와 인산염을 구분한다.",
+      "source_ids": [
+        "lmfp"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.c",
+      "wbs": "1.1.1.1.7",
+      "label": "C: 탄소",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "흑연 활물질·도전재·코팅에서 쓰이며 구조에 따라 역할이 달라진다.",
+      "source_ids": [
+        "graphite"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.si",
+      "wbs": "1.1.1.1.8",
+      "label": "Si: 규소",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Si 음극은 Li와 합금화하며 용량 확보와 팽창 제어를 함께 고려한다.",
+      "source_ids": [
+        "silicon"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.al",
+      "wbs": "1.1.1.1.9",
+      "label": "Al: 알루미늄",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "집전체나 NCA 구성 원소로 쓰이며 금속박과 화합물의 역할이 다르다.",
+      "source_ids": [
+        "surface"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.cu",
+      "wbs": "1.1.1.1.10",
+      "label": "Cu: 구리",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "일반적인 흑연 음극의 집전체에 쓰이며 활물질과 구분한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.o",
+      "wbs": "1.1.1.1.11",
+      "label": "O: 산소",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "산화물·인산염의 골격을 이루며 결합과 구조 안정성에 관여한다.",
+      "source_ids": [
+        "ncm"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "element.na",
+      "wbs": "1.1.1.1.12",
+      "label": "Na: 나트륨",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "나트륨이온전지의 전하 운반 원소로, Li계와 저장 거동을 따로 비교한다.",
+      "source_ids": [
+        "solid"
+      ],
+      "prerequisite_ids": [
+        "d.elements"
+      ],
+      "next_ids": [
+        "d.electronic.bond"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.crystal",
+      "wbs": "1.1.1.2",
+      "label": "결정구조·결함",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원자 배열과 결함은 이온 이동 경로 및 구조 안정성에 영향을 준다.",
+      "source_ids": [
+        "lattice"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.crystal.layered",
+      "wbs": "1.1.1.2.1",
+      "label": "층상 구조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Li층과 전이금속층이 배열되는 구조로 자리 혼입을 함께 살핀다.",
+      "source_ids": [
+        "ncm"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.crystal.olivine",
+      "wbs": "1.1.1.2.2",
+      "label": "올리빈 구조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LFP·LMFP의 대표 구조이며 인산염 골격과 Li 이동 경로를 읽는다.",
+      "source_ids": [
+        "lmfp"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.crystal.spinel",
+      "wbs": "1.1.1.2.3",
+      "label": "스피넬 구조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LMO 등의 대표 구조이며 3차원 이온 이동과 구조 변화를 살핀다.",
+      "source_ids": [
+        "lmo"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.crystal.defect",
+      "wbs": "1.1.1.2.4",
+      "label": "공공·자리 혼입·입계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "공공·자리 혼입·입계는 이동 경로를 바꾸며 영향은 위치와 농도에 달린다.",
+      "source_ids": [
+        "precursor"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.crystal.stress",
+      "wbs": "1.1.1.2.5",
+      "label": "상전이·응력·균열",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "충방전 중 격자 변화가 응력·균열 및 접촉 손실로 이어질 수 있다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electronic",
+      "wbs": "1.1.1.3",
+      "label": "전자구조·결합",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "결합·전자상태·산화수를 통해 전위와 전자 전달을 설명한다.",
+      "source_ids": [
+        "orbital"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electronic.bond",
+      "wbs": "1.1.1.3.1",
+      "label": "화학결합·산화수",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "산화수는 전자 이동을 정리하는 형식적 기준이며 실제 전하와 다를 수 있다.",
+      "source_ids": [
+        "chemistry"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electronic.band",
+      "wbs": "1.1.1.3.2",
+      "label": "오비탈·밴드·전자상태",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "오비탈과 밴드는 전자상태와 전도성을 설명하는 서로 다른 수준의 개념이다.",
+      "source_ids": [
+        "orbital"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electronic.redox",
+      "wbs": "1.1.1.3.3",
+      "label": "산화·환원과 전위",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "산화는 전자 방출, 환원은 전자 수용이며 전위에는 기준 전극이 필요하다.",
+      "source_ids": [
+        "chemistry"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.transport",
+      "wbs": "1.1.1.4",
+      "label": "전달·반응·열 특성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "이온·전자·열의 이동과 계면 반응을 구분해 성능 제한을 찾는다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.transport.diffusion",
+      "wbs": "1.1.1.4.1",
+      "label": "확산·이온 전달",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "농도 차에 따른 이동을 다루며 고체 내부와 전해질 이동을 구분한다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.transport.electron",
+      "wbs": "1.1.1.4.2",
+      "label": "전자 전달",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "도전재·활물질·집전체의 연결과 접촉 저항이 전자 이동에 관여한다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.transport.heat",
+      "wbs": "1.1.1.4.3",
+      "label": "열전달·열 안정성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "발열과 열 방출의 균형을 보며 소재 분석과 셀 안전평가를 구분한다.",
+      "source_ids": [
+        "thermal"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.transport.interface",
+      "wbs": "1.1.1.4.4",
+      "label": "계면 반응·젖음성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "계면에서는 이온 전달·부반응·젖음이 함께 작용한다.",
+      "source_ids": [
+        "wetting"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.powder",
+      "wbs": "1.1.1.5",
+      "label": "입자·분체·표면",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "입도·표면적·밀도는 반응성뿐 아니라 혼합과 충전 거동에 영향을 준다.",
+      "source_ids": [
+        "bet"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.powder.size",
+      "wbs": "1.1.1.5.1",
+      "label": "입도·입도분포",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "D10·D50·D90은 분포의 기준을 함께 적고 입자와 응집체를 구분한다.",
+      "source_ids": [
+        "xrd"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.powder.area",
+      "wbs": "1.1.1.5.2",
+      "label": "비표면적·표면화학",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "비표면적은 단위 질량당 표면적이며 표면 반응·수분 영향도 함께 본다.",
+      "source_ids": [
+        "bet"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.powder.density",
+      "wbs": "1.1.1.5.3",
+      "label": "진밀도·탭밀도·충전성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "진밀도는 재료 자체, 탭밀도는 입자 사이 빈 공간을 포함한 충전 밀도다.",
+      "source_ids": [
+        "bet"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.active",
+      "wbs": "1.1.2",
+      "label": "활물질",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전기화학 반응으로 전하를 저장하며 도전재·바인더와 역할이 다르다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cathode",
+      "wbs": "1.1.2.1",
+      "label": "양극재",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "구조·반응·전위·안정성을 기준으로 양극재 계열을 나눈다.",
+      "source_ids": [
+        "ncm"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cathode.layered",
+      "wbs": "1.1.2.1.1",
+      "label": "층상 산화물",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "NCM·NCA·LCO를 포함하며 조성과 Li 탈삽입에 따른 변화를 살핀다.",
+      "source_ids": [
+        "ncm"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.ncm",
+      "wbs": "1.1.2.1.1.1",
+      "label": "NCM",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "LiNiₓCoᵧMn_zO₂ 계열로, Ni·Co·Mn 비율과 시험 조건을 함께 읽는다.",
+      "source_ids": [
+        "ncm",
+        "precursor"
+      ],
+      "prerequisite_ids": [
+        "element.li",
+        "d.crystal.layered",
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.loading",
+        "d.crystal.stress",
+        "method.xrd",
+        "p.raw.calcination"
+      ],
+      "basics": [
+        [
+          "기호 읽기",
+          "NCM은 Ni-Co-Mn 순서의 약칭이다. NMC라는 표기도 있으므로 숫자가 어떤 원소 순서인지 먼저 확인한다."
+        ],
+        [
+          "층상과 반응",
+          "층상 구조의 Li 이동과 전이금속 산화·환원을 함께 읽는다. Li 탈리량이 커지면 구조·표면 상태도 변할 수 있다."
+        ],
+        [
+          "전위와 전압",
+          "양극 전위는 보통 Li/Li⁺ 기준으로 제시한다. 풀셀 전압은 양극과 음극 전위의 차이다."
+        ]
+      ],
+      "sections": [
+        [
+          "조성과 숫자",
+          "대표식은 LiNiₓCoᵧMn_zO₂이며 이상적인 금속 자리 조성에서는 x+y+z=1이다. NCM811을 Ni:Co:Mn=8:1:1로 표기했다면 LiNi₀.₈Co₀.₁Mn₀.₁O₂를 뜻한다. 숫자는 전이금속 몰비이며 전체 원소의 질량비가 아니다."
+        ],
+        [
+          "Ni 함량을 높일 때",
+          "Ni 증가로 얻으려는 주된 이점은 높은 가용 용량이다. 동시에 Li/Ni 자리 혼입, 입자 내 응력·균열, 표면 반응 등을 고려한다. 실제 거동은 조성뿐 아니라 입자 구조·합성·전해질·충전 상한·온도에 좌우된다."
+        ],
+        [
+          "비교할 성능",
+          "가역 비용량, 평균 방전 전위, 용량 유지율, 저항 증가를 구분한다. 논문의 높은 Wh/kg 값은 양극 활물질 기준일 수 있으므로 셀 기준인지 확인한다. NCM의 성능을 하나의 고정 숫자로 외우지 않는다."
+        ],
+        [
+          "이 항목에서 확인할 증거",
+          "XRD로 결정상과 격자, 현미경으로 입자·균열, 표면 분석으로 계면 변화, 충방전으로 이용 가능한 용량을 살핀다. 한 분석 결과만으로 모든 용량 감소 원인을 단정하지 않는다."
+        ]
+      ],
+      "question": "NCM811의 숫자 의미를 설명하고, 성능 비교에 필요한 시험 조건 세 가지를 말할 수 있는가?"
+    },
+    {
+      "id": "material.nca",
+      "wbs": "1.1.2.1.1.2",
+      "label": "NCA",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Li-Ni-Co-Al 층상 산화물 계열이며 조성에 따른 안정성과 반응을 살핀다.",
+      "source_ids": [
+        "surface"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.lco",
+      "wbs": "1.1.2.1.1.3",
+      "label": "LCO",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LiCoO₂ 층상 양극으로 탈리튬화 범위와 구조 안정성을 연결한다.",
+      "source_ids": [
+        "ncm"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cathode.phosphate",
+      "wbs": "1.1.2.1.2",
+      "label": "인산염계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "PO₄ 골격을 가진 양극 계열이며 LFP·LMFP의 산화·환원을 비교한다.",
+      "source_ids": [
+        "lmfp"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.lfp",
+      "wbs": "1.1.2.1.2.1",
+      "label": "LFP",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "LiFePO₄ 올리빈 양극으로 Fe²⁺/Fe³⁺ 반응과 전도성 확보를 이해한다.",
+      "source_ids": [
+        "lmfp",
+        "lfp",
+        "electrode"
+      ],
+      "prerequisite_ids": [
+        "element.li",
+        "element.fe",
+        "d.crystal.olivine",
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "material.lmfp",
+        "d.electrode.network",
+        "p.raw.surface",
+        "method.dqdv"
+      ],
+      "basics": [
+        [
+          "화학식과 구조",
+          "LFP는 LiFePO₄의 약칭이다. Li·Fe·P·O는 구성 원소이고, LFP는 이 원소들이 이룬 특정 소재다."
+        ],
+        [
+          "산화수",
+          "대표 반응은 Fe²⁺/Fe³⁺의 변화와 Li 탈삽입을 함께 포함한다."
+        ],
+        [
+          "전도와 전위",
+          "활물질의 이온 이동과 전극의 전자 연결은 다른 경로다. 양극 전위를 풀셀 전압과 구분한다."
+        ]
+      ],
+      "sections": [
+        [
+          "충전·방전 반응",
+          "충전 방향의 개념식은 LiFePO₄ → FePO₄ + Li⁺ + e⁻이다. 방전은 역방향이다. 구조의 전이금속층을 뜻하는 LiMO₂ 식을 LFP의 화학식으로 대신 쓰지 않는다."
+        ],
+        [
+          "대표 전위와 이론 용량",
+          "대표 반응 전위는 약 3.4~3.5 V vs. Li/Li⁺다. 한 화학식 단위당 전자 1개의 반응으로 계산하면 이론 비용량은 약 170 mAh/g이다. 실제 측정값은 탄소·바인더 포함 여부, 전류·온도·전압창에 따라 달라진다."
+        ],
+        [
+          "실제 전극에서 중요한 점",
+          "LFP 자체의 전자 전도성과 입자 내부 이동 특성을 고려해 탄소 코팅·입도·도전망을 설계한다. 입자를 작게 만들면 이동 거리는 줄어들 수 있으나 표면적과 공정 거동도 달라진다. 탄소가 많아졌다고 셀 에너지밀도가 항상 증가하는 것은 아니다."
+        ],
+        [
+          "LFP를 평가하는 기준",
+          "정상적인 용량·출력뿐 아니라 로딩, 전극 밀도, 공극률 및 저온·고율 조건의 이용률을 기록한다. 평탄한 전압 구간에서는 전압만으로 SOC를 정밀하게 구분하기 어려울 수 있다. 소재의 안정성을 완성된 셀의 무조건적인 안전 보장으로 해석하지 않는다."
+        ]
+      ],
+      "question": "LFP의 화학식·Fe 산화수 변화·전위 기준을 각각 구분해서 설명할 수 있는가?"
+    },
+    {
+      "id": "material.lmfp",
+      "wbs": "1.1.2.1.2.2",
+      "label": "LMFP",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "LiMnₓFe₁₋ₓPO₄로, Fe·Mn 반응 전위와 실제 이용 가능한 용량을 구분한다.",
+      "source_ids": [
+        "lmfp",
+        "lmfp2"
+      ],
+      "prerequisite_ids": [
+        "material.lfp",
+        "element.mn",
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "p.raw.precursor",
+        "p.raw.surface",
+        "d.electrode.network",
+        "method.cv"
+      ],
+      "basics": [
+        [
+          "조성 표기",
+          "LMFP는 LiMnₓFe₁₋ₓPO₄ 계열이다. x는 Mn의 몰분율이며 문헌에서 Fe·Mn의 표기 순서를 확인한다."
+        ],
+        [
+          "반응 전위",
+          "Li/Li⁺ 기준의 Fe 반응과 Mn 반응은 서로 다른 전위 구간에 나타난다."
+        ],
+        [
+          "에너지의 의미",
+          "비에너지는 용량만으로 정해지지 않으며 방전 전압을 함께 적분해 평가한다."
+        ]
+      ],
+      "sections": [
+        [
+          "LFP에 Mn을 넣는 의미",
+          "인산염 올리빈 골격에서 Fe와 Mn이 조성을 나눠 갖는다. Fe 반응은 대표적으로 약 3.5 V, Mn 반응은 약 4.1 V vs. Li/Li⁺ 부근에서 관찰된다. 실제 피크·평탄구간은 조성·전류·온도·분극에 따라 달라진다."
+        ],
+        [
+          "얻으려는 이점",
+          "더 높은 전위의 Mn 반응을 활용해 평균 방전 전위를 높이는 것이 주요 방향이다. 그러나 Mn 함량 증가가 실제 가용 용량이나 셀 비에너지의 동일한 증가를 보장하지 않는다. 두 반응 구간에서 방출되는 용량을 나눠 확인한다."
+        ],
+        [
+          "함께 해결할 문제",
+          "전자·이온 이동, 조성 균일성, Mn 관련 구조 변화 및 계면 반응을 함께 살핀다. 탄소 코팅·입도·복합 도전망 등의 효과는 동일 조건의 비교로 판단한다. 특정 논문의 탄소 함량이나 합성 온도를 모든 LMFP의 최적값으로 사용하지 않는다."
+        ],
+        [
+          "이 항목의 평가 포인트",
+          "Fe/Mn 실제 조성, 불순상, 표면 탄소 상태, 고율 용량 및 반응 구간별 분극을 확인한다. 소재 질량 기준의 성능과 전극·셀 수준의 성능은 따로 기록한다."
+        ]
+      ],
+      "question": "Mn 함량을 높였는데 방전 에너지가 기대만큼 늘지 않는다면 어떤 관찰을 먼저 비교할 것인가?"
+    },
+    {
+      "id": "d.cathode.spinel",
+      "wbs": "1.1.2.1.3",
+      "label": "스피넬계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LMO·LNMO를 포함하며 Mn 거동과 전해질 계면 안정성을 살핀다.",
+      "source_ids": [
+        "lmo"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.lmo",
+      "wbs": "1.1.2.1.3.1",
+      "label": "LMO",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "LiMn₂O₄ 스피넬 양극이며 Mn 용출과 구조 변화가 주요 학습점이다.",
+      "source_ids": [
+        "lmo",
+        "icp"
+      ],
+      "prerequisite_ids": [
+        "element.mn",
+        "d.crystal.spinel",
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.deg.crosstalk",
+        "d.crystal.stress",
+        "p.raw.surface",
+        "material.lnmo"
+      ],
+      "basics": [
+        [
+          "화학식",
+          "LMO는 대표적으로 LiMn₂O₄ 스피넬 양극을 뜻한다. 약칭만 보지 말고 실제 화학식을 확인한다."
+        ],
+        [
+          "산화수 계산",
+          "Li를 +1, O를 -2로 두면 전하 중성 조건에서 Mn 평균 산화수는 +3.5다. 이는 개별 Mn이 모두 동일한 상태라는 뜻은 아니다."
+        ],
+        [
+          "전위 기준",
+          "대표적인 4 V급 반응은 Li/Li⁺ 기준의 양극 반응 전위다. 풀셀 전압과 구분한다."
+        ]
+      ],
+      "sections": [
+        [
+          "저장 반응과 구조",
+          "충전 방향의 개념식은 LiMn₂O₄ → Li₁₋ₓMn₂O₄ + xLi⁺ + xe⁻이다. 스피넬의 3차원 Li 이동 경로와 Mn 산화·환원을 함께 이해한다. 실제 반응 범위는 전압창과 구조 상태에 따라 달라진다."
+        ],
+        [
+          "대표적인 열화 문제",
+          "Mn 용출과 전해질 계면 반응, 구조 변화가 주요 검토 대상이다. 용출된 Mn은 다른 전극 계면에도 영향을 줄 수 있다. Mn³⁺와 관련된 Jahn-Teller 왜곡은 반응 깊이·상태에 따라 살피며 모든 운전 조건에서 같은 정도라고 가정하지 않는다."
+        ],
+        [
+          "개선 방향을 읽는 법",
+          "표면 코팅·도핑·입자 구조 변경은 계면 접촉이나 구조 변화를 줄이려는 접근이다. 개선 후 용량 유지뿐 아니라 저항·용출량·구조 관찰을 함께 비교한다. 다른 소재를 첨가했다면 실제 활물질 기준과 함량을 명시한다."
+        ],
+        [
+          "측정에서 구분할 점",
+          "충방전 성능, XRD의 구조 변화, ICP 계열의 Mn 정량은 서로 다른 증거다. 전해액 속 Mn 농도 하나만으로 셀 전체의 Mn 손실량을 바로 계산하지 않는다. 추출량·전해액량·측정 회수율 등 기준을 확인한다."
+        ]
+      ],
+      "question": "LMO의 평균 Mn 산화수를 계산하고, Mn 용출을 확인할 분석과 구조 변화를 확인할 분석을 구분할 수 있는가?"
+    },
+    {
+      "id": "material.lnmo",
+      "wbs": "1.1.2.1.3.2",
+      "label": "LNMO",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "대표 조성 LiNi₀.₅Mn₁.₅O₄의 고전위 반응과 계면 안정성을 살핀다.",
+      "source_ids": [
+        "lnmo"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cathode.sulfur",
+      "wbs": "1.1.2.1.4",
+      "label": "황·전환반응계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "단순 삽입 대신 전환반응을 활용하며 중간 생성물 이동을 고려한다.",
+      "source_ids": [
+        "sulfur"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.sulfur",
+      "wbs": "1.1.2.1.4.1",
+      "label": "황 양극",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "황에서 Li₂S로 가는 전환반응과 폴리설파이드 셔틀을 이해한다.",
+      "source_ids": [
+        "sulfur"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.anode",
+      "wbs": "1.1.2.2",
+      "label": "음극재",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "저장 반응·전위·팽창·초기 비가역 손실을 기준으로 음극을 비교한다.",
+      "source_ids": [
+        "silicon"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.anode.carbon",
+      "wbs": "1.1.2.2.1",
+      "label": "탄소계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "흑연의 층간 삽입과 하드카본의 여러 저장 거동을 구분한다.",
+      "source_ids": [
+        "hardcarbon"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.graphite",
+      "wbs": "1.1.2.2.1.1",
+      "label": "흑연",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "층간 Li 삽입을 이용하며 완전 리튬화의 대표 조성은 LiC₆이다.",
+      "source_ids": [
+        "graphite"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.graphite.natural",
+      "wbs": "1.1.2.2.1.1.1",
+      "label": "천연흑연",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "천연 원료의 정제·형상·표면 처리와 불순물 관리가 중요하다.",
+      "source_ids": [
+        "graphite"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.graphite.synthetic",
+      "wbs": "1.1.2.2.1.1.2",
+      "label": "인조흑연",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "탄소 원료의 탄화·흑연화로 구조와 형상을 조절한다.",
+      "source_ids": [
+        "graphite"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.hardcarbon",
+      "wbs": "1.1.2.2.1.2",
+      "label": "하드카본",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "난흑연화 탄소로 무질서 구조와 공극이 저장 거동에 관여한다.",
+      "source_ids": [
+        "hardcarbon"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.anode.si",
+      "wbs": "1.1.2.2.2",
+      "label": "Si계·합금계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Li와 합금화하는 계열로 팽창과 전도망·계면막 유지가 핵심이다.",
+      "source_ids": [
+        "silicon"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.si",
+      "wbs": "1.1.2.2.2.1",
+      "label": "Si",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "높은 저장 용량과 큰 부피 변화가 함께 나타나 전극 구조가 중요하다.",
+      "source_ids": [
+        "silicon"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.siox",
+      "wbs": "1.1.2.2.2.2",
+      "label": "SiOₓ",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "SiOₓ는 조성·구조에 따라 초기 비가역 반응과 팽창이 달라진다.",
+      "source_ids": [
+        "silicon"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.sic",
+      "wbs": "1.1.2.2.2.3",
+      "label": "Si-C 복합체",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Si와 탄소의 복합화로 전도·응력·계면을 조절하며 Si 함량을 함께 본다.",
+      "source_ids": [
+        "silicon"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.anode.oxide",
+      "wbs": "1.1.2.2.3",
+      "label": "삽입형 산화물",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "산화물 호스트에 Li가 삽입되는 음극이며 전위와 안정성을 비교한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.lto",
+      "wbs": "1.1.2.2.3.1",
+      "label": "LTO",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Li₄Ti₅O₁₂ 삽입형 음극으로 작은 부피 변화와 높은 음극 전위를 살핀다.",
+      "source_ids": [
+        "lto"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.anode.metal",
+      "wbs": "1.1.2.2.4",
+      "label": "금속 음극",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "금속의 석출·용출을 활용하며 형태 변화와 계면 안정성이 중요하다.",
+      "source_ids": [
+        "limetal"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.limetal",
+      "wbs": "1.1.2.2.4.1",
+      "label": "리튬 금속 음극",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Li 석출·용출을 이용하며 계면막·고립 Li·국부 전류를 함께 살핀다.",
+      "source_ids": [
+        "limetal"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.binder",
+      "wbs": "1.1.3",
+      "label": "바인더",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "입자와 집전체의 결합을 유지하며 분산·유변학·계면에도 영향을 준다.",
+      "source_ids": [
+        "binders"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.pvdf",
+      "wbs": "1.1.3.1",
+      "label": "PVDF",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "불소계 바인더로 용매·접착·전극 조성의 적합성을 함께 확인한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.cmc",
+      "wbs": "1.1.3.2",
+      "label": "CMC",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "수계 공정에서 점도와 입자 결합에 관여하며 SBR과 역할을 나눠 본다.",
+      "source_ids": [
+        "binders"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.sbr",
+      "wbs": "1.1.3.3",
+      "label": "SBR",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "탄성 및 접착에 기여하는 라텍스계 바인더로 CMC와의 배합을 살핀다.",
+      "source_ids": [
+        "binders"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.paa",
+      "wbs": "1.1.3.4",
+      "label": "PAA",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "카복실기를 가진 바인더로 표면 결합·팽창 대응·공정 조건을 살핀다.",
+      "source_ids": [
+        "paa"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.ptfe",
+      "wbs": "1.1.3.5",
+      "label": "PTFE",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "일부 건식 공정에서 섬유화로 입자를 결속하며 전극 극성 적합성을 본다.",
+      "source_ids": [
+        "dry"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.conductive",
+      "wbs": "1.1.4",
+      "label": "도전재",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "활물질 사이에 전자 이동 경로를 만들며 함량·분산 상태가 중요하다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.carbonblack",
+      "wbs": "1.1.4.1",
+      "label": "카본블랙",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "입자형 도전재로 응집·분산과 연결망 형성을 함께 살핀다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.cnt",
+      "wbs": "1.1.4.2",
+      "label": "CNT",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "관형 도전재로 적은 첨가량의 연결망과 분산 어려움을 함께 본다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.graphene",
+      "wbs": "1.1.4.3",
+      "label": "그래핀",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "판상 탄소로 전도·표면적과 재적층·분산을 함께 살핀다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte",
+      "wbs": "1.1.5",
+      "label": "전해질",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "이온을 전달하며 전극 계면 안정성과 사용 전위·온도 범위가 중요하다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte.liquid",
+      "wbs": "1.1.5.1",
+      "label": "액체 전해질",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "염·용매·첨가제 조합으로 전도·젖음·계면막을 조절한다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte.salt",
+      "wbs": "1.1.5.1.1",
+      "label": "리튬염",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Li 공급 이온원으로 해리·용매화·계면 반응·집전체 적합성을 본다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.lipf6",
+      "wbs": "1.1.5.1.1.1",
+      "label": "LiPF₆",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "대표 리튬염으로 수분 민감성과 계면·집전체 부동태화를 함께 본다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.lifsi",
+      "wbs": "1.1.5.1.1.2",
+      "label": "LiFSI",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "FSI 음이온계 염이며 계면막 이점과 조건별 집전체 부식을 함께 본다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "material.litfsi",
+      "wbs": "1.1.5.1.1.3",
+      "label": "LiTFSI",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "TFSI 음이온계 염이며 염 농도·용매·집전체 적합성을 확인한다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.redox"
+      ],
+      "next_ids": [
+        "d.electrode.formula"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte.solvent",
+      "wbs": "1.1.5.1.2",
+      "label": "용매",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "염의 용매화·점도·전도도·전위 안정성과 젖음에 영향을 준다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte.additive",
+      "wbs": "1.1.5.1.3",
+      "label": "첨가제",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "소량 첨가로 계면 반응 등을 조절하며 농도와 부작용도 확인한다.",
+      "source_ids": [
+        "formation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte.solid",
+      "wbs": "1.1.5.2",
+      "label": "고체 전해질",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "이온 전도도와 함께 고체 접촉·계면 반응·압력 조건을 살핀다.",
+      "source_ids": [
+        "sulfide"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.solid.sulfide",
+      "wbs": "1.1.5.2.1",
+      "label": "황화물계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "높은 이온 전도와 성형성이 장점인 조성이 있으나 수분·계면을 관리한다.",
+      "source_ids": [
+        "sulfide"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.solid.oxide",
+      "wbs": "1.1.5.2.2",
+      "label": "산화물계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "기계적 특성과 화학 안정성의 장점 및 입계·접촉 저항을 함께 본다.",
+      "source_ids": [
+        "solid"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.solid.polymer",
+      "wbs": "1.1.5.2.3",
+      "label": "고분자계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "고분자 내 이온 이동과 온도·기계적 특성의 관계를 살핀다.",
+      "source_ids": [
+        "sulfur"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrolyte.gel",
+      "wbs": "1.1.5.3",
+      "label": "겔·고분자 전해질",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "고분자망에 액체 성분을 유지한 경우가 많아 전고체와 구분한다.",
+      "source_ids": [
+        "sulfur"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.interphase",
+      "wbs": "1.1.5.4",
+      "label": "SEI·CEI 계면막",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "SEI·CEI는 전해질 반응으로 생기는 계면층이며 성장과 저항을 함께 본다.",
+      "source_ids": [
+        "formation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.separator",
+      "wbs": "1.1.6",
+      "label": "분리막",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전자 접촉을 막으면서 이온 이동을 허용하며 공극·젖음·열 특성을 본다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.separator.polyolefin",
+      "wbs": "1.1.6.1",
+      "label": "PE·PP계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "PE·PP 다공성 막의 구조와 열 거동을 구분해 확인한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.separator.coating",
+      "wbs": "1.1.6.2",
+      "label": "세라믹·기능성 코팅",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "코팅의 열·젖음 특성 이점과 두께·저항·접착의 영향을 함께 본다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.collector",
+      "wbs": "1.1.7",
+      "label": "집전체",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전자를 모아 전달하며 전위·부식·접착 및 두께가 중요하다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.collector.al",
+      "wbs": "1.1.7.1",
+      "label": "Al 집전체",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "일반적인 양극 집전체로 전해질에 따른 부식·부동태화가 중요하다.",
+      "source_ids": [
+        "electrolyte"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.collector.cu",
+      "wbs": "1.1.7.2",
+      "label": "Cu 집전체",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "일반적인 흑연 음극 집전체로 접촉·접착 및 사용 전위를 확인한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.collector.surface",
+      "wbs": "1.1.7.3",
+      "label": "표면 처리·복합 집전체",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "표면 처리로 접착·접촉을 조절하며 저항·내구성도 확인한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode",
+      "wbs": "1.2",
+      "label": "전극 설계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "조성·로딩·공극·전도망을 목표 용량과 출력에 맞춰 정한다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode.formula",
+      "wbs": "1.2.1",
+      "label": "조성·활물질 비율",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "활물질·바인더·도전재의 질량 기준과 기능별 비율을 구분한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode.loading",
+      "wbs": "1.2.2",
+      "label": "로딩량·면적당 용량",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "면적당 용량은 활물질 로딩량과 실제 비용량을 곱해 추정한다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode.micro",
+      "wbs": "1.2.3",
+      "label": "두께·밀도·공극률",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "두께·밀도·공극률을 함께 보며 용량과 전달의 절충을 이해한다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode.network",
+      "wbs": "1.2.4",
+      "label": "이온·전자 전달망",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전자 전도망과 전해질이 채운 이온 이동 경로가 모두 필요하다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode.balance",
+      "wbs": "1.2.5",
+      "label": "N/P·리튬 재고",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "N/P는 용량의 비이며 시험 조건과 가용 Li 재고를 함께 확인한다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.electrode.interface",
+      "wbs": "1.2.6",
+      "label": "접착·계면·젖음",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "접착 손실·접촉 저항·불완전 젖음은 서로 다른 문제로 구분한다.",
+      "source_ids": [
+        "wetting"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell",
+      "wbs": "1.3",
+      "label": "셀·시스템 설계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전극 조합과 형상·사용창·열관리·제어를 시스템 목표에 연결한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell.target",
+      "wbs": "1.3.1",
+      "label": "용도·요구 성능",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "에너지·출력·수명·안전·비용 요구를 측정 가능한 기준으로 정한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell.geometry",
+      "wbs": "1.3.2",
+      "label": "원통형·각형·파우치",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원통형·각형·파우치의 포장과 열·기계·조립 조건을 비교한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell.window",
+      "wbs": "1.3.3",
+      "label": "전압·SOC·온도 사용창",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전압·SOC·온도의 사용 범위는 용량·수명·안전 평가 조건을 결정한다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell.electrolyte",
+      "wbs": "1.3.4",
+      "label": "전해액량·압력",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전해액량과 압력은 젖음·접촉에 영향을 주며 셀 종류별로 확인한다.",
+      "source_ids": [
+        "wetting"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell.pack",
+      "wbs": "1.3.5",
+      "label": "모듈·팩·BMS",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "셀을 연결하고 BMS로 상태를 추정·제어하며 열관리와 균일성을 본다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.cell.circular",
+      "wbs": "1.3.6",
+      "label": "분해·재사용을 고려한 설계",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "분해·추적·재사용 진단을 고려해 접합과 정보 제공 방식을 설계한다.",
+      "source_ids": [
+        "recycle"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.eval",
+      "wbs": "1.4",
+      "label": "평가·분석·열화",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "성능 관찰과 원인 해석을 나누고 서로 다른 분석 증거를 연결한다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.eval.echem",
+      "wbs": "1.4.1",
+      "label": "전기화학 평가",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전류·전압·시간·주파수 응답으로 용량·반응·저항을 평가한다.",
+      "source_ids": [
+        "cycling"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.gcd",
+      "wbs": "1.4.1.1",
+      "label": "GCD·CC-CV",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "정전류 충방전과 CC-CV의 제어 단계·종료 조건을 구분한다.",
+      "source_ids": [
+        "cycling"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.rate",
+      "wbs": "1.4.1.2",
+      "label": "C-rate·수명·쿨롱 효율",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "C-rate의 기준 용량을 적고 효율·용량 유지율의 분모를 확인한다.",
+      "source_ids": [
+        "cycling"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.eis",
+      "wbs": "1.4.1.3",
+      "label": "EIS",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "작은 교류 자극의 응답을 해석하며 등가회로 하나로 원인을 단정하지 않는다.",
+      "source_ids": [
+        "eis"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.cv",
+      "wbs": "1.4.1.4",
+      "label": "CV·LSV",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전위 주사에 따른 전류를 보고 CV와 단방향 LSV를 구분한다.",
+      "source_ids": [
+        "cv"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.gitt",
+      "wbs": "1.4.1.5",
+      "label": "GITT·PITT",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "GITT·PITT는 자극과 휴지를 반복하며 확산 추정의 가정을 확인한다.",
+      "source_ids": [
+        "gitt"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.dcir",
+      "wbs": "1.4.1.6",
+      "label": "DCIR·HPPC",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전류 펄스의 전압 응답으로 저항을 구하며 펄스 시간·SOC·온도를 적는다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.dqdv",
+      "wbs": "1.4.1.7",
+      "label": "dQ/dV·OCV·자가방전",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "미분·OCV·자가방전은 전처리·휴지시간·온도의 영향을 따로 확인한다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [
+        "d.eval.echem"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.eval.material",
+      "wbs": "1.4.2",
+      "label": "소재·전극 기기분석",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "구조·형상·표면·원소·열 분석의 측정 대상과 한계를 구분한다.",
+      "source_ids": [
+        "xps"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.xrd",
+      "wbs": "1.4.2.1",
+      "label": "XRD",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "회절로 결정상·격자를 살피며 피크 폭을 입자 크기와 혼동하지 않는다.",
+      "source_ids": [
+        "xrd"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.sem",
+      "wbs": "1.4.2.2",
+      "label": "SEM·EDS·TEM",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "SEM·TEM의 형상 관찰과 EDS의 원소 분석을 구분한다.",
+      "source_ids": [
+        "xps"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.xps",
+      "wbs": "1.4.2.3",
+      "label": "XPS·표면분석",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "표면의 원소·화학 상태를 살피며 벌크 조성과 동일시하지 않는다.",
+      "source_ids": [
+        "xps"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.icp",
+      "wbs": "1.4.2.4",
+      "label": "ICP-OES·ICP-MS",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원소 농도를 정량하며 전처리·검량·공시험과 검출한계를 확인한다.",
+      "source_ids": [
+        "icp"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.chrom",
+      "wbs": "1.4.2.5",
+      "label": "GC·HPLC·MS",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "GC·HPLC의 분리와 MS의 검출을 구분하고 표준물질로 동정한다.",
+      "source_ids": [
+        "gc"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.psa",
+      "wbs": "1.4.2.6",
+      "label": "PSA·BET·공극분석",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "입도·가스 흡착 표면적·공극은 서로 다른 측정량이다.",
+      "source_ids": [
+        "bet"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "method.thermal",
+      "wbs": "1.4.2.7",
+      "label": "DSC·TGA·ARC",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "DSC의 열흐름·TGA의 질량 변화·ARC의 자기발열 평가를 구분한다.",
+      "source_ids": [
+        "thermal"
+      ],
+      "prerequisite_ids": [
+        "d.eval.material"
+      ],
+      "next_ids": [
+        "d.deg.failure"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.eval.degradation",
+      "wbs": "1.4.3",
+      "label": "열화·고장 분석",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "LLI·LAM·저항 증가 같은 열화 모드와 실제 반응 원인을 구분한다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.deg.lli",
+      "wbs": "1.4.3.1",
+      "label": "LLI: 순환 가능한 Li 감소",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "부반응·고립 등으로 충방전에 순환 가능한 Li가 줄어드는 모드다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.deg.lam",
+      "wbs": "1.4.3.2",
+      "label": "LAM: 반응 가능한 활물질 감소",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "활물질의 구조·연결 손상 등으로 반응에 참여하는 양이 줄어드는 모드다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.deg.impedance",
+      "wbs": "1.4.3.3",
+      "label": "저항·분극 증가",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "저항·분극 증가는 전달·계면·접촉 변화 등 여러 원인으로 나타난다.",
+      "source_ids": [
+        "degradation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.deg.plating",
+      "wbs": "1.4.3.4",
+      "label": "리튬 석출·고립",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "삽입 대신 금속 Li가 석출되며 일부가 고립·부반응으로 손실될 수 있다.",
+      "source_ids": [
+        "limetal"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.deg.crosstalk",
+      "wbs": "1.4.3.5",
+      "label": "전극 간 영향·용출",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "용출종 등이 다른 전극으로 이동해 그쪽 계면과 반응에 영향을 준다.",
+      "source_ids": [
+        "lmo"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.deg.failure",
+      "wbs": "1.4.3.6",
+      "label": "고장 원인과 기여 요인",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "관찰·원인 후보·기여 요인·검증 증거를 구분해 고장 원인을 좁힌다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.eval.safety",
+      "wbs": "1.4.4",
+      "label": "안전·열 특성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "발열·가스·내부단락 등의 현상을 시험 조건과 함께 평가한다.",
+      "source_ids": [
+        "thermal"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.eval.standard",
+      "wbs": "1.4.5",
+      "label": "국제·국내 표준",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "셀·팩·운송·시험 등 적용 대상과 최신 판본을 공식 발행처에서 확인한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "d.future",
+      "wbs": "1.5",
+      "label": "다화학계·차세대전지",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전하 운반종·음극·전해질 기준이 달라 화학계 이름은 서로 겹칠 수 있다.",
+      "source_ids": [
+        "solid"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "p.quality"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "chem.solid",
+      "wbs": "1.5.1",
+      "label": "전고체전지",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "고체 전해질을 사용하며 접촉·계면·압력이 주요 설계 변수다.",
+      "source_ids": [
+        "sulfide"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "chem.sodium",
+      "wbs": "1.5.2",
+      "label": "나트륨이온전지",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "Na⁺ 저장을 활용하며 Li계 소재·전해질의 성능을 그대로 옮기지 않는다.",
+      "source_ids": [
+        "solid"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "chem.lis",
+      "wbs": "1.5.3",
+      "label": "리튬황전지",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "황 전환반응을 활용하며 셔틀·Li 재고·전해액량을 함께 고려한다.",
+      "source_ids": [
+        "sulfur"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "chem.limetal",
+      "wbs": "1.5.4",
+      "label": "리튬 금속 전지",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "금속 Li 음극을 사용하며 고효율 석출·용출과 계면 안정성이 중요하다.",
+      "source_ids": [
+        "limetal"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "process",
+      "wbs": "2",
+      "label": "공정",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원료부터 전극·조립·화성·품질까지 공정 조건과 결과를 연결한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.material",
+        "d.electrode",
+        "d.cell"
+      ],
+      "next_ids": [
+        "d.eval",
+        "p.recycle"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.raw",
+      "wbs": "2.1",
+      "label": "원료·소재 제조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원료 상태·전구체·열처리·표면 처리로 소재의 조성·구조·형상을 만든다.",
+      "source_ids": [
+        "calcination"
+      ],
+      "prerequisite_ids": [
+        "d.powder",
+        "d.crystal"
+      ],
+      "next_ids": [
+        "p.electrode",
+        "p.quality.trace"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.raw.receiving",
+      "wbs": "2.1.1",
+      "label": "입고·보관·수입검사",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "수분·불순물·입도·로트 이력을 확인하고 소재별 보관 조건을 정한다.",
+      "source_ids": [
+        "air",
+        "statistics"
+      ],
+      "prerequisite_ids": [
+        "d.powder.size",
+        "d.powder.area",
+        "d.powder.density"
+      ],
+      "next_ids": [
+        "p.raw.precursor",
+        "p.raw.calcination",
+        "p.quality.trace"
+      ],
+      "basics": [
+        [
+          "규격과 결과",
+          "공급사 규격·성적서와 실제 입고 검사 결과는 구분한다."
+        ],
+        [
+          "대표 시료",
+          "같은 로트 안에서도 위치별 차이가 있을 수 있으므로 채취 방법을 기록한다."
+        ],
+        [
+          "환경 노출",
+          "소재마다 수분·공기 반응성이 달라 동일한 보관 기준을 일괄 적용하지 않는다."
+        ]
+      ],
+      "sections": [
+        [
+          "입고 때 확인하는 정보",
+          "소재명·실제 조성·공급사·제조 로트·입고일·포장 상태와 시험 성적서를 연결한다. 이후 결과를 되짚을 수 있도록 입고 시료와 사용 시료의 식별자를 구분한다."
+        ],
+        [
+          "검사 항목을 정하는 기준",
+          "후속 공정에 영향을 주는 수분, 불순물, 입도분포, 충전 밀도 등을 소재별로 선택한다. 모든 소재에 같은 수치 기준을 적용하기보다 목표 조성·공정·측정법에 근거한 규격을 사용한다. 연구용 간단 검사와 양산 수입검사는 목적과 표본 수가 다를 수 있다."
+        ],
+        [
+          "보관과 재검사",
+          "밀봉·개봉·소분 이력과 노출 환경을 기록한다. 특히 공기 노출에 민감한 양극재는 표면 상태가 달라질 수 있으므로 새 시료와 오래 보관한 시료를 구분한다. 구체적인 보관 조건은 공급사 자료와 해당 소재 검증 결과를 따른다."
+        ],
+        [
+          "추천 기록 항목",
+          "시료 ID, 로트, 검사법·장비, 채취 위치, 검사값·단위, 합격 기준, 개봉 및 보관 이력을 함께 적는 것을 학습용 기록 기준으로 권한다. 이 목록은 특정 업체의 품질 규정이나 공식 표준을 대신하지 않는다."
+        ]
+      ],
+      "question": "같은 명칭의 두 분말이 서로 다른 공정 결과를 보이면 입고 정보에서 무엇부터 비교할 것인가?"
+    },
+    {
+      "id": "p.raw.precursor",
+      "wbs": "2.1.2",
+      "label": "전구체·공침·결정화",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "공침 등의 조건으로 조성·입자 성장·균일성을 제어한다.",
+      "source_ids": [
+        "precursor",
+        "surface",
+        "calcination"
+      ],
+      "prerequisite_ids": [
+        "d.electronic.bond",
+        "d.powder.size",
+        "d.powder.area"
+      ],
+      "next_ids": [
+        "p.raw.calcination",
+        "method.icp",
+        "method.sem"
+      ],
+      "basics": [
+        [
+          "전구체",
+          "후속 반응으로 최종 소재를 만드는 출발 물질이다. 전구체의 조성과 최종 활물질의 조성은 구분한다."
+        ],
+        [
+          "공침",
+          "여러 성분이 같은 공정에서 침전되는 방식으로 핵생성·성장·조성 균일성이 중요하다."
+        ],
+        [
+          "입자 단위",
+          "1차 입자와 이들이 모인 2차 입자, 응집체를 구분해 크기와 형상을 읽는다."
+        ]
+      ],
+      "sections": [
+        [
+          "대표적인 NCM 전구체",
+          "전이금속 수산화물 또는 탄산염 등이 출발 물질로 사용될 수 있다. 금속염 공급 조성과 얻어진 입자의 실제 조성이 항상 같다고 가정하지 않는다. 최종 양극에 Li를 넣는 단계와 전이금속 전구체를 만드는 단계를 구분한다."
+        ],
+        [
+          "공정 변수와 관찰",
+          "pH, 원료 농도·유량, 착화제, 교반, 온도, 체류시간 등은 핵생성·성장에 영향을 준다. 한 논문의 조건은 해당 조성·장비에 대한 사례다. 다른 규모에서 rpm만 동일하게 정했다고 같은 혼합 상태가 된다고 볼 수 없다."
+        ],
+        [
+          "균일성의 여러 의미",
+          "평균 금속 비율, 입자 내부 조성 분포, 입도분포, 입자 형상은 서로 다른 균일성이다. ICP는 평균 조성 확인에, 현미경·원소 매핑은 위치별 차이 확인에 활용한다. 공간 분석의 해상도와 시료 대표성을 함께 확인한다."
+        ],
+        [
+          "다음 단계에 남는 영향",
+          "전구체의 형상·공극·조성 분포는 리튬원과의 접촉 및 소성 후 구조에 영향을 줄 수 있다. 전구체가 좋아 보인다는 판단과 최종 활물질 성능이 좋다는 판단을 분리해 검증한다."
+        ]
+      ],
+      "question": "전구체의 평균 조성은 같지만 소성 후 결과가 다를 때 추가로 비교할 구조·공정 정보는 무엇인가?"
+    },
+    {
+      "id": "p.raw.calcination",
+      "wbs": "2.1.3",
+      "label": "리튬화·소성",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "리튬원·혼합·온도 이력·분위기가 목표 결정상과 잔류물에 영향을 준다.",
+      "source_ids": [
+        "calcination",
+        "precursor",
+        "xrd"
+      ],
+      "prerequisite_ids": [
+        "p.raw.precursor",
+        "d.crystal",
+        "d.electronic.bond"
+      ],
+      "next_ids": [
+        "p.raw.surface",
+        "method.xrd",
+        "method.icp",
+        "material.ncm"
+      ],
+      "basics": [
+        [
+          "리튬화",
+          "리튬원과 전구체를 반응시켜 목표 Li 함유 소재를 만드는 단계다. 충방전에서의 리튬 삽입과 제조 단계의 리튬화를 구분한다."
+        ],
+        [
+          "소성",
+          "열처리로 반응·상 형성·입자 성장을 유도하는 과정이며 단순 건조와 다르다."
+        ],
+        [
+          "조건의 범위",
+          "리튬원 종류·혼합·온도 이력·분위기를 묶어 읽는다. 조성이 다른 소재에 같은 온도를 보편적 최적값으로 쓰지 않는다."
+        ]
+      ],
+      "sections": [
+        [
+          "리튬원의 선택",
+          "LiOH와 Li₂CO₃ 등은 전구체와의 반응 경로가 다를 수 있다. 논문에서 리튬 비율을 비교할 때 Li/TM의 몰비인지, 투입 원료 질량비인지 확인한다. 목표 조성, 원료 수분·순도와 최종 잔류 성분을 함께 본다."
+        ],
+        [
+          "온도 이력과 분위기",
+          "설정 온도뿐 아니라 승온·유지·냉각 및 실제 시료 조건을 기록한다. 산소 분압과 반응 시간은 전이금속 산화상태·자리 혼입·상 형성에 영향을 줄 수 있다. 높은 온도나 긴 시간만으로 결과가 항상 좋아지는 것은 아니다."
+        ],
+        [
+          "혼합과 반응 균일성",
+          "입자 접촉·혼합 균일도와 반응물의 이동이 국소 반응 경로에 영향을 준다. 평균 조성이 맞아도 불순상·반응 불균일·과도한 입자 성장이 남을 수 있다. 전구체 조건과 열처리 조건을 함께 비교한다."
+        ],
+        [
+          "결과 확인",
+          "XRD로 결정상·격자를, 원소 정량으로 조성을, 현미경으로 형상을 확인한다. 필요 시 잔류 표면 리튬과 전기화학 성능을 별도 평가한다. XRD에서 원하는 피크가 보인다는 것만으로 모든 품질 특성이 충족됐다고 판단하지 않는다."
+        ]
+      ],
+      "question": "소성 결과 차이를 설명할 때 온도 외에 비교해야 하는 조건 네 가지를 제시할 수 있는가?"
+    },
+    {
+      "id": "p.raw.surface",
+      "wbs": "2.1.4",
+      "label": "분쇄·분급·도핑·코팅",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "입도 조절·격자 도핑·표면 코팅의 목적과 효과를 따로 평가한다.",
+      "source_ids": [
+        "surface",
+        "lmo",
+        "bet"
+      ],
+      "prerequisite_ids": [
+        "d.powder.size",
+        "d.powder.area",
+        "d.crystal.defect"
+      ],
+      "next_ids": [
+        "p.electrode",
+        "method.psa",
+        "method.xps",
+        "method.sem"
+      ],
+      "basics": [
+        [
+          "분쇄·분급",
+          "분쇄는 입자 크기를 줄이고, 분급은 크기 등에 따라 입자를 나누는 과정이다."
+        ],
+        [
+          "도핑·코팅",
+          "도핑은 주로 소재 내부 조성·자리의 변화, 코팅은 주로 표면층 형성을 뜻한다. 실제로 둘이 함께 나타날 수도 있다."
+        ],
+        [
+          "분말과 전극",
+          "분말 단계에서의 개선이 전극 분산·충전·접착과 셀 성능에도 이어지는지 확인한다."
+        ]
+      ],
+      "sections": [
+        [
+          "입도 조절의 목적",
+          "목표 입도와 분포를 맞춰 반응 거리·혼합·도공·충전 거동을 조절한다. 과도한 분쇄는 표면적·결함·오염을 늘릴 수 있으므로 평균 크기뿐 아니라 분포와 표면 변화를 함께 확인한다."
+        ],
+        [
+          "도핑을 읽는 기준",
+          "어떤 원소가 어느 위치에 얼마나 들어가는지 확인한다. 투입한 원소가 전부 격자에 들어갔다고 가정하지 않는다. 평균 원소량과 위치·분포·상 변화를 나눠 평가한다."
+        ],
+        [
+          "코팅을 읽는 기준",
+          "코팅층의 조성·두께·균일성·전도 또는 이온 이동 적합성을 본다. 계면 보호가 좋아져도 두꺼운 층이 전달을 제한할 수 있다. 열처리 중 확산으로 내부 도핑과 표면 코팅이 함께 생긴 사례도 있다."
+        ],
+        [
+          "효과 검증",
+          "입도·표면적·현미경·표면 화학과 전기화학 결과를 연결한다. 처리 전후 비교에서는 추가 물질을 포함한 질량 기준과 동일한 셀 시험 조건을 유지한다. 목적이 계면 보호인지 전도 확보인지 먼저 적는다."
+        ]
+      ],
+      "question": "개선된 수명이 도핑 효과인지 코팅 효과인지 구분하려면 어떤 위치별 증거가 필요한가?"
+    },
+    {
+      "id": "p.raw.anode",
+      "wbs": "2.1.5",
+      "label": "흑연·Si계 소재 제조",
+      "learning_status": "미학습",
+      "content_level": "상세문서",
+      "core": "흑연의 정제·흑연화와 Si계 합성·복합화를 서로 구분한다.",
+      "source_ids": [
+        "graphite",
+        "silicon",
+        "electrode"
+      ],
+      "prerequisite_ids": [
+        "material.graphite",
+        "material.si",
+        "d.powder.size"
+      ],
+      "next_ids": [
+        "material.sic",
+        "p.wet.mixing",
+        "d.electrode.balance",
+        "method.sem"
+      ],
+      "basics": [
+        [
+          "제조 경로",
+          "천연흑연 가공, 인조흑연 제조, Si 합성·복합화는 서로 다른 경로다."
+        ],
+        [
+          "탄화·흑연화",
+          "탄화는 탄소 함량이 높은 구조를 만드는 과정, 흑연화는 흑연형 질서가 발달하는 과정으로 구분한다."
+        ],
+        [
+          "삽입·합금화",
+          "흑연의 층간 삽입과 Si의 Li 합금화는 저장 방식과 부피 변화가 다르다."
+        ]
+      ],
+      "sections": [
+        [
+          "천연·인조흑연",
+          "천연흑연은 원료의 선광·정제와 형상·표면 조절을 거친다. 인조흑연은 탄소 원료의 탄화·흑연화 등을 통해 구조와 형상을 만든다. 흑연이라는 같은 이름만으로 순도·입도·표면·전극 거동이 같다고 보지 않는다."
+        ],
+        [
+          "Si계 소재와 복합화",
+          "Si 입자의 합성·크기 제어·탄소 복합화·표면 처리 등으로 팽창과 전도·계면을 조절한다. Si-C라는 명칭에는 다양한 구조가 들어갈 수 있으므로 Si 함량과 분포, 탄소의 역할을 확인한다. SiOₓ 소재는 산소 함량과 초기 비가역 반응을 별도로 살핀다."
+        ],
+        [
+          "분말의 품질 확인",
+          "순도·입도·표면적·밀도 및 구조를 확인하고 소재별 초기 효율·가용 용량·팽창을 평가한다. 반쪽전지에서 Li가 충분한 조건의 결과와 제한된 Li 재고를 가진 풀셀 결과를 구분한다."
+        ],
+        [
+          "전극 제조와의 연결",
+          "분말 개선이 슬러리 분산, 바인더 결합, 전극 공극·전도망과 함께 작동하는지 확인한다. 같은 활물질이라도 배합·로딩·압연이 다르면 관찰 성능이 달라질 수 있다."
+        ]
+      ],
+      "question": "Si-C 소재 두 개를 비교할 때 Si 함량 외에 어떤 구조·초기 성능 정보를 확인할 것인가?"
+    },
+    {
+      "id": "p.electrode",
+      "wbs": "2.2",
+      "label": "전극 제조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "소재를 집전체 위 전극으로 만들며 조성·분포·접착·공극을 관리한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet",
+      "wbs": "2.2.1",
+      "label": "습식 전극",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "슬러리 제조·도공·건조를 거쳐 전극을 만드는 용매 기반 공정이다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet.weigh",
+      "wbs": "2.2.1.1",
+      "label": "계량·배합",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "배합은 건조 고형분 기준과 수분·용매를 구분해 기록한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet.mixing",
+      "wbs": "2.2.1.2",
+      "label": "혼합·분산",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "혼합은 균일화, 분산은 응집 해체이며 순서·에너지·온도를 관리한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet.rheology",
+      "wbs": "2.2.1.3",
+      "label": "유변학·슬러리 안정성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "점도 하나 대신 전단속도 의존성·시간 변화·침강을 함께 확인한다.",
+      "source_ids": [
+        "binders"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet.condition",
+      "wbs": "2.2.1.4",
+      "label": "여과·탈포·저장",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "여과·탈포로 이물·기포를 줄이고 저장 중 슬러리 변화를 확인한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet.coating",
+      "wbs": "2.2.1.5",
+      "label": "도공",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "유량·속도·갭·슬러리 특성을 연결해 로딩 균일도와 결함을 본다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.wet.drying",
+      "wbs": "2.2.1.6",
+      "label": "건조·용매 회수",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "용매 제거와 성분 이동을 함께 고려하고 잔류 용매·접착을 평가한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.dry",
+      "wbs": "2.2.2",
+      "label": "건식 전극",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "용매를 쓰지 않는 전극 형성 방식이며 결속·분포·집전체 접합이 중요하다.",
+      "source_ids": [
+        "dry"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.dry.mixing",
+      "wbs": "2.2.2.1",
+      "label": "분체 혼합",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "분체의 균일 배합과 응집·분리·정전기 영향을 함께 살핀다.",
+      "source_ids": [
+        "dry"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.dry.fibrillation",
+      "wbs": "2.2.2.2",
+      "label": "바인더 섬유화",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "일부 바인더가 전단으로 섬유화해 결속망을 만들며 과도한 처리를 피한다.",
+      "source_ids": [
+        "dry"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.dry.film",
+      "wbs": "2.2.2.3",
+      "label": "필름화·집전체 접합",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전극막의 강도·두께와 집전체 접합 후 접촉·저항을 확인한다.",
+      "source_ids": [
+        "dry"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.finish",
+      "wbs": "2.2.3",
+      "label": "압연·가공·최종 건조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "압연·절단·최종 건조로 전극 치수·공극·청정도를 맞춘다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.finish.calender",
+      "wbs": "2.2.3.1",
+      "label": "압연",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "압력·온도·롤 조건으로 밀도·공극·접착을 조절하며 손상도 확인한다.",
+      "source_ids": [
+        "electrode"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.finish.slit",
+      "wbs": "2.2.3.2",
+      "label": "슬리팅·노칭",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "폭·형상·버·분진을 관리하고 후속 조립 정렬과 단락 위험을 연결한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.finish.vacuum",
+      "wbs": "2.2.3.3",
+      "label": "진공 건조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "잔류 수분·용매를 낮추며 온도·시간·압력과 재흡습을 확인한다.",
+      "source_ids": [
+        "air"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.finish.ctq"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.finish.ctq",
+      "wbs": "2.2.3.4",
+      "label": "전극 완제품 품질",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "로딩·두께·공극·접착·잔류물 등 전극 요구 규격을 확인한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [
+        "d.electrode"
+      ],
+      "next_ids": [
+        "p.assembly"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.scale",
+      "wbs": "2.2.4",
+      "label": "스케일업·공정창",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "장비가 커져도 같게 유지해야 할 혼합·전달·품질 기준을 정한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.scale.mixing",
+      "wbs": "2.2.4.1",
+      "label": "교반·분산 스케일업",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "rpm만 복제하지 말고 에너지·유동·시간·온도 및 균일도를 비교한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.scale.coating",
+      "wbs": "2.2.4.2",
+      "label": "도공·건조 스케일업",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "속도 변화에 따른 유동·건조·웹 장력과 결함·로딩 변화를 확인한다.",
+      "source_ids": [
+        "dry2"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.scale.doe",
+      "wbs": "2.2.4.3",
+      "label": "DOE: 실험계획법",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "인자·응답·반복·무작위화로 주효과와 상호작용을 분리한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.assembly",
+      "wbs": "2.3",
+      "label": "셀 조립",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전극과 분리막을 배치하고 접합·주액·밀봉으로 셀을 구성한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.assembly.stack",
+      "wbs": "2.3.1",
+      "label": "적층·권취",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "적층·권취에서 정렬·장력·주름·분리막 여유를 확인한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [
+        "d.cell"
+      ],
+      "next_ids": [
+        "p.formation"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.assembly.weld",
+      "wbs": "2.3.2",
+      "label": "탭·용접",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전류 경로를 접합하며 접합 강도·저항·열 영향·이물을 확인한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [
+        "d.cell"
+      ],
+      "next_ids": [
+        "p.formation"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.assembly.fill",
+      "wbs": "2.3.3",
+      "label": "주액·함침",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "전해액 주입량과 실제 함침을 구분하며 시간·온도·압력을 기록한다.",
+      "source_ids": [
+        "wetting"
+      ],
+      "prerequisite_ids": [
+        "d.cell"
+      ],
+      "next_ids": [
+        "p.formation"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.assembly.seal",
+      "wbs": "2.3.4",
+      "label": "밀봉·누설검사",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "밀봉 상태와 누설을 평가하며 전해액 손실·외기 유입을 확인한다.",
+      "source_ids": [
+        "battery"
+      ],
+      "prerequisite_ids": [
+        "d.cell"
+      ],
+      "next_ids": [
+        "p.formation"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.assembly.coin",
+      "wbs": "2.3.5",
+      "label": "코인셀·하프셀",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "하프셀과 풀셀의 상대 전극·Li 공급·시험 해석 차이를 구분한다.",
+      "source_ids": [
+        "cycling"
+      ],
+      "prerequisite_ids": [
+        "d.cell"
+      ],
+      "next_ids": [
+        "p.formation"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.formation",
+      "wbs": "2.4",
+      "label": "화성·숙성·선별",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "초기 충방전·숙성·선별로 계면과 초기 성능을 형성·확인한다.",
+      "source_ids": [
+        "formation"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.formation.initial",
+      "wbs": "2.4.1",
+      "label": "초기 충전·계면막 형성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "초기 충전 조건이 계면막·비가역 용량·가스 생성에 영향을 준다.",
+      "source_ids": [
+        "formation"
+      ],
+      "prerequisite_ids": [
+        "d.interphase"
+      ],
+      "next_ids": [
+        "d.eval.echem"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.formation.degas",
+      "wbs": "2.4.2",
+      "label": "탈기",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "생성 가스를 제거하며 전해액 손실과 재밀봉 상태도 확인한다.",
+      "source_ids": [
+        "formation"
+      ],
+      "prerequisite_ids": [
+        "d.interphase"
+      ],
+      "next_ids": [
+        "d.eval.echem"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.formation.aging",
+      "wbs": "2.4.3",
+      "label": "숙성·자가방전",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "휴지 중 전압·자가방전·가스 변화를 일정 조건에서 관찰한다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [
+        "d.interphase"
+      ],
+      "next_ids": [
+        "d.eval.echem"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.formation.grade",
+      "wbs": "2.4.4",
+      "label": "검사·등급 선별",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "용량·저항·전압 등의 기준으로 선별하며 측정 조건을 통일한다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [
+        "d.interphase"
+      ],
+      "next_ids": [
+        "d.eval.echem"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality",
+      "wbs": "2.5",
+      "label": "품질·공정 데이터",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "핵심 품질 지표·측정 신뢰성·공정 변동·추적성을 함께 관리한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality.ctq",
+      "wbs": "2.5.1",
+      "label": "CTQ: 핵심 품질 특성",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "고객·성능 요구를 측정 가능한 품질 특성과 허용 기준으로 바꾼다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality.spc",
+      "wbs": "2.5.2",
+      "label": "SPC: 통계적 공정관리",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "관리도로 공정의 안정성을 살피며 관리한계와 규격한계를 구분한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality.msa",
+      "wbs": "2.5.3",
+      "label": "MSA: 측정시스템 분석",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "반복성·재현성·편향 등 측정 변동을 제품 변동과 구분한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality.trace",
+      "wbs": "2.5.4",
+      "label": "로트·설비·시료 추적",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "로트·시료·설비·조건·원시데이터를 연결해 결과의 이력을 남긴다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality.python",
+      "wbs": "2.5.5",
+      "label": "Python·MATLAB·분석 도구",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "단위·메타데이터·처리 이력을 유지하며 계산과 시각화를 재현한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.quality.validation",
+      "wbs": "2.5.6",
+      "label": "데이터·모델 검증",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "데이터 분할·누출·독립 검증과 불확실성을 확인한다.",
+      "source_ids": [
+        "statistics"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle",
+      "wbs": "2.6",
+      "label": "재사용·재활용",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "잔존 기능을 활용하는 재사용과 소재 회수인 재활용을 구분한다.",
+      "source_ids": [
+        "recycle"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [
+        "d.eval"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.collect",
+      "wbs": "2.6.1",
+      "label": "회수·이력·안전 상태",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "회수품의 사용 이력·손상·충전 상태를 진단 입력으로 확인한다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.diagnose",
+      "wbs": "2.6.2",
+      "label": "잔존성능·재사용 진단",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "용량·저항·자기방전·안전 이력을 함께 보며 재사용 적합성을 평가한다.",
+      "source_ids": [
+        "health"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.reuse",
+      "wbs": "2.6.3",
+      "label": "재사용·재제조",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "잔존 성능과 새 용도 요구를 맞추고 재조합 후 성능·안전을 확인한다.",
+      "source_ids": [
+        "secondlife"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.disassembly",
+      "wbs": "2.6.4",
+      "label": "분해·전처리",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "분해·분리로 회수 소재의 혼입을 줄이며 처리 상태를 추적한다.",
+      "source_ids": [
+        "recycle"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.pyro",
+      "wbs": "2.6.5",
+      "label": "건식 제련",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "고온에서 금속을 회수하며 에너지·가스·슬래그와 Li 회수 경로를 본다.",
+      "source_ids": [
+        "recycle2"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.hydro",
+      "wbs": "2.6.6",
+      "label": "습식 제련",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "침출·분리·정제로 금속 성분을 회수하며 용액·시약·폐수를 고려한다.",
+      "source_ids": [
+        "hydro"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.direct",
+      "wbs": "2.6.7",
+      "label": "직접 재활용·재리튬화",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "기존 활물질 구조를 활용·복원하며 조성 분리와 재리튬화가 중요하다.",
+      "source_ids": [
+        "recycle"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.recycle.spec"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.recycle.spec",
+      "wbs": "2.6.8",
+      "label": "회수 소재의 품질 평가",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원소 회수율과 회수 소재의 순도·구조·실제 전지 성능을 구분한다.",
+      "source_ids": [
+        "recycle"
+      ],
+      "prerequisite_ids": [
+        "d.eval.degradation"
+      ],
+      "next_ids": [
+        "p.electrode"
+      ],
+      "basics": [],
+      "sections": []
+    },
+    {
+      "id": "p.supply",
+      "wbs": "2.7",
+      "label": "공급망·산업·직무",
+      "learning_status": "미학습",
+      "content_level": "핵심 요약",
+      "core": "원료·소재·셀·시스템의 흐름과 각 직무의 책임·산출물을 연결한다.",
+      "source_ids": [
+        "recycle"
+      ],
+      "prerequisite_ids": [],
+      "next_ids": [],
+      "basics": [],
+      "sections": []
+    }
+  ]
+}
