@@ -1,363 +1,355 @@
-# 배터리 공부
+# Battery Study - 배터리 공부
 
-이차전지의 소재·설계·평가·제조공정 자료를 **설계 / 공정** 두 축으로 정리한다. 아래 WBS 목차에서 항목을 찾고 연결된 설명과 PDF를 연다.
-
-- 최상위 학습자료: **이차전지**
-- 현재 자료: 전체 분류안, 주제별 PDF 14개, Markdown 학습자료, Li 상세 예시
-- 현재 단계: 자료·분류 구성 완료. 탐색 웹앱과 Hermes 실제 연결은 후속 구현.
+이차전지의 소재·설계·평가·제조공정을 **설계 / 공정** 두 축으로 공부한다. 분류를 유지하며 각 항목의 내용을 대화로 하나씩 다듬는다.
 
 ## 목차
 
 | 문서·목차 | 역할 |
 | --- | --- |
-| [전체 WBS 목차](#전체-wbs-목차) | 모든 학습 항목의 번호·계층·연결 자료 |
-| [1. 설계](#1-설계) | 소재·재료, 전극, 셀·시스템, 평가·분석·열화, 차세대전지 |
-| [2. 공정](#2-공정) | 원료·소재 제조, 전극 제조, 조립, 화성·숙성, 품질, 재사용·재활용, 공급망 |
-| [주제별 PDF](#주제별-pdf) | 학습자료 14개의 설명·PDF·쪽수 |
-| [분류·기준·근거](#분류기준근거) | 세부 분류 원칙, 소재와 원소의 관계, 표준, 원본 쪽수 |
-| [아이디어·프로젝트·기록 양식](#아이디어프로젝트기록-양식) | 아이디어를 작업으로 나누고 분석 기록·요청을 작성 |
-| [운영·연동 계획](#운영연동-계획) | 수정·저장 규칙, 요구사항, GPT·GitHub·Hermes 연결 계획 |
-| [사용 방법](#사용-방법) | 이 목차를 찾고 자료를 보완하는 방법 |
+| [전체 WBS 목차](#전체-wbs-목차) | 195개 항목의 학습 상태·핵심·항목 PDF |
+| [1. 설계](#1-설계) | 소재, 전극, 셀, 평가·열화, 차세대전지 |
+| [2. 공정](#2-공정) | 원료, 전극, 조립, 화성, 품질, 재사용·재활용, 공급망 |
+| [문서 구성과 수정](#문서-구성과-수정) | 선수학습 양식과 상위·하위 PDF 갱신 규칙 |
+| [분류·기준·근거](#분류기준근거) | 분류 원칙·소재와 원소·핵심 설명의 참고자료 |
+| [아이디어·프로젝트·기록 양식](#아이디어프로젝트기록-양식) | 학습문서·분석 기록·작업 요청 양식 |
+| [운영·연동 계획](#운영연동-계획) | 저장·수정 규칙과 후속 앱 계획 |
 
 ## 전체 WBS 목차
 
-WBS(항목을 계층적으로 나누는 구조) 번호는 학습자료의 위치를 찾는 번호이며 학습 순서나 진도를 뜻하지 않는다. 현재 분류안의 최상위 이차전지 아래 **195개 항목을 모두 펼쳤다**. 프로젝트의 실제 작업 WBS는 아래 별도 예시를 참고한다.
+**상위 PDF는 그 항목과 모든 하위 단계의 내용을 포함한다.** `2 공정`은 `2.1~2.7`과 그 아래 모든 세부 항목을, `2.1 원료·소재 제조`는 `2.1.1~2.1.5`를 포함한다. 가장 아래 항목 PDF는 해당 항목만 담는다. PDF 책갈피로 WBS 번호를 바로 찾을 수 있다.
 
-연결 문서는 현재 확보한 **주제별 공통 학습자료**다. 여러 세부 항목이 같은 자료를 참조할 수 있으며, 각 항목의 전용 상세 문서는 이후 보완한다. Li는 공통 상세 문서로 연결한다.
+번호는 분류 위치를 뜻한다. 선수학습 순서는 각 문서 앞부분, 이후 연계학습은 끝부분에 번호와 항목명으로 적는다.
+
+**미학습은 학습 진도, 핵심 요약·상세문서는 자료의 준비 수준**이다. 학습 완료 기록이 없어서 현재 상태를 미학습으로 두었다. 상세내용이 없는 항목에도 짧은 핵심 요약을 마련했으며, 총괄적인 공통 PDF로 대신 연결하지 않는다.
+
+현재 상세문서: **Li·NCM·LFP·LMFP·LMO 및 2.1.1~2.1.5**. 나머지는 핵심 요약이며, 상위 합본에서도 각 항목의 수준을 표시한다.
 
 ## 1. 설계
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 1 | **설계** | [내용](Knowledge/topics/00_guide.md) · [PDF](References/topics/00_학습지도·용어·공식.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 1 | **설계** | 미학습 | 목표 성능에서 출발해 소재·전극·셀 변수와 평가 기준을 정한다. | [하위 전체 PDF](References/wbs/1_설계.pdf) |
 
 ### 1.1 소재·재료
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 1.1 | **소재·재료** | [소재 분류](Docs/양극재_분류와_구성원소.md) / [소재 기초](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1 | **소재 특성·전공 기초** | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1 | **원소·이온** | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.1 | Li: 원소·Li⁺·금속 음극 | [내용](Knowledge/materials/Li.md) · [PDF](References/topics/13_Li_리튬.pdf) |
-| 1.1.1.1.2 | Ni: 니켈 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.3 | Co: 코발트 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.4 | Mn: 망간 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.5 | Fe: 철 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.6 | P: 인 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.7 | C: 탄소 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.8 | Si: 규소 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.9 | Al: 알루미늄 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.10 | Cu: 구리 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.11 | O: 산소 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.1.12 | Na: 나트륨 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.2 | **결정구조·결함** | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.2.1 | 층상 구조 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.2.2 | 올리빈 구조 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.2.3 | 스피넬 구조 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.2.4 | 공공·자리 혼입·입계 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.2.5 | 상전이·응력·균열 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.3 | **전자구조·결합** | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.3.1 | 화학결합·산화수 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.3.2 | 오비탈·밴드·전자상태 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.3.3 | 산화·환원과 전위 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) |
-| 1.1.1.4 | **전달·반응·열 특성** | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) |
-| 1.1.1.4.1 | 확산·이온 전달 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) |
-| 1.1.1.4.2 | 전자 전달 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) |
-| 1.1.1.4.3 | 열전달·열 안정성 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) |
-| 1.1.1.4.4 | 계면 반응·젖음성 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) |
-| 1.1.1.5 | **입자·분체·표면** | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.5.1 | 입도·입도분포 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.5.2 | 비표면적·표면화학 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.1.5.3 | 진밀도·탭밀도·충전성 | [내용](Knowledge/topics/01_material-basics.md) · [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) |
-| 1.1.2 | **활물질** | [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) / [음극재](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.1 | **양극재** | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.1 | **층상 산화물** | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.1.1 | NCM | [소재 분류](Docs/양극재_분류와_구성원소.md) / [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.1.2 | NCA | [소재 분류](Docs/양극재_분류와_구성원소.md) / [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.1.3 | LCO | [소재 분류](Docs/양극재_분류와_구성원소.md) / [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.2 | **인산염계** | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.2.1 | LFP | [소재 분류](Docs/양극재_분류와_구성원소.md) / [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.2.2 | LMFP | [소재 분류](Docs/양극재_분류와_구성원소.md) / [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.3 | **스피넬계** | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.3.1 | LMO | [소재 분류](Docs/양극재_분류와_구성원소.md) / [양극재](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.3.2 | LNMO | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.4 | **황·전환반응계** | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.1.4.1 | 황 양극 | [내용](Knowledge/topics/03_cathodes.md) · [PDF](References/topics/03_양극재·반응·열화.pdf) |
-| 1.1.2.2 | **음극재** | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.1 | **탄소계** | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.1.1 | **흑연** | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.1.1.1 | 천연흑연 | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.1.1.2 | 인조흑연 | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.1.2 | 하드카본 | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.2 | **Si계·합금계** | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.2.1 | Si | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.2.2 | SiOₓ | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.2.3 | Si-C 복합체 | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.3 | **삽입형 산화물** | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.3.1 | LTO | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.4 | **금속 음극** | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.2.2.4.1 | 리튬 금속 음극 | [Li 상세](Knowledge/materials/Li.md) · [PDF](References/topics/13_Li_리튬.pdf) / [음극재](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.1.3 | **바인더** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.3.1 | PVDF | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.3.2 | CMC | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.3.3 | SBR | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.3.4 | PAA | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.3.5 | PTFE | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.4 | **도전재** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.4.1 | 카본블랙 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.4.2 | CNT | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.4.3 | 그래핀 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5 | **전해질** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1 | **액체 전해질** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1.1 | **리튬염** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1.1.1 | LiPF₆ | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1.1.2 | LiFSI | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1.1.3 | LiTFSI | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1.2 | 용매 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.1.3 | 첨가제 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.2 | **고체 전해질** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.2.1 | 황화물계 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.2.2 | 산화물계 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.2.3 | 고분자계 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.3 | 겔·고분자 전해질 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.5.4 | SEI·CEI 계면막 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.6 | **분리막** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.6.1 | PE·PP계 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.6.2 | 세라믹·기능성 코팅 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.7 | **집전체** | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.7.1 | Al 집전체 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.7.2 | Cu 집전체 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
-| 1.1.7.3 | 표면 처리·복합 집전체 | [내용](Knowledge/topics/05_electrolyte-and-additives.md) · [PDF](References/topics/05_전해질·바인더·보조소재.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 1.1 | **소재·재료** | 미학습 | 활물질·전해질·바인더 등 각 소재의 기능과 상호 적합성을 구분한다. | [하위 전체 PDF](References/wbs/1.1_소재·재료.pdf) |
+| 1.1.1 | **소재 특성·전공 기초** | 미학습 | 조성·구조·전달·표면 특성을 연결해 소재의 거동을 이해한다. | [하위 전체 PDF](References/wbs/1.1.1_소재_특성·전공_기초.pdf) |
+| 1.1.1.1 | **원소·이온** | 미학습 | 원소 이름, 이온의 전하, 화합물의 조성을 서로 구분한다. | [하위 전체 PDF](References/wbs/1.1.1.1_원소·이온.pdf) |
+| 1.1.1.1.1 | Li: 원소·Li⁺·금속 음극 | 미학습 | Li 원소·Li⁺ 이온·리튬 금속을 구분하며 각각의 역할을 읽는다. | [내용](Knowledge/items/1.1.1.1.1_Li_원소·Li⁺·금속_음극.md) · [상세 PDF](References/wbs/1.1.1.1.1_Li_원소·Li⁺·금속_음극.pdf) |
+| 1.1.1.1.2 | Ni: 니켈 | 미학습 | NCM의 구성 원소이며 조성 변화에 따라 용량과 안정성이 달라진다. | [요약 PDF](References/wbs/1.1.1.1.2_Ni_니켈.pdf) |
+| 1.1.1.1.3 | Co: 코발트 | 미학습 | NCM·NCA·LCO의 구성 원소이며 금속 Co와 화합물 속 Co를 구분한다. | [요약 PDF](References/wbs/1.1.1.1.3_Co_코발트.pdf) |
+| 1.1.1.1.4 | Mn: 망간 | 미학습 | LMO·LMFP 등의 구성 원소로, 산화수와 결정구조에 따라 거동이 달라진다. | [요약 PDF](References/wbs/1.1.1.1.4_Mn_망간.pdf) |
+| 1.1.1.1.5 | Fe: 철 | 미학습 | LFP·LMFP에서 Fe의 산화·환원이 전하 저장에 관여한다. | [요약 PDF](References/wbs/1.1.1.1.5_Fe_철.pdf) |
+| 1.1.1.1.6 | P: 인 | 미학습 | 인산염 양극의 PO₄ 골격을 이루는 원소로, 인 원소와 인산염을 구분한다. | [요약 PDF](References/wbs/1.1.1.1.6_P_인.pdf) |
+| 1.1.1.1.7 | C: 탄소 | 미학습 | 흑연 활물질·도전재·코팅에서 쓰이며 구조에 따라 역할이 달라진다. | [요약 PDF](References/wbs/1.1.1.1.7_C_탄소.pdf) |
+| 1.1.1.1.8 | Si: 규소 | 미학습 | Si 음극은 Li와 합금화하며 용량 확보와 팽창 제어를 함께 고려한다. | [요약 PDF](References/wbs/1.1.1.1.8_Si_규소.pdf) |
+| 1.1.1.1.9 | Al: 알루미늄 | 미학습 | 집전체나 NCA 구성 원소로 쓰이며 금속박과 화합물의 역할이 다르다. | [요약 PDF](References/wbs/1.1.1.1.9_Al_알루미늄.pdf) |
+| 1.1.1.1.10 | Cu: 구리 | 미학습 | 일반적인 흑연 음극의 집전체에 쓰이며 활물질과 구분한다. | [요약 PDF](References/wbs/1.1.1.1.10_Cu_구리.pdf) |
+| 1.1.1.1.11 | O: 산소 | 미학습 | 산화물·인산염의 골격을 이루며 결합과 구조 안정성에 관여한다. | [요약 PDF](References/wbs/1.1.1.1.11_O_산소.pdf) |
+| 1.1.1.1.12 | Na: 나트륨 | 미학습 | 나트륨이온전지의 전하 운반 원소로, Li계와 저장 거동을 따로 비교한다. | [요약 PDF](References/wbs/1.1.1.1.12_Na_나트륨.pdf) |
+| 1.1.1.2 | **결정구조·결함** | 미학습 | 원자 배열과 결함은 이온 이동 경로 및 구조 안정성에 영향을 준다. | [하위 전체 PDF](References/wbs/1.1.1.2_결정구조·결함.pdf) |
+| 1.1.1.2.1 | 층상 구조 | 미학습 | Li층과 전이금속층이 배열되는 구조로 자리 혼입을 함께 살핀다. | [요약 PDF](References/wbs/1.1.1.2.1_층상_구조.pdf) |
+| 1.1.1.2.2 | 올리빈 구조 | 미학습 | LFP·LMFP의 대표 구조이며 인산염 골격과 Li 이동 경로를 읽는다. | [요약 PDF](References/wbs/1.1.1.2.2_올리빈_구조.pdf) |
+| 1.1.1.2.3 | 스피넬 구조 | 미학습 | LMO 등의 대표 구조이며 3차원 이온 이동과 구조 변화를 살핀다. | [요약 PDF](References/wbs/1.1.1.2.3_스피넬_구조.pdf) |
+| 1.1.1.2.4 | 공공·자리 혼입·입계 | 미학습 | 공공·자리 혼입·입계는 이동 경로를 바꾸며 영향은 위치와 농도에 달린다. | [요약 PDF](References/wbs/1.1.1.2.4_공공·자리_혼입·입계.pdf) |
+| 1.1.1.2.5 | 상전이·응력·균열 | 미학습 | 충방전 중 격자 변화가 응력·균열 및 접촉 손실로 이어질 수 있다. | [요약 PDF](References/wbs/1.1.1.2.5_상전이·응력·균열.pdf) |
+| 1.1.1.3 | **전자구조·결합** | 미학습 | 결합·전자상태·산화수를 통해 전위와 전자 전달을 설명한다. | [하위 전체 PDF](References/wbs/1.1.1.3_전자구조·결합.pdf) |
+| 1.1.1.3.1 | 화학결합·산화수 | 미학습 | 산화수는 전자 이동을 정리하는 형식적 기준이며 실제 전하와 다를 수 있다. | [요약 PDF](References/wbs/1.1.1.3.1_화학결합·산화수.pdf) |
+| 1.1.1.3.2 | 오비탈·밴드·전자상태 | 미학습 | 오비탈과 밴드는 전자상태와 전도성을 설명하는 서로 다른 수준의 개념이다. | [요약 PDF](References/wbs/1.1.1.3.2_오비탈·밴드·전자상태.pdf) |
+| 1.1.1.3.3 | 산화·환원과 전위 | 미학습 | 산화는 전자 방출, 환원은 전자 수용이며 전위에는 기준 전극이 필요하다. | [요약 PDF](References/wbs/1.1.1.3.3_산화·환원과_전위.pdf) |
+| 1.1.1.4 | **전달·반응·열 특성** | 미학습 | 이온·전자·열의 이동과 계면 반응을 구분해 성능 제한을 찾는다. | [하위 전체 PDF](References/wbs/1.1.1.4_전달·반응·열_특성.pdf) |
+| 1.1.1.4.1 | 확산·이온 전달 | 미학습 | 농도 차에 따른 이동을 다루며 고체 내부와 전해질 이동을 구분한다. | [요약 PDF](References/wbs/1.1.1.4.1_확산·이온_전달.pdf) |
+| 1.1.1.4.2 | 전자 전달 | 미학습 | 도전재·활물질·집전체의 연결과 접촉 저항이 전자 이동에 관여한다. | [요약 PDF](References/wbs/1.1.1.4.2_전자_전달.pdf) |
+| 1.1.1.4.3 | 열전달·열 안정성 | 미학습 | 발열과 열 방출의 균형을 보며 소재 분석과 셀 안전평가를 구분한다. | [요약 PDF](References/wbs/1.1.1.4.3_열전달·열_안정성.pdf) |
+| 1.1.1.4.4 | 계면 반응·젖음성 | 미학습 | 계면에서는 이온 전달·부반응·젖음이 함께 작용한다. | [요약 PDF](References/wbs/1.1.1.4.4_계면_반응·젖음성.pdf) |
+| 1.1.1.5 | **입자·분체·표면** | 미학습 | 입도·표면적·밀도는 반응성뿐 아니라 혼합과 충전 거동에 영향을 준다. | [하위 전체 PDF](References/wbs/1.1.1.5_입자·분체·표면.pdf) |
+| 1.1.1.5.1 | 입도·입도분포 | 미학습 | D10·D50·D90은 분포의 기준을 함께 적고 입자와 응집체를 구분한다. | [요약 PDF](References/wbs/1.1.1.5.1_입도·입도분포.pdf) |
+| 1.1.1.5.2 | 비표면적·표면화학 | 미학습 | 비표면적은 단위 질량당 표면적이며 표면 반응·수분 영향도 함께 본다. | [요약 PDF](References/wbs/1.1.1.5.2_비표면적·표면화학.pdf) |
+| 1.1.1.5.3 | 진밀도·탭밀도·충전성 | 미학습 | 진밀도는 재료 자체, 탭밀도는 입자 사이 빈 공간을 포함한 충전 밀도다. | [요약 PDF](References/wbs/1.1.1.5.3_진밀도·탭밀도·충전성.pdf) |
+| 1.1.2 | **활물질** | 미학습 | 전기화학 반응으로 전하를 저장하며 도전재·바인더와 역할이 다르다. | [하위 전체 PDF](References/wbs/1.1.2_활물질.pdf) |
+| 1.1.2.1 | **양극재** | 미학습 | 구조·반응·전위·안정성을 기준으로 양극재 계열을 나눈다. | [하위 전체 PDF](References/wbs/1.1.2.1_양극재.pdf) |
+| 1.1.2.1.1 | **층상 산화물** | 미학습 | NCM·NCA·LCO를 포함하며 조성과 Li 탈삽입에 따른 변화를 살핀다. | [하위 전체 PDF](References/wbs/1.1.2.1.1_층상_산화물.pdf) |
+| 1.1.2.1.1.1 | NCM | 미학습 | LiNiₓCoᵧMn_zO₂ 계열로, Ni·Co·Mn 비율과 시험 조건을 함께 읽는다. | [내용](Knowledge/items/1.1.2.1.1.1_NCM.md) · [상세 PDF](References/wbs/1.1.2.1.1.1_NCM.pdf) |
+| 1.1.2.1.1.2 | NCA | 미학습 | Li-Ni-Co-Al 층상 산화물 계열이며 조성에 따른 안정성과 반응을 살핀다. | [요약 PDF](References/wbs/1.1.2.1.1.2_NCA.pdf) |
+| 1.1.2.1.1.3 | LCO | 미학습 | LiCoO₂ 층상 양극으로 탈리튬화 범위와 구조 안정성을 연결한다. | [요약 PDF](References/wbs/1.1.2.1.1.3_LCO.pdf) |
+| 1.1.2.1.2 | **인산염계** | 미학습 | PO₄ 골격을 가진 양극 계열이며 LFP·LMFP의 산화·환원을 비교한다. | [하위 전체 PDF](References/wbs/1.1.2.1.2_인산염계.pdf) |
+| 1.1.2.1.2.1 | LFP | 미학습 | LiFePO₄ 올리빈 양극으로 Fe²⁺/Fe³⁺ 반응과 전도성 확보를 이해한다. | [내용](Knowledge/items/1.1.2.1.2.1_LFP.md) · [상세 PDF](References/wbs/1.1.2.1.2.1_LFP.pdf) |
+| 1.1.2.1.2.2 | LMFP | 미학습 | LiMnₓFe₁₋ₓPO₄로, Fe·Mn 반응 전위와 실제 이용 가능한 용량을 구분한다. | [내용](Knowledge/items/1.1.2.1.2.2_LMFP.md) · [상세 PDF](References/wbs/1.1.2.1.2.2_LMFP.pdf) |
+| 1.1.2.1.3 | **스피넬계** | 미학습 | LMO·LNMO를 포함하며 Mn 거동과 전해질 계면 안정성을 살핀다. | [하위 전체 PDF](References/wbs/1.1.2.1.3_스피넬계.pdf) |
+| 1.1.2.1.3.1 | LMO | 미학습 | LiMn₂O₄ 스피넬 양극이며 Mn 용출과 구조 변화가 주요 학습점이다. | [내용](Knowledge/items/1.1.2.1.3.1_LMO.md) · [상세 PDF](References/wbs/1.1.2.1.3.1_LMO.pdf) |
+| 1.1.2.1.3.2 | LNMO | 미학습 | 대표 조성 LiNi₀.₅Mn₁.₅O₄의 고전위 반응과 계면 안정성을 살핀다. | [요약 PDF](References/wbs/1.1.2.1.3.2_LNMO.pdf) |
+| 1.1.2.1.4 | **황·전환반응계** | 미학습 | 단순 삽입 대신 전환반응을 활용하며 중간 생성물 이동을 고려한다. | [하위 전체 PDF](References/wbs/1.1.2.1.4_황·전환반응계.pdf) |
+| 1.1.2.1.4.1 | 황 양극 | 미학습 | 황에서 Li₂S로 가는 전환반응과 폴리설파이드 셔틀을 이해한다. | [요약 PDF](References/wbs/1.1.2.1.4.1_황_양극.pdf) |
+| 1.1.2.2 | **음극재** | 미학습 | 저장 반응·전위·팽창·초기 비가역 손실을 기준으로 음극을 비교한다. | [하위 전체 PDF](References/wbs/1.1.2.2_음극재.pdf) |
+| 1.1.2.2.1 | **탄소계** | 미학습 | 흑연의 층간 삽입과 하드카본의 여러 저장 거동을 구분한다. | [하위 전체 PDF](References/wbs/1.1.2.2.1_탄소계.pdf) |
+| 1.1.2.2.1.1 | **흑연** | 미학습 | 층간 Li 삽입을 이용하며 완전 리튬화의 대표 조성은 LiC₆이다. | [하위 전체 PDF](References/wbs/1.1.2.2.1.1_흑연.pdf) |
+| 1.1.2.2.1.1.1 | 천연흑연 | 미학습 | 천연 원료의 정제·형상·표면 처리와 불순물 관리가 중요하다. | [요약 PDF](References/wbs/1.1.2.2.1.1.1_천연흑연.pdf) |
+| 1.1.2.2.1.1.2 | 인조흑연 | 미학습 | 탄소 원료의 탄화·흑연화로 구조와 형상을 조절한다. | [요약 PDF](References/wbs/1.1.2.2.1.1.2_인조흑연.pdf) |
+| 1.1.2.2.1.2 | 하드카본 | 미학습 | 난흑연화 탄소로 무질서 구조와 공극이 저장 거동에 관여한다. | [요약 PDF](References/wbs/1.1.2.2.1.2_하드카본.pdf) |
+| 1.1.2.2.2 | **Si계·합금계** | 미학습 | Li와 합금화하는 계열로 팽창과 전도망·계면막 유지가 핵심이다. | [하위 전체 PDF](References/wbs/1.1.2.2.2_Si계·합금계.pdf) |
+| 1.1.2.2.2.1 | Si | 미학습 | 높은 저장 용량과 큰 부피 변화가 함께 나타나 전극 구조가 중요하다. | [요약 PDF](References/wbs/1.1.2.2.2.1_Si.pdf) |
+| 1.1.2.2.2.2 | SiOₓ | 미학습 | SiOₓ는 조성·구조에 따라 초기 비가역 반응과 팽창이 달라진다. | [요약 PDF](References/wbs/1.1.2.2.2.2_SiOₓ.pdf) |
+| 1.1.2.2.2.3 | Si-C 복합체 | 미학습 | Si와 탄소의 복합화로 전도·응력·계면을 조절하며 Si 함량을 함께 본다. | [요약 PDF](References/wbs/1.1.2.2.2.3_Si-C_복합체.pdf) |
+| 1.1.2.2.3 | **삽입형 산화물** | 미학습 | 산화물 호스트에 Li가 삽입되는 음극이며 전위와 안정성을 비교한다. | [하위 전체 PDF](References/wbs/1.1.2.2.3_삽입형_산화물.pdf) |
+| 1.1.2.2.3.1 | LTO | 미학습 | Li₄Ti₅O₁₂ 삽입형 음극으로 작은 부피 변화와 높은 음극 전위를 살핀다. | [요약 PDF](References/wbs/1.1.2.2.3.1_LTO.pdf) |
+| 1.1.2.2.4 | **금속 음극** | 미학습 | 금속의 석출·용출을 활용하며 형태 변화와 계면 안정성이 중요하다. | [하위 전체 PDF](References/wbs/1.1.2.2.4_금속_음극.pdf) |
+| 1.1.2.2.4.1 | 리튬 금속 음극 | 미학습 | Li 석출·용출을 이용하며 계면막·고립 Li·국부 전류를 함께 살핀다. | [요약 PDF](References/wbs/1.1.2.2.4.1_리튬_금속_음극.pdf) |
+| 1.1.3 | **바인더** | 미학습 | 입자와 집전체의 결합을 유지하며 분산·유변학·계면에도 영향을 준다. | [하위 전체 PDF](References/wbs/1.1.3_바인더.pdf) |
+| 1.1.3.1 | PVDF | 미학습 | 불소계 바인더로 용매·접착·전극 조성의 적합성을 함께 확인한다. | [요약 PDF](References/wbs/1.1.3.1_PVDF.pdf) |
+| 1.1.3.2 | CMC | 미학습 | 수계 공정에서 점도와 입자 결합에 관여하며 SBR과 역할을 나눠 본다. | [요약 PDF](References/wbs/1.1.3.2_CMC.pdf) |
+| 1.1.3.3 | SBR | 미학습 | 탄성 및 접착에 기여하는 라텍스계 바인더로 CMC와의 배합을 살핀다. | [요약 PDF](References/wbs/1.1.3.3_SBR.pdf) |
+| 1.1.3.4 | PAA | 미학습 | 카복실기를 가진 바인더로 표면 결합·팽창 대응·공정 조건을 살핀다. | [요약 PDF](References/wbs/1.1.3.4_PAA.pdf) |
+| 1.1.3.5 | PTFE | 미학습 | 일부 건식 공정에서 섬유화로 입자를 결속하며 전극 극성 적합성을 본다. | [요약 PDF](References/wbs/1.1.3.5_PTFE.pdf) |
+| 1.1.4 | **도전재** | 미학습 | 활물질 사이에 전자 이동 경로를 만들며 함량·분산 상태가 중요하다. | [하위 전체 PDF](References/wbs/1.1.4_도전재.pdf) |
+| 1.1.4.1 | 카본블랙 | 미학습 | 입자형 도전재로 응집·분산과 연결망 형성을 함께 살핀다. | [요약 PDF](References/wbs/1.1.4.1_카본블랙.pdf) |
+| 1.1.4.2 | CNT | 미학습 | 관형 도전재로 적은 첨가량의 연결망과 분산 어려움을 함께 본다. | [요약 PDF](References/wbs/1.1.4.2_CNT.pdf) |
+| 1.1.4.3 | 그래핀 | 미학습 | 판상 탄소로 전도·표면적과 재적층·분산을 함께 살핀다. | [요약 PDF](References/wbs/1.1.4.3_그래핀.pdf) |
+| 1.1.5 | **전해질** | 미학습 | 이온을 전달하며 전극 계면 안정성과 사용 전위·온도 범위가 중요하다. | [하위 전체 PDF](References/wbs/1.1.5_전해질.pdf) |
+| 1.1.5.1 | **액체 전해질** | 미학습 | 염·용매·첨가제 조합으로 전도·젖음·계면막을 조절한다. | [하위 전체 PDF](References/wbs/1.1.5.1_액체_전해질.pdf) |
+| 1.1.5.1.1 | **리튬염** | 미학습 | Li 공급 이온원으로 해리·용매화·계면 반응·집전체 적합성을 본다. | [하위 전체 PDF](References/wbs/1.1.5.1.1_리튬염.pdf) |
+| 1.1.5.1.1.1 | LiPF₆ | 미학습 | 대표 리튬염으로 수분 민감성과 계면·집전체 부동태화를 함께 본다. | [요약 PDF](References/wbs/1.1.5.1.1.1_LiPF₆.pdf) |
+| 1.1.5.1.1.2 | LiFSI | 미학습 | FSI 음이온계 염이며 계면막 이점과 조건별 집전체 부식을 함께 본다. | [요약 PDF](References/wbs/1.1.5.1.1.2_LiFSI.pdf) |
+| 1.1.5.1.1.3 | LiTFSI | 미학습 | TFSI 음이온계 염이며 염 농도·용매·집전체 적합성을 확인한다. | [요약 PDF](References/wbs/1.1.5.1.1.3_LiTFSI.pdf) |
+| 1.1.5.1.2 | 용매 | 미학습 | 염의 용매화·점도·전도도·전위 안정성과 젖음에 영향을 준다. | [요약 PDF](References/wbs/1.1.5.1.2_용매.pdf) |
+| 1.1.5.1.3 | 첨가제 | 미학습 | 소량 첨가로 계면 반응 등을 조절하며 농도와 부작용도 확인한다. | [요약 PDF](References/wbs/1.1.5.1.3_첨가제.pdf) |
+| 1.1.5.2 | **고체 전해질** | 미학습 | 이온 전도도와 함께 고체 접촉·계면 반응·압력 조건을 살핀다. | [하위 전체 PDF](References/wbs/1.1.5.2_고체_전해질.pdf) |
+| 1.1.5.2.1 | 황화물계 | 미학습 | 높은 이온 전도와 성형성이 장점인 조성이 있으나 수분·계면을 관리한다. | [요약 PDF](References/wbs/1.1.5.2.1_황화물계.pdf) |
+| 1.1.5.2.2 | 산화물계 | 미학습 | 기계적 특성과 화학 안정성의 장점 및 입계·접촉 저항을 함께 본다. | [요약 PDF](References/wbs/1.1.5.2.2_산화물계.pdf) |
+| 1.1.5.2.3 | 고분자계 | 미학습 | 고분자 내 이온 이동과 온도·기계적 특성의 관계를 살핀다. | [요약 PDF](References/wbs/1.1.5.2.3_고분자계.pdf) |
+| 1.1.5.3 | 겔·고분자 전해질 | 미학습 | 고분자망에 액체 성분을 유지한 경우가 많아 전고체와 구분한다. | [요약 PDF](References/wbs/1.1.5.3_겔·고분자_전해질.pdf) |
+| 1.1.5.4 | SEI·CEI 계면막 | 미학습 | SEI·CEI는 전해질 반응으로 생기는 계면층이며 성장과 저항을 함께 본다. | [요약 PDF](References/wbs/1.1.5.4_SEI·CEI_계면막.pdf) |
+| 1.1.6 | **분리막** | 미학습 | 전자 접촉을 막으면서 이온 이동을 허용하며 공극·젖음·열 특성을 본다. | [하위 전체 PDF](References/wbs/1.1.6_분리막.pdf) |
+| 1.1.6.1 | PE·PP계 | 미학습 | PE·PP 다공성 막의 구조와 열 거동을 구분해 확인한다. | [요약 PDF](References/wbs/1.1.6.1_PE·PP계.pdf) |
+| 1.1.6.2 | 세라믹·기능성 코팅 | 미학습 | 코팅의 열·젖음 특성 이점과 두께·저항·접착의 영향을 함께 본다. | [요약 PDF](References/wbs/1.1.6.2_세라믹·기능성_코팅.pdf) |
+| 1.1.7 | **집전체** | 미학습 | 전자를 모아 전달하며 전위·부식·접착 및 두께가 중요하다. | [하위 전체 PDF](References/wbs/1.1.7_집전체.pdf) |
+| 1.1.7.1 | Al 집전체 | 미학습 | 일반적인 양극 집전체로 전해질에 따른 부식·부동태화가 중요하다. | [요약 PDF](References/wbs/1.1.7.1_Al_집전체.pdf) |
+| 1.1.7.2 | Cu 집전체 | 미학습 | 일반적인 흑연 음극 집전체로 접촉·접착 및 사용 전위를 확인한다. | [요약 PDF](References/wbs/1.1.7.2_Cu_집전체.pdf) |
+| 1.1.7.3 | 표면 처리·복합 집전체 | 미학습 | 표면 처리로 접착·접촉을 조절하며 저항·내구성도 확인한다. | [요약 PDF](References/wbs/1.1.7.3_표면_처리·복합_집전체.pdf) |
 
 ### 1.2 전극 설계
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 1.2 | **전극 설계** | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.2.1 | 조성·활물질 비율 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.2.2 | 로딩량·면적당 용량 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.2.3 | 두께·밀도·공극률 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.2.4 | 이온·전자 전달망 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.2.5 | N/P·리튬 재고 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.2.6 | 접착·계면·젖음 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 1.2 | **전극 설계** | 미학습 | 조성·로딩·공극·전도망을 목표 용량과 출력에 맞춰 정한다. | [하위 전체 PDF](References/wbs/1.2_전극_설계.pdf) |
+| 1.2.1 | 조성·활물질 비율 | 미학습 | 활물질·바인더·도전재의 질량 기준과 기능별 비율을 구분한다. | [요약 PDF](References/wbs/1.2.1_조성·활물질_비율.pdf) |
+| 1.2.2 | 로딩량·면적당 용량 | 미학습 | 면적당 용량은 활물질 로딩량과 실제 비용량을 곱해 추정한다. | [요약 PDF](References/wbs/1.2.2_로딩량·면적당_용량.pdf) |
+| 1.2.3 | 두께·밀도·공극률 | 미학습 | 두께·밀도·공극률을 함께 보며 용량과 전달의 절충을 이해한다. | [요약 PDF](References/wbs/1.2.3_두께·밀도·공극률.pdf) |
+| 1.2.4 | 이온·전자 전달망 | 미학습 | 전자 전도망과 전해질이 채운 이온 이동 경로가 모두 필요하다. | [요약 PDF](References/wbs/1.2.4_이온·전자_전달망.pdf) |
+| 1.2.5 | N/P·리튬 재고 | 미학습 | N/P는 용량의 비이며 시험 조건과 가용 Li 재고를 함께 확인한다. | [요약 PDF](References/wbs/1.2.5_N_P·리튬_재고.pdf) |
+| 1.2.6 | 접착·계면·젖음 | 미학습 | 접착 손실·접촉 저항·불완전 젖음은 서로 다른 문제로 구분한다. | [요약 PDF](References/wbs/1.2.6_접착·계면·젖음.pdf) |
 
 ### 1.3 셀·시스템 설계
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 1.3 | **셀·시스템 설계** | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.3.1 | 용도·요구 성능 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.3.2 | 원통형·각형·파우치 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.3.3 | 전압·SOC·온도 사용창 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.3.4 | 전해액량·압력 | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.3.5 | 모듈·팩·BMS | [내용](Knowledge/topics/06_electrode-and-cell-design.md) · [PDF](References/topics/06_전극·셀_설계_계산.pdf) |
-| 1.3.6 | 분해·재사용을 고려한 설계 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 1.3 | **셀·시스템 설계** | 미학습 | 전극 조합과 형상·사용창·열관리·제어를 시스템 목표에 연결한다. | [하위 전체 PDF](References/wbs/1.3_셀·시스템_설계.pdf) |
+| 1.3.1 | 용도·요구 성능 | 미학습 | 에너지·출력·수명·안전·비용 요구를 측정 가능한 기준으로 정한다. | [요약 PDF](References/wbs/1.3.1_용도·요구_성능.pdf) |
+| 1.3.2 | 원통형·각형·파우치 | 미학습 | 원통형·각형·파우치의 포장과 열·기계·조립 조건을 비교한다. | [요약 PDF](References/wbs/1.3.2_원통형·각형·파우치.pdf) |
+| 1.3.3 | 전압·SOC·온도 사용창 | 미학습 | 전압·SOC·온도의 사용 범위는 용량·수명·안전 평가 조건을 결정한다. | [요약 PDF](References/wbs/1.3.3_전압·SOC·온도_사용창.pdf) |
+| 1.3.4 | 전해액량·압력 | 미학습 | 전해액량과 압력은 젖음·접촉에 영향을 주며 셀 종류별로 확인한다. | [요약 PDF](References/wbs/1.3.4_전해액량·압력.pdf) |
+| 1.3.5 | 모듈·팩·BMS | 미학습 | 셀을 연결하고 BMS로 상태를 추정·제어하며 열관리와 균일성을 본다. | [요약 PDF](References/wbs/1.3.5_모듈·팩·BMS.pdf) |
+| 1.3.6 | 분해·재사용을 고려한 설계 | 미학습 | 분해·추적·재사용 진단을 고려해 접합과 정보 제공 방식을 설계한다. | [요약 PDF](References/wbs/1.3.6_분해·재사용을_고려한_설계.pdf) |
 
 ### 1.4 평가·분석·열화
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 1.4 | **평가·분석·열화** | [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) / [열화·차세대](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.1 | **전기화학 평가** | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.1 | GCD·CC-CV | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.2 | C-rate·수명·쿨롱 효율 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.3 | EIS | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.4 | CV·LSV | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.5 | GITT·PITT | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.6 | DCIR·HPPC | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.1.7 | dQ/dV·OCV·자가방전 | [내용](Knowledge/topics/02_electrochemistry.md) · [PDF](References/topics/02_전기화학_기초.pdf) / [평가·분석](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2 | **소재·전극 기기분석** | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.1 | XRD | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.2 | SEM·EDS·TEM | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.3 | XPS·표면분석 | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.4 | ICP-OES·ICP-MS | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.5 | GC·HPLC·MS | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.6 | PSA·BET·공극분석 | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.2.7 | DSC·TGA·ARC | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 1.4.3 | **열화·고장 분석** | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.3.1 | LLI: 순환 가능한 Li 감소 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.3.2 | LAM: 반응 가능한 활물질 감소 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.3.3 | 저항·분극 증가 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.3.4 | 리튬 석출·고립 | [내용](Knowledge/topics/04_anodes.md) · [PDF](References/topics/04_음극재·리튬_석출.pdf) |
-| 1.4.3.5 | 전극 간 영향·용출 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.3.6 | 고장 원인과 기여 요인 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.4 | 안전·열 특성 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.4.5 | 국제·국내 표준 | [내용](Docs/이차전지_WBS_표준_지침.md) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 1.4 | **평가·분석·열화** | 미학습 | 성능 관찰과 원인 해석을 나누고 서로 다른 분석 증거를 연결한다. | [하위 전체 PDF](References/wbs/1.4_평가·분석·열화.pdf) |
+| 1.4.1 | **전기화학 평가** | 미학습 | 전류·전압·시간·주파수 응답으로 용량·반응·저항을 평가한다. | [하위 전체 PDF](References/wbs/1.4.1_전기화학_평가.pdf) |
+| 1.4.1.1 | GCD·CC-CV | 미학습 | 정전류 충방전과 CC-CV의 제어 단계·종료 조건을 구분한다. | [요약 PDF](References/wbs/1.4.1.1_GCD·CC-CV.pdf) |
+| 1.4.1.2 | C-rate·수명·쿨롱 효율 | 미학습 | C-rate의 기준 용량을 적고 효율·용량 유지율의 분모를 확인한다. | [요약 PDF](References/wbs/1.4.1.2_C-rate·수명·쿨롱_효율.pdf) |
+| 1.4.1.3 | EIS | 미학습 | 작은 교류 자극의 응답을 해석하며 등가회로 하나로 원인을 단정하지 않는다. | [요약 PDF](References/wbs/1.4.1.3_EIS.pdf) |
+| 1.4.1.4 | CV·LSV | 미학습 | 전위 주사에 따른 전류를 보고 CV와 단방향 LSV를 구분한다. | [요약 PDF](References/wbs/1.4.1.4_CV·LSV.pdf) |
+| 1.4.1.5 | GITT·PITT | 미학습 | GITT·PITT는 자극과 휴지를 반복하며 확산 추정의 가정을 확인한다. | [요약 PDF](References/wbs/1.4.1.5_GITT·PITT.pdf) |
+| 1.4.1.6 | DCIR·HPPC | 미학습 | 전류 펄스의 전압 응답으로 저항을 구하며 펄스 시간·SOC·온도를 적는다. | [요약 PDF](References/wbs/1.4.1.6_DCIR·HPPC.pdf) |
+| 1.4.1.7 | dQ/dV·OCV·자가방전 | 미학습 | 미분·OCV·자가방전은 전처리·휴지시간·온도의 영향을 따로 확인한다. | [요약 PDF](References/wbs/1.4.1.7_dQ_dV·OCV·자가방전.pdf) |
+| 1.4.2 | **소재·전극 기기분석** | 미학습 | 구조·형상·표면·원소·열 분석의 측정 대상과 한계를 구분한다. | [하위 전체 PDF](References/wbs/1.4.2_소재·전극_기기분석.pdf) |
+| 1.4.2.1 | XRD | 미학습 | 회절로 결정상·격자를 살피며 피크 폭을 입자 크기와 혼동하지 않는다. | [요약 PDF](References/wbs/1.4.2.1_XRD.pdf) |
+| 1.4.2.2 | SEM·EDS·TEM | 미학습 | SEM·TEM의 형상 관찰과 EDS의 원소 분석을 구분한다. | [요약 PDF](References/wbs/1.4.2.2_SEM·EDS·TEM.pdf) |
+| 1.4.2.3 | XPS·표면분석 | 미학습 | 표면의 원소·화학 상태를 살피며 벌크 조성과 동일시하지 않는다. | [요약 PDF](References/wbs/1.4.2.3_XPS·표면분석.pdf) |
+| 1.4.2.4 | ICP-OES·ICP-MS | 미학습 | 원소 농도를 정량하며 전처리·검량·공시험과 검출한계를 확인한다. | [요약 PDF](References/wbs/1.4.2.4_ICP-OES·ICP-MS.pdf) |
+| 1.4.2.5 | GC·HPLC·MS | 미학습 | GC·HPLC의 분리와 MS의 검출을 구분하고 표준물질로 동정한다. | [요약 PDF](References/wbs/1.4.2.5_GC·HPLC·MS.pdf) |
+| 1.4.2.6 | PSA·BET·공극분석 | 미학습 | 입도·가스 흡착 표면적·공극은 서로 다른 측정량이다. | [요약 PDF](References/wbs/1.4.2.6_PSA·BET·공극분석.pdf) |
+| 1.4.2.7 | DSC·TGA·ARC | 미학습 | DSC의 열흐름·TGA의 질량 변화·ARC의 자기발열 평가를 구분한다. | [요약 PDF](References/wbs/1.4.2.7_DSC·TGA·ARC.pdf) |
+| 1.4.3 | **열화·고장 분석** | 미학습 | LLI·LAM·저항 증가 같은 열화 모드와 실제 반응 원인을 구분한다. | [하위 전체 PDF](References/wbs/1.4.3_열화·고장_분석.pdf) |
+| 1.4.3.1 | LLI: 순환 가능한 Li 감소 | 미학습 | 부반응·고립 등으로 충방전에 순환 가능한 Li가 줄어드는 모드다. | [요약 PDF](References/wbs/1.4.3.1_LLI_순환_가능한_Li_감소.pdf) |
+| 1.4.3.2 | LAM: 반응 가능한 활물질 감소 | 미학습 | 활물질의 구조·연결 손상 등으로 반응에 참여하는 양이 줄어드는 모드다. | [요약 PDF](References/wbs/1.4.3.2_LAM_반응_가능한_활물질_감소.pdf) |
+| 1.4.3.3 | 저항·분극 증가 | 미학습 | 저항·분극 증가는 전달·계면·접촉 변화 등 여러 원인으로 나타난다. | [요약 PDF](References/wbs/1.4.3.3_저항·분극_증가.pdf) |
+| 1.4.3.4 | 리튬 석출·고립 | 미학습 | 삽입 대신 금속 Li가 석출되며 일부가 고립·부반응으로 손실될 수 있다. | [요약 PDF](References/wbs/1.4.3.4_리튬_석출·고립.pdf) |
+| 1.4.3.5 | 전극 간 영향·용출 | 미학습 | 용출종 등이 다른 전극으로 이동해 그쪽 계면과 반응에 영향을 준다. | [요약 PDF](References/wbs/1.4.3.5_전극_간_영향·용출.pdf) |
+| 1.4.3.6 | 고장 원인과 기여 요인 | 미학습 | 관찰·원인 후보·기여 요인·검증 증거를 구분해 고장 원인을 좁힌다. | [요약 PDF](References/wbs/1.4.3.6_고장_원인과_기여_요인.pdf) |
+| 1.4.4 | 안전·열 특성 | 미학습 | 발열·가스·내부단락 등의 현상을 시험 조건과 함께 평가한다. | [요약 PDF](References/wbs/1.4.4_안전·열_특성.pdf) |
+| 1.4.5 | 국제·국내 표준 | 미학습 | 셀·팩·운송·시험 등 적용 대상과 최신 판본을 공식 발행처에서 확인한다. | [요약 PDF](References/wbs/1.4.5_국제·국내_표준.pdf) |
 
 ### 1.5 다화학계·차세대전지
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 1.5 | **다화학계·차세대전지** | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.5.1 | 전고체전지 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.5.2 | 나트륨이온전지 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.5.3 | 리튬황전지 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
-| 1.5.4 | 리튬 금속 전지 | [내용](Knowledge/topics/09_degradation-and-next-generation.md) · [PDF](References/topics/09_열화·안전·차세대전지.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 1.5 | **다화학계·차세대전지** | 미학습 | 전하 운반종·음극·전해질 기준이 달라 화학계 이름은 서로 겹칠 수 있다. | [하위 전체 PDF](References/wbs/1.5_다화학계·차세대전지.pdf) |
+| 1.5.1 | 전고체전지 | 미학습 | 고체 전해질을 사용하며 접촉·계면·압력이 주요 설계 변수다. | [요약 PDF](References/wbs/1.5.1_전고체전지.pdf) |
+| 1.5.2 | 나트륨이온전지 | 미학습 | Na⁺ 저장을 활용하며 Li계 소재·전해질의 성능을 그대로 옮기지 않는다. | [요약 PDF](References/wbs/1.5.2_나트륨이온전지.pdf) |
+| 1.5.3 | 리튬황전지 | 미학습 | 황 전환반응을 활용하며 셔틀·Li 재고·전해액량을 함께 고려한다. | [요약 PDF](References/wbs/1.5.3_리튬황전지.pdf) |
+| 1.5.4 | 리튬 금속 전지 | 미학습 | 금속 Li 음극을 사용하며 고효율 석출·용출과 계면 안정성이 중요하다. | [요약 PDF](References/wbs/1.5.4_리튬_금속_전지.pdf) |
 
 ## 2. 공정
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2 | **공정** | [내용](Knowledge/topics/00_guide.md) · [PDF](References/topics/00_학습지도·용어·공식.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2 | **공정** | 미학습 | 원료부터 전극·조립·화성·품질까지 공정 조건과 결과를 연결한다. | [하위 전체 PDF](References/wbs/2_공정.pdf) |
 
 ### 2.1 원료·소재 제조
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.1 | **원료·소재 제조** | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.1.1 | 입고·보관·수입검사 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.1.2 | 전구체·공침·결정화 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.1.3 | 리튬화·소성 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.1.4 | 분쇄·분급·도핑·코팅 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.1.5 | 흑연·Si계 소재 제조 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.1 | **원료·소재 제조** | 미학습 | 원료 상태·전구체·열처리·표면 처리로 소재의 조성·구조·형상을 만든다. | [하위 전체 PDF](References/wbs/2.1_원료·소재_제조.pdf) |
+| 2.1.1 | 입고·보관·수입검사 | 미학습 | 수분·불순물·입도·로트 이력을 확인하고 소재별 보관 조건을 정한다. | [내용](Knowledge/items/2.1.1_입고·보관·수입검사.md) · [상세 PDF](References/wbs/2.1.1_입고·보관·수입검사.pdf) |
+| 2.1.2 | 전구체·공침·결정화 | 미학습 | 공침 등의 조건으로 조성·입자 성장·균일성을 제어한다. | [내용](Knowledge/items/2.1.2_전구체·공침·결정화.md) · [상세 PDF](References/wbs/2.1.2_전구체·공침·결정화.pdf) |
+| 2.1.3 | 리튬화·소성 | 미학습 | 리튬원·혼합·온도 이력·분위기가 목표 결정상과 잔류물에 영향을 준다. | [내용](Knowledge/items/2.1.3_리튬화·소성.md) · [상세 PDF](References/wbs/2.1.3_리튬화·소성.pdf) |
+| 2.1.4 | 분쇄·분급·도핑·코팅 | 미학습 | 입도 조절·격자 도핑·표면 코팅의 목적과 효과를 따로 평가한다. | [내용](Knowledge/items/2.1.4_분쇄·분급·도핑·코팅.md) · [상세 PDF](References/wbs/2.1.4_분쇄·분급·도핑·코팅.pdf) |
+| 2.1.5 | 흑연·Si계 소재 제조 | 미학습 | 흑연의 정제·흑연화와 Si계 합성·복합화를 서로 구분한다. | [내용](Knowledge/items/2.1.5_흑연·Si계_소재_제조.md) · [상세 PDF](References/wbs/2.1.5_흑연·Si계_소재_제조.pdf) |
 
 ### 2.2 전극 제조
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.2 | **전극 제조** | [습식·전극 제조](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) / [건식·품질](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.1 | **습식 전극** | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.1.1 | 계량·배합 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.1.2 | 혼합·분산 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.1.3 | 유변학·슬러리 안정성 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.1.4 | 여과·탈포·저장 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.1.5 | 도공 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.1.6 | 건조·용매 회수 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.2 | **건식 전극** | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.2.1 | 분체 혼합 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.2.2 | 바인더 섬유화 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.2.3 | 필름화·집전체 접합 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.3 | **압연·가공·최종 건조** | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.3.1 | 압연 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.3.2 | 슬리팅·노칭 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.3.3 | 진공 건조 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.3.4 | 전극 완제품 품질 | [내용](Knowledge/topics/10_electrode-manufacturing.md) · [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) |
-| 2.2.4 | **스케일업·공정창** | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.4.1 | 교반·분산 스케일업 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.4.2 | 도공·건조 스케일업 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.2.4.3 | DOE: 실험계획법 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.2 | **전극 제조** | 미학습 | 소재를 집전체 위 전극으로 만들며 조성·분포·접착·공극을 관리한다. | [하위 전체 PDF](References/wbs/2.2_전극_제조.pdf) |
+| 2.2.1 | **습식 전극** | 미학습 | 슬러리 제조·도공·건조를 거쳐 전극을 만드는 용매 기반 공정이다. | [하위 전체 PDF](References/wbs/2.2.1_습식_전극.pdf) |
+| 2.2.1.1 | 계량·배합 | 미학습 | 배합은 건조 고형분 기준과 수분·용매를 구분해 기록한다. | [요약 PDF](References/wbs/2.2.1.1_계량·배합.pdf) |
+| 2.2.1.2 | 혼합·분산 | 미학습 | 혼합은 균일화, 분산은 응집 해체이며 순서·에너지·온도를 관리한다. | [요약 PDF](References/wbs/2.2.1.2_혼합·분산.pdf) |
+| 2.2.1.3 | 유변학·슬러리 안정성 | 미학습 | 점도 하나 대신 전단속도 의존성·시간 변화·침강을 함께 확인한다. | [요약 PDF](References/wbs/2.2.1.3_유변학·슬러리_안정성.pdf) |
+| 2.2.1.4 | 여과·탈포·저장 | 미학습 | 여과·탈포로 이물·기포를 줄이고 저장 중 슬러리 변화를 확인한다. | [요약 PDF](References/wbs/2.2.1.4_여과·탈포·저장.pdf) |
+| 2.2.1.5 | 도공 | 미학습 | 유량·속도·갭·슬러리 특성을 연결해 로딩 균일도와 결함을 본다. | [요약 PDF](References/wbs/2.2.1.5_도공.pdf) |
+| 2.2.1.6 | 건조·용매 회수 | 미학습 | 용매 제거와 성분 이동을 함께 고려하고 잔류 용매·접착을 평가한다. | [요약 PDF](References/wbs/2.2.1.6_건조·용매_회수.pdf) |
+| 2.2.2 | **건식 전극** | 미학습 | 용매를 쓰지 않는 전극 형성 방식이며 결속·분포·집전체 접합이 중요하다. | [하위 전체 PDF](References/wbs/2.2.2_건식_전극.pdf) |
+| 2.2.2.1 | 분체 혼합 | 미학습 | 분체의 균일 배합과 응집·분리·정전기 영향을 함께 살핀다. | [요약 PDF](References/wbs/2.2.2.1_분체_혼합.pdf) |
+| 2.2.2.2 | 바인더 섬유화 | 미학습 | 일부 바인더가 전단으로 섬유화해 결속망을 만들며 과도한 처리를 피한다. | [요약 PDF](References/wbs/2.2.2.2_바인더_섬유화.pdf) |
+| 2.2.2.3 | 필름화·집전체 접합 | 미학습 | 전극막의 강도·두께와 집전체 접합 후 접촉·저항을 확인한다. | [요약 PDF](References/wbs/2.2.2.3_필름화·집전체_접합.pdf) |
+| 2.2.3 | **압연·가공·최종 건조** | 미학습 | 압연·절단·최종 건조로 전극 치수·공극·청정도를 맞춘다. | [하위 전체 PDF](References/wbs/2.2.3_압연·가공·최종_건조.pdf) |
+| 2.2.3.1 | 압연 | 미학습 | 압력·온도·롤 조건으로 밀도·공극·접착을 조절하며 손상도 확인한다. | [요약 PDF](References/wbs/2.2.3.1_압연.pdf) |
+| 2.2.3.2 | 슬리팅·노칭 | 미학습 | 폭·형상·버·분진을 관리하고 후속 조립 정렬과 단락 위험을 연결한다. | [요약 PDF](References/wbs/2.2.3.2_슬리팅·노칭.pdf) |
+| 2.2.3.3 | 진공 건조 | 미학습 | 잔류 수분·용매를 낮추며 온도·시간·압력과 재흡습을 확인한다. | [요약 PDF](References/wbs/2.2.3.3_진공_건조.pdf) |
+| 2.2.3.4 | 전극 완제품 품질 | 미학습 | 로딩·두께·공극·접착·잔류물 등 전극 요구 규격을 확인한다. | [요약 PDF](References/wbs/2.2.3.4_전극_완제품_품질.pdf) |
+| 2.2.4 | **스케일업·공정창** | 미학습 | 장비가 커져도 같게 유지해야 할 혼합·전달·품질 기준을 정한다. | [하위 전체 PDF](References/wbs/2.2.4_스케일업·공정창.pdf) |
+| 2.2.4.1 | 교반·분산 스케일업 | 미학습 | rpm만 복제하지 말고 에너지·유동·시간·온도 및 균일도를 비교한다. | [요약 PDF](References/wbs/2.2.4.1_교반·분산_스케일업.pdf) |
+| 2.2.4.2 | 도공·건조 스케일업 | 미학습 | 속도 변화에 따른 유동·건조·웹 장력과 결함·로딩 변화를 확인한다. | [요약 PDF](References/wbs/2.2.4.2_도공·건조_스케일업.pdf) |
+| 2.2.4.3 | DOE: 실험계획법 | 미학습 | 인자·응답·반복·무작위화로 주효과와 상호작용을 분리한다. | [요약 PDF](References/wbs/2.2.4.3_DOE_실험계획법.pdf) |
 
 ### 2.3 셀 조립
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.3 | **셀 조립** | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.3.1 | 적층·권취 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.3.2 | 탭·용접 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.3.3 | 주액·함침 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.3.4 | 밀봉·누설검사 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.3.5 | 코인셀·하프셀 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.3 | **셀 조립** | 미학습 | 전극과 분리막을 배치하고 접합·주액·밀봉으로 셀을 구성한다. | [하위 전체 PDF](References/wbs/2.3_셀_조립.pdf) |
+| 2.3.1 | 적층·권취 | 미학습 | 적층·권취에서 정렬·장력·주름·분리막 여유를 확인한다. | [요약 PDF](References/wbs/2.3.1_적층·권취.pdf) |
+| 2.3.2 | 탭·용접 | 미학습 | 전류 경로를 접합하며 접합 강도·저항·열 영향·이물을 확인한다. | [요약 PDF](References/wbs/2.3.2_탭·용접.pdf) |
+| 2.3.3 | 주액·함침 | 미학습 | 전해액 주입량과 실제 함침을 구분하며 시간·온도·압력을 기록한다. | [요약 PDF](References/wbs/2.3.3_주액·함침.pdf) |
+| 2.3.4 | 밀봉·누설검사 | 미학습 | 밀봉 상태와 누설을 평가하며 전해액 손실·외기 유입을 확인한다. | [요약 PDF](References/wbs/2.3.4_밀봉·누설검사.pdf) |
+| 2.3.5 | 코인셀·하프셀 | 미학습 | 하프셀과 풀셀의 상대 전극·Li 공급·시험 해석 차이를 구분한다. | [요약 PDF](References/wbs/2.3.5_코인셀·하프셀.pdf) |
 
 ### 2.4 화성·숙성·선별
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.4 | **화성·숙성·선별** | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.4.1 | 초기 충전·계면막 형성 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.4.2 | 탈기 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.4.3 | 숙성·자가방전 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
-| 2.4.4 | 검사·등급 선별 | [내용](Knowledge/topics/07_assembly-and-formation.md) · [PDF](References/topics/07_셀_조립·함침·화성.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.4 | **화성·숙성·선별** | 미학습 | 초기 충방전·숙성·선별로 계면과 초기 성능을 형성·확인한다. | [하위 전체 PDF](References/wbs/2.4_화성·숙성·선별.pdf) |
+| 2.4.1 | 초기 충전·계면막 형성 | 미학습 | 초기 충전 조건이 계면막·비가역 용량·가스 생성에 영향을 준다. | [요약 PDF](References/wbs/2.4.1_초기_충전·계면막_형성.pdf) |
+| 2.4.2 | 탈기 | 미학습 | 생성 가스를 제거하며 전해액 손실과 재밀봉 상태도 확인한다. | [요약 PDF](References/wbs/2.4.2_탈기.pdf) |
+| 2.4.3 | 숙성·자가방전 | 미학습 | 휴지 중 전압·자가방전·가스 변화를 일정 조건에서 관찰한다. | [요약 PDF](References/wbs/2.4.3_숙성·자가방전.pdf) |
+| 2.4.4 | 검사·등급 선별 | 미학습 | 용량·저항·전압 등의 기준으로 선별하며 측정 조건을 통일한다. | [요약 PDF](References/wbs/2.4.4_검사·등급_선별.pdf) |
 
 ### 2.5 품질·공정 데이터
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.5 | **품질·공정 데이터** | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.5.1 | CTQ: 핵심 품질 특성 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.5.2 | SPC: 통계적 공정관리 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.5.3 | MSA: 측정시스템 분석 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.5.4 | 로트·설비·시료 추적 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
-| 2.5.5 | Python·MATLAB·분석 도구 | [내용](Knowledge/topics/08_evaluation-and-analysis.md) · [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) |
-| 2.5.6 | 데이터·모델 검증 | [내용](Knowledge/topics/11_dry-electrode-and-quality.md) · [PDF](References/topics/11_건식전극·스케일업·품질.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.5 | **품질·공정 데이터** | 미학습 | 핵심 품질 지표·측정 신뢰성·공정 변동·추적성을 함께 관리한다. | [하위 전체 PDF](References/wbs/2.5_품질·공정_데이터.pdf) |
+| 2.5.1 | CTQ: 핵심 품질 특성 | 미학습 | 고객·성능 요구를 측정 가능한 품질 특성과 허용 기준으로 바꾼다. | [요약 PDF](References/wbs/2.5.1_CTQ_핵심_품질_특성.pdf) |
+| 2.5.2 | SPC: 통계적 공정관리 | 미학습 | 관리도로 공정의 안정성을 살피며 관리한계와 규격한계를 구분한다. | [요약 PDF](References/wbs/2.5.2_SPC_통계적_공정관리.pdf) |
+| 2.5.3 | MSA: 측정시스템 분석 | 미학습 | 반복성·재현성·편향 등 측정 변동을 제품 변동과 구분한다. | [요약 PDF](References/wbs/2.5.3_MSA_측정시스템_분석.pdf) |
+| 2.5.4 | 로트·설비·시료 추적 | 미학습 | 로트·시료·설비·조건·원시데이터를 연결해 결과의 이력을 남긴다. | [요약 PDF](References/wbs/2.5.4_로트·설비·시료_추적.pdf) |
+| 2.5.5 | Python·MATLAB·분석 도구 | 미학습 | 단위·메타데이터·처리 이력을 유지하며 계산과 시각화를 재현한다. | [요약 PDF](References/wbs/2.5.5_Python·MATLAB·분석_도구.pdf) |
+| 2.5.6 | 데이터·모델 검증 | 미학습 | 데이터 분할·누출·독립 검증과 불확실성을 확인한다. | [요약 PDF](References/wbs/2.5.6_데이터·모델_검증.pdf) |
 
 ### 2.6 재사용·재활용
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.6 | **재사용·재활용** | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.1 | 회수·이력·안전 상태 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.2 | 잔존성능·재사용 진단 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.3 | 재사용·재제조 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.4 | 분해·전처리 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.5 | 건식 제련 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.6 | 습식 제련 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.7 | 직접 재활용·재리튬화 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
-| 2.6.8 | 회수 소재의 품질 평가 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.6 | **재사용·재활용** | 미학습 | 잔존 기능을 활용하는 재사용과 소재 회수인 재활용을 구분한다. | [하위 전체 PDF](References/wbs/2.6_재사용·재활용.pdf) |
+| 2.6.1 | 회수·이력·안전 상태 | 미학습 | 회수품의 사용 이력·손상·충전 상태를 진단 입력으로 확인한다. | [요약 PDF](References/wbs/2.6.1_회수·이력·안전_상태.pdf) |
+| 2.6.2 | 잔존성능·재사용 진단 | 미학습 | 용량·저항·자기방전·안전 이력을 함께 보며 재사용 적합성을 평가한다. | [요약 PDF](References/wbs/2.6.2_잔존성능·재사용_진단.pdf) |
+| 2.6.3 | 재사용·재제조 | 미학습 | 잔존 성능과 새 용도 요구를 맞추고 재조합 후 성능·안전을 확인한다. | [요약 PDF](References/wbs/2.6.3_재사용·재제조.pdf) |
+| 2.6.4 | 분해·전처리 | 미학습 | 분해·분리로 회수 소재의 혼입을 줄이며 처리 상태를 추적한다. | [요약 PDF](References/wbs/2.6.4_분해·전처리.pdf) |
+| 2.6.5 | 건식 제련 | 미학습 | 고온에서 금속을 회수하며 에너지·가스·슬래그와 Li 회수 경로를 본다. | [요약 PDF](References/wbs/2.6.5_건식_제련.pdf) |
+| 2.6.6 | 습식 제련 | 미학습 | 침출·분리·정제로 금속 성분을 회수하며 용액·시약·폐수를 고려한다. | [요약 PDF](References/wbs/2.6.6_습식_제련.pdf) |
+| 2.6.7 | 직접 재활용·재리튬화 | 미학습 | 기존 활물질 구조를 활용·복원하며 조성 분리와 재리튬화가 중요하다. | [요약 PDF](References/wbs/2.6.7_직접_재활용·재리튬화.pdf) |
+| 2.6.8 | 회수 소재의 품질 평가 | 미학습 | 원소 회수율과 회수 소재의 순도·구조·실제 전지 성능을 구분한다. | [요약 PDF](References/wbs/2.6.8_회수_소재의_품질_평가.pdf) |
 
 ### 2.7 공급망·산업·직무
 
-| WBS 번호 | 분류·학습 항목 | 연결 문서 |
-| --- | --- | --- |
-| 2.7 | 공급망·산업·직무 | [내용](Knowledge/topics/12_recycling-and-applications.md) · [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) |
+| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |
+| --- | --- | --- | --- | --- |
+| 2.7 | 공급망·산업·직무 | 미학습 | 원료·소재·셀·시스템의 흐름과 각 직무의 책임·산출물을 연결한다. | [요약 PDF](References/wbs/2.7_공급망·산업·직무.pdf) |
 
-## 주제별 PDF
+## 문서 구성과 수정
 
-원본의 본문·표·그래프를 보존하고 필요한 보완 설명을 앞에 추가했다. 원본과 새 PDF의 쪽수 관계는 [원본 자료 배치표](Docs/원본_자료_배치표.md)에서 확인한다.
+1. **선수학습**: 먼저 공부하면 좋은 WBS 번호와 항목명.
+2. **먼저 알아둘 기초**: 이해에 필요한 정의·단위·기준 몇 가지.
+3. **핵심 내용**: 해당 항목의 원리·특성·예시·확인할 증거.
+4. **참고 근거**: 공식 자료·원 논문·계산의 가정.
+5. **이후 연계학습**: 다음에 공부하면 좋은 WBS 번호와 항목명.
 
-| 자료 | Markdown | PDF | 쪽수 |
-| --- | --- | --- | --- |
-| 00. 학습지도·용어·공식 | [설명](Knowledge/topics/00_guide.md) | [PDF](References/topics/00_학습지도·용어·공식.pdf) | 10 |
-| 01. 소재 특성·결정·전자구조 | [설명](Knowledge/topics/01_material-basics.md) | [PDF](References/topics/01_소재_특성·결정·전자구조.pdf) | 5 |
-| 02. 전기화학 기초 | [설명](Knowledge/topics/02_electrochemistry.md) | [PDF](References/topics/02_전기화학_기초.pdf) | 7 |
-| 03. 양극재·반응·열화 | [설명](Knowledge/topics/03_cathodes.md) | [PDF](References/topics/03_양극재·반응·열화.pdf) | 25 |
-| 04. 음극재·리튬 석출 | [설명](Knowledge/topics/04_anodes.md) | [PDF](References/topics/04_음극재·리튬_석출.pdf) | 7 |
-| 05. 전해질·바인더·보조소재 | [설명](Knowledge/topics/05_electrolyte-and-additives.md) | [PDF](References/topics/05_전해질·바인더·보조소재.pdf) | 6 |
-| 06. 전극·셀 설계 계산 | [설명](Knowledge/topics/06_electrode-and-cell-design.md) | [PDF](References/topics/06_전극·셀_설계_계산.pdf) | 6 |
-| 07. 셀 조립·함침·화성 | [설명](Knowledge/topics/07_assembly-and-formation.md) | [PDF](References/topics/07_셀_조립·함침·화성.pdf) | 5 |
-| 08. 평가·기기분석·데이터 해석 | [설명](Knowledge/topics/08_evaluation-and-analysis.md) | [PDF](References/topics/08_평가·기기분석·데이터_해석.pdf) | 16 |
-| 09. 열화·안전·차세대전지 | [설명](Knowledge/topics/09_degradation-and-next-generation.md) | [PDF](References/topics/09_열화·안전·차세대전지.pdf) | 9 |
-| 10. 전극 제조·혼합·도공·건조·압연 | [설명](Knowledge/topics/10_electrode-manufacturing.md) | [PDF](References/topics/10_전극_제조·혼합·도공·건조·압연.pdf) | 15 |
-| 11. 건식전극·스케일업·품질 | [설명](Knowledge/topics/11_dry-electrode-and-quality.md) | [PDF](References/topics/11_건식전극·스케일업·품질.pdf) | 8 |
-| 12. 공급망·재사용·재활용·직무 | [설명](Knowledge/topics/12_recycling-and-applications.md) | [PDF](References/topics/12_공급망·재사용·재활용·직무.pdf) | 9 |
-| 13. Li: 원소·이온·금속 음극 | [상세](Knowledge/materials/Li.md) | [PDF](References/topics/13_Li_리튬.pdf) | 2 |
+본문에 개편 내역을 넣는 대신 학습 내용을 쓴다. 관련 내용을 길게 설명할 필요가 있으면 해당 WBS 문서에서 다룬다. 상위 합본의 마지막에도 이후 연계학습을 둔다.
+
+내용 원본은 [항목별 학습 데이터](Data/wbs-learning.json) 한 곳에서 관리한다. 이를 수정해 해당 항목 PDF와 모든 상위 합본, README·상세 Markdown을 함께 생성한다. 같은 파일 경로에 최신본을 반영하며 이전 버전은 Git 변경 이력에 남긴다.
+
+[전체 항목별 PDF 목록](References/wbs/README.md) · [학습문서 양식](Templates/학습문서.md)
+
+<details>
+<summary>원본을 재배치한 이전 자료</summary>
+
+[이전 주제별 자료 14종](References/topics/README.md)은 원문 표·그림을 확인하기 위한 참고자료다. 현재 WBS 항목의 PDF 연결에는 사용하지 않는다. 필요한 내용·그림은 항목을 상세화할 때 해당 항목에 맞게 검토해 반영한다.
+
+</details>
 
 ## 분류·기준·근거
 
 | 문서 | 역할 |
 | --- | --- |
-| [이차전지 지식 분류안](Docs/이차전지_지식분류안.md) | 설계·공정 계층과 공통 문서 연결 원칙 |
-| [양극재 분류와 구성 원소](Docs/양극재_분류와_구성원소.md) | LFP·LMFP·NCM·LMO 등 소재 계열과 Li·Fe·Mn 등 원소의 관계 |
-| [Li 상세](Knowledge/materials/Li.md) | 원소 Li, Li⁺, 리튬 금속 음극의 구분과 기본 특성 |
-| [국제·국내 표준 및 전극 지침](Docs/이차전지_WBS_표준_지침.md) | WBS·전극 관련 표준의 적용 범위와 근거 |
-| [원본 자료 배치표](Docs/원본_자료_배치표.md) | 원본의 어떤 쪽이 어느 주제 PDF에 포함됐는지 확인 |
+| [이차전지 지식 분류안](Docs/이차전지_지식분류안.md) | 유지하는 설계·공정 분류 |
+| [양극재 분류와 구성 원소](Docs/양극재_분류와_구성원소.md) | 소재 계열·화합물·구성 원소의 관계 |
+| [핵심 설명의 참고자료](Docs/WBS_핵심설명_참고자료.md) | 공식 자료·원 논문과 항목별 근거 ID |
+| [표준 및 전극 지침](Docs/이차전지_WBS_표준_지침.md) | 기존 표준 관련 참고자료와 확인 범위 |
+| [원본 자료 배치표](Docs/원본_자료_배치표.md) | 이전 자료의 원문 쪽수 확인 |
 
 ## 아이디어·프로젝트·기록 양식
 
 | 문서·양식 | 역할 |
 | --- | --- |
-| [재사용 아이디어](Knowledge/ideas/재사용_아이디어.md) | 메모의 질문·아이디어를 주제와 검증 과제로 정리 |
-| [재사용 검증 프로젝트 WBS](Projects/재사용_검증_WBS_예시.md) | 지식 분류를 실제 작업·산출물로 연결하는 예시 |
-| [작업 요청 양식](Templates/작업요청.md) | 목표·입력·작업 범위·완료 기준을 기록 |
-| [분석 기록 양식](Templates/analysis-record.json) | 시료·조건·처리 이력·해석·검토 상태를 기록 |
+| [학습문서](Templates/학습문서.md) | 선수학습부터 이후 연계학습까지 |
+| [재사용 아이디어](Knowledge/ideas/재사용_아이디어.md) | 질문·검증 과제 |
+| [재사용 검증 WBS](Projects/재사용_검증_WBS_예시.md) | 실제 작업·산출물 예시 |
+| [작업 요청](Templates/작업요청.md) | 목표·입력·범위·완료 기준 |
+| [분석 기록](Templates/analysis-record.json) | 시료·조건·처리·해석·검토 상태 |
 
 ## 운영·연동 계획
 
 | 문서 | 역할 |
 | --- | --- |
-| [요구사항과 연동 계획](Docs/앱_요구사항과_연동계획.md) | 앱 기능과 GPT·GitHub·Hermes의 역할 |
-| [저장 구조와 기록 규칙](Docs/저장_구조와_기록규칙.md) | 문서 위치·수정·검토·저장 범위 관리 |
-| [작업 현황](Docs/작업_현황.md) | 완료한 자료와 앞으로 구현할 기능 |
-
-## 사용 방법
-
-1. 설계 또는 공정에서 공부할 항목을 찾는다.
-2. 연결된 설명을 읽고 필요한 PDF를 연다.
-3. 소재 설명에서 구성 원소·설계 변수·공정·분석법을 함께 확인한다.
-4. 이 채팅에서 수정할 항목과 내용을 알려주면 관련 문서와 PDF를 갱신한다. 같은 경로의 최신본을 유지하고 이전 내용은 Git 변경 이력에 남긴다.
-5. 새 항목이나 분류 변경이 생기면 전체 WBS 목차와 분류 데이터를 함께 맞춘다.
+| [요구사항과 연동 계획](Docs/앱_요구사항과_연동계획.md) | 앱과 GPT·GitHub·Hermes 계획 |
+| [저장 구조와 기록 규칙](Docs/저장_구조와_기록규칙.md) | 자료 저장·변경 규칙 |
+| [작업 현황](Docs/작업_현황.md) | 완료 자료와 후속 구현 |
 
 <details>
-<summary>제작·검증 자료</summary>
-
-- [분류 데이터](Data/taxonomy.json): 고유 ID, 탐색 계층, 관련 문서·원소 관계
-- [주제별 자료 목록](Data/topic-manifest.json): 문서·PDF·원본 위치
-- [원본 쪽수 대응 데이터](Data/source-page-map.json): 원본과 분리 PDF의 쪽수 대응
-
-PDF 재생성에는 원본 2개와 Noto Sans KR 정적 TTF 폰트, Python의 `reportlab`·`pymupdf`가 필요하다.
+<summary>제작·검증 방법</summary>
 
 ```bash
-python Tools/build_topic_pdfs.py --source-dir /path/to/sources --font-dir /path/to/fonts
-python Tools/validate_knowledge.py --source-dir /path/to/sources
+python Tools/build_wbs_pdfs.py --font-dir /path/to/fonts
+python Tools/build_wbs_index.py
+python Tools/validate_wbs_pdfs.py
+python Tools/validate_knowledge.py
 ```
+
+Noto Sans KR 정적 TTF 400·700과 `reportlab`·`pymupdf`가 필요하다. [PDF 목록 데이터](Data/wbs-pdf-manifest.json)에 각 합본의 포함 항목과 쪽수 범위를 기록한다.
+
+탐색 웹앱과 Hermes 실제 연결은 후속 구현이며, 현재 자료는 GitHub의 문서·PDF로 읽는다.
 
 </details>
