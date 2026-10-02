@@ -1,0 +1,1552 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02",
+  "status": "proposal",
+  "root_id": "battery",
+  "nodes": [
+    {
+      "id": "battery",
+      "label": "이차전지",
+      "parent_id": null,
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "design",
+      "label": "설계",
+      "parent_id": "battery",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/00_guide.md"
+      ]
+    },
+    {
+      "id": "process",
+      "label": "공정",
+      "parent_id": "battery",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/00_guide.md"
+      ]
+    },
+    {
+      "id": "d.material",
+      "label": "소재·재료",
+      "parent_id": "design",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode",
+      "label": "전극 설계",
+      "parent_id": "design",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/06_electrode-and-cell-design.md"
+      ]
+    },
+    {
+      "id": "d.cell",
+      "label": "셀·시스템 설계",
+      "parent_id": "design",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/06_electrode-and-cell-design.md"
+      ]
+    },
+    {
+      "id": "d.eval",
+      "label": "평가·분석·열화",
+      "parent_id": "design",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.future",
+      "label": "다화학계·차세대전지",
+      "parent_id": "design",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/09_degradation-and-next-generation.md"
+      ]
+    },
+    {
+      "id": "d.basics",
+      "label": "소재 특성·전공 기초",
+      "parent_id": "d.material",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/01_material-basics.md"
+      ]
+    },
+    {
+      "id": "d.active",
+      "label": "활물질",
+      "parent_id": "d.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.binder",
+      "label": "바인더",
+      "parent_id": "d.material",
+      "related_node_ids": [
+        "p.wet.mixing",
+        "p.wet.drying",
+        "p.dry"
+      ],
+      "article_paths": [
+        "Knowledge/topics/05_electrolyte-and-additives.md"
+      ]
+    },
+    {
+      "id": "d.conductive",
+      "label": "도전재",
+      "parent_id": "d.material",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/05_electrolyte-and-additives.md"
+      ]
+    },
+    {
+      "id": "d.electrolyte",
+      "label": "전해질",
+      "parent_id": "d.material",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/05_electrolyte-and-additives.md"
+      ]
+    },
+    {
+      "id": "d.separator",
+      "label": "분리막",
+      "parent_id": "d.material",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/05_electrolyte-and-additives.md"
+      ]
+    },
+    {
+      "id": "d.collector",
+      "label": "집전체",
+      "parent_id": "d.material",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/05_electrolyte-and-additives.md"
+      ]
+    },
+    {
+      "id": "d.elements",
+      "label": "원소·이온",
+      "parent_id": "d.basics",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.crystal",
+      "label": "결정구조·결함",
+      "parent_id": "d.basics",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electronic",
+      "label": "전자구조·결합",
+      "parent_id": "d.basics",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.transport",
+      "label": "전달·반응·열 특성",
+      "parent_id": "d.basics",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/02_electrochemistry.md"
+      ]
+    },
+    {
+      "id": "d.powder",
+      "label": "입자·분체·표면",
+      "parent_id": "d.basics",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.li",
+      "label": "Li: 원소·Li⁺·금속 음극",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/materials/Li.md"
+      ]
+    },
+    {
+      "id": "element.ni",
+      "label": "Ni: 니켈",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.co",
+      "label": "Co: 코발트",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.mn",
+      "label": "Mn: 망간",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.fe",
+      "label": "Fe: 철",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.p",
+      "label": "P: 인",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.c",
+      "label": "C: 탄소",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.si",
+      "label": "Si: 규소",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.al",
+      "label": "Al: 알루미늄",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.cu",
+      "label": "Cu: 구리",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.o",
+      "label": "O: 산소",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "element.na",
+      "label": "Na: 나트륨",
+      "parent_id": "d.elements",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.crystal.layered",
+      "label": "층상 구조",
+      "parent_id": "d.crystal",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.crystal.olivine",
+      "label": "올리빈 구조",
+      "parent_id": "d.crystal",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.crystal.spinel",
+      "label": "스피넬 구조",
+      "parent_id": "d.crystal",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.crystal.defect",
+      "label": "공공·자리 혼입·입계",
+      "parent_id": "d.crystal",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.crystal.stress",
+      "label": "상전이·응력·균열",
+      "parent_id": "d.crystal",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electronic.bond",
+      "label": "화학결합·산화수",
+      "parent_id": "d.electronic",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electronic.band",
+      "label": "오비탈·밴드·전자상태",
+      "parent_id": "d.electronic",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electronic.redox",
+      "label": "산화·환원과 전위",
+      "parent_id": "d.electronic",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/02_electrochemistry.md"
+      ]
+    },
+    {
+      "id": "d.transport.diffusion",
+      "label": "확산·이온 전달",
+      "parent_id": "d.transport",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.transport.electron",
+      "label": "전자 전달",
+      "parent_id": "d.transport",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.transport.heat",
+      "label": "열전달·열 안정성",
+      "parent_id": "d.transport",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.transport.interface",
+      "label": "계면 반응·젖음성",
+      "parent_id": "d.transport",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.powder.size",
+      "label": "입도·입도분포",
+      "parent_id": "d.powder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.powder.area",
+      "label": "비표면적·표면화학",
+      "parent_id": "d.powder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.powder.density",
+      "label": "진밀도·탭밀도·충전성",
+      "parent_id": "d.powder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cathode",
+      "label": "양극재",
+      "parent_id": "d.active",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/03_cathodes.md"
+      ]
+    },
+    {
+      "id": "d.anode",
+      "label": "음극재",
+      "parent_id": "d.active",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/04_anodes.md"
+      ]
+    },
+    {
+      "id": "d.cathode.layered",
+      "label": "층상 산화물",
+      "parent_id": "d.cathode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cathode.phosphate",
+      "label": "인산염계",
+      "parent_id": "d.cathode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cathode.spinel",
+      "label": "스피넬계",
+      "parent_id": "d.cathode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cathode.sulfur",
+      "label": "황·전환반응계",
+      "parent_id": "d.cathode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.ncm",
+      "label": "NCM",
+      "parent_id": "d.cathode.layered",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "LiNi_xCo_yMn_zO2",
+      "contains_element_ids": [
+        "element.li",
+        "element.ni",
+        "element.co",
+        "element.mn",
+        "element.o"
+      ]
+    },
+    {
+      "id": "material.nca",
+      "label": "NCA",
+      "parent_id": "d.cathode.layered",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "LiNi_xCo_yAl_zO2",
+      "contains_element_ids": [
+        "element.li",
+        "element.ni",
+        "element.co",
+        "element.al",
+        "element.o"
+      ]
+    },
+    {
+      "id": "material.lco",
+      "label": "LCO",
+      "parent_id": "d.cathode.layered",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "LiCoO2",
+      "contains_element_ids": [
+        "element.li",
+        "element.co",
+        "element.o"
+      ]
+    },
+    {
+      "id": "material.lfp",
+      "label": "LFP",
+      "parent_id": "d.cathode.phosphate",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "LiFePO4",
+      "contains_element_ids": [
+        "element.li",
+        "element.fe",
+        "element.p",
+        "element.o"
+      ]
+    },
+    {
+      "id": "material.lmfp",
+      "label": "LMFP",
+      "parent_id": "d.cathode.phosphate",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "LiMn_xFe_(1-x)PO4",
+      "contains_element_ids": [
+        "element.li",
+        "element.mn",
+        "element.fe",
+        "element.p",
+        "element.o"
+      ]
+    },
+    {
+      "id": "material.lmo",
+      "label": "LMO",
+      "parent_id": "d.cathode.spinel",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "LiMn2O4",
+      "contains_element_ids": [
+        "element.li",
+        "element.mn",
+        "element.o"
+      ]
+    },
+    {
+      "id": "material.lnmo",
+      "label": "LNMO",
+      "parent_id": "d.cathode.spinel",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "material.sulfur",
+      "label": "황 양극",
+      "parent_id": "d.cathode.sulfur",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.anode.carbon",
+      "label": "탄소계",
+      "parent_id": "d.anode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.anode.si",
+      "label": "Si계·합금계",
+      "parent_id": "d.anode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.anode.oxide",
+      "label": "삽입형 산화물",
+      "parent_id": "d.anode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.anode.metal",
+      "label": "금속 음극",
+      "parent_id": "d.anode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.graphite",
+      "label": "흑연",
+      "parent_id": "d.anode.carbon",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.hardcarbon",
+      "label": "하드카본",
+      "parent_id": "d.anode.carbon",
+      "related_node_ids": [
+        "chem.sodium"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "material.graphite.natural",
+      "label": "천연흑연",
+      "parent_id": "material.graphite",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.graphite.synthetic",
+      "label": "인조흑연",
+      "parent_id": "material.graphite",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.si",
+      "label": "Si",
+      "parent_id": "d.anode.si",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.siox",
+      "label": "SiOₓ",
+      "parent_id": "d.anode.si",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.sic",
+      "label": "Si-C 복합체",
+      "parent_id": "d.anode.si",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.lto",
+      "label": "LTO",
+      "parent_id": "d.anode.oxide",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.limetal",
+      "label": "리튬 금속 음극",
+      "parent_id": "d.anode.metal",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Docs/양극재_분류와_구성원소.md"
+      ],
+      "representative_formula": "Li",
+      "contains_element_ids": [
+        "element.li"
+      ]
+    },
+    {
+      "id": "material.pvdf",
+      "label": "PVDF",
+      "parent_id": "d.binder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.cmc",
+      "label": "CMC",
+      "parent_id": "d.binder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.sbr",
+      "label": "SBR",
+      "parent_id": "d.binder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.paa",
+      "label": "PAA",
+      "parent_id": "d.binder",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.ptfe",
+      "label": "PTFE",
+      "parent_id": "d.binder",
+      "related_node_ids": [
+        "p.dry.fibrillation"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "material.carbonblack",
+      "label": "카본블랙",
+      "parent_id": "d.conductive",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.cnt",
+      "label": "CNT",
+      "parent_id": "d.conductive",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.graphene",
+      "label": "그래핀",
+      "parent_id": "d.conductive",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrolyte.liquid",
+      "label": "액체 전해질",
+      "parent_id": "d.electrolyte",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrolyte.solid",
+      "label": "고체 전해질",
+      "parent_id": "d.electrolyte",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrolyte.gel",
+      "label": "겔·고분자 전해질",
+      "parent_id": "d.electrolyte",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.interphase",
+      "label": "SEI·CEI 계면막",
+      "parent_id": "d.electrolyte",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrolyte.salt",
+      "label": "리튬염",
+      "parent_id": "d.electrolyte.liquid",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrolyte.solvent",
+      "label": "용매",
+      "parent_id": "d.electrolyte.liquid",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrolyte.additive",
+      "label": "첨가제",
+      "parent_id": "d.electrolyte.liquid",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "material.lipf6",
+      "label": "LiPF₆",
+      "parent_id": "d.electrolyte.salt",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "material.lifsi",
+      "label": "LiFSI",
+      "parent_id": "d.electrolyte.salt",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "material.litfsi",
+      "label": "LiTFSI",
+      "parent_id": "d.electrolyte.salt",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "d.solid.sulfide",
+      "label": "황화물계",
+      "parent_id": "d.electrolyte.solid",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.solid.oxide",
+      "label": "산화물계",
+      "parent_id": "d.electrolyte.solid",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.solid.polymer",
+      "label": "고분자계",
+      "parent_id": "d.electrolyte.solid",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.separator.polyolefin",
+      "label": "PE·PP계",
+      "parent_id": "d.separator",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.separator.coating",
+      "label": "세라믹·기능성 코팅",
+      "parent_id": "d.separator",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.collector.al",
+      "label": "Al 집전체",
+      "parent_id": "d.collector",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.collector.cu",
+      "label": "Cu 집전체",
+      "parent_id": "d.collector",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.collector.surface",
+      "label": "표면 처리·복합 집전체",
+      "parent_id": "d.collector",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode.formula",
+      "label": "조성·활물질 비율",
+      "parent_id": "d.electrode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode.loading",
+      "label": "로딩량·면적당 용량",
+      "parent_id": "d.electrode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode.micro",
+      "label": "두께·밀도·공극률",
+      "parent_id": "d.electrode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode.network",
+      "label": "이온·전자 전달망",
+      "parent_id": "d.electrode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode.balance",
+      "label": "N/P·리튬 재고",
+      "parent_id": "d.electrode",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "d.electrode.interface",
+      "label": "접착·계면·젖음",
+      "parent_id": "d.electrode",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cell.target",
+      "label": "용도·요구 성능",
+      "parent_id": "d.cell",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cell.geometry",
+      "label": "원통형·각형·파우치",
+      "parent_id": "d.cell",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cell.window",
+      "label": "전압·SOC·온도 사용창",
+      "parent_id": "d.cell",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cell.electrolyte",
+      "label": "전해액량·압력",
+      "parent_id": "d.cell",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cell.pack",
+      "label": "모듈·팩·BMS",
+      "parent_id": "d.cell",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.cell.circular",
+      "label": "분해·재사용을 고려한 설계",
+      "parent_id": "d.cell",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/12_recycling-and-applications.md"
+      ]
+    },
+    {
+      "id": "d.eval.echem",
+      "label": "전기화학 평가",
+      "parent_id": "d.eval",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/02_electrochemistry.md",
+        "Knowledge/topics/08_evaluation-and-analysis.md"
+      ]
+    },
+    {
+      "id": "d.eval.material",
+      "label": "소재·전극 기기분석",
+      "parent_id": "d.eval",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/08_evaluation-and-analysis.md"
+      ]
+    },
+    {
+      "id": "d.eval.degradation",
+      "label": "열화·고장 분석",
+      "parent_id": "d.eval",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/09_degradation-and-next-generation.md"
+      ]
+    },
+    {
+      "id": "d.eval.safety",
+      "label": "안전·열 특성",
+      "parent_id": "d.eval",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/09_degradation-and-next-generation.md"
+      ]
+    },
+    {
+      "id": "d.eval.standard",
+      "label": "국제·국내 표준",
+      "parent_id": "d.eval",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.gcd",
+      "label": "GCD·CC-CV",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.rate",
+      "label": "C-rate·수명·쿨롱 효율",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.eis",
+      "label": "EIS",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [
+        "p.recycle.diagnose",
+        "p.quality.python",
+        "d.deg.impedance"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "method.cv",
+      "label": "CV·LSV",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.gitt",
+      "label": "GITT·PITT",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.dcir",
+      "label": "DCIR·HPPC",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.dqdv",
+      "label": "dQ/dV·OCV·자가방전",
+      "parent_id": "d.eval.echem",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.xrd",
+      "label": "XRD",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.sem",
+      "label": "SEM·EDS·TEM",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.xps",
+      "label": "XPS·표면분석",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.icp",
+      "label": "ICP-OES·ICP-MS",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.chrom",
+      "label": "GC·HPLC·MS",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.psa",
+      "label": "PSA·BET·공극분석",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "method.thermal",
+      "label": "DSC·TGA·ARC",
+      "parent_id": "d.eval.material",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.deg.lli",
+      "label": "LLI: 순환 가능한 Li 감소",
+      "parent_id": "d.eval.degradation",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "d.deg.lam",
+      "label": "LAM: 반응 가능한 활물질 감소",
+      "parent_id": "d.eval.degradation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.deg.impedance",
+      "label": "저항·분극 증가",
+      "parent_id": "d.eval.degradation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.deg.plating",
+      "label": "리튬 석출·고립",
+      "parent_id": "d.eval.degradation",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": [
+        "Knowledge/topics/04_anodes.md"
+      ]
+    },
+    {
+      "id": "d.deg.crosstalk",
+      "label": "전극 간 영향·용출",
+      "parent_id": "d.eval.degradation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "d.deg.failure",
+      "label": "고장 원인과 기여 요인",
+      "parent_id": "d.eval.degradation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "chem.solid",
+      "label": "전고체전지",
+      "parent_id": "d.future",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "chem.sodium",
+      "label": "나트륨이온전지",
+      "parent_id": "d.future",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "chem.lis",
+      "label": "리튬황전지",
+      "parent_id": "d.future",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "chem.limetal",
+      "label": "리튬 금속 전지",
+      "parent_id": "d.future",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.raw",
+      "label": "원료·소재 제조",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/10_electrode-manufacturing.md"
+      ]
+    },
+    {
+      "id": "p.electrode",
+      "label": "전극 제조",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.assembly",
+      "label": "셀 조립",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/07_assembly-and-formation.md"
+      ]
+    },
+    {
+      "id": "p.formation",
+      "label": "화성·숙성·선별",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/07_assembly-and-formation.md"
+      ]
+    },
+    {
+      "id": "p.quality",
+      "label": "품질·공정 데이터",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/11_dry-electrode-and-quality.md"
+      ]
+    },
+    {
+      "id": "p.recycle",
+      "label": "재사용·재활용",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/12_recycling-and-applications.md"
+      ]
+    },
+    {
+      "id": "p.supply",
+      "label": "공급망·산업·직무",
+      "parent_id": "process",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/12_recycling-and-applications.md"
+      ]
+    },
+    {
+      "id": "p.raw.receiving",
+      "label": "입고·보관·수입검사",
+      "parent_id": "p.raw",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.raw.precursor",
+      "label": "전구체·공침·결정화",
+      "parent_id": "p.raw",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.raw.calcination",
+      "label": "리튬화·소성",
+      "parent_id": "p.raw",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "p.raw.surface",
+      "label": "분쇄·분급·도핑·코팅",
+      "parent_id": "p.raw",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.raw.anode",
+      "label": "흑연·Si계 소재 제조",
+      "parent_id": "p.raw",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.wet",
+      "label": "습식 전극",
+      "parent_id": "p.electrode",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/10_electrode-manufacturing.md"
+      ]
+    },
+    {
+      "id": "p.dry",
+      "label": "건식 전극",
+      "parent_id": "p.electrode",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/11_dry-electrode-and-quality.md"
+      ]
+    },
+    {
+      "id": "p.finish",
+      "label": "압연·가공·최종 건조",
+      "parent_id": "p.electrode",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/10_electrode-manufacturing.md"
+      ]
+    },
+    {
+      "id": "p.scale",
+      "label": "스케일업·공정창",
+      "parent_id": "p.electrode",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/11_dry-electrode-and-quality.md"
+      ]
+    },
+    {
+      "id": "p.wet.weigh",
+      "label": "계량·배합",
+      "parent_id": "p.wet",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.wet.mixing",
+      "label": "혼합·분산",
+      "parent_id": "p.wet",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.wet.rheology",
+      "label": "유변학·슬러리 안정성",
+      "parent_id": "p.wet",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.wet.condition",
+      "label": "여과·탈포·저장",
+      "parent_id": "p.wet",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.wet.coating",
+      "label": "도공",
+      "parent_id": "p.wet",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.wet.drying",
+      "label": "건조·용매 회수",
+      "parent_id": "p.wet",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.dry.mixing",
+      "label": "분체 혼합",
+      "parent_id": "p.dry",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.dry.fibrillation",
+      "label": "바인더 섬유화",
+      "parent_id": "p.dry",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.dry.film",
+      "label": "필름화·집전체 접합",
+      "parent_id": "p.dry",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.finish.calender",
+      "label": "압연",
+      "parent_id": "p.finish",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.finish.slit",
+      "label": "슬리팅·노칭",
+      "parent_id": "p.finish",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.finish.vacuum",
+      "label": "진공 건조",
+      "parent_id": "p.finish",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.finish.ctq",
+      "label": "전극 완제품 품질",
+      "parent_id": "p.finish",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.scale.mixing",
+      "label": "교반·분산 스케일업",
+      "parent_id": "p.scale",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.scale.coating",
+      "label": "도공·건조 스케일업",
+      "parent_id": "p.scale",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.scale.doe",
+      "label": "DOE: 실험계획법",
+      "parent_id": "p.scale",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.assembly.stack",
+      "label": "적층·권취",
+      "parent_id": "p.assembly",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.assembly.weld",
+      "label": "탭·용접",
+      "parent_id": "p.assembly",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.assembly.fill",
+      "label": "주액·함침",
+      "parent_id": "p.assembly",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.assembly.seal",
+      "label": "밀봉·누설검사",
+      "parent_id": "p.assembly",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.assembly.coin",
+      "label": "코인셀·하프셀",
+      "parent_id": "p.assembly",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.formation.initial",
+      "label": "초기 충전·계면막 형성",
+      "parent_id": "p.formation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.formation.degas",
+      "label": "탈기",
+      "parent_id": "p.formation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.formation.aging",
+      "label": "숙성·자가방전",
+      "parent_id": "p.formation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.formation.grade",
+      "label": "검사·등급 선별",
+      "parent_id": "p.formation",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.quality.ctq",
+      "label": "CTQ: 핵심 품질 특성",
+      "parent_id": "p.quality",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.quality.spc",
+      "label": "SPC: 통계적 공정관리",
+      "parent_id": "p.quality",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.quality.msa",
+      "label": "MSA: 측정시스템 분석",
+      "parent_id": "p.quality",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.quality.trace",
+      "label": "로트·설비·시료 추적",
+      "parent_id": "p.quality",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.quality.python",
+      "label": "Python·MATLAB·분석 도구",
+      "parent_id": "p.quality",
+      "related_node_ids": [],
+      "article_paths": [
+        "Knowledge/topics/08_evaluation-and-analysis.md"
+      ]
+    },
+    {
+      "id": "p.quality.validation",
+      "label": "데이터·모델 검증",
+      "parent_id": "p.quality",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.collect",
+      "label": "회수·이력·안전 상태",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.diagnose",
+      "label": "잔존성능·재사용 진단",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.reuse",
+      "label": "재사용·재제조",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.disassembly",
+      "label": "분해·전처리",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.pyro",
+      "label": "건식 제련",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.hydro",
+      "label": "습식 제련",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.direct",
+      "label": "직접 재활용·재리튬화",
+      "parent_id": "p.recycle",
+      "related_node_ids": [
+        "element.li"
+      ],
+      "article_paths": []
+    },
+    {
+      "id": "p.recycle.spec",
+      "label": "회수 소재의 품질 평가",
+      "parent_id": "p.recycle",
+      "related_node_ids": [],
+      "article_paths": []
+    }
+  ]
+}
