@@ -6,6 +6,8 @@
 
 | 문서·목차 | 역할 |
 | --- | --- |
+| [EIS 그래프 처음부터 읽기](Projects/eis-example-analysis/분석_따라하기.md) | 교육용 따라하기: 그래프 하나씩 축·점·선 설명 → 종합 해석 |
+| [EIS 예시 분석 결과](Projects/eis-example-analysis/README.md) | CSV 4개 계산 결과와 Nyquist·Bode 그래프 |
 | [전체 WBS 목차](#전체-wbs-목차) | 195개 항목의 학습 상태·핵심·항목 PDF |
 | [1. 설계](#1-설계) | 소재, 전극, 셀, 평가·열화, 차세대전지 |
 | [2. 공정](#2-공정) | 원료, 전극, 조립, 화성, 품질, 재사용·재활용, 공급망 |
@@ -164,7 +166,7 @@
 | 1.4.1 | **전기화학 평가** | 미학습 | 전류·전압·시간·주파수 응답으로 용량·반응·저항을 평가한다. | [하위 전체 PDF](References/wbs/1.4.1_전기화학_평가.pdf) |
 | 1.4.1.1 | GCD·CC-CV | 미학습 | 정전류 충방전과 CC-CV의 제어 단계·종료 조건을 구분한다. | [요약 PDF](References/wbs/1.4.1.1_GCD·CC-CV.pdf) |
 | 1.4.1.2 | C-rate·수명·쿨롱 효율 | 미학습 | C-rate의 기준 용량을 적고 효율·용량 유지율의 분모를 확인한다. | [요약 PDF](References/wbs/1.4.1.2_C-rate·수명·쿨롱_효율.pdf) |
-| 1.4.1.3 | EIS | 미학습 | 작은 교류 자극의 응답을 해석하며 등가회로 하나로 원인을 단정하지 않는다. | [요약 PDF](References/wbs/1.4.1.3_EIS.pdf) |
+| 1.4.1.3 | EIS | 미학습 | 작은 교류 자극의 응답을 해석하며 등가회로 하나로 원인을 단정하지 않는다. | [교육용 따라하기](Projects/eis-example-analysis/분석_따라하기.md) · [예시 분석 결과](Projects/eis-example-analysis/README.md) · [요약 PDF](References/wbs/1.4.1.3_EIS.pdf) |
 | 1.4.1.4 | CV·LSV | 미학습 | 전위 주사에 따른 전류를 보고 CV와 단방향 LSV를 구분한다. | [요약 PDF](References/wbs/1.4.1.4_CV·LSV.pdf) |
 | 1.4.1.5 | GITT·PITT | 미학습 | GITT·PITT는 자극과 휴지를 반복하며 확산 추정의 가정을 확인한다. | [요약 PDF](References/wbs/1.4.1.5_GITT·PITT.pdf) |
 | 1.4.1.6 | DCIR·HPPC | 미학습 | 전류 펄스의 전압 응답으로 저항을 구하며 펄스 시간·SOC·온도를 적는다. | [요약 PDF](References/wbs/1.4.1.6_DCIR·HPPC.pdf) |
