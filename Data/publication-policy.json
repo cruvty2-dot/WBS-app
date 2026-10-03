@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-03",
+  "pdf_policy": "Only on explicit user request, from current GitHub content, delivered in this chat; do not commit new PDFs. No parent or recursive compilations.",
+  "existing_retained_pdfs": [
+    {
+      "id": "element.li",
+      "pdf_path": "References/wbs/1.1.1.1.1_Li_원소·Li⁺·금속_음극.pdf",
+      "pdf_sha256": "520752372672681a63df37244799a2ef36c9a1df98bac3c547f19063ac88adfe",
+      "markdown_path": "Knowledge/items/1.1.1.1.1_Li_원소·Li⁺·금속_음극.md",
+      "markdown_sha256_before_status_change": "a4cbfa01a67e0be19342d02c0ae7a41aff66ed3668fae40b340e41bc1f7061c4"
+    },
+    {
+      "id": "element.ni",
+      "pdf_path": "References/wbs/1.1.1.1.2_Ni_니켈.pdf",
+      "pdf_sha256": "62b1702007fede4bcf1360f76b50a1da2313054a0bf0bf90179e6917c4e1606b",
+      "markdown_path": "Knowledge/items/1.1.1.1.2_Ni_니켈.md",
+      "markdown_sha256_before_status_change": "0911f163b1c81e36454964ef61b281a87c3f65d35b8fb537e9f239c9ccb4da0c"
+    },
+    {
+      "id": "element.mn",
+      "pdf_path": "References/wbs/1.1.1.1.4_Mn_망간.pdf",
+      "pdf_sha256": "abcfb6f0d1215af247e0b02c65524166eba6736fdbad56901cdcafebf929993f",
+      "markdown_path": "Knowledge/items/1.1.1.1.4_Mn_망간.md",
+      "markdown_sha256_before_status_change": "c9e6432a130318d9e0ff0f1b664f69e6e9fa3d20c541911b5b37e3fa9d28d12a"
+    }
+  ],
+  "removed_generated_pdfs": 192,
+  "removed_generated_markdown": 95,
+  "restoration_commit": "fd1aec1cee41c9211ac5a2317be0996f864058df",
+  "learning_in_progress_ids": [
+    "element.li",
+    "element.ni",
+    "element.mn",
+    "method.eis"
+  ]
+}

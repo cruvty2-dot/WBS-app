@@ -1,4 +1,4 @@
-"""Check WBS scope, ordering, filenames, learning content and compiled pages."""
+"""Check WBS scope, ordering, filenames, learning content and individual leaf PDFs."""
 import argparse, json, re
 from collections import defaultdict
 from pathlib import Path
@@ -8,17 +8,17 @@ ROOT=Path(__file__).resolve().parents[1]
 def compact(s):return re.sub(r'\s+','',plain_symbols(s))
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--render-check',action='store_true');args=ap.parse_args()
-    tax=json.loads((ROOT/'Data/taxonomy.json').read_text())
-    data=json.loads((ROOT/'Data/wbs-learning.json').read_text());items={x['id']:x for x in data['items']}
-    man=json.loads((ROOT/'Data/wbs-pdf-manifest.json').read_text());pdfs={x['id']:x for x in man['pdfs']}
+    tax=json.loads((ROOT/'Data/taxonomy.json').read_text(encoding='utf-8'))
+    data=json.loads((ROOT/'Data/wbs-learning.json').read_text(encoding='utf-8'));items={x['id']:x for x in data['items']}
+    man=json.loads((ROOT/'Data/wbs-pdf-manifest.json').read_text(encoding='utf-8'));pdfs={x['id']:x for x in man['pdfs']}
     children=defaultdict(list)
     for n in tax['nodes']:children[n['parent_id']].append(n['id'])
     def subtree(k):
         yield k
         for c in children[k]:yield from subtree(c)
-    assert len(items)==195 and set(items)==set(pdfs)
+    assert len(items)==195 and set(pdfs)<=set(items)
     assert len({x['wbs'] for x in items.values()})==195
-    assert len(list((ROOT/'References/wbs').glob('*.pdf')))==195
+    assert len(list((ROOT/'References/wbs').glob('*.pdf')))==len(pdfs)
     visiting=set();done=set()
     def prerequisites(k):
         assert k not in visiting,(k,'prerequisite cycle')
@@ -30,8 +30,9 @@ def main():
         visiting.remove(k);done.add(k)
     for k in items:prerequisites(k)
     pages=0;merged=0;shape_checked=0
-    for k,x in items.items():
-        m=pdfs[k];assert m['included_ids']==list(subtree(k))
+    for k,m in pdfs.items():
+        x=items[k];assert not children[k], (k,'parent PDF disabled')
+        assert m['included_ids']==[k]
         assert Path(m['pdf_path']).stem==filename(x['wbs'],x['label'])
         with fitz.open(ROOT/m['pdf_path']) as doc:
             assert len(doc)==m['pdf_pages'];pages+=len(doc)
@@ -62,19 +63,7 @@ def main():
                 # Developed bodies use sections; summary bodies use their core sentence.
                 expected_text=ix['sections'][0][1] if ix['sections'] else ix['core']
                 assert compact(expected_text) in text,(k,r['id'],'missing body')
-            offset=m['own_pages']
-            for c in children[k]:
-                with fitz.open(ROOT/pdfs[c]['pdf_path']) as child:
-                    if args.render_check:
-                        for i,page in enumerate(child):
-                            clip=fitz.Rect(0,0,595,800)
-                            a=page.get_pixmap(matrix=fitz.Matrix(.35,.35),clip=clip,alpha=False)
-                            b=doc[offset+i].get_pixmap(matrix=fitz.Matrix(.35,.35),clip=clip,alpha=False)
-                            assert (a.width,a.height,a.samples)==(b.width,b.height,b.samples),(k,c,i,'compiled page differs')
-                            merged+=1
-                    offset+=len(child)
-            if children[k]:assert offset==len(doc)-1
-            else:assert offset==len(doc)
+            assert m['own_pages']==len(doc)
             for page in doc:
                 for image in page.get_images(full=True):
                     width,height=image[2:4]
@@ -87,10 +76,11 @@ def main():
                             assert '\ufffd' not in span['text'] and '\x00' not in span['text']
                             a,b,c,d=span['bbox'];assert a>=38 and c<=558 and b>=10 and d<=830,(k,span)
                 shape_checked+=1
-    md=(ROOT/'README.md').read_text()
+    md=(ROOT/'README.md').read_text(encoding='utf-8')
     rows=[line for line in md.splitlines() if re.match(r'^\| [12](?:\.\d+)* \|',line)]
     assert len(rows)==195
-    assert all('References/wbs/' in r and 'References/topics/' not in r for r in rows)
+    assert sum('References/wbs/' in r for r in rows)==len(pdfs)
+    assert all('References/topics/' not in r for r in rows)
     assert '이번 개편에서 보완한 내용' not in md
-    print(json.dumps({'pdfs':len(pdfs),'total_pdf_pages':pages,'all_wbs_scopes':'ok','all_names':'ok','all_content':'ok','all_text_bounds':'ok','compiled_pages_render_matched':merged,'readme_rows':len(rows)},ensure_ascii=False))
+    print(json.dumps({'pdfs':len(pdfs),'total_pdf_pages':pages,'all_wbs_scopes':'ok','all_names':'ok','all_content':'ok','all_text_bounds':'ok','readme_rows':len(rows)},ensure_ascii=False))
 if __name__=='__main__':main()

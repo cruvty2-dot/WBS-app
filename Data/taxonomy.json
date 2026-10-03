@@ -21,7 +21,7 @@
         "Knowledge/topics/00_guide.md"
       ],
       "wbs_code": "1",
-      "pdf_path": "References/wbs/1_설계.pdf"
+      "pdf_path": null
     },
     {
       "id": "process",
@@ -33,19 +33,17 @@
         "Knowledge/topics/00_guide.md"
       ],
       "wbs_code": "2",
-      "pdf_path": "References/wbs/2_공정.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.material",
       "label": "소재·재료",
       "parent_id": "design",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1_소재·재료.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1",
-      "pdf_path": "References/wbs/1.1_소재·재료.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode",
@@ -57,7 +55,7 @@
         "Knowledge/topics/06_electrode-and-cell-design.md"
       ],
       "wbs_code": "1.2",
-      "pdf_path": "References/wbs/1.2_전극_설계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell",
@@ -69,7 +67,7 @@
         "Knowledge/topics/06_electrode-and-cell-design.md"
       ],
       "wbs_code": "1.3",
-      "pdf_path": "References/wbs/1.3_셀·시스템_설계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.eval",
@@ -79,7 +77,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4",
-      "pdf_path": "References/wbs/1.4_평가·분석·열화.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.future",
@@ -91,33 +89,29 @@
         "Knowledge/topics/09_degradation-and-next-generation.md"
       ],
       "wbs_code": "1.5",
-      "pdf_path": "References/wbs/1.5_다화학계·차세대전지.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.basics",
       "label": "소재 특성·전공 기초",
       "parent_id": "d.material",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1_소재_특성·전공_기초.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/01_material-basics.md"
       ],
       "wbs_code": "1.1.1",
-      "pdf_path": "References/wbs/1.1.1_소재_특성·전공_기초.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.active",
       "label": "활물질",
       "parent_id": "d.material",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2_활물질.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2",
-      "pdf_path": "References/wbs/1.1.2_활물질.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.binder",
@@ -128,132 +122,112 @@
         "p.wet.drying",
         "p.dry"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.3_바인더.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/05_electrolyte-and-additives.md"
       ],
       "wbs_code": "1.1.3",
-      "pdf_path": "References/wbs/1.1.3_바인더.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.conductive",
       "label": "도전재",
       "parent_id": "d.material",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.4_도전재.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/05_electrolyte-and-additives.md"
       ],
       "wbs_code": "1.1.4",
-      "pdf_path": "References/wbs/1.1.4_도전재.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte",
       "label": "전해질",
       "parent_id": "d.material",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5_전해질.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/05_electrolyte-and-additives.md"
       ],
       "wbs_code": "1.1.5",
-      "pdf_path": "References/wbs/1.1.5_전해질.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.separator",
       "label": "분리막",
       "parent_id": "d.material",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.6_분리막.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/05_electrolyte-and-additives.md"
       ],
       "wbs_code": "1.1.6",
-      "pdf_path": "References/wbs/1.1.6_분리막.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.collector",
       "label": "집전체",
       "parent_id": "d.material",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.7_집전체.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/05_electrolyte-and-additives.md"
       ],
       "wbs_code": "1.1.7",
-      "pdf_path": "References/wbs/1.1.7_집전체.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.elements",
       "label": "원소·이온",
       "parent_id": "d.basics",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1_원소·이온.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1",
-      "pdf_path": "References/wbs/1.1.1.1_원소·이온.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.crystal",
       "label": "결정구조·결함",
       "parent_id": "d.basics",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.2_결정구조·결함.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.2",
-      "pdf_path": "References/wbs/1.1.1.2_결정구조·결함.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electronic",
       "label": "전자구조·결합",
       "parent_id": "d.basics",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.3_전자구조·결합.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.3",
-      "pdf_path": "References/wbs/1.1.1.3_전자구조·결합.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.transport",
       "label": "전달·반응·열 특성",
       "parent_id": "d.basics",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.4_전달·반응·열_특성.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/02_electrochemistry.md"
       ],
       "wbs_code": "1.1.1.4",
-      "pdf_path": "References/wbs/1.1.1.4_전달·반응·열_특성.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.powder",
       "label": "입자·분체·표면",
       "parent_id": "d.basics",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.5_입자·분체·표면.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.5",
-      "pdf_path": "References/wbs/1.1.1.5_입자·분체·표면.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.li",
@@ -286,12 +260,10 @@
       "label": "Co: 코발트",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.3_Co_코발트.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.3",
-      "pdf_path": "References/wbs/1.1.1.1.3_Co_코발트.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.mn",
@@ -310,354 +282,296 @@
       "label": "Fe: 철",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.5_Fe_철.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.5",
-      "pdf_path": "References/wbs/1.1.1.1.5_Fe_철.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.p",
       "label": "P: 인",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.6_P_인.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.6",
-      "pdf_path": "References/wbs/1.1.1.1.6_P_인.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.c",
       "label": "C: 탄소",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.7_C_탄소.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.7",
-      "pdf_path": "References/wbs/1.1.1.1.7_C_탄소.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.si",
       "label": "Si: 규소",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.8_Si_규소.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.8",
-      "pdf_path": "References/wbs/1.1.1.1.8_Si_규소.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.al",
       "label": "Al: 알루미늄",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.9_Al_알루미늄.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.9",
-      "pdf_path": "References/wbs/1.1.1.1.9_Al_알루미늄.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.cu",
       "label": "Cu: 구리",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.10_Cu_구리.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.10",
-      "pdf_path": "References/wbs/1.1.1.1.10_Cu_구리.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.o",
       "label": "O: 산소",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.11_O_산소.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.11",
-      "pdf_path": "References/wbs/1.1.1.1.11_O_산소.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.na",
       "label": "Na: 나트륨",
       "parent_id": "d.elements",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.1.12_Na_나트륨.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.12",
-      "pdf_path": "References/wbs/1.1.1.1.12_Na_나트륨.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.crystal.layered",
       "label": "층상 구조",
       "parent_id": "d.crystal",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.2.1_층상_구조.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.2.1",
-      "pdf_path": "References/wbs/1.1.1.2.1_층상_구조.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.crystal.olivine",
       "label": "올리빈 구조",
       "parent_id": "d.crystal",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.2.2_올리빈_구조.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.2.2",
-      "pdf_path": "References/wbs/1.1.1.2.2_올리빈_구조.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.crystal.spinel",
       "label": "스피넬 구조",
       "parent_id": "d.crystal",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.2.3_스피넬_구조.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.2.3",
-      "pdf_path": "References/wbs/1.1.1.2.3_스피넬_구조.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.crystal.defect",
       "label": "공공·자리 혼입·입계",
       "parent_id": "d.crystal",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.2.4_공공·자리_혼입·입계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.2.4",
-      "pdf_path": "References/wbs/1.1.1.2.4_공공·자리_혼입·입계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.crystal.stress",
       "label": "상전이·응력·균열",
       "parent_id": "d.crystal",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.2.5_상전이·응력·균열.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.2.5",
-      "pdf_path": "References/wbs/1.1.1.2.5_상전이·응력·균열.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electronic.bond",
       "label": "화학결합·산화수",
       "parent_id": "d.electronic",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.3.1_화학결합·산화수.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.3.1",
-      "pdf_path": "References/wbs/1.1.1.3.1_화학결합·산화수.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electronic.band",
       "label": "오비탈·밴드·전자상태",
       "parent_id": "d.electronic",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.3.2_오비탈·밴드·전자상태.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.3.2",
-      "pdf_path": "References/wbs/1.1.1.3.2_오비탈·밴드·전자상태.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electronic.redox",
       "label": "산화·환원과 전위",
       "parent_id": "d.electronic",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.3.3_산화·환원과_전위.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/02_electrochemistry.md"
       ],
       "wbs_code": "1.1.1.3.3",
-      "pdf_path": "References/wbs/1.1.1.3.3_산화·환원과_전위.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.transport.diffusion",
       "label": "확산·이온 전달",
       "parent_id": "d.transport",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.4.1_확산·이온_전달.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.4.1",
-      "pdf_path": "References/wbs/1.1.1.4.1_확산·이온_전달.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.transport.electron",
       "label": "전자 전달",
       "parent_id": "d.transport",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.4.2_전자_전달.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.4.2",
-      "pdf_path": "References/wbs/1.1.1.4.2_전자_전달.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.transport.heat",
       "label": "열전달·열 안정성",
       "parent_id": "d.transport",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.4.3_열전달·열_안정성.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.4.3",
-      "pdf_path": "References/wbs/1.1.1.4.3_열전달·열_안정성.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.transport.interface",
       "label": "계면 반응·젖음성",
       "parent_id": "d.transport",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.4.4_계면_반응·젖음성.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.4.4",
-      "pdf_path": "References/wbs/1.1.1.4.4_계면_반응·젖음성.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.powder.size",
       "label": "입도·입도분포",
       "parent_id": "d.powder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.5.1_입도·입도분포.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.5.1",
-      "pdf_path": "References/wbs/1.1.1.5.1_입도·입도분포.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.powder.area",
       "label": "비표면적·표면화학",
       "parent_id": "d.powder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.5.2_비표면적·표면화학.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.5.2",
-      "pdf_path": "References/wbs/1.1.1.5.2_비표면적·표면화학.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.powder.density",
       "label": "진밀도·탭밀도·충전성",
       "parent_id": "d.powder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.1.5.3_진밀도·탭밀도·충전성.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.5.3",
-      "pdf_path": "References/wbs/1.1.1.5.3_진밀도·탭밀도·충전성.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cathode",
       "label": "양극재",
       "parent_id": "d.active",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1_양극재.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/03_cathodes.md"
       ],
       "wbs_code": "1.1.2.1",
-      "pdf_path": "References/wbs/1.1.2.1_양극재.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.anode",
       "label": "음극재",
       "parent_id": "d.active",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2_음극재.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [
         "Knowledge/topics/04_anodes.md"
       ],
       "wbs_code": "1.1.2.2",
-      "pdf_path": "References/wbs/1.1.2.2_음극재.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cathode.layered",
       "label": "층상 산화물",
       "parent_id": "d.cathode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.1_층상_산화물.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.1.1",
-      "pdf_path": "References/wbs/1.1.2.1.1_층상_산화물.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cathode.phosphate",
       "label": "인산염계",
       "parent_id": "d.cathode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.2_인산염계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.1.2",
-      "pdf_path": "References/wbs/1.1.2.1.2_인산염계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cathode.spinel",
       "label": "스피넬계",
       "parent_id": "d.cathode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.3_스피넬계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.1.3",
-      "pdf_path": "References/wbs/1.1.2.1.3_스피넬계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cathode.sulfur",
       "label": "황·전환반응계",
       "parent_id": "d.cathode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.4_황·전환반응계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.1.4",
-      "pdf_path": "References/wbs/1.1.2.1.4_황·전환반응계.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.ncm",
@@ -666,9 +580,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.1.1_NCM.md"
-      ],
+      "article_paths": [],
       "representative_formula": "LiNi_xCo_yMn_zO2",
       "contains_element_ids": [
         "element.li",
@@ -681,7 +593,7 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.1.1.1",
-      "pdf_path": "References/wbs/1.1.2.1.1.1_NCM.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.nca",
@@ -690,9 +602,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.1.2_NCA.md"
-      ],
+      "article_paths": [],
       "representative_formula": "LiNi_xCo_yAl_zO2",
       "contains_element_ids": [
         "element.li",
@@ -705,7 +615,7 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.1.1.2",
-      "pdf_path": "References/wbs/1.1.2.1.1.2_NCA.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lco",
@@ -714,9 +624,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.1.3_LCO.md"
-      ],
+      "article_paths": [],
       "representative_formula": "LiCoO2",
       "contains_element_ids": [
         "element.li",
@@ -727,7 +635,7 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.1.1.3",
-      "pdf_path": "References/wbs/1.1.2.1.1.3_LCO.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lfp",
@@ -736,9 +644,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.2.1_LFP.md"
-      ],
+      "article_paths": [],
       "representative_formula": "LiFePO4",
       "contains_element_ids": [
         "element.li",
@@ -750,7 +656,7 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.1.2.1",
-      "pdf_path": "References/wbs/1.1.2.1.2.1_LFP.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lmfp",
@@ -759,9 +665,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.2.2_LMFP.md"
-      ],
+      "article_paths": [],
       "representative_formula": "LiMn_xFe_(1-x)PO4",
       "contains_element_ids": [
         "element.li",
@@ -774,7 +678,7 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.1.2.2",
-      "pdf_path": "References/wbs/1.1.2.1.2.2_LMFP.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lmo",
@@ -783,9 +687,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.3.1_LMO.md"
-      ],
+      "article_paths": [],
       "representative_formula": "LiMn2O4",
       "contains_element_ids": [
         "element.li",
@@ -796,7 +698,7 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.1.3.1",
-      "pdf_path": "References/wbs/1.1.2.1.3.1_LMO.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lnmo",
@@ -805,84 +707,70 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.3.2_LNMO.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.1.3.2",
-      "pdf_path": "References/wbs/1.1.2.1.3.2_LNMO.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.sulfur",
       "label": "황 양극",
       "parent_id": "d.cathode.sulfur",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.1.4.1_황_양극.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.1.4.1",
-      "pdf_path": "References/wbs/1.1.2.1.4.1_황_양극.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.anode.carbon",
       "label": "탄소계",
       "parent_id": "d.anode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.1_탄소계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.1",
-      "pdf_path": "References/wbs/1.1.2.2.1_탄소계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.anode.si",
       "label": "Si계·합금계",
       "parent_id": "d.anode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.2_Si계·합금계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.2",
-      "pdf_path": "References/wbs/1.1.2.2.2_Si계·합금계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.anode.oxide",
       "label": "삽입형 산화물",
       "parent_id": "d.anode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.3_삽입형_산화물.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.3",
-      "pdf_path": "References/wbs/1.1.2.2.3_삽입형_산화물.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.anode.metal",
       "label": "금속 음극",
       "parent_id": "d.anode",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.4_금속_음극.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.4",
-      "pdf_path": "References/wbs/1.1.2.2.4_금속_음극.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.graphite",
       "label": "흑연",
       "parent_id": "d.anode.carbon",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.1.1_흑연.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.1.1",
-      "pdf_path": "References/wbs/1.1.2.2.1.1_흑연.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.hardcarbon",
@@ -891,84 +779,70 @@
       "related_node_ids": [
         "chem.sodium"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.1.2_하드카본.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.1.2",
-      "pdf_path": "References/wbs/1.1.2.2.1.2_하드카본.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.graphite.natural",
       "label": "천연흑연",
       "parent_id": "material.graphite",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.1.1.1_천연흑연.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.1.1.1",
-      "pdf_path": "References/wbs/1.1.2.2.1.1.1_천연흑연.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.graphite.synthetic",
       "label": "인조흑연",
       "parent_id": "material.graphite",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.1.1.2_인조흑연.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.1.1.2",
-      "pdf_path": "References/wbs/1.1.2.2.1.1.2_인조흑연.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.si",
       "label": "Si",
       "parent_id": "d.anode.si",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.2.1_Si.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.2.1",
-      "pdf_path": "References/wbs/1.1.2.2.2.1_Si.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.siox",
       "label": "SiOₓ",
       "parent_id": "d.anode.si",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.2.2_SiOₓ.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.2.2",
-      "pdf_path": "References/wbs/1.1.2.2.2.2_SiOₓ.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.sic",
       "label": "Si-C 복합체",
       "parent_id": "d.anode.si",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.2.3_Si-C_복합체.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.2.3",
-      "pdf_path": "References/wbs/1.1.2.2.2.3_Si-C_복합체.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lto",
       "label": "LTO",
       "parent_id": "d.anode.oxide",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.3.1_LTO.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.2.2.3.1",
-      "pdf_path": "References/wbs/1.1.2.2.3.1_LTO.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.limetal",
@@ -977,9 +851,7 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.2.2.4.1_리튬_금속_음극.md"
-      ],
+      "article_paths": [],
       "representative_formula": "Li",
       "contains_element_ids": [
         "element.li"
@@ -988,55 +860,47 @@
         "Docs/양극재_분류와_구성원소.md"
       ],
       "wbs_code": "1.1.2.2.4.1",
-      "pdf_path": "References/wbs/1.1.2.2.4.1_리튬_금속_음극.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.pvdf",
       "label": "PVDF",
       "parent_id": "d.binder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.3.1_PVDF.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.3.1",
-      "pdf_path": "References/wbs/1.1.3.1_PVDF.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.cmc",
       "label": "CMC",
       "parent_id": "d.binder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.3.2_CMC.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.3.2",
-      "pdf_path": "References/wbs/1.1.3.2_CMC.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.sbr",
       "label": "SBR",
       "parent_id": "d.binder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.3.3_SBR.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.3.3",
-      "pdf_path": "References/wbs/1.1.3.3_SBR.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.paa",
       "label": "PAA",
       "parent_id": "d.binder",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.3.4_PAA.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.3.4",
-      "pdf_path": "References/wbs/1.1.3.4_PAA.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.ptfe",
@@ -1045,132 +909,110 @@
       "related_node_ids": [
         "p.dry.fibrillation"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.3.5_PTFE.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.3.5",
-      "pdf_path": "References/wbs/1.1.3.5_PTFE.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.carbonblack",
       "label": "카본블랙",
       "parent_id": "d.conductive",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.4.1_카본블랙.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.4.1",
-      "pdf_path": "References/wbs/1.1.4.1_카본블랙.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.cnt",
       "label": "CNT",
       "parent_id": "d.conductive",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.4.2_CNT.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.4.2",
-      "pdf_path": "References/wbs/1.1.4.2_CNT.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.graphene",
       "label": "그래핀",
       "parent_id": "d.conductive",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.4.3_그래핀.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.4.3",
-      "pdf_path": "References/wbs/1.1.4.3_그래핀.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte.liquid",
       "label": "액체 전해질",
       "parent_id": "d.electrolyte",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1_액체_전해질.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1",
-      "pdf_path": "References/wbs/1.1.5.1_액체_전해질.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte.solid",
       "label": "고체 전해질",
       "parent_id": "d.electrolyte",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.2_고체_전해질.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.2",
-      "pdf_path": "References/wbs/1.1.5.2_고체_전해질.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte.gel",
       "label": "겔·고분자 전해질",
       "parent_id": "d.electrolyte",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.3_겔·고분자_전해질.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.3",
-      "pdf_path": "References/wbs/1.1.5.3_겔·고분자_전해질.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.interphase",
       "label": "SEI·CEI 계면막",
       "parent_id": "d.electrolyte",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.4_SEI·CEI_계면막.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.4",
-      "pdf_path": "References/wbs/1.1.5.4_SEI·CEI_계면막.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte.salt",
       "label": "리튬염",
       "parent_id": "d.electrolyte.liquid",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1.1_리튬염.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1.1",
-      "pdf_path": "References/wbs/1.1.5.1.1_리튬염.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte.solvent",
       "label": "용매",
       "parent_id": "d.electrolyte.liquid",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1.2_용매.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1.2",
-      "pdf_path": "References/wbs/1.1.5.1.2_용매.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrolyte.additive",
       "label": "첨가제",
       "parent_id": "d.electrolyte.liquid",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1.3_첨가제.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1.3",
-      "pdf_path": "References/wbs/1.1.5.1.3_첨가제.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lipf6",
@@ -1179,12 +1021,10 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1.1.1_LiPF₆.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1.1.1",
-      "pdf_path": "References/wbs/1.1.5.1.1.1_LiPF₆.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.lifsi",
@@ -1193,12 +1033,10 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1.1.2_LiFSI.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1.1.2",
-      "pdf_path": "References/wbs/1.1.5.1.1.2_LiFSI.pdf"
+      "pdf_path": null
     },
     {
       "id": "material.litfsi",
@@ -1207,108 +1045,90 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/1.1.5.1.1.3_LiTFSI.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.1.1.3",
-      "pdf_path": "References/wbs/1.1.5.1.1.3_LiTFSI.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.solid.sulfide",
       "label": "황화물계",
       "parent_id": "d.electrolyte.solid",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.2.1_황화물계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.2.1",
-      "pdf_path": "References/wbs/1.1.5.2.1_황화물계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.solid.oxide",
       "label": "산화물계",
       "parent_id": "d.electrolyte.solid",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.2.2_산화물계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.2.2",
-      "pdf_path": "References/wbs/1.1.5.2.2_산화물계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.solid.polymer",
       "label": "고분자계",
       "parent_id": "d.electrolyte.solid",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.5.2.3_고분자계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.5.2.3",
-      "pdf_path": "References/wbs/1.1.5.2.3_고분자계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.separator.polyolefin",
       "label": "PE·PP계",
       "parent_id": "d.separator",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.6.1_PE·PP계.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.6.1",
-      "pdf_path": "References/wbs/1.1.6.1_PE·PP계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.separator.coating",
       "label": "세라믹·기능성 코팅",
       "parent_id": "d.separator",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.6.2_세라믹·기능성_코팅.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.6.2",
-      "pdf_path": "References/wbs/1.1.6.2_세라믹·기능성_코팅.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.collector.al",
       "label": "Al 집전체",
       "parent_id": "d.collector",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.7.1_Al_집전체.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.7.1",
-      "pdf_path": "References/wbs/1.1.7.1_Al_집전체.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.collector.cu",
       "label": "Cu 집전체",
       "parent_id": "d.collector",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.7.2_Cu_집전체.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.7.2",
-      "pdf_path": "References/wbs/1.1.7.2_Cu_집전체.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.collector.surface",
       "label": "표면 처리·복합 집전체",
       "parent_id": "d.collector",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/1.1.7.3_표면_처리·복합_집전체.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.1.7.3",
-      "pdf_path": "References/wbs/1.1.7.3_표면_처리·복합_집전체.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode.formula",
@@ -1318,7 +1138,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.2.1",
-      "pdf_path": "References/wbs/1.2.1_조성·활물질_비율.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode.loading",
@@ -1328,7 +1148,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.2.2",
-      "pdf_path": "References/wbs/1.2.2_로딩량·면적당_용량.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode.micro",
@@ -1338,7 +1158,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.2.3",
-      "pdf_path": "References/wbs/1.2.3_두께·밀도·공극률.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode.network",
@@ -1348,7 +1168,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.2.4",
-      "pdf_path": "References/wbs/1.2.4_이온·전자_전달망.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode.balance",
@@ -1360,7 +1180,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.2.5",
-      "pdf_path": "References/wbs/1.2.5_N_P·리튬_재고.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.electrode.interface",
@@ -1370,7 +1190,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.2.6",
-      "pdf_path": "References/wbs/1.2.6_접착·계면·젖음.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell.target",
@@ -1380,7 +1200,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.3.1",
-      "pdf_path": "References/wbs/1.3.1_용도·요구_성능.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell.geometry",
@@ -1390,7 +1210,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.3.2",
-      "pdf_path": "References/wbs/1.3.2_원통형·각형·파우치.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell.window",
@@ -1400,7 +1220,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.3.3",
-      "pdf_path": "References/wbs/1.3.3_전압·SOC·온도_사용창.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell.electrolyte",
@@ -1410,7 +1230,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.3.4",
-      "pdf_path": "References/wbs/1.3.4_전해액량·압력.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell.pack",
@@ -1420,7 +1240,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.3.5",
-      "pdf_path": "References/wbs/1.3.5_모듈·팩·BMS.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.cell.circular",
@@ -1432,7 +1252,7 @@
         "Knowledge/topics/12_recycling-and-applications.md"
       ],
       "wbs_code": "1.3.6",
-      "pdf_path": "References/wbs/1.3.6_분해·재사용을_고려한_설계.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.eval.echem",
@@ -1445,7 +1265,7 @@
         "Knowledge/topics/08_evaluation-and-analysis.md"
       ],
       "wbs_code": "1.4.1",
-      "pdf_path": "References/wbs/1.4.1_전기화학_평가.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.eval.material",
@@ -1457,7 +1277,7 @@
         "Knowledge/topics/08_evaluation-and-analysis.md"
       ],
       "wbs_code": "1.4.2",
-      "pdf_path": "References/wbs/1.4.2_소재·전극_기기분석.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.eval.degradation",
@@ -1469,7 +1289,7 @@
         "Knowledge/topics/09_degradation-and-next-generation.md"
       ],
       "wbs_code": "1.4.3",
-      "pdf_path": "References/wbs/1.4.3_열화·고장_분석.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.eval.safety",
@@ -1481,7 +1301,7 @@
         "Knowledge/topics/09_degradation-and-next-generation.md"
       ],
       "wbs_code": "1.4.4",
-      "pdf_path": "References/wbs/1.4.4_안전·열_특성.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.eval.standard",
@@ -1491,7 +1311,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.5",
-      "pdf_path": "References/wbs/1.4.5_국제·국내_표준.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.gcd",
@@ -1501,7 +1321,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.1",
-      "pdf_path": "References/wbs/1.4.1.1_GCD·CC-CV.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.rate",
@@ -1511,7 +1331,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.2",
-      "pdf_path": "References/wbs/1.4.1.2_C-rate·수명·쿨롱_효율.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.eis",
@@ -1525,7 +1345,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.3",
-      "pdf_path": "References/wbs/1.4.1.3_EIS.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.cv",
@@ -1535,7 +1355,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.4",
-      "pdf_path": "References/wbs/1.4.1.4_CV·LSV.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.gitt",
@@ -1545,7 +1365,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.5",
-      "pdf_path": "References/wbs/1.4.1.5_GITT·PITT.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.dcir",
@@ -1555,7 +1375,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.6",
-      "pdf_path": "References/wbs/1.4.1.6_DCIR·HPPC.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.dqdv",
@@ -1565,7 +1385,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.1.7",
-      "pdf_path": "References/wbs/1.4.1.7_dQ_dV·OCV·자가방전.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.xrd",
@@ -1575,7 +1395,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.1",
-      "pdf_path": "References/wbs/1.4.2.1_XRD.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.sem",
@@ -1585,7 +1405,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.2",
-      "pdf_path": "References/wbs/1.4.2.2_SEM·EDS·TEM.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.xps",
@@ -1595,7 +1415,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.3",
-      "pdf_path": "References/wbs/1.4.2.3_XPS·표면분석.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.icp",
@@ -1605,7 +1425,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.4",
-      "pdf_path": "References/wbs/1.4.2.4_ICP-OES·ICP-MS.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.chrom",
@@ -1615,7 +1435,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.5",
-      "pdf_path": "References/wbs/1.4.2.5_GC·HPLC·MS.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.psa",
@@ -1625,7 +1445,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.6",
-      "pdf_path": "References/wbs/1.4.2.6_PSA·BET·공극분석.pdf"
+      "pdf_path": null
     },
     {
       "id": "method.thermal",
@@ -1635,7 +1455,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.2.7",
-      "pdf_path": "References/wbs/1.4.2.7_DSC·TGA·ARC.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.deg.lli",
@@ -1647,7 +1467,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.3.1",
-      "pdf_path": "References/wbs/1.4.3.1_LLI_순환_가능한_Li_감소.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.deg.lam",
@@ -1657,7 +1477,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.3.2",
-      "pdf_path": "References/wbs/1.4.3.2_LAM_반응_가능한_활물질_감소.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.deg.impedance",
@@ -1667,7 +1487,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.3.3",
-      "pdf_path": "References/wbs/1.4.3.3_저항·분극_증가.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.deg.plating",
@@ -1681,7 +1501,7 @@
         "Knowledge/topics/04_anodes.md"
       ],
       "wbs_code": "1.4.3.4",
-      "pdf_path": "References/wbs/1.4.3.4_리튬_석출·고립.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.deg.crosstalk",
@@ -1691,7 +1511,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.3.5",
-      "pdf_path": "References/wbs/1.4.3.5_전극_간_영향·용출.pdf"
+      "pdf_path": null
     },
     {
       "id": "d.deg.failure",
@@ -1701,7 +1521,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.4.3.6",
-      "pdf_path": "References/wbs/1.4.3.6_고장_원인과_기여_요인.pdf"
+      "pdf_path": null
     },
     {
       "id": "chem.solid",
@@ -1711,7 +1531,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.5.1",
-      "pdf_path": "References/wbs/1.5.1_전고체전지.pdf"
+      "pdf_path": null
     },
     {
       "id": "chem.sodium",
@@ -1721,7 +1541,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.5.2",
-      "pdf_path": "References/wbs/1.5.2_나트륨이온전지.pdf"
+      "pdf_path": null
     },
     {
       "id": "chem.lis",
@@ -1731,7 +1551,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.5.3",
-      "pdf_path": "References/wbs/1.5.3_리튬황전지.pdf"
+      "pdf_path": null
     },
     {
       "id": "chem.limetal",
@@ -1741,7 +1561,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "1.5.4",
-      "pdf_path": "References/wbs/1.5.4_리튬_금속_전지.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.raw",
@@ -1753,7 +1573,7 @@
         "Knowledge/topics/10_electrode-manufacturing.md"
       ],
       "wbs_code": "2.1",
-      "pdf_path": "References/wbs/2.1_원료·소재_제조.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.electrode",
@@ -1763,7 +1583,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2",
-      "pdf_path": "References/wbs/2.2_전극_제조.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.assembly",
@@ -1775,7 +1595,7 @@
         "Knowledge/topics/07_assembly-and-formation.md"
       ],
       "wbs_code": "2.3",
-      "pdf_path": "References/wbs/2.3_셀_조립.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.formation",
@@ -1787,7 +1607,7 @@
         "Knowledge/topics/07_assembly-and-formation.md"
       ],
       "wbs_code": "2.4",
-      "pdf_path": "References/wbs/2.4_화성·숙성·선별.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality",
@@ -1799,7 +1619,7 @@
         "Knowledge/topics/11_dry-electrode-and-quality.md"
       ],
       "wbs_code": "2.5",
-      "pdf_path": "References/wbs/2.5_품질·공정_데이터.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle",
@@ -1811,7 +1631,7 @@
         "Knowledge/topics/12_recycling-and-applications.md"
       ],
       "wbs_code": "2.6",
-      "pdf_path": "References/wbs/2.6_재사용·재활용.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.supply",
@@ -1823,31 +1643,27 @@
         "Knowledge/topics/12_recycling-and-applications.md"
       ],
       "wbs_code": "2.7",
-      "pdf_path": "References/wbs/2.7_공급망·산업·직무.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.raw.receiving",
       "label": "입고·보관·수입검사",
       "parent_id": "p.raw",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/2.1.1_입고·보관·수입검사.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.1.1",
-      "pdf_path": "References/wbs/2.1.1_입고·보관·수입검사.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.raw.precursor",
       "label": "전구체·공침·결정화",
       "parent_id": "p.raw",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/2.1.2_전구체·공침·결정화.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.1.2",
-      "pdf_path": "References/wbs/2.1.2_전구체·공침·결정화.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.raw.calcination",
@@ -1856,36 +1672,30 @@
       "related_node_ids": [
         "element.li"
       ],
-      "article_paths": [
-        "Knowledge/items/2.1.3_리튬화·소성.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.1.3",
-      "pdf_path": "References/wbs/2.1.3_리튬화·소성.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.raw.surface",
       "label": "분쇄·분급·도핑·코팅",
       "parent_id": "p.raw",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/2.1.4_분쇄·분급·도핑·코팅.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.1.4",
-      "pdf_path": "References/wbs/2.1.4_분쇄·분급·도핑·코팅.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.raw.anode",
       "label": "흑연·Si계 소재 제조",
       "parent_id": "p.raw",
       "related_node_ids": [],
-      "article_paths": [
-        "Knowledge/items/2.1.5_흑연·Si계_소재_제조.md"
-      ],
+      "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.1.5",
-      "pdf_path": "References/wbs/2.1.5_흑연·Si계_소재_제조.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet",
@@ -1897,7 +1707,7 @@
         "Knowledge/topics/10_electrode-manufacturing.md"
       ],
       "wbs_code": "2.2.1",
-      "pdf_path": "References/wbs/2.2.1_습식_전극.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.dry",
@@ -1909,7 +1719,7 @@
         "Knowledge/topics/11_dry-electrode-and-quality.md"
       ],
       "wbs_code": "2.2.2",
-      "pdf_path": "References/wbs/2.2.2_건식_전극.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.finish",
@@ -1921,7 +1731,7 @@
         "Knowledge/topics/10_electrode-manufacturing.md"
       ],
       "wbs_code": "2.2.3",
-      "pdf_path": "References/wbs/2.2.3_압연·가공·최종_건조.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.scale",
@@ -1933,7 +1743,7 @@
         "Knowledge/topics/11_dry-electrode-and-quality.md"
       ],
       "wbs_code": "2.2.4",
-      "pdf_path": "References/wbs/2.2.4_스케일업·공정창.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet.weigh",
@@ -1943,7 +1753,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.1.1",
-      "pdf_path": "References/wbs/2.2.1.1_계량·배합.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet.mixing",
@@ -1953,7 +1763,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.1.2",
-      "pdf_path": "References/wbs/2.2.1.2_혼합·분산.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet.rheology",
@@ -1963,7 +1773,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.1.3",
-      "pdf_path": "References/wbs/2.2.1.3_유변학·슬러리_안정성.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet.condition",
@@ -1973,7 +1783,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.1.4",
-      "pdf_path": "References/wbs/2.2.1.4_여과·탈포·저장.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet.coating",
@@ -1983,7 +1793,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.1.5",
-      "pdf_path": "References/wbs/2.2.1.5_도공.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.wet.drying",
@@ -1993,7 +1803,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.1.6",
-      "pdf_path": "References/wbs/2.2.1.6_건조·용매_회수.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.dry.mixing",
@@ -2003,7 +1813,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.2.1",
-      "pdf_path": "References/wbs/2.2.2.1_분체_혼합.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.dry.fibrillation",
@@ -2013,7 +1823,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.2.2",
-      "pdf_path": "References/wbs/2.2.2.2_바인더_섬유화.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.dry.film",
@@ -2023,7 +1833,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.2.3",
-      "pdf_path": "References/wbs/2.2.2.3_필름화·집전체_접합.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.finish.calender",
@@ -2033,7 +1843,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.3.1",
-      "pdf_path": "References/wbs/2.2.3.1_압연.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.finish.slit",
@@ -2043,7 +1853,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.3.2",
-      "pdf_path": "References/wbs/2.2.3.2_슬리팅·노칭.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.finish.vacuum",
@@ -2053,7 +1863,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.3.3",
-      "pdf_path": "References/wbs/2.2.3.3_진공_건조.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.finish.ctq",
@@ -2063,7 +1873,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.3.4",
-      "pdf_path": "References/wbs/2.2.3.4_전극_완제품_품질.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.scale.mixing",
@@ -2073,7 +1883,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.4.1",
-      "pdf_path": "References/wbs/2.2.4.1_교반·분산_스케일업.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.scale.coating",
@@ -2083,7 +1893,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.4.2",
-      "pdf_path": "References/wbs/2.2.4.2_도공·건조_스케일업.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.scale.doe",
@@ -2093,7 +1903,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.2.4.3",
-      "pdf_path": "References/wbs/2.2.4.3_DOE_실험계획법.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.assembly.stack",
@@ -2103,7 +1913,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.3.1",
-      "pdf_path": "References/wbs/2.3.1_적층·권취.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.assembly.weld",
@@ -2113,7 +1923,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.3.2",
-      "pdf_path": "References/wbs/2.3.2_탭·용접.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.assembly.fill",
@@ -2123,7 +1933,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.3.3",
-      "pdf_path": "References/wbs/2.3.3_주액·함침.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.assembly.seal",
@@ -2133,7 +1943,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.3.4",
-      "pdf_path": "References/wbs/2.3.4_밀봉·누설검사.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.assembly.coin",
@@ -2143,7 +1953,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.3.5",
-      "pdf_path": "References/wbs/2.3.5_코인셀·하프셀.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.formation.initial",
@@ -2153,7 +1963,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.4.1",
-      "pdf_path": "References/wbs/2.4.1_초기_충전·계면막_형성.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.formation.degas",
@@ -2163,7 +1973,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.4.2",
-      "pdf_path": "References/wbs/2.4.2_탈기.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.formation.aging",
@@ -2173,7 +1983,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.4.3",
-      "pdf_path": "References/wbs/2.4.3_숙성·자가방전.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.formation.grade",
@@ -2183,7 +1993,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.4.4",
-      "pdf_path": "References/wbs/2.4.4_검사·등급_선별.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality.ctq",
@@ -2193,7 +2003,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.5.1",
-      "pdf_path": "References/wbs/2.5.1_CTQ_핵심_품질_특성.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality.spc",
@@ -2203,7 +2013,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.5.2",
-      "pdf_path": "References/wbs/2.5.2_SPC_통계적_공정관리.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality.msa",
@@ -2213,7 +2023,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.5.3",
-      "pdf_path": "References/wbs/2.5.3_MSA_측정시스템_분석.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality.trace",
@@ -2223,7 +2033,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.5.4",
-      "pdf_path": "References/wbs/2.5.4_로트·설비·시료_추적.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality.python",
@@ -2235,7 +2045,7 @@
         "Knowledge/topics/08_evaluation-and-analysis.md"
       ],
       "wbs_code": "2.5.5",
-      "pdf_path": "References/wbs/2.5.5_Python·MATLAB·분석_도구.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.quality.validation",
@@ -2245,7 +2055,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.5.6",
-      "pdf_path": "References/wbs/2.5.6_데이터·모델_검증.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.collect",
@@ -2255,7 +2065,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.1",
-      "pdf_path": "References/wbs/2.6.1_회수·이력·안전_상태.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.diagnose",
@@ -2265,7 +2075,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.2",
-      "pdf_path": "References/wbs/2.6.2_잔존성능·재사용_진단.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.reuse",
@@ -2275,7 +2085,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.3",
-      "pdf_path": "References/wbs/2.6.3_재사용·재제조.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.disassembly",
@@ -2285,7 +2095,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.4",
-      "pdf_path": "References/wbs/2.6.4_분해·전처리.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.pyro",
@@ -2295,7 +2105,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.5",
-      "pdf_path": "References/wbs/2.6.5_건식_제련.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.hydro",
@@ -2305,7 +2115,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.6",
-      "pdf_path": "References/wbs/2.6.6_습식_제련.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.direct",
@@ -2317,7 +2127,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.7",
-      "pdf_path": "References/wbs/2.6.7_직접_재활용·재리튬화.pdf"
+      "pdf_path": null
     },
     {
       "id": "p.recycle.spec",
@@ -2327,7 +2137,7 @@
       "article_paths": [],
       "reference_article_paths": [],
       "wbs_code": "2.6.8",
-      "pdf_path": "References/wbs/2.6.8_회수_소재의_품질_평가.pdf"
+      "pdf_path": null
     }
   ]
 }

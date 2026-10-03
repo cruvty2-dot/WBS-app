@@ -1,5 +1,7 @@
 ---
 schema: battery-study-analysis-walkthrough/v1
+> 학습 상태: 학습중 (사용자가 읽고 수정하기 시작함)
+
 status: draft
 document_role: analysis_walkthrough
 example_id: eis-nmc811-id01

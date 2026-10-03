@@ -123,198 +123,198 @@
 
 | WBS 번호 | 항목 | 근거 ID |
 | --- | --- | --- |
-| 1 | 설계 | battery |
-| 1.1 | 소재·재료 | battery, electrode, si_network |
-| 1.1.1 | 소재 특성·전공 기초 | chemistry, lattice, electrode |
-| 1.1.1.1 | 원소·이온 | elements, oxidation, atomic_weights |
+| 1 | 설계 |  |
+| 1.1 | 소재·재료 |  |
+| 1.1.1 | 소재 특성·전공 기초 |  |
+| 1.1.1.1 | 원소·이온 |  |
 | 1.1.1.1.1 | Li: 원소·Li⁺·금속 음극 | lithium, atomic_weights, faraday_text, battery, formation, li_dead, li_plating, li_quant, limetal, ni_occupancy, oxidation, graphite_charge |
 | 1.1.1.1.2 | Ni: 니켈 | ni_element, atomic_weights, faraday_text, ni_redox, ni_redox_author, ni_occupancy, ni_mechanics, ncm |
-| 1.1.1.1.3 | Co: 코발트 | co_element, oxidation, co_single |
+| 1.1.1.1.3 | Co: 코발트 |  |
 | 1.1.1.1.4 | Mn: 망간 | mn_element, atomic_weights, faraday_text, crystal_field, mn_phase, lmo, mn_olivine, mn_anode |
-| 1.1.1.1.5 | Fe: 철 | fe_element, oxidation, mn_olivine, lmfp_carbon, atomic_weights, faraday_text |
-| 1.1.1.1.6 | P: 인 | p_element, oxidation, mn_olivine |
-| 1.1.1.1.7 | C: 탄소 | c_element, graphite_charge, na_epr, na_mof |
-| 1.1.1.1.8 | Si: 규소 | si_element, silicon, si_network |
-| 1.1.1.1.9 | Al: 알루미늄 | al_element, al_salt, nca_primary |
-| 1.1.1.1.10 | Cu: 구리 | cu_element, cu_over, collector_res |
-| 1.1.1.1.11 | O: 산소 | o_element, ni_redox, o_sulfide |
-| 1.1.1.1.12 | Na: 나트륨 | na_element, chemistry, na_mof, atomic_weights, faraday_text |
-| 1.1.1.2 | 결정구조·결함 | lattice, ni_occupancy, ni_pores |
-| 1.1.1.2.1 | 층상 구조 | lattice, ni_occupancy, ni_pores |
-| 1.1.1.2.2 | 올리빈 구조 | lattice, mn_olivine, lmfp_defect |
-| 1.1.1.2.3 | 스피넬 구조 | lattice, lmo, lto |
-| 1.1.1.2.4 | 공공·자리 혼입·입계 | lattice, ni_occupancy, lmfp_defect |
-| 1.1.1.2.5 | 상전이·응력·균열 | lattice, ni_mechanics, ni_pores |
-| 1.1.1.3 | 전자구조·결합 | orbital, chemistry, ni_redox |
-| 1.1.1.3.1 | 화학결합·산화수 | oxidation, chemistry, graphite_charge |
-| 1.1.1.3.2 | 오비탈·밴드·전자상태 | orbital, crystal_field, ni_redox |
-| 1.1.1.3.3 | 산화·환원과 전위 | chemistry, faraday_text, ni_redox |
-| 1.1.1.4 | 전달·반응·열 특성 | electrode, chemistry, eis |
-| 1.1.1.4.1 | 확산·이온 전달 | electrode, gitt, lmfp_defect |
-| 1.1.1.4.2 | 전자 전달 | electrode, dry, si_network |
-| 1.1.1.4.3 | 열전달·열 안정성 | thermal, chemistry, electrode |
-| 1.1.1.4.4 | 계면 반응·젖음성 | electrolyte, na_desolv, na_mof |
-| 1.1.1.5 | 입자·분체·표면 | bet, electrode, dry |
-| 1.1.1.5.1 | 입도·입도분포 | bet, electrode, dry |
-| 1.1.1.5.2 | 비표면적·표면화학 | bet, electrode, na_epr |
-| 1.1.1.5.3 | 진밀도·탭밀도·충전성 | electrode, dry, si_network |
-| 1.1.2 | 활물질 | battery, chemistry, electrode |
-| 1.1.2.1 | 양극재 | chemistry, electrode, ni_pores |
-| 1.1.2.1.1 | 층상 산화물 | ni_redox, co_single, ni_pores |
-| 1.1.2.1.1.1 | NCM | ni_redox, ncm, ni_occupancy, ni_pores, atomic_weights, faraday_text |
-| 1.1.2.1.1.2 | NCA | nca_primary, ni_redox, ni_pores, atomic_weights, faraday_text |
-| 1.1.2.1.1.3 | LCO | lco_coating, lco_crack, oxidation, atomic_weights, faraday_text |
-| 1.1.2.1.2 | 인산염계 | mn_olivine, lmfp_defect, lmfp_coating |
-| 1.1.2.1.2.1 | LFP | mn_olivine, lmfp_carbon, electrode, atomic_weights, faraday_text |
-| 1.1.2.1.2.2 | LMFP | mn_olivine, lmfp, lmfp_defect, lmfp_coating, atomic_weights, faraday_text |
-| 1.1.2.1.3 | 스피넬계 | lmo, lnmo, mn_phase |
-| 1.1.2.1.3.1 | LMO | lmo, mn_phase, mn_anode, atomic_weights, faraday_text |
-| 1.1.2.1.3.2 | LNMO | lnmo, oxidation, electrolyte, atomic_weights, faraday_text |
-| 1.1.2.1.4 | 황·전환반응계 | sulfur, sulfur_solid |
-| 1.1.2.1.4.1 | 황 양극 | sulfur, sulfur_solid, atomic_weights, faraday_text |
-| 1.1.2.2 | 음극재 | chemistry, silicon, li_plating |
-| 1.1.2.2.1 | 탄소계 | graphite_charge, hardcarbon, na_epr, na_mof |
-| 1.1.2.2.1.1 | 흑연 | graphite, graphite_charge, li_plating, atomic_weights, faraday_text |
-| 1.1.2.2.1.1.1 | 천연흑연 | graphite, electrode, si_network |
-| 1.1.2.2.1.1.2 | 인조흑연 | graphite, electrode, si_network |
-| 1.1.2.2.1.2 | 하드카본 | hardcarbon, na_epr, na_desolv, na_mof |
-| 1.1.2.2.2 | Si계·합금계 | silicon, si_network |
-| 1.1.2.2.2.1 | Si | silicon, si_network |
-| 1.1.2.2.2.2 | SiOₓ | silicon, si_network |
-| 1.1.2.2.2.3 | Si-C 복합체 | silicon, si_network, graphite |
-| 1.1.2.2.3 | 삽입형 산화물 | lto, cnt_lto |
-| 1.1.2.2.3.1 | LTO | lto, cnt_lto, atomic_weights, faraday_text |
-| 1.1.2.2.4 | 금속 음극 | li_dead, li_quant, poly_gradient |
-| 1.1.2.2.4.1 | 리튬 금속 음극 | li_dead, li_quant, oxide_shield, poly_gradient |
-| 1.1.3 | 바인더 | binders, dry, si_network |
-| 1.1.3.1 | PVDF | dry2, binders, fluorinefree |
-| 1.1.3.2 | CMC | binders, cmc_adsorb |
-| 1.1.3.3 | SBR | binders, cmc_adsorb |
-| 1.1.3.4 | PAA | paa_primary, paa_new, si_network |
-| 1.1.3.5 | PTFE | dry, dry2, fluorinefree |
-| 1.1.4 | 도전재 | electrode, cnt_binder, si_network |
-| 1.1.4.1 | 카본블랙 | electrode, dry, si_network |
-| 1.1.4.2 | CNT | cnt_lto, cnt_binder |
-| 1.1.4.3 | 그래핀 | cnt_lto, lnmo |
-| 1.1.5 | 전해질 | electrolyte, solid, poly_gradient |
-| 1.1.5.1 | 액체 전해질 | electrolyte, pf6_solvent, fsi_conc |
-| 1.1.5.1.1 | 리튬염 | electrolyte, pf6_hydro, al_salt, fsi_conc |
-| 1.1.5.1.1.1 | LiPF₆ | pf6_hydro, pf6_solvent, al_salt |
-| 1.1.5.1.1.2 | LiFSI | fsi_conc, electrolyte, al_salt |
-| 1.1.5.1.1.3 | LiTFSI | al_salt, peo_network, electrolyte |
-| 1.1.5.1.2 | 용매 | electrolyte, na_desolv, na_mof |
-| 1.1.5.1.3 | 첨가제 | formation, pf6_solvent, electrolyte |
-| 1.1.5.2 | 고체 전해질 | solid, oxide_shield, poly_gradient |
-| 1.1.5.2.1 | 황화물계 | sulfide, lco_coating, sulfide_new, o_sulfide |
-| 1.1.5.2.2 | 산화물계 | oxide_shield, oxide_plastic, poly_gradient |
-| 1.1.5.2.3 | 고분자계 | peo_network, poly_gradient |
-| 1.1.5.3 | 겔·고분자 전해질 | gel_contact, peo_network |
-| 1.1.5.4 | SEI·CEI 계면막 | formation, li_dead, na_mof, lco_coating |
-| 1.1.6 | 분리막 | celgard, wetting, separator_new |
-| 1.1.6.1 | PE·PP계 | celgard, wetting |
-| 1.1.6.2 | 세라믹·기능성 코팅 | separator_new, celgard, wetting |
-| 1.1.7 | 집전체 | collector_res, al_salt, cu_over |
-| 1.1.7.1 | Al 집전체 | al_salt, fsi_conc |
-| 1.1.7.2 | Cu 집전체 | cu_over, collector_res |
-| 1.1.7.3 | 표면 처리·복합 집전체 | collector_res, al_salt |
-| 1.2 | 전극 설계 | electrode |
-| 1.2.1 | 조성·활물질 비율 | dry2 |
-| 1.2.2 | 로딩량·면적당 용량 | electrode |
-| 1.2.3 | 두께·밀도·공극률 | electrode |
-| 1.2.4 | 이온·전자 전달망 | electrode |
-| 1.2.5 | N/P·리튬 재고 | degradation |
-| 1.2.6 | 접착·계면·젖음 | wetting |
-| 1.3 | 셀·시스템 설계 | battery |
-| 1.3.1 | 용도·요구 성능 | battery |
-| 1.3.2 | 원통형·각형·파우치 | battery |
-| 1.3.3 | 전압·SOC·온도 사용창 | degradation |
-| 1.3.4 | 전해액량·압력 | wetting |
-| 1.3.5 | 모듈·팩·BMS | health |
-| 1.3.6 | 분해·재사용을 고려한 설계 | recycle |
-| 1.4 | 평가·분석·열화 | degradation |
-| 1.4.1 | 전기화학 평가 | cycling |
-| 1.4.1.1 | GCD·CC-CV | cycling |
-| 1.4.1.2 | C-rate·수명·쿨롱 효율 | cycling |
-| 1.4.1.3 | EIS | eis |
-| 1.4.1.4 | CV·LSV | cv |
-| 1.4.1.5 | GITT·PITT | gitt |
-| 1.4.1.6 | DCIR·HPPC | health |
-| 1.4.1.7 | dQ/dV·OCV·자가방전 | degradation |
-| 1.4.2 | 소재·전극 기기분석 | xps |
-| 1.4.2.1 | XRD | xrd |
-| 1.4.2.2 | SEM·EDS·TEM | xps |
-| 1.4.2.3 | XPS·표면분석 | xps |
-| 1.4.2.4 | ICP-OES·ICP-MS | icp |
-| 1.4.2.5 | GC·HPLC·MS | gc |
-| 1.4.2.6 | PSA·BET·공극분석 | bet |
-| 1.4.2.7 | DSC·TGA·ARC | thermal |
-| 1.4.3 | 열화·고장 분석 | degradation |
-| 1.4.3.1 | LLI: 순환 가능한 Li 감소 | degradation |
-| 1.4.3.2 | LAM: 반응 가능한 활물질 감소 | degradation |
-| 1.4.3.3 | 저항·분극 증가 | degradation |
-| 1.4.3.4 | 리튬 석출·고립 | limetal |
-| 1.4.3.5 | 전극 간 영향·용출 | lmo |
-| 1.4.3.6 | 고장 원인과 기여 요인 | health |
-| 1.4.4 | 안전·열 특성 | thermal |
-| 1.4.5 | 국제·국내 표준 | statistics |
-| 1.5 | 다화학계·차세대전지 | solid |
-| 1.5.1 | 전고체전지 | sulfide |
-| 1.5.2 | 나트륨이온전지 | solid |
-| 1.5.3 | 리튬황전지 | sulfur |
-| 1.5.4 | 리튬 금속 전지 | limetal |
-| 2 | 공정 | dry2 |
-| 2.1 | 원료·소재 제조 | calcination |
-| 2.1.1 | 입고·보관·수입검사 | air, statistics |
-| 2.1.2 | 전구체·공침·결정화 | precursor, surface, calcination |
-| 2.1.3 | 리튬화·소성 | calcination, precursor, xrd |
-| 2.1.4 | 분쇄·분급·도핑·코팅 | surface, lmo, bet |
-| 2.1.5 | 흑연·Si계 소재 제조 | graphite, silicon, electrode |
-| 2.2 | 전극 제조 | dry2 |
-| 2.2.1 | 습식 전극 | dry2 |
-| 2.2.1.1 | 계량·배합 | dry2 |
-| 2.2.1.2 | 혼합·분산 | dry2 |
-| 2.2.1.3 | 유변학·슬러리 안정성 | binders |
-| 2.2.1.4 | 여과·탈포·저장 | dry2 |
-| 2.2.1.5 | 도공 | dry2 |
-| 2.2.1.6 | 건조·용매 회수 | dry2 |
-| 2.2.2 | 건식 전극 | dry |
-| 2.2.2.1 | 분체 혼합 | dry |
-| 2.2.2.2 | 바인더 섬유화 | dry |
-| 2.2.2.3 | 필름화·집전체 접합 | dry |
-| 2.2.3 | 압연·가공·최종 건조 | dry2 |
-| 2.2.3.1 | 압연 | electrode |
-| 2.2.3.2 | 슬리팅·노칭 | dry2 |
-| 2.2.3.3 | 진공 건조 | air |
-| 2.2.3.4 | 전극 완제품 품질 | statistics |
-| 2.2.4 | 스케일업·공정창 | statistics |
-| 2.2.4.1 | 교반·분산 스케일업 | statistics |
-| 2.2.4.2 | 도공·건조 스케일업 | dry2 |
-| 2.2.4.3 | DOE: 실험계획법 | statistics |
-| 2.3 | 셀 조립 | battery |
-| 2.3.1 | 적층·권취 | battery |
-| 2.3.2 | 탭·용접 | battery |
-| 2.3.3 | 주액·함침 | wetting |
-| 2.3.4 | 밀봉·누설검사 | battery |
-| 2.3.5 | 코인셀·하프셀 | cycling |
-| 2.4 | 화성·숙성·선별 | formation |
-| 2.4.1 | 초기 충전·계면막 형성 | formation |
-| 2.4.2 | 탈기 | formation |
-| 2.4.3 | 숙성·자가방전 | health |
-| 2.4.4 | 검사·등급 선별 | health |
-| 2.5 | 품질·공정 데이터 | statistics |
-| 2.5.1 | CTQ: 핵심 품질 특성 | statistics |
-| 2.5.2 | SPC: 통계적 공정관리 | statistics |
-| 2.5.3 | MSA: 측정시스템 분석 | statistics |
-| 2.5.4 | 로트·설비·시료 추적 | statistics |
-| 2.5.5 | Python·MATLAB·분석 도구 | statistics |
-| 2.5.6 | 데이터·모델 검증 | statistics |
-| 2.6 | 재사용·재활용 | recycle |
-| 2.6.1 | 회수·이력·안전 상태 | health |
-| 2.6.2 | 잔존성능·재사용 진단 | health |
-| 2.6.3 | 재사용·재제조 | secondlife |
-| 2.6.4 | 분해·전처리 | recycle |
-| 2.6.5 | 건식 제련 | recycle2 |
-| 2.6.6 | 습식 제련 | hydro |
-| 2.6.7 | 직접 재활용·재리튬화 | recycle |
-| 2.6.8 | 회수 소재의 품질 평가 | recycle |
-| 2.7 | 공급망·산업·직무 | recycle |
+| 1.1.1.1.5 | Fe: 철 |  |
+| 1.1.1.1.6 | P: 인 |  |
+| 1.1.1.1.7 | C: 탄소 |  |
+| 1.1.1.1.8 | Si: 규소 |  |
+| 1.1.1.1.9 | Al: 알루미늄 |  |
+| 1.1.1.1.10 | Cu: 구리 |  |
+| 1.1.1.1.11 | O: 산소 |  |
+| 1.1.1.1.12 | Na: 나트륨 |  |
+| 1.1.1.2 | 결정구조·결함 |  |
+| 1.1.1.2.1 | 층상 구조 |  |
+| 1.1.1.2.2 | 올리빈 구조 |  |
+| 1.1.1.2.3 | 스피넬 구조 |  |
+| 1.1.1.2.4 | 공공·자리 혼입·입계 |  |
+| 1.1.1.2.5 | 상전이·응력·균열 |  |
+| 1.1.1.3 | 전자구조·결합 |  |
+| 1.1.1.3.1 | 화학결합·산화수 |  |
+| 1.1.1.3.2 | 오비탈·밴드·전자상태 |  |
+| 1.1.1.3.3 | 산화·환원과 전위 |  |
+| 1.1.1.4 | 전달·반응·열 특성 |  |
+| 1.1.1.4.1 | 확산·이온 전달 |  |
+| 1.1.1.4.2 | 전자 전달 |  |
+| 1.1.1.4.3 | 열전달·열 안정성 |  |
+| 1.1.1.4.4 | 계면 반응·젖음성 |  |
+| 1.1.1.5 | 입자·분체·표면 |  |
+| 1.1.1.5.1 | 입도·입도분포 |  |
+| 1.1.1.5.2 | 비표면적·표면화학 |  |
+| 1.1.1.5.3 | 진밀도·탭밀도·충전성 |  |
+| 1.1.2 | 활물질 |  |
+| 1.1.2.1 | 양극재 |  |
+| 1.1.2.1.1 | 층상 산화물 |  |
+| 1.1.2.1.1.1 | NCM |  |
+| 1.1.2.1.1.2 | NCA |  |
+| 1.1.2.1.1.3 | LCO |  |
+| 1.1.2.1.2 | 인산염계 |  |
+| 1.1.2.1.2.1 | LFP |  |
+| 1.1.2.1.2.2 | LMFP |  |
+| 1.1.2.1.3 | 스피넬계 |  |
+| 1.1.2.1.3.1 | LMO |  |
+| 1.1.2.1.3.2 | LNMO |  |
+| 1.1.2.1.4 | 황·전환반응계 |  |
+| 1.1.2.1.4.1 | 황 양극 |  |
+| 1.1.2.2 | 음극재 |  |
+| 1.1.2.2.1 | 탄소계 |  |
+| 1.1.2.2.1.1 | 흑연 |  |
+| 1.1.2.2.1.1.1 | 천연흑연 |  |
+| 1.1.2.2.1.1.2 | 인조흑연 |  |
+| 1.1.2.2.1.2 | 하드카본 |  |
+| 1.1.2.2.2 | Si계·합금계 |  |
+| 1.1.2.2.2.1 | Si |  |
+| 1.1.2.2.2.2 | SiOₓ |  |
+| 1.1.2.2.2.3 | Si-C 복합체 |  |
+| 1.1.2.2.3 | 삽입형 산화물 |  |
+| 1.1.2.2.3.1 | LTO |  |
+| 1.1.2.2.4 | 금속 음극 |  |
+| 1.1.2.2.4.1 | 리튬 금속 음극 |  |
+| 1.1.3 | 바인더 |  |
+| 1.1.3.1 | PVDF |  |
+| 1.1.3.2 | CMC |  |
+| 1.1.3.3 | SBR |  |
+| 1.1.3.4 | PAA |  |
+| 1.1.3.5 | PTFE |  |
+| 1.1.4 | 도전재 |  |
+| 1.1.4.1 | 카본블랙 |  |
+| 1.1.4.2 | CNT |  |
+| 1.1.4.3 | 그래핀 |  |
+| 1.1.5 | 전해질 |  |
+| 1.1.5.1 | 액체 전해질 |  |
+| 1.1.5.1.1 | 리튬염 |  |
+| 1.1.5.1.1.1 | LiPF₆ |  |
+| 1.1.5.1.1.2 | LiFSI |  |
+| 1.1.5.1.1.3 | LiTFSI |  |
+| 1.1.5.1.2 | 용매 |  |
+| 1.1.5.1.3 | 첨가제 |  |
+| 1.1.5.2 | 고체 전해질 |  |
+| 1.1.5.2.1 | 황화물계 |  |
+| 1.1.5.2.2 | 산화물계 |  |
+| 1.1.5.2.3 | 고분자계 |  |
+| 1.1.5.3 | 겔·고분자 전해질 |  |
+| 1.1.5.4 | SEI·CEI 계면막 |  |
+| 1.1.6 | 분리막 |  |
+| 1.1.6.1 | PE·PP계 |  |
+| 1.1.6.2 | 세라믹·기능성 코팅 |  |
+| 1.1.7 | 집전체 |  |
+| 1.1.7.1 | Al 집전체 |  |
+| 1.1.7.2 | Cu 집전체 |  |
+| 1.1.7.3 | 표면 처리·복합 집전체 |  |
+| 1.2 | 전극 설계 |  |
+| 1.2.1 | 조성·활물질 비율 |  |
+| 1.2.2 | 로딩량·면적당 용량 |  |
+| 1.2.3 | 두께·밀도·공극률 |  |
+| 1.2.4 | 이온·전자 전달망 |  |
+| 1.2.5 | N/P·리튬 재고 |  |
+| 1.2.6 | 접착·계면·젖음 |  |
+| 1.3 | 셀·시스템 설계 |  |
+| 1.3.1 | 용도·요구 성능 |  |
+| 1.3.2 | 원통형·각형·파우치 |  |
+| 1.3.3 | 전압·SOC·온도 사용창 |  |
+| 1.3.4 | 전해액량·압력 |  |
+| 1.3.5 | 모듈·팩·BMS |  |
+| 1.3.6 | 분해·재사용을 고려한 설계 |  |
+| 1.4 | 평가·분석·열화 |  |
+| 1.4.1 | 전기화학 평가 |  |
+| 1.4.1.1 | GCD·CC-CV |  |
+| 1.4.1.2 | C-rate·수명·쿨롱 효율 |  |
+| 1.4.1.3 | EIS |  |
+| 1.4.1.4 | CV·LSV |  |
+| 1.4.1.5 | GITT·PITT |  |
+| 1.4.1.6 | DCIR·HPPC |  |
+| 1.4.1.7 | dQ/dV·OCV·자가방전 |  |
+| 1.4.2 | 소재·전극 기기분석 |  |
+| 1.4.2.1 | XRD |  |
+| 1.4.2.2 | SEM·EDS·TEM |  |
+| 1.4.2.3 | XPS·표면분석 |  |
+| 1.4.2.4 | ICP-OES·ICP-MS |  |
+| 1.4.2.5 | GC·HPLC·MS |  |
+| 1.4.2.6 | PSA·BET·공극분석 |  |
+| 1.4.2.7 | DSC·TGA·ARC |  |
+| 1.4.3 | 열화·고장 분석 |  |
+| 1.4.3.1 | LLI: 순환 가능한 Li 감소 |  |
+| 1.4.3.2 | LAM: 반응 가능한 활물질 감소 |  |
+| 1.4.3.3 | 저항·분극 증가 |  |
+| 1.4.3.4 | 리튬 석출·고립 |  |
+| 1.4.3.5 | 전극 간 영향·용출 |  |
+| 1.4.3.6 | 고장 원인과 기여 요인 |  |
+| 1.4.4 | 안전·열 특성 |  |
+| 1.4.5 | 국제·국내 표준 |  |
+| 1.5 | 다화학계·차세대전지 |  |
+| 1.5.1 | 전고체전지 |  |
+| 1.5.2 | 나트륨이온전지 |  |
+| 1.5.3 | 리튬황전지 |  |
+| 1.5.4 | 리튬 금속 전지 |  |
+| 2 | 공정 |  |
+| 2.1 | 원료·소재 제조 |  |
+| 2.1.1 | 입고·보관·수입검사 |  |
+| 2.1.2 | 전구체·공침·결정화 |  |
+| 2.1.3 | 리튬화·소성 |  |
+| 2.1.4 | 분쇄·분급·도핑·코팅 |  |
+| 2.1.5 | 흑연·Si계 소재 제조 |  |
+| 2.2 | 전극 제조 |  |
+| 2.2.1 | 습식 전극 |  |
+| 2.2.1.1 | 계량·배합 |  |
+| 2.2.1.2 | 혼합·분산 |  |
+| 2.2.1.3 | 유변학·슬러리 안정성 |  |
+| 2.2.1.4 | 여과·탈포·저장 |  |
+| 2.2.1.5 | 도공 |  |
+| 2.2.1.6 | 건조·용매 회수 |  |
+| 2.2.2 | 건식 전극 |  |
+| 2.2.2.1 | 분체 혼합 |  |
+| 2.2.2.2 | 바인더 섬유화 |  |
+| 2.2.2.3 | 필름화·집전체 접합 |  |
+| 2.2.3 | 압연·가공·최종 건조 |  |
+| 2.2.3.1 | 압연 |  |
+| 2.2.3.2 | 슬리팅·노칭 |  |
+| 2.2.3.3 | 진공 건조 |  |
+| 2.2.3.4 | 전극 완제품 품질 |  |
+| 2.2.4 | 스케일업·공정창 |  |
+| 2.2.4.1 | 교반·분산 스케일업 |  |
+| 2.2.4.2 | 도공·건조 스케일업 |  |
+| 2.2.4.3 | DOE: 실험계획법 |  |
+| 2.3 | 셀 조립 |  |
+| 2.3.1 | 적층·권취 |  |
+| 2.3.2 | 탭·용접 |  |
+| 2.3.3 | 주액·함침 |  |
+| 2.3.4 | 밀봉·누설검사 |  |
+| 2.3.5 | 코인셀·하프셀 |  |
+| 2.4 | 화성·숙성·선별 |  |
+| 2.4.1 | 초기 충전·계면막 형성 |  |
+| 2.4.2 | 탈기 |  |
+| 2.4.3 | 숙성·자가방전 |  |
+| 2.4.4 | 검사·등급 선별 |  |
+| 2.5 | 품질·공정 데이터 |  |
+| 2.5.1 | CTQ: 핵심 품질 특성 |  |
+| 2.5.2 | SPC: 통계적 공정관리 |  |
+| 2.5.3 | MSA: 측정시스템 분석 |  |
+| 2.5.4 | 로트·설비·시료 추적 |  |
+| 2.5.5 | Python·MATLAB·분석 도구 |  |
+| 2.5.6 | 데이터·모델 검증 |  |
+| 2.6 | 재사용·재활용 |  |
+| 2.6.1 | 회수·이력·안전 상태 |  |
+| 2.6.2 | 잔존성능·재사용 진단 |  |
+| 2.6.3 | 재사용·재제조 |  |
+| 2.6.4 | 분해·전처리 |  |
+| 2.6.5 | 건식 제련 |  |
+| 2.6.6 | 습식 제련 |  |
+| 2.6.7 | 직접 재활용·재리튬화 |  |
+| 2.6.8 | 회수 소재의 품질 평가 |  |
+| 2.7 | 공급망·산업·직무 |  |

@@ -8,7 +8,7 @@
 
 1. GitHub와 로컬의 최신 상태 및 `study-plan.md`의 현재 목표 확인.
 2. 사용자가 지정한 학습 항목의 선수학습·기초·핵심 설명·근거 보완.
-3. 항목별 상세 Markdown·PDF와 모든 상위 합본 갱신.
+3. 요청한 항목의 상세 Markdown과 분류 목차 갱신. PDF는 별도 요청 시 채팅용으로만 제공.
 4. 분류·문서 링크·PDF 포함 범위 및 화면 배치 검증.
 5. 계획·INDEX 갱신 후 검증한 변경의 커밋·GitHub 반영.
 
@@ -18,7 +18,7 @@
 
 - Python 생성·검증 도구는 `Tools/`에 둔다. 데이터 원본과 관계 정보는 `Data/`에서 관리한다.
 - 항목별 상세문서는 `Knowledge/items/`, 이전 주제별 보완 설명은 `Knowledge/topics/`, 질문·아이디어는 `Knowledge/ideas/`에 둔다.
-- 현재 항목 PDF와 상위 합본은 `References/wbs/`, 이전 원문 참고 PDF는 `References/topics/`에 둔다.
+- 기존에 보존한 Li·Ni·Mn의 개별 PDF는 `References/wbs/`, 이전 원문 참고 PDF는 `References/topics/`에 둔다.
 - 운영·분류·근거·기술 결정은 `Docs/`, 작업·산출물 중심의 프로젝트 WBS는 `Projects/`, 공통 작성 양식은 `Templates/`에 둔다.
 - 현재 기술은 Python, JSON, Markdown, PDF와 Git이다. 기존 PDF 도구의 `reportlab`·`pymupdf` 및 Noto Sans KR 글꼴 체계를 따른다.
 - 웹앱 프레임워크·클라우드 서비스·새 외부 의존성은 해당 기능이 필요할 때 선택한다. 기존 분류를 임의로 새 앱 구조에 맞춰 재편하지 않는다.
@@ -44,8 +44,16 @@
 
 - `index.md`를 전체 구조 안내로 유지한다. 기존 링크와 수동 설명을 보존한다.
 - 독립된 주제는 새 Markdown 문서로 만들고, 같은 주제의 보완은 기존 문서에 반영한다.
-- 항목별 학습내용은 `Data/wbs-learning.json`에서 수정한 뒤 기존 생성 도구로 반영한다. 생성되는 Markdown만 직접 고치지 않는다.
+- 항목별 학습내용은 `Data/wbs-learning.json`에서 수정한 뒤 기존 생성 도구로 반영한다. 생성되는 Markdown만 직접 고치지 않는다. 읽기용 문서는 `Tools/build_wbs_markdown.py`로 갱신하며 PDF 제작과 분리한다.
 - 계획·운영 문서는 Markdown으로 직접 관리한다.
+
+## 학습 상태와 PDF 제공
+
+- Li·Ni·Mn·EIS는 사용자가 읽고 수정을 시작한 항목으로 `학습중`을 유지한다. 다른 항목은 시작 의사를 확인한 때 학습중으로 바꾸며 자료 작성만으로 완료 처리하지 않는다.
+- 자동 작성한 기본 요약·상세 Markdown과 PDF는 Li·Ni·Mn을 제외하고 삭제했다. 분류 번호·이름·관계는 보존하고 미작성 항목의 본문이나 PDF를 자동으로 채우지 않는다.
+- 모든 상위·하위 전체 합본 PDF를 폐지한다. PDF 대상은 가장 아래의 개별 학습 항목이다. 하위 문서 수정으로 상위 PDF를 만들거나 갱신하지 않는다.
+- 새 PDF는 사용자가 별도로 요청한 때만 GitHub 최신 내용을 확인해 제작하고 이 채팅에서 공부용으로 제공한다. 저장소 밖 산출물 경로를 사용하며 PDF를 자동 커밋·GitHub 업로드하지 않는다. 보존한 기존 PDF는 학습 상태 변경만으로 재생성하지 않는다.
+- `Data/publication-policy.json`에 보존 자료와 PDF 제공 정책을 기록한다. 저장소에 새 PDF를 게시하는 것은 사용자가 따로 요청한 경우에만 한다.
 
 ## 교육 목적의 분석 설명
 
