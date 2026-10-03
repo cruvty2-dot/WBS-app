@@ -9,7 +9,7 @@ domain: battery-engineering
 source_repo: cruvty2-dot/battery-study
 source_branch: main
 root_document: study-plan.md
-updated_at: 2026-10-03
+updated_at: 2026-10-04
 ---
 
 # INDEX — Battery Study
@@ -187,7 +187,7 @@ Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확
 | [기존 Li 문서 경로](Knowledge/materials/Li.md) | 최신 항목 문서로 안내 |
 | [재사용 아이디어](Knowledge/ideas/재사용_아이디어.md) | 아이디어를 질문·검증 과제로 정리 |
 | [재사용 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md) | 작업·산출물·완료 기준의 구조 예시 |
-| [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md) | CSV 4개 검증·지표·Nyquist·Bode 그래프 |
+| [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md) | 분석 요청 양식·CSV 4개 검증·지표·Nyquist·Bode 그래프 |
 | [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md) | ID01 한 파일의 좌표 계산·주석 그래프·조건 비교 절차 |
 | [학습문서 양식](Templates/학습문서.md) | 항목별 학습문서 공통 구성 |
 | [작업요청 양식](Templates/작업요청.md) | 목적·입력·조건·산출물·완료 기준 |
