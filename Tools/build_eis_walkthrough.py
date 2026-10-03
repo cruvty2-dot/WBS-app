@@ -30,6 +30,34 @@ def save(fig, name):
     plt.close(fig)
 
 
+def save_panels(fig, axes, names):
+    """Export each plotted axis with its own title, labels and annotations."""
+    fig.canvas.draw()
+    renderer = fig.canvas.get_renderer()
+    engine = fig.get_layout_engine()
+    axis_visibility = [ax.get_visible() for ax in axes]
+    text_visibility = [artist.get_visible() for artist in fig.texts]
+    # Freeze layout and hide other panels/figure text, which otherwise appear
+    # as clipped fragments inside a panel's padded export bounds.
+    fig.set_layout_engine(None)
+    try:
+        for artist in fig.texts:
+            artist.set_visible(False)
+        for ax, name in zip(axes, names, strict=True):
+            for other in axes:
+                other.set_visible(other is ax)
+            fig.canvas.draw()
+            renderer = fig.canvas.get_renderer()
+            bounds = ax.get_tightbbox(renderer).transformed(fig.dpi_scale_trans.inverted()).padded(.15)
+            fig.savefig(OUT / name, dpi=160, facecolor='white', bbox_inches=bounds)
+    finally:
+        for ax, visible in zip(axes, axis_visibility, strict=True):
+            ax.set_visible(visible)
+        for artist, visible in zip(fig.texts, text_visibility, strict=True):
+            artist.set_visible(visible)
+        fig.set_layout_engine(engine)
+
+
 def model(f, rs, rp, capacitance):
     return rs + rp / (1 + 1j * 2 * np.pi * f * rp * capacitance)
 
@@ -81,12 +109,14 @@ def main():
     for ax in axes:
         ax.scatter([x[0], x[-1]], [y[0], y[-1]], color='#117A88', s=45, zorder=4)
     fig.supxlabel('X와 Y 모두 선형·같은 비율. 44개 점 유지, 평활화·피팅 없음. 확대는 데이터 삭제가 아님.', fontsize=10)
+    save_panels(fig, axes, ['walkthrough_nyquist_full.png', 'walkthrough_nyquist_zoom.png'])
     save(fig, 'walkthrough_nyquist.png')
 
     fig, axes = plt.subplots(2, 1, figsize=(11, 7), sharex=True, layout='constrained')
     fig.suptitle('ID01 Bode · 같은 행을 주파수 축에서 다시 보기', fontsize=17, weight='bold')
     axes[0].semilogx(f, np.abs(d['z']) * 1000, '.-', color='#117A88')
-    axes[0].set(ylabel='|Z| [mΩ] · 선형 축', title='크기: 해당 주파수에서 전압/전류 응답 비율')
+    axes[0].set(xlabel='주파수 f [Hz] · 로그 축', ylabel='|Z| [mΩ] · 선형 축', title='크기: 해당 주파수에서 전압/전류 응답 비율')
+    axes[0].tick_params(axis='x', labelbottom=True)
     axes[1].semilogx(f, np.angle(d['z'], deg=True), '.-', color='#7964A8')
     axes[1].set(xlabel='주파수 f [Hz] · 로그 축', ylabel='위상 φ [°] · 선형 축', title='위상: 전압과 전류의 상대 위상')
     axes[1].axhline(0, color='#888', lw=.8)
@@ -99,6 +129,7 @@ def main():
                     arrowprops={'arrowstyle': '->'})
         style(ax)
     fig.supxlabel('로그 간격: 0.1 → 1 → 10 → 100 → 1000 Hz가 같은 폭. 시간 경과나 충방전 순서가 아님.', fontsize=10)
+    save_panels(fig, axes, ['walkthrough_bode_magnitude.png', 'walkthrough_bode_phase.png'])
     save(fig, 'walkthrough_bode.png')
 
     frequencies = np.logspace(-3, 7, 1000)
@@ -120,15 +151,16 @@ def main():
         ax.set_aspect('equal', adjustable='box')
         style(ax)
     axes[0].plot(rs_up.real * 1000, -rs_up.imag * 1000, color='#D18425', lw=2, label='Rs만 +5 mΩ')
-    axes[0].set_title('Rs 증가 → 같은 모양을 오른쪽으로 이동')
+    axes[0].set_title('교육용 모형 · Rs 증가 → 같은 모양을 오른쪽으로 이동', fontsize=12)
     axes[0].annotate('+5 mΩ', (24, 5), xytext=(19, 5), arrowprops={'arrowstyle': '<->'}, fontsize=10)
     axes[1].plot(rp_up.real * 1000, -rp_up.imag * 1000, color='#7964A8', lw=2, label='Rp만 10 → 20 mΩ')
-    axes[1].set_title('Rp 증가 → 반원 폭·높이 증가, 꼭대기 주파수 감소')
+    axes[1].set_title('교육용 모형 · Rp 증가 → 반원 폭·높이 증가, 꼭대기 주파수 감소', fontsize=12)
     axes[1].annotate('318.3 Hz', (19, 5), xytext=(17, 6.5), arrowprops={'arrowstyle': '->'}, fontsize=10)
     axes[1].annotate('159.2 Hz', (24, 10), xytext=(27, 11), arrowprops={'arrowstyle': '->'}, fontsize=10)
     for ax in axes:
         ax.legend(fontsize=9, loc='lower right')
     fig.supxlabel('Z = Rs + Rp/(1 + j·2πf·Rp·C), C = 0.05 F 고정. 파라미터 효과를 분리한 계산 예시.', fontsize=10)
+    save_panels(fig, axes, ['walkthrough_model_rs.png', 'walkthrough_model_rp.png'])
     save(fig, 'walkthrough_model_effects.png')
     record = {'role': 'learning_walkthrough', 'input_file': INPUT.relative_to(ROOT).as_posix(),
               'input_sha256': hashlib.sha256(INPUT.read_bytes()).hexdigest(), 'rows': len(f),
@@ -139,6 +171,8 @@ def main():
                                  'phase_deg': float(np.angle(d['z'][worked], deg=True))},
               'hf_crossing_proxy': m['hf_crossing_real_proxy'],
               'data_validation': d['quality'],
+              'teaching_figures': ['walkthrough_nyquist_full.png', 'walkthrough_nyquist_zoom.png',
+                                   'walkthrough_bode_magnitude.png', 'walkthrough_bode_phase.png'],
               'model': {'data_type': 'synthetic_educational', 'fit_performed': False,
                         'rs_ohm': [.014, .019], 'rp_ohm': [.010, .020], 'c_f': .05,
                         'checks': ['Rs shift exactly 0.005 ohm with zero imaginary change',
@@ -146,7 +180,7 @@ def main():
               'packages': {'matplotlib': matplotlib.__version__, 'numpy': np.__version__}}
     (OUT / 'walkthrough-record.json').write_text(json.dumps(record, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(record['worked_example'], ensure_ascii=False))
-    print('Saved three annotated figures, selected-point CSV and validation record.')
+    print('Saved four individual data figures, two individual model figures, combined views, point CSV and validation record.')
 
 
 if __name__ == '__main__':

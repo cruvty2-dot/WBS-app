@@ -19,6 +19,12 @@
     "negative_real_count": 0,
     "rows": 44
   },
+  "teaching_figures": [
+    "walkthrough_nyquist_full.png",
+    "walkthrough_nyquist_zoom.png",
+    "walkthrough_bode_magnitude.png",
+    "walkthrough_bode_phase.png"
+  ],
   "model": {
     "data_type": "synthetic_educational",
     "fit_performed": false,
