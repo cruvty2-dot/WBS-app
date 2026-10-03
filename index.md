@@ -54,7 +54,7 @@ updated_at: 2026-10-03
 4. 링크·분류·PDF 포함 범위와 실제 배치를 검증한다.
 5. 작업 계획과 이 INDEX를 갱신하고 검증한 변경을 GitHub에 반영한다.
 
-구체적인 다음 학습 항목은 아직 지정되지 않았다. 웹앱·Hermes 연결은 사용자가 요청할 때 범위를 정해 진행한다.
+현재 요청한 EIS 예시 데이터 분석 결과는 [EIS 분석 보고서](Projects/eis-example-analysis/README.md)에서 확인한다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
 
 ## 문서 운영 원칙
 
@@ -78,6 +78,7 @@ updated_at: 2026-10-03
 | 완료 범위와 남은 작업 확인 | [작업 현황](Docs/작업_현황.md) |
 | 학습문서 작성 방식 확인 | [학습문서 양식](Templates/학습문서.md) |
 | 앱과 외부 도구 연결 계획 확인 | [앱 요구사항과 연동 계획](Docs/앱_요구사항과_연동계획.md) |
+| EIS 예시 분석·Nyquist·Bode 그래프 확인 | [EIS 예시 분석 결과](Projects/eis-example-analysis/README.md) |
 
 ## 폴더 구조
 
@@ -103,7 +104,7 @@ battery-study/
 └─ LICENSE                    저장소 라이선스
 ```
 
-Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확인한다. `Knowledge/items`의 상세문서는 10개이며, 나머지 185개 학습 항목은 핵심 요약 수준이다.
+Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확인한다. `Knowledge/items`의 상세문서는 98개(소재·재료 93개와 기존 원료 공정 5개)이며, 나머지 97개 학습 항목은 핵심 요약 수준이다. 문서 준비와 실제 학습 완료는 별도로 관리한다.
 
 ## 학습 분류와 문서 내부 구조
 
@@ -149,9 +150,13 @@ Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확
 
 ### 현재 상세 학습문서: Knowledge/items
 
+소재·재료 전체는 [1.1 WBS 목차](README.md#11-소재재료)와 아래 자동 문서 목록에서 찾는다. 다음 표는 기존 주요 항목의 빠른 탐색 링크다.
+
 | WBS 번호 | 문서 |
 | --- | --- |
 | 1.1.1.1.1 | [Li: 원소·Li⁺·금속 음극](Knowledge/items/1.1.1.1.1_Li_원소·Li⁺·금속_음극.md) |
+| 1.1.1.1.2 | [Ni: 니켈](Knowledge/items/1.1.1.1.2_Ni_니켈.md) |
+| 1.1.1.1.4 | [Mn: 망간](Knowledge/items/1.1.1.1.4_Mn_망간.md) |
 | 1.1.2.1.1.1 | [NCM](Knowledge/items/1.1.2.1.1.1_NCM.md) |
 | 1.1.2.1.2.1 | [LFP](Knowledge/items/1.1.2.1.2.1_LFP.md) |
 | 1.1.2.1.2.2 | [LMFP](Knowledge/items/1.1.2.1.2.2_LMFP.md) |
@@ -189,6 +194,7 @@ Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확
 | [기존 Li 문서 경로](Knowledge/materials/Li.md) | 최신 항목 문서와 PDF로 안내 |
 | [재사용 아이디어](Knowledge/ideas/재사용_아이디어.md) | 아이디어를 질문·검증 과제로 정리 |
 | [재사용 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md) | 작업·산출물·완료 기준의 구조 예시 |
+| [EIS 예시 분석 결과](Projects/eis-example-analysis/README.md) | CSV 4개 검증·지표·Nyquist·Bode 그래프 |
 | [학습문서 양식](Templates/학습문서.md) | 항목별 학습문서 공통 구성 |
 | [작업요청 양식](Templates/작업요청.md) | 목적·입력·조건·산출물·완료 기준 |
 | [WBS PDF 목록](References/wbs/README.md) | 항목별 PDF와 상위 합본 탐색 |
@@ -230,15 +236,17 @@ Data/taxonomy.json + Data/wbs-learning.json
 | 도구 | 용도 |
 | --- | --- |
 | [sync_document_index.py](Tools/sync_document_index.py) | 수동 구조 안내를 유지하며 전체 Markdown 링크 목록 동기화·파일 링크 검증 |
+| [analyze_eis_examples.py](Tools/analyze_eis_examples.py) | EIS 예시 분석·요약·그래프·분석 기록 생성 |
 | [build_wbs_pdfs.py](Tools/build_wbs_pdfs.py) | 항목별·상위 합본 PDF와 상세 Markdown 생성 |
 | [build_wbs_index.py](Tools/build_wbs_index.py) | README·PDF 목록·근거 목록과 문서 연결 갱신 |
 | [build_topic_pdfs.py](Tools/build_topic_pdfs.py) | 이전 원문 자료의 주제별 PDF 제작 |
 | [validate_wbs_pdfs.py](Tools/validate_wbs_pdfs.py) | WBS PDF 구조·포함 범위 검증 |
 | [validate_knowledge.py](Tools/validate_knowledge.py) | 분류 관계·로컬 문서 링크·자료 대응 검증 |
 
-저장소 루트에서 다음 순서로 실행한다. PDF 생성에는 `reportlab`, `pymupdf`, Noto Sans KR 정적 TTF 400·700이 필요하다.
+저장소 루트에서 다음 순서로 실행한다. PDF 생성에는 `reportlab`, `pymupdf`, Noto Sans KR 정적 TTF 400·700과 수식 기호용 DejaVu Sans가 필요하다. 소재 그림 생성에는 `matplotlib`, `numpy`가 필요하다.
 
 ```bash
+python Tools/build_material_figures.py --font-dir /path/to/fonts
 python Tools/build_wbs_pdfs.py --font-dir /path/to/fonts
 python Tools/build_wbs_index.py
 python Tools/validate_wbs_pdfs.py
@@ -250,7 +258,7 @@ python Tools/validate_knowledge.py
 <!-- document-index:start -->
 ## 자동 문서 목록
 
-Markdown 총 42개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다.
+Markdown 총 132개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다.
 
 ### 루트
 
@@ -265,16 +273,105 @@ Markdown 총 42개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다
 - [이차전지 지식 분류안](Docs/이차전지_지식분류안.md)
 - [작업 현황](Docs/작업_현황.md)
 - [저장 구조와 기록 규칙](Docs/저장_구조와_기록규칙.md)
+- [학습문서 구성과 소분류 기준](Docs/학습문서_구성기준.md)
 ### Knowledge/ideas
 
 - [배터리 재사용·재생 아이디어](Knowledge/ideas/재사용_아이디어.md)
 ### Knowledge/items
 
+- [1.1.1.1.10 Cu: 구리](Knowledge/items/1.1.1.1.10_Cu_구리.md)
+- [1.1.1.1.11 O: 산소](Knowledge/items/1.1.1.1.11_O_산소.md)
+- [1.1.1.1.12 Na: 나트륨](Knowledge/items/1.1.1.1.12_Na_나트륨.md)
 - [1.1.1.1.1 Li: 원소·Li⁺·금속 음극](Knowledge/items/1.1.1.1.1_Li_원소·Li⁺·금속_음극.md)
+- [1.1.1.1.2 Ni: 니켈](Knowledge/items/1.1.1.1.2_Ni_니켈.md)
+- [1.1.1.1.3 Co: 코발트](Knowledge/items/1.1.1.1.3_Co_코발트.md)
+- [1.1.1.1.4 Mn: 망간](Knowledge/items/1.1.1.1.4_Mn_망간.md)
+- [1.1.1.1.5 Fe: 철](Knowledge/items/1.1.1.1.5_Fe_철.md)
+- [1.1.1.1.6 P: 인](Knowledge/items/1.1.1.1.6_P_인.md)
+- [1.1.1.1.7 C: 탄소](Knowledge/items/1.1.1.1.7_C_탄소.md)
+- [1.1.1.1.8 Si: 규소](Knowledge/items/1.1.1.1.8_Si_규소.md)
+- [1.1.1.1.9 Al: 알루미늄](Knowledge/items/1.1.1.1.9_Al_알루미늄.md)
+- [1.1.1.1 원소·이온](Knowledge/items/1.1.1.1_원소·이온.md)
+- [1.1.1.2.1 층상 구조](Knowledge/items/1.1.1.2.1_층상_구조.md)
+- [1.1.1.2.2 올리빈 구조](Knowledge/items/1.1.1.2.2_올리빈_구조.md)
+- [1.1.1.2.3 스피넬 구조](Knowledge/items/1.1.1.2.3_스피넬_구조.md)
+- [1.1.1.2.4 공공·자리 혼입·입계](Knowledge/items/1.1.1.2.4_공공·자리_혼입·입계.md)
+- [1.1.1.2.5 상전이·응력·균열](Knowledge/items/1.1.1.2.5_상전이·응력·균열.md)
+- [1.1.1.2 결정구조·결함](Knowledge/items/1.1.1.2_결정구조·결함.md)
+- [1.1.1.3.1 화학결합·산화수](Knowledge/items/1.1.1.3.1_화학결합·산화수.md)
+- [1.1.1.3.2 오비탈·밴드·전자상태](Knowledge/items/1.1.1.3.2_오비탈·밴드·전자상태.md)
+- [1.1.1.3.3 산화·환원과 전위](Knowledge/items/1.1.1.3.3_산화·환원과_전위.md)
+- [1.1.1.3 전자구조·결합](Knowledge/items/1.1.1.3_전자구조·결합.md)
+- [1.1.1.4.1 확산·이온 전달](Knowledge/items/1.1.1.4.1_확산·이온_전달.md)
+- [1.1.1.4.2 전자 전달](Knowledge/items/1.1.1.4.2_전자_전달.md)
+- [1.1.1.4.3 열전달·열 안정성](Knowledge/items/1.1.1.4.3_열전달·열_안정성.md)
+- [1.1.1.4.4 계면 반응·젖음성](Knowledge/items/1.1.1.4.4_계면_반응·젖음성.md)
+- [1.1.1.4 전달·반응·열 특성](Knowledge/items/1.1.1.4_전달·반응·열_특성.md)
+- [1.1.1.5.1 입도·입도분포](Knowledge/items/1.1.1.5.1_입도·입도분포.md)
+- [1.1.1.5.2 비표면적·표면화학](Knowledge/items/1.1.1.5.2_비표면적·표면화학.md)
+- [1.1.1.5.3 진밀도·탭밀도·충전성](Knowledge/items/1.1.1.5.3_진밀도·탭밀도·충전성.md)
+- [1.1.1.5 입자·분체·표면](Knowledge/items/1.1.1.5_입자·분체·표면.md)
+- [1.1.1 소재 특성·전공 기초](Knowledge/items/1.1.1_소재_특성·전공_기초.md)
 - [1.1.2.1.1.1 NCM](Knowledge/items/1.1.2.1.1.1_NCM.md)
+- [1.1.2.1.1.2 NCA](Knowledge/items/1.1.2.1.1.2_NCA.md)
+- [1.1.2.1.1.3 LCO](Knowledge/items/1.1.2.1.1.3_LCO.md)
+- [1.1.2.1.1 층상 산화물](Knowledge/items/1.1.2.1.1_층상_산화물.md)
 - [1.1.2.1.2.1 LFP](Knowledge/items/1.1.2.1.2.1_LFP.md)
 - [1.1.2.1.2.2 LMFP](Knowledge/items/1.1.2.1.2.2_LMFP.md)
+- [1.1.2.1.2 인산염계](Knowledge/items/1.1.2.1.2_인산염계.md)
 - [1.1.2.1.3.1 LMO](Knowledge/items/1.1.2.1.3.1_LMO.md)
+- [1.1.2.1.3.2 LNMO](Knowledge/items/1.1.2.1.3.2_LNMO.md)
+- [1.1.2.1.3 스피넬계](Knowledge/items/1.1.2.1.3_스피넬계.md)
+- [1.1.2.1.4.1 황 양극](Knowledge/items/1.1.2.1.4.1_황_양극.md)
+- [1.1.2.1.4 황·전환반응계](Knowledge/items/1.1.2.1.4_황·전환반응계.md)
+- [1.1.2.1 양극재](Knowledge/items/1.1.2.1_양극재.md)
+- [1.1.2.2.1.1.1 천연흑연](Knowledge/items/1.1.2.2.1.1.1_천연흑연.md)
+- [1.1.2.2.1.1.2 인조흑연](Knowledge/items/1.1.2.2.1.1.2_인조흑연.md)
+- [1.1.2.2.1.1 흑연](Knowledge/items/1.1.2.2.1.1_흑연.md)
+- [1.1.2.2.1.2 하드카본](Knowledge/items/1.1.2.2.1.2_하드카본.md)
+- [1.1.2.2.1 탄소계](Knowledge/items/1.1.2.2.1_탄소계.md)
+- [1.1.2.2.2.1 Si](Knowledge/items/1.1.2.2.2.1_Si.md)
+- [1.1.2.2.2.2 SiOₓ](Knowledge/items/1.1.2.2.2.2_SiOₓ.md)
+- [1.1.2.2.2.3 Si-C 복합체](Knowledge/items/1.1.2.2.2.3_Si-C_복합체.md)
+- [1.1.2.2.2 Si계·합금계](Knowledge/items/1.1.2.2.2_Si계·합금계.md)
+- [1.1.2.2.3.1 LTO](Knowledge/items/1.1.2.2.3.1_LTO.md)
+- [1.1.2.2.3 삽입형 산화물](Knowledge/items/1.1.2.2.3_삽입형_산화물.md)
+- [1.1.2.2.4.1 리튬 금속 음극](Knowledge/items/1.1.2.2.4.1_리튬_금속_음극.md)
+- [1.1.2.2.4 금속 음극](Knowledge/items/1.1.2.2.4_금속_음극.md)
+- [1.1.2.2 음극재](Knowledge/items/1.1.2.2_음극재.md)
+- [1.1.2 활물질](Knowledge/items/1.1.2_활물질.md)
+- [1.1.3.1 PVDF](Knowledge/items/1.1.3.1_PVDF.md)
+- [1.1.3.2 CMC](Knowledge/items/1.1.3.2_CMC.md)
+- [1.1.3.3 SBR](Knowledge/items/1.1.3.3_SBR.md)
+- [1.1.3.4 PAA](Knowledge/items/1.1.3.4_PAA.md)
+- [1.1.3.5 PTFE](Knowledge/items/1.1.3.5_PTFE.md)
+- [1.1.3 바인더](Knowledge/items/1.1.3_바인더.md)
+- [1.1.4.1 카본블랙](Knowledge/items/1.1.4.1_카본블랙.md)
+- [1.1.4.2 CNT](Knowledge/items/1.1.4.2_CNT.md)
+- [1.1.4.3 그래핀](Knowledge/items/1.1.4.3_그래핀.md)
+- [1.1.4 도전재](Knowledge/items/1.1.4_도전재.md)
+- [1.1.5.1.1.1 LiPF₆](Knowledge/items/1.1.5.1.1.1_LiPF₆.md)
+- [1.1.5.1.1.2 LiFSI](Knowledge/items/1.1.5.1.1.2_LiFSI.md)
+- [1.1.5.1.1.3 LiTFSI](Knowledge/items/1.1.5.1.1.3_LiTFSI.md)
+- [1.1.5.1.1 리튬염](Knowledge/items/1.1.5.1.1_리튬염.md)
+- [1.1.5.1.2 용매](Knowledge/items/1.1.5.1.2_용매.md)
+- [1.1.5.1.3 첨가제](Knowledge/items/1.1.5.1.3_첨가제.md)
+- [1.1.5.1 액체 전해질](Knowledge/items/1.1.5.1_액체_전해질.md)
+- [1.1.5.2.1 황화물계](Knowledge/items/1.1.5.2.1_황화물계.md)
+- [1.1.5.2.2 산화물계](Knowledge/items/1.1.5.2.2_산화물계.md)
+- [1.1.5.2.3 고분자계](Knowledge/items/1.1.5.2.3_고분자계.md)
+- [1.1.5.2 고체 전해질](Knowledge/items/1.1.5.2_고체_전해질.md)
+- [1.1.5.3 겔·고분자 전해질](Knowledge/items/1.1.5.3_겔·고분자_전해질.md)
+- [1.1.5.4 SEI·CEI 계면막](Knowledge/items/1.1.5.4_SEI·CEI_계면막.md)
+- [1.1.5 전해질](Knowledge/items/1.1.5_전해질.md)
+- [1.1.6.1 PE·PP계](Knowledge/items/1.1.6.1_PE·PP계.md)
+- [1.1.6.2 세라믹·기능성 코팅](Knowledge/items/1.1.6.2_세라믹·기능성_코팅.md)
+- [1.1.6 분리막](Knowledge/items/1.1.6_분리막.md)
+- [1.1.7.1 Al 집전체](Knowledge/items/1.1.7.1_Al_집전체.md)
+- [1.1.7.2 Cu 집전체](Knowledge/items/1.1.7.2_Cu_집전체.md)
+- [1.1.7.3 표면 처리·복합 집전체](Knowledge/items/1.1.7.3_표면_처리·복합_집전체.md)
+- [1.1.7 집전체](Knowledge/items/1.1.7_집전체.md)
+- [1.1 소재·재료](Knowledge/items/1.1_소재·재료.md)
 - [2.1.1 입고·보관·수입검사](Knowledge/items/2.1.1_입고·보관·수입검사.md)
 - [2.1.2 전구체·공침·결정화](Knowledge/items/2.1.2_전구체·공침·결정화.md)
 - [2.1.3 리튬화·소성](Knowledge/items/2.1.3_리튬화·소성.md)
@@ -298,6 +395,9 @@ Markdown 총 42개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다
 - [전극 제조·혼합·도공·건조·압연](Knowledge/topics/10_electrode-manufacturing.md)
 - [건식전극·스케일업·품질](Knowledge/topics/11_dry-electrode-and-quality.md)
 - [공급망·재사용·재활용·직무](Knowledge/topics/12_recycling-and-applications.md)
+### Projects/eis-example-analysis
+
+- [EIS 예시 데이터 분석 결과](Projects/eis-example-analysis/README.md)
 ### Projects
 
 - [재사용 진단 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md)
