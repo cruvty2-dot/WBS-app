@@ -1,71 +1,7 @@
 {
   "schema_version": "1.0",
   "updated_at": "2026-10-03",
-  "rule": "Retained historical individual leaf PDFs only. New PDFs are requested chat deliverables, never parent compilations or automatic repository publications.",
-  "pdfs": [
-    {
-      "id": "element.li",
-      "wbs": "1.1.1.1.1",
-      "label": "Li: 원소·Li⁺·금속 음극",
-      "pdf_path": "References/wbs/1.1.1.1.1_Li_원소·Li⁺·금속_음극.pdf",
-      "pdf_pages": 12,
-      "own_pages": 12,
-      "included_ids": [
-        "element.li"
-      ],
-      "content_ranges": [
-        {
-          "id": "element.li",
-          "start_page": 1,
-          "end_page": 12,
-          "own_content_only": true
-        }
-      ],
-      "content_level": "상세문서",
-      "learning_status": "미학습"
-    },
-    {
-      "id": "element.ni",
-      "wbs": "1.1.1.1.2",
-      "label": "Ni: 니켈",
-      "pdf_path": "References/wbs/1.1.1.1.2_Ni_니켈.pdf",
-      "pdf_pages": 12,
-      "own_pages": 12,
-      "included_ids": [
-        "element.ni"
-      ],
-      "content_ranges": [
-        {
-          "id": "element.ni",
-          "start_page": 1,
-          "end_page": 12,
-          "own_content_only": true
-        }
-      ],
-      "content_level": "상세문서",
-      "learning_status": "미학습"
-    },
-    {
-      "id": "element.mn",
-      "wbs": "1.1.1.1.4",
-      "label": "Mn: 망간",
-      "pdf_path": "References/wbs/1.1.1.1.4_Mn_망간.pdf",
-      "pdf_pages": 11,
-      "own_pages": 11,
-      "included_ids": [
-        "element.mn"
-      ],
-      "content_ranges": [
-        {
-          "id": "element.mn",
-          "start_page": 1,
-          "end_page": 11,
-          "own_content_only": true
-        }
-      ],
-      "content_level": "상세문서",
-      "learning_status": "미학습"
-    }
-  ],
-  "status_note": "기존 PDF는 보존본이며 최신 학습 상태는 wbs-learning.json과 Markdown을 따른다. 학습 상태 변경만으로 PDF를 재생성하지 않는다."
+  "rule": "No WBS PDFs stored. Create individual leaf PDFs only on explicit request from current GitHub content and deliver in chat, outside the repository.",
+  "pdfs": [],
+  "status_note": "Li·Ni·Mn 기존 PDF도 사용자 요청으로 삭제함. 학습 상태와 최신 본문은 Markdown과 wbs-learning.json 기준."
 }

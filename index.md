@@ -40,7 +40,7 @@ updated_at: 2026-10-03
 | --- | --- | --- |
 | 학습 지식 | `Knowledge/` | 항목별 상세문서·주제별 보완 설명·아이디어 |
 | 데이터 원본·관계 | `Data/` | 학습내용·분류 ID·문서와 원본 쪽수 대응 |
-| PDF 자료 | `References/` | 기존 Li·Ni·Mn 개별 PDF·이전 주제별 참고자료 |
+| PDF 자료 | `References/` | PDF 제공 안내·이전 주제별 참고자료 |
 | 운영·계획 문서 | `Docs/` | 분류·근거·기록 규칙·앱 요구사항 |
 | 생성·검증 도구 | `Tools/` | Python 기반 문서·PDF 생성과 연결 검증 |
 | 프로젝트 작업 | `Projects/` | 작업·산출물·완료 기준을 가진 WBS 예시 |
@@ -54,7 +54,7 @@ updated_at: 2026-10-03
 4. 링크·분류·PDF 포함 범위와 실제 배치를 검증한다.
 5. 작업 계획과 이 INDEX를 갱신하고 검증한 변경을 GitHub에 반영한다.
 
-현재 요청한 EIS 예시의 데이터→축 설정→그래프→해석 과정은 [EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md), 기존 4개 파일의 계산 결과는 [예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md)에서 확인한다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
+현재 요청한 EIS 예시의 데이터→축 설정→그래프→해석 과정은 [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md), 기존 4개 파일의 계산 결과는 [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)에서 확인한다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
 
 ## 문서 운영 원칙
 
@@ -65,7 +65,7 @@ updated_at: 2026-10-03
 - 중요한 분류·생성 방식·기술 선택과 이유는 `Docs/`의 관련 문서에 기록한다.
 - 구현되지 않은 앱·자동화·분석 연결을 완료된 기능처럼 기술하지 않는다.
 - GitHub에서 정상적으로 표시되고 링크 검증 도구가 확인할 수 있는 표준 Markdown 링크를 사용한다.
-- 처음 접하는 분석은 그래프별 기초 설명 뒤에 종합 해석을 연결한다. 같은 분석의 새 데이터는 목적·조건·중점 특징·비교 결과를 중심으로 기록한다. 구체적인 교육 방식은 [작업 지침](AGENTS.md)과 [EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md)를 따른다.
+- 처음 접하는 분석은 그래프별 기초 설명 뒤에 종합 해석을 연결한다. 같은 분석의 새 데이터는 목적·조건·중점 특징·비교 결과를 중심으로 기록한다. 구체적인 교육 방식은 [작업 지침](AGENTS.md)과 [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md)를 따른다.
 
 ## 빠른 탐색
 
@@ -79,8 +79,8 @@ updated_at: 2026-10-03
 | 완료 범위와 남은 작업 확인 | [작업 현황](Docs/작업_현황.md) |
 | 학습문서 작성 방식 확인 | [학습문서 양식](Templates/학습문서.md) |
 | 앱과 외부 도구 연결 계획 확인 | [앱 요구사항과 연동 계획](Docs/앱_요구사항과_연동계획.md) |
-| EIS 예시 분석·Nyquist·Bode 그래프 확인 | [예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md) |
-| 한 행의 좌표 계산·축 설정·곡선 읽기·조건 비교 학습 | [EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md) |
+| EIS 예시 분석·Nyquist·Bode 그래프 확인 | [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md) |
+| 한 행의 좌표 계산·축 설정·곡선 읽기·조건 비교 학습 | [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md) |
 
 ## 폴더 구조
 
@@ -98,7 +98,7 @@ battery-study/
 │  └─ ideas/                  질문·아이디어와 검증 방향
 ├─ Data/                      분류·학습내용·자료 대응 관계의 JSON
 ├─ References/
-│  ├─ wbs/                    기존 Li·Ni·Mn 개별 PDF 보존본
+│  ├─ wbs/                    WBS PDF 제공 안내 (보관 PDF 없음)
 │  └─ topics/                 이전 원문 자료를 재배치한 주제별 PDF
 ├─ Projects/                  실제 작업·산출물 중심의 프로젝트 WBS 예시
 ├─ Templates/                 학습문서·작업요청·분석 기록 양식
@@ -184,14 +184,14 @@ Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확
 
 | 문서 | 역할 |
 | --- | --- |
-| [기존 Li 문서 경로](Knowledge/materials/Li.md) | 최신 항목 문서와 PDF로 안내 |
+| [기존 Li 문서 경로](Knowledge/materials/Li.md) | 최신 항목 문서로 안내 |
 | [재사용 아이디어](Knowledge/ideas/재사용_아이디어.md) | 아이디어를 질문·검증 과제로 정리 |
 | [재사용 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md) | 작업·산출물·완료 기준의 구조 예시 |
-| [예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md) | CSV 4개 검증·지표·Nyquist·Bode 그래프 |
-| [EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md) | ID01 한 파일의 좌표 계산·주석 그래프·조건 비교 절차 |
+| [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md) | CSV 4개 검증·지표·Nyquist·Bode 그래프 |
+| [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md) | ID01 한 파일의 좌표 계산·주석 그래프·조건 비교 절차 |
 | [학습문서 양식](Templates/학습문서.md) | 항목별 학습문서 공통 구성 |
 | [작업요청 양식](Templates/작업요청.md) | 목적·입력·조건·산출물·완료 기준 |
-| [WBS PDF 목록](References/wbs/README.md) | 기존 Li·Ni·Mn 개별 PDF 보존본 탐색 |
+| [WBS PDF 목록](References/wbs/README.md) | 요청 시 채팅용 PDF 제공 정책 |
 | [이전 주제별 PDF 목록](References/topics/README.md) | 원문 표·그림 확인용 자료 탐색 |
 
 ## 데이터와 생성 결과의 관계
@@ -214,7 +214,7 @@ Data/taxonomy.json + Data/wbs-learning.json
                                               (저장소 밖, 자동 업로드 없음)
 ```
 
-상위·하위 전체 합본은 만들지 않는다. 새 PDF는 별도 요청 시 가장 아래의 개별 항목만 제작하며 기존 보존 PDF는 자동 갱신하지 않는다.
+상위·하위 전체 합본은 만들지 않는다. 새 PDF는 별도 요청 시 가장 아래의 개별 항목만 제작하며 기존 WBS PDF는 모두 삭제했다.
 
 ## 수정·검증 방법
 
@@ -240,7 +240,7 @@ python Tools/build_wbs_index.py
 python Tools/sync_document_index.py
 ```
 
-PDF 제작은 별도 요청을 받았을 때만 실행한다. `--only`와 저장소 밖 `--output-dir`가 필수다. PDF 내용·배치를 검증한 뒤 채팅에서 제공한다. [게시 정책](Data/publication-policy.json)에 보존 목록과 삭제 범위·이전 버전 복원 기준을 기록했다.
+PDF 제작은 별도 요청을 받았을 때만 실행한다. `--only`와 저장소 밖 `--output-dir`가 필수다. PDF 내용·배치를 검증한 뒤 채팅에서 제공한다. [게시 정책](Data/publication-policy.json)에 삭제 목록과 범위·이전 버전 복원 기준을 기록했다.
 
 현재 저장소의 중심은 Markdown 학습문서다. 탐색 웹앱·기록 편집·외부 실행자·Hermes의 실제 연결은 [작업 현황](Docs/작업_현황.md)에 기재된 후속 구현 범위다.
 
@@ -291,8 +291,8 @@ Markdown 총 38개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다
 - [공급망·재사용·재활용·직무](Knowledge/topics/12_recycling-and-applications.md)
 ### Projects/eis-example-analysis
 
-- [EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md)
-- [예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md)
+- [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md)
+- [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)
 ### Projects
 
 - [재사용 진단 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md)

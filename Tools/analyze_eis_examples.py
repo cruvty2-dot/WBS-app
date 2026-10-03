@@ -179,7 +179,7 @@ def main():
                          'source_url': None, 'source_status': 'unconfirmed'} for d in datasets],
         'code_files': ['Tools/analyze_eis_examples.py'],
         'result_files': [f'Projects/eis-example-analysis/{name}' for name in
-                         ['예시) EIS분석결과.md', 'summary.csv', 'derived_points.csv', 'nmc811_nyquist_bode.png', 'mj1_nyquist_bode.png']],
+                         ['1.4.1.3 EIS분석예시.md', 'summary.csv', 'derived_points.csv', 'nmc811_nyquist_bode.png', 'mj1_nyquist_bode.png']],
         'created_at': datetime.now(ZoneInfo('Asia/Seoul')).isoformat(timespec='seconds'),
         'author': 'Codex', 'review_status': 'pending_review',
         'data_role': 'external_example_unverified',
@@ -204,13 +204,13 @@ def main():
     cathode_plots(cathodes[0])
     proxy = [s['hf_crossing_real_proxy'] * 1000 for s in cell_summaries]
     low = [s['real_at_lowest_f'] * 1000 for s in cell_summaries]
-    lines = ['# 예시) EIS분석결과', '',
+    lines = ['# 1.4.1.3 EIS분석예시', '',
              '> 2026-10-03 | 분류: 1.4.1.3 EIS (`method.eis`) | 검토 상태: pending_review', '',
              '[전체 구조](../../index.md) · [작업 계획](../../study-plan.md)', '',
-             '처음 한 파일로 축 설정과 곡선 읽기를 공부하려면 [EIS학습하기](EIS학습하기.md)를 먼저 읽는다. 원본 한 행의 계산, 주석 그림, 측정조건 비교 절차와 교육용 모형을 연결한다.', '',
+             '처음 한 파일로 축 설정과 곡선 읽기를 공부하려면 [1.4.1.3 EIS](1.4.1.3%20EIS.md)를 먼저 읽는다. 원본 한 행의 계산, 주석 그림, 측정조건 비교 절차와 교육용 모형을 연결한다.', '',
              '## 이 예시를 사용하는 목적', '',
              '이 문서는 앞으로 사용자가 제공하는 데이터를 어떤 순서로 분석하고 설명할지 함께 학습하고 수정하는 예시다. 그래프의 배치·설명의 깊이·중점 지표·비교 기준·결론과 한계를 검토하면서 결과 작성 방식을 다듬는다. 새 데이터의 결과는 그 데이터의 원본·측정조건·분석 목적을 기준으로 작성하고, 이 예시의 수치나 조건을 그대로 적용하지 않는다.', '',
-             '기초는 [EIS학습하기](EIS학습하기.md)에서 그래프 하나씩 익힌다. 결과 설명은 **분석 목적·조건 → 그림별 중점 관찰 → 비교 수치 → 종합 해석 → 추가 확인** 순서로 함께 다듬는다. 설명 방식의 수정은 저장소 작업 기준과 문서에 반영한다.', '',
+             '기초는 [1.4.1.3 EIS](1.4.1.3%20EIS.md)에서 그래프 하나씩 익힌다. 결과 설명은 **분석 목적·조건 → 그림별 중점 관찰 → 비교 수치 → 종합 해석 → 추가 확인** 순서로 함께 다듬는다. 설명 방식의 수정은 저장소 작업 기준과 문서에 반영한다.', '',
              '## 예시 자료의 범위', '',
              '이 자료는 EIS 분석·그래프 작성 방법을 보여주는 외부 예시다. 사용자는 본인의 실제 측정 데이터가 아니며, CSV 4개와 분석 결과의 공개 GitHub 업로드를 승인했다고 확인했다(2026-10-03). 합성 데이터인지 실제 외부 측정값인지는 확인되지 않았다. 원본 출처·이용 조건·일부 단위·측정조건은 미확인으로 유지한다. 공개 승인은 데이터나 해석의 검증 완료를 의미하지 않는다.', '',
              '## 결과 요약', '',
@@ -249,7 +249,7 @@ def main():
               '- [Gamry: Four-terminal EIS of batteries](https://www.gamry.com/application-notes/battery-research/four-terminal-eis-of-batteries/): 배선·접촉·측정 구성의 영향.',
               '- 확인일: 2026-10-03. 원본 데이터 출처·이용 조건, MJ1의 단위·주파수 단위, 온도·진폭·휴지 시간·전극 면적·시료 관계를 확인해야 함.',
               '- 위 조건을 확보하면 적절한 등가회로 선정, 적합도·잔차·파라미터 식별성 및 Kramers–Kronig 검증을 검토할 수 있음.', '']
-    (OUT / '예시) EIS분석결과.md').write_text('\n'.join(lines), encoding='utf-8')
+    (OUT / '1.4.1.3 EIS분석예시.md').write_text('\n'.join(lines), encoding='utf-8')
     print(json.dumps({'datasets': summaries, 'output': str(OUT)}, ensure_ascii=False, indent=2))
 
 

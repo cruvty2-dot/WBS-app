@@ -2,7 +2,16 @@
   "schema_version": "1.0",
   "updated_at": "2026-10-03",
   "pdf_policy": "Only on explicit user request, from current GitHub content, delivered in this chat; do not commit new PDFs. No parent or recursive compilations.",
-  "existing_retained_pdfs": [
+  "removed_generated_pdfs": 195,
+  "removed_generated_markdown": 95,
+  "restoration_commit": "fd1aec1cee41c9211ac5a2317be0996f864058df",
+  "learning_in_progress_ids": [
+    "element.li",
+    "element.ni",
+    "element.mn",
+    "method.eis"
+  ],
+  "retired_previously_preserved_pdfs": [
     {
       "id": "element.li",
       "pdf_path": "References/wbs/1.1.1.1.1_Li_원소·Li⁺·금속_음극.pdf",
@@ -25,13 +34,6 @@
       "markdown_sha256_before_status_change": "c9e6432a130318d9e0ff0f1b664f69e6e9fa3d20c541911b5b37e3fa9d28d12a"
     }
   ],
-  "removed_generated_pdfs": 192,
-  "removed_generated_markdown": 95,
-  "restoration_commit": "fd1aec1cee41c9211ac5a2317be0996f864058df",
-  "learning_in_progress_ids": [
-    "element.li",
-    "element.ni",
-    "element.mn",
-    "method.eis"
-  ]
+  "existing_retained_pdfs": [],
+  "status_note": "기존 Li·Ni·Mn PDF 3개도 삭제 승인됨. WBS 학습 PDF는 저장소에 보관하지 않음."
 }

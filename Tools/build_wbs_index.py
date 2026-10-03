@@ -34,8 +34,8 @@ def main():
       '## 전체 WBS 목차','',
       '**PDF는 가장 아래의 개별 항목에만 연결한다.** 상위 분류·하위 전체 합본은 만들지 않는다. 먼저 Markdown에서 내용을 학습·수정한다. 새 PDF는 별도 요청 시 GitHub 최신 내용을 바탕으로 이 채팅에서 제공하며 저장소에 자동 게시하지 않는다.','',
       '번호는 분류 위치를 뜻한다. 선수학습 순서는 각 문서 앞부분, 이후 연계학습은 끝부분에 번호와 항목명으로 적는다.','',
-      '**미학습은 학습 진도, 작성 예정은 자료 준비 상태**다. 자료가 있다는 이유로 학습 완료로 기록하지 않는다. 자동 작성한 기본 요약·상세문서와 PDF를 정리하고 직접 수정한 Li·Ni·Mn의 본문과 PDF를 보존했다.','',
-      '분류 번호·항목명은 유지한다. 나머지 항목은 함께 학습하고 검토하면서 하나씩 작성한다. Li·Ni·Mn·EIS는 학습중이다. EIS학습하기와 예시 분석 결과는 1.4.1.3의 연결 문서에서 찾는다.','']
+      '**미학습은 학습 진도, 작성 예정은 자료 준비 상태**다. 자료가 있다는 이유로 학습 완료로 기록하지 않는다. 자동 작성한 기본 요약·상세문서와 PDF를 정리하고 직접 수정한 Li·Ni·Mn의 본문을 보존했다. 기존 Li·Ni·Mn PDF도 삭제했다.','',
+      '분류 번호·항목명은 유지한다. 나머지 항목은 함께 학습하고 검토하면서 하나씩 작성한다. Li·Ni·Mn·EIS는 학습중이다. 1.4.1.3 EIS와 예시 분석 결과는 1.4.1.3의 연결 문서에서 찾는다.','']
     headers=['| WBS 번호 | 분류·학습 항목 | 학습 상태 | 핵심 | 연결 문서 |','| --- | --- | --- | --- | --- |']
     def subtree(k):
         yield k
@@ -47,7 +47,7 @@ def main():
         if (ROOT/md).is_file():links.append(f'[내용]({md})')
         if p and not children[k] and (ROOT/p['pdf_path']).is_file():links.append(f"[상세 PDF]({p['pdf_path']})")
         if k=='method.eis':
-            links=['[EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md)', '[예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md)']+links
+            links=['[내용](Projects/eis-example-analysis/1.4.1.3%20EIS.md)', '[분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)']+links
         link=' · '.join(links) if links else ('—' if children[k] else '작성 예정')
         return f"| {x['wbs']} | {name} | {x['learning_status']} | {x['core'] or '작성 예정'} | {link} |"
     for axis in children['battery']:
@@ -61,7 +61,7 @@ def main():
       '**수정 절차: Markdown에서 학습·확인·수정 → 목차 갱신 → GitHub 반영.** PDF는 별도 요청 시 GitHub 최신 내용을 바탕으로 가장 아래 항목만 제작해 이 채팅에서 제공하며 GitHub에 자동 업로드하지 않는다. 상위 합본은 만들지 않는다.','',
       '본문에 개편 내역을 넣는 대신 학습 내용을 쓴다. 관련 내용을 길게 설명할 필요가 있으면 해당 WBS 문서에서 다룬다.','',
       '항목 내용 원본은 [학습 데이터](Data/wbs-learning.json)에서 관리한다. 작성 예정인 내용과 삭제한 자료를 자동 생성하지 않는다. PDF 제작 범위는 [게시 정책](Data/publication-policy.json)에 기록하고 이전 버전은 Git 변경 이력에 남긴다.','',
-      '[전체 항목별 PDF 목록](References/wbs/README.md) · [학습문서 양식](Templates/학습문서.md)','',
+      '[PDF 제공 안내](References/wbs/README.md) · [학습문서 양식](Templates/학습문서.md)','',
       '<details>','<summary>원본을 재배치한 이전 자료</summary>','',
       '[이전 주제별 자료 14종](References/topics/README.md)은 원문 표·그림을 확인하기 위한 참고자료다. 현재 WBS 항목의 PDF 연결에는 사용하지 않는다. 필요한 내용·그림은 항목을 상세화할 때 해당 항목에 맞게 검토해 반영한다.','',
       '</details>','',
@@ -86,13 +86,13 @@ def main():
       '| [작업 현황](Docs/작업_현황.md) | 완료 자료와 후속 구현 |','',
       '<details>','<summary>제작·검증 방법</summary>','',
       '목차만 갱신: `python Tools/build_wbs_index.py`. PDF는 별도 요청을 받았을 때 `python Tools/build_wbs_pdfs.py --font-dir /path/to/fonts --only 요청한_하위_항목_ID --output-dir 저장소_밖_채팅_산출물_경로`로 생성한다. 상위 항목과 일괄 기본 생성은 지원하지 않는다.','',
-      'Noto Sans KR 정적 TTF 400·700과 `reportlab`·`pymupdf`가 필요하다. [PDF 목록 데이터](Data/wbs-pdf-manifest.json)에 보존한 개별 PDF의 포함 항목과 쪽수 범위를 기록한다. 이 목록은 새 채팅용 PDF 제작 시 자동 갱신하지 않는다.','',
+      'Noto Sans KR 정적 TTF 400·700과 `reportlab`·`pymupdf`가 필요하다. [PDF 목록 데이터](Data/wbs-pdf-manifest.json)에 저장소의 PDF 목록은 비어 있다. 새 채팅용 PDF 제작 시 이 목록을 자동 갱신하지 않는다.','',
       '탐색 웹앱과 Hermes 실제 연결은 후속 구현이며, 현재 자료는 GitHub의 문서·PDF로 읽는다.','',
       '</details>','']
     (ROOT/'README.md').write_text('\n'.join(lines),encoding='utf-8')
     p=['# WBS 항목별 PDF','',
-       '가장 아래의 개별 항목 PDF만 관리한다. 상위 합본은 만들지 않는다. 직접 수정한 Li·Ni·Mn을 보존하고 새 PDF는 사용자가 요청할 때 채팅에서만 제공하고 저장소에 추가하지 않는다.','',
-       'Li·Ni·Mn·EIS는 사용자가 읽고 수정하기 시작해 학습중이다. 기존 PDF는 이전 보존본이며 최신 학습 상태와 내용은 Markdown과 학습 데이터를 기준으로 확인한다.','',
+       '현재 저장소에 보관하는 WBS 학습 PDF는 없다. Li·Ni·Mn의 기존 PDF도 삭제했다. 새 PDF는 별도 요청 시 가장 아래의 개별 항목만 만들어 채팅에서 제공하고 저장소에 추가하지 않는다.','',
+       'Li·Ni·Mn·EIS는 사용자가 읽고 수정하기 시작해 학습중이다. 최신 학습 상태와 내용은 Markdown과 학습 데이터를 기준으로 확인한다.','',
        '| WBS 번호 | 항목 | 범위 | 본 항목 수준 | 쪽수 | PDF |','| --- | --- | --- | --- | --- | --- |']
     for x in manifest['pdfs']:
         assert not children[x['id']], 'Parent PDF publication is disabled'
@@ -110,7 +110,8 @@ def main():
     (ROOT/'Docs/WBS_핵심설명_참고자료.md').write_text('\n'.join(s)+'\n',encoding='utf-8')
     # Preserve the old path as a navigation entry, not a competing content source.
     li=items['element.li'];li_md=f"../items/{filename(li['wbs'],li['label'])}.md"
-    (ROOT/'Knowledge/materials/Li.md').write_text(f"# {li['wbs']} {li['label']}\n\n최신 학습문서는 [{li['wbs']} {li['label']}]({li_md})에서 읽는다. 선수학습과 기초를 먼저, 이후 연계학습을 마지막에 배치했다.\n\n[항목 PDF](../../{pdfs['element.li']['pdf_path']})\n",encoding='utf-8')
+    li_pdf=('\n[항목 PDF](../../'+pdfs['element.li']['pdf_path']+')\n') if 'element.li' in pdfs else ''
+    (ROOT/'Knowledge/materials/Li.md').write_text(f"# {li['wbs']} {li['label']}\n\n최신 학습문서는 [{li['wbs']} {li['label']}]({li_md})에서 읽는다. 선수학습과 기초를 먼저, 이후 연계학습을 마지막에 배치했다.\n{li_pdf}",encoding='utf-8')
     print('Updated WBS index:',len(items),'items')
 
 if __name__=='__main__':main()
