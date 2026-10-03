@@ -19,6 +19,16 @@ def main():
     assert len(items)==195 and set(items)==set(pdfs)
     assert len({x['wbs'] for x in items.values()})==195
     assert len(list((ROOT/'References/wbs').glob('*.pdf')))==195
+    visiting=set();done=set()
+    def prerequisites(k):
+        assert k not in visiting,(k,'prerequisite cycle')
+        if k in done:return
+        visiting.add(k)
+        for rel in items[k]['prerequisite_ids']:
+            assert rel in items and rel!=k
+            prerequisites(rel)
+        visiting.remove(k);done.add(k)
+    for k in items:prerequisites(k)
     pages=0;merged=0;shape_checked=0
     for k,x in items.items():
         m=pdfs[k];assert m['included_ids']==list(subtree(k))
@@ -30,6 +40,21 @@ def main():
             assert first.index('선수학습')<first.index('먼저알아둘기초')<first.index('핵심내용')
             assert '이후연계학습' in compact(doc[-1].get_text())
             toc=doc.get_toc();assert toc[0]==[1,x['wbs']+' '+x['label'],1]
+            if x.get('study_pages'):
+                assert m['own_pages']==len(x['study_pages']),(k,'unexpected page overflow')
+                own_toc=[t[1] for t in toc[1:] if t[2]<=m['own_pages']]
+                assert own_toc==[p['title'] for p in x['study_pages']]
+                assert set(x['source_labels'])==set(x['source_ids'])
+                assert len(set(x['source_labels'].values()))==len(x['source_ids'])
+                listed=[]
+                for study_page in x['study_pages']:
+                    for block in study_page['blocks']:
+                        if block['type']=='figure':assert (ROOT/block['path']).is_file()
+                        if block['type']=='references':listed.extend(block.get('source_ids',x['source_ids']))
+                        body=' '.join([block.get('text',''),block.get('caption','')]+[v for row in block.get('rows',[]) for v in row])
+                        for citation in re.findall(r'\[(\d+(?:,\s*\d+)*)\]',body):
+                            assert set(re.split(r',\s*',citation))<=set(x['source_labels'].values()),(k,citation,'undefined reference')
+                assert listed==x['source_ids'],(k,'missing or duplicate source listing')
             for r in m['content_ranges']:
                 text=compact(''.join(doc[p].get_text() for p in range(r['start_page']-1,r['end_page'])))
                 ix=items[r['id']]
@@ -51,6 +76,11 @@ def main():
             if children[k]:assert offset==len(doc)-1
             else:assert offset==len(doc)
             for page in doc:
+                for image in page.get_images(full=True):
+                    width,height=image[2:4]
+                    for rect in page.get_image_rects(image[0]):
+                        assert 38<=rect.x0 and rect.x1<=558 and 45<=rect.y0 and rect.y1<=794,(k,'image outside body',rect)
+                        assert abs(rect.width/rect.height-width/height)<.001,(k,'distorted image',rect)
                 for block in page.get_text('dict')['blocks']:
                     for line in block.get('lines',[]):
                         for span in line['spans']:

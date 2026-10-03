@@ -6,7 +6,7 @@ from urllib.parse import unquote
 ROOT = Path(__file__).resolve().parents[1]
 START = '<!-- document-index:start -->'
 END = '<!-- document-index:end -->'
-EXCLUDED = {'.git', 'node_modules', '.venv', 'venv', '__pycache__'}
+EXCLUDED = {'.git', 'node_modules', '.venv', 'venv', '__pycache__', 'tmp'}
 
 
 def main():

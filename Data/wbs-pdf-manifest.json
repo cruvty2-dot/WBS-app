@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "rule": "each PDF includes its node and all descendants; one canonical content source",
   "pdfs": [
     {
@@ -8,7 +8,7 @@
       "wbs": "1",
       "label": "설계",
       "pdf_path": "References/wbs/1_설계.pdf",
-      "pdf_pages": 179,
+      "pdf_pages": 417,
       "own_pages": 1,
       "included_ids": [
         "design",
@@ -161,829 +161,829 @@
         {
           "id": "d.material",
           "start_page": 2,
-          "end_page": 2,
+          "end_page": 5,
           "own_content_only": true
         },
         {
           "id": "d.basics",
-          "start_page": 3,
-          "end_page": 3,
-          "own_content_only": true
-        },
-        {
-          "id": "d.elements",
-          "start_page": 4,
-          "end_page": 4,
-          "own_content_only": true
-        },
-        {
-          "id": "element.li",
-          "start_page": 5,
-          "end_page": 6,
-          "own_content_only": true
-        },
-        {
-          "id": "element.ni",
-          "start_page": 7,
-          "end_page": 7,
-          "own_content_only": true
-        },
-        {
-          "id": "element.co",
-          "start_page": 8,
+          "start_page": 6,
           "end_page": 8,
           "own_content_only": true
         },
         {
-          "id": "element.mn",
+          "id": "d.elements",
           "start_page": 9,
-          "end_page": 9,
-          "own_content_only": true
-        },
-        {
-          "id": "element.fe",
-          "start_page": 10,
-          "end_page": 10,
-          "own_content_only": true
-        },
-        {
-          "id": "element.p",
-          "start_page": 11,
-          "end_page": 11,
-          "own_content_only": true
-        },
-        {
-          "id": "element.c",
-          "start_page": 12,
           "end_page": 12,
           "own_content_only": true
         },
         {
-          "id": "element.si",
+          "id": "element.li",
           "start_page": 13,
-          "end_page": 13,
-          "own_content_only": true
-        },
-        {
-          "id": "element.al",
-          "start_page": 14,
-          "end_page": 14,
-          "own_content_only": true
-        },
-        {
-          "id": "element.cu",
-          "start_page": 15,
-          "end_page": 15,
-          "own_content_only": true
-        },
-        {
-          "id": "element.o",
-          "start_page": 16,
-          "end_page": 16,
-          "own_content_only": true
-        },
-        {
-          "id": "element.na",
-          "start_page": 17,
-          "end_page": 17,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal",
-          "start_page": 19,
-          "end_page": 19,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.layered",
-          "start_page": 20,
-          "end_page": 20,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.olivine",
-          "start_page": 21,
-          "end_page": 21,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.spinel",
-          "start_page": 22,
-          "end_page": 22,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.defect",
-          "start_page": 23,
-          "end_page": 23,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.stress",
-          "start_page": 24,
           "end_page": 24,
           "own_content_only": true
         },
         {
-          "id": "d.electronic",
-          "start_page": 26,
-          "end_page": 26,
+          "id": "element.ni",
+          "start_page": 25,
+          "end_page": 36,
           "own_content_only": true
         },
         {
-          "id": "d.electronic.bond",
-          "start_page": 27,
-          "end_page": 27,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.band",
-          "start_page": 28,
-          "end_page": 28,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.redox",
-          "start_page": 29,
-          "end_page": 29,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport",
-          "start_page": 31,
-          "end_page": 31,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.diffusion",
-          "start_page": 32,
-          "end_page": 32,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.electron",
-          "start_page": 33,
-          "end_page": 33,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.heat",
-          "start_page": 34,
-          "end_page": 34,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.interface",
-          "start_page": 35,
-          "end_page": 35,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder",
+          "id": "element.co",
           "start_page": 37,
-          "end_page": 37,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder.size",
-          "start_page": 38,
-          "end_page": 38,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder.area",
-          "start_page": 39,
           "end_page": 39,
           "own_content_only": true
         },
         {
-          "id": "d.powder.density",
+          "id": "element.mn",
           "start_page": 40,
-          "end_page": 40,
+          "end_page": 50,
           "own_content_only": true
         },
         {
-          "id": "d.active",
-          "start_page": 43,
-          "end_page": 43,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode",
-          "start_page": 44,
-          "end_page": 44,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.layered",
-          "start_page": 45,
-          "end_page": 45,
-          "own_content_only": true
-        },
-        {
-          "id": "material.ncm",
-          "start_page": 46,
-          "end_page": 47,
-          "own_content_only": true
-        },
-        {
-          "id": "material.nca",
-          "start_page": 48,
-          "end_page": 48,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lco",
-          "start_page": 49,
-          "end_page": 49,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.phosphate",
+          "id": "element.fe",
           "start_page": 51,
-          "end_page": 51,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lfp",
-          "start_page": 52,
           "end_page": 53,
           "own_content_only": true
         },
         {
-          "id": "material.lmfp",
+          "id": "element.p",
           "start_page": 54,
-          "end_page": 55,
+          "end_page": 56,
           "own_content_only": true
         },
         {
-          "id": "d.cathode.spinel",
+          "id": "element.c",
           "start_page": 57,
-          "end_page": 57,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lmo",
-          "start_page": 58,
           "end_page": 59,
           "own_content_only": true
         },
         {
-          "id": "material.lnmo",
+          "id": "element.si",
           "start_page": 60,
-          "end_page": 60,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.sulfur",
-          "start_page": 62,
-          "end_page": 62,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sulfur",
-          "start_page": 63,
           "end_page": 63,
           "own_content_only": true
         },
         {
-          "id": "d.anode",
-          "start_page": 66,
+          "id": "element.al",
+          "start_page": 64,
           "end_page": 66,
           "own_content_only": true
         },
         {
-          "id": "d.anode.carbon",
+          "id": "element.cu",
           "start_page": 67,
-          "end_page": 67,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite",
-          "start_page": 68,
-          "end_page": 68,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite.natural",
-          "start_page": 69,
           "end_page": 69,
           "own_content_only": true
         },
         {
-          "id": "material.graphite.synthetic",
+          "id": "element.o",
           "start_page": 70,
-          "end_page": 70,
-          "own_content_only": true
-        },
-        {
-          "id": "material.hardcarbon",
-          "start_page": 72,
           "end_page": 72,
           "own_content_only": true
         },
         {
-          "id": "d.anode.si",
-          "start_page": 74,
-          "end_page": 74,
-          "own_content_only": true
-        },
-        {
-          "id": "material.si",
-          "start_page": 75,
+          "id": "element.na",
+          "start_page": 73,
           "end_page": 75,
           "own_content_only": true
         },
         {
-          "id": "material.siox",
-          "start_page": 76,
-          "end_page": 76,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sic",
+          "id": "d.crystal",
           "start_page": 77,
-          "end_page": 77,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.oxide",
-          "start_page": 79,
-          "end_page": 79,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lto",
-          "start_page": 80,
           "end_page": 80,
           "own_content_only": true
         },
         {
-          "id": "d.anode.metal",
-          "start_page": 82,
-          "end_page": 82,
+          "id": "d.crystal.layered",
+          "start_page": 81,
+          "end_page": 84,
           "own_content_only": true
         },
         {
-          "id": "material.limetal",
-          "start_page": 83,
-          "end_page": 83,
-          "own_content_only": true
-        },
-        {
-          "id": "d.binder",
-          "start_page": 87,
-          "end_page": 87,
-          "own_content_only": true
-        },
-        {
-          "id": "material.pvdf",
-          "start_page": 88,
+          "id": "d.crystal.olivine",
+          "start_page": 85,
           "end_page": 88,
           "own_content_only": true
         },
         {
-          "id": "material.cmc",
+          "id": "d.crystal.spinel",
           "start_page": 89,
-          "end_page": 89,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sbr",
-          "start_page": 90,
-          "end_page": 90,
-          "own_content_only": true
-        },
-        {
-          "id": "material.paa",
-          "start_page": 91,
-          "end_page": 91,
-          "own_content_only": true
-        },
-        {
-          "id": "material.ptfe",
-          "start_page": 92,
           "end_page": 92,
           "own_content_only": true
         },
         {
-          "id": "d.conductive",
-          "start_page": 94,
-          "end_page": 94,
-          "own_content_only": true
-        },
-        {
-          "id": "material.carbonblack",
-          "start_page": 95,
+          "id": "d.crystal.defect",
+          "start_page": 93,
           "end_page": 95,
           "own_content_only": true
         },
         {
-          "id": "material.cnt",
+          "id": "d.crystal.stress",
           "start_page": 96,
-          "end_page": 96,
+          "end_page": 98,
           "own_content_only": true
         },
         {
-          "id": "material.graphene",
-          "start_page": 97,
-          "end_page": 97,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte",
-          "start_page": 99,
-          "end_page": 99,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.liquid",
+          "id": "d.electronic",
           "start_page": 100,
-          "end_page": 100,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.salt",
-          "start_page": 101,
-          "end_page": 101,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lipf6",
-          "start_page": 102,
           "end_page": 102,
           "own_content_only": true
         },
         {
-          "id": "material.lifsi",
+          "id": "d.electronic.bond",
           "start_page": 103,
-          "end_page": 103,
+          "end_page": 105,
           "own_content_only": true
         },
         {
-          "id": "material.litfsi",
-          "start_page": 104,
-          "end_page": 104,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.solvent",
+          "id": "d.electronic.band",
           "start_page": 106,
-          "end_page": 106,
+          "end_page": 108,
           "own_content_only": true
         },
         {
-          "id": "d.electrolyte.additive",
-          "start_page": 107,
-          "end_page": 107,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.solid",
+          "id": "d.electronic.redox",
           "start_page": 109,
-          "end_page": 109,
-          "own_content_only": true
-        },
-        {
-          "id": "d.solid.sulfide",
-          "start_page": 110,
-          "end_page": 110,
-          "own_content_only": true
-        },
-        {
-          "id": "d.solid.oxide",
-          "start_page": 111,
           "end_page": 111,
           "own_content_only": true
         },
         {
-          "id": "d.solid.polymer",
-          "start_page": 112,
-          "end_page": 112,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.gel",
-          "start_page": 114,
-          "end_page": 114,
-          "own_content_only": true
-        },
-        {
-          "id": "d.interphase",
-          "start_page": 115,
+          "id": "d.transport",
+          "start_page": 113,
           "end_page": 115,
           "own_content_only": true
         },
         {
-          "id": "d.separator",
-          "start_page": 117,
-          "end_page": 117,
-          "own_content_only": true
-        },
-        {
-          "id": "d.separator.polyolefin",
-          "start_page": 118,
-          "end_page": 118,
-          "own_content_only": true
-        },
-        {
-          "id": "d.separator.coating",
-          "start_page": 119,
+          "id": "d.transport.diffusion",
+          "start_page": 116,
           "end_page": 119,
           "own_content_only": true
         },
         {
-          "id": "d.collector",
-          "start_page": 121,
-          "end_page": 121,
-          "own_content_only": true
-        },
-        {
-          "id": "d.collector.al",
-          "start_page": 122,
-          "end_page": 122,
-          "own_content_only": true
-        },
-        {
-          "id": "d.collector.cu",
-          "start_page": 123,
+          "id": "d.transport.electron",
+          "start_page": 120,
           "end_page": 123,
           "own_content_only": true
         },
         {
-          "id": "d.collector.surface",
+          "id": "d.transport.heat",
           "start_page": 124,
-          "end_page": 124,
+          "end_page": 126,
           "own_content_only": true
         },
         {
-          "id": "d.electrode",
+          "id": "d.transport.interface",
           "start_page": 127,
-          "end_page": 127,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrode.formula",
-          "start_page": 128,
-          "end_page": 128,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrode.loading",
-          "start_page": 129,
-          "end_page": 129,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrode.micro",
-          "start_page": 130,
           "end_page": 130,
           "own_content_only": true
         },
         {
-          "id": "d.electrode.network",
-          "start_page": 131,
-          "end_page": 131,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrode.balance",
+          "id": "d.powder",
           "start_page": 132,
-          "end_page": 132,
+          "end_page": 134,
           "own_content_only": true
         },
         {
-          "id": "d.electrode.interface",
-          "start_page": 133,
-          "end_page": 133,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cell",
+          "id": "d.powder.size",
           "start_page": 135,
-          "end_page": 135,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cell.target",
-          "start_page": 136,
-          "end_page": 136,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cell.geometry",
-          "start_page": 137,
           "end_page": 137,
           "own_content_only": true
         },
         {
-          "id": "d.cell.window",
+          "id": "d.powder.area",
           "start_page": 138,
-          "end_page": 138,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cell.electrolyte",
-          "start_page": 139,
-          "end_page": 139,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cell.pack",
-          "start_page": 140,
-          "end_page": 140,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cell.circular",
-          "start_page": 141,
           "end_page": 141,
           "own_content_only": true
         },
         {
-          "id": "d.eval",
-          "start_page": 143,
-          "end_page": 143,
-          "own_content_only": true
-        },
-        {
-          "id": "d.eval.echem",
-          "start_page": 144,
-          "end_page": 144,
-          "own_content_only": true
-        },
-        {
-          "id": "method.gcd",
-          "start_page": 145,
+          "id": "d.powder.density",
+          "start_page": 142,
           "end_page": 145,
           "own_content_only": true
         },
         {
-          "id": "method.rate",
-          "start_page": 146,
-          "end_page": 146,
-          "own_content_only": true
-        },
-        {
-          "id": "method.eis",
-          "start_page": 147,
-          "end_page": 147,
-          "own_content_only": true
-        },
-        {
-          "id": "method.cv",
+          "id": "d.active",
           "start_page": 148,
-          "end_page": 148,
-          "own_content_only": true
-        },
-        {
-          "id": "method.gitt",
-          "start_page": 149,
-          "end_page": 149,
-          "own_content_only": true
-        },
-        {
-          "id": "method.dcir",
-          "start_page": 150,
           "end_page": 150,
           "own_content_only": true
         },
         {
-          "id": "method.dqdv",
+          "id": "d.cathode",
           "start_page": 151,
-          "end_page": 151,
-          "own_content_only": true
-        },
-        {
-          "id": "d.eval.material",
-          "start_page": 153,
           "end_page": 153,
           "own_content_only": true
         },
         {
-          "id": "method.xrd",
+          "id": "d.cathode.layered",
           "start_page": 154,
-          "end_page": 154,
-          "own_content_only": true
-        },
-        {
-          "id": "method.sem",
-          "start_page": 155,
-          "end_page": 155,
-          "own_content_only": true
-        },
-        {
-          "id": "method.xps",
-          "start_page": 156,
           "end_page": 156,
           "own_content_only": true
         },
         {
-          "id": "method.icp",
+          "id": "material.ncm",
           "start_page": 157,
-          "end_page": 157,
+          "end_page": 161,
           "own_content_only": true
         },
         {
-          "id": "method.chrom",
-          "start_page": 158,
-          "end_page": 158,
-          "own_content_only": true
-        },
-        {
-          "id": "method.psa",
-          "start_page": 159,
-          "end_page": 159,
-          "own_content_only": true
-        },
-        {
-          "id": "method.thermal",
-          "start_page": 160,
-          "end_page": 160,
-          "own_content_only": true
-        },
-        {
-          "id": "d.eval.degradation",
+          "id": "material.nca",
           "start_page": 162,
-          "end_page": 162,
-          "own_content_only": true
-        },
-        {
-          "id": "d.deg.lli",
-          "start_page": 163,
-          "end_page": 163,
-          "own_content_only": true
-        },
-        {
-          "id": "d.deg.lam",
-          "start_page": 164,
           "end_page": 164,
           "own_content_only": true
         },
         {
-          "id": "d.deg.impedance",
+          "id": "material.lco",
           "start_page": 165,
-          "end_page": 165,
-          "own_content_only": true
-        },
-        {
-          "id": "d.deg.plating",
-          "start_page": 166,
-          "end_page": 166,
-          "own_content_only": true
-        },
-        {
-          "id": "d.deg.crosstalk",
-          "start_page": 167,
           "end_page": 167,
           "own_content_only": true
         },
         {
-          "id": "d.deg.failure",
-          "start_page": 168,
-          "end_page": 168,
-          "own_content_only": true
-        },
-        {
-          "id": "d.eval.safety",
-          "start_page": 170,
-          "end_page": 170,
-          "own_content_only": true
-        },
-        {
-          "id": "d.eval.standard",
-          "start_page": 171,
+          "id": "d.cathode.phosphate",
+          "start_page": 169,
           "end_page": 171,
           "own_content_only": true
         },
         {
-          "id": "d.future",
-          "start_page": 173,
-          "end_page": 173,
-          "own_content_only": true
-        },
-        {
-          "id": "chem.solid",
-          "start_page": 174,
-          "end_page": 174,
-          "own_content_only": true
-        },
-        {
-          "id": "chem.sodium",
-          "start_page": 175,
-          "end_page": 175,
-          "own_content_only": true
-        },
-        {
-          "id": "chem.lis",
-          "start_page": 176,
+          "id": "material.lfp",
+          "start_page": 172,
           "end_page": 176,
           "own_content_only": true
         },
         {
-          "id": "chem.limetal",
+          "id": "material.lmfp",
           "start_page": 177,
-          "end_page": 177,
+          "end_page": 180,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.spinel",
+          "start_page": 182,
+          "end_page": 184,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lmo",
+          "start_page": 185,
+          "end_page": 187,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lnmo",
+          "start_page": 188,
+          "end_page": 190,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.sulfur",
+          "start_page": 192,
+          "end_page": 194,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sulfur",
+          "start_page": 195,
+          "end_page": 197,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode",
+          "start_page": 200,
+          "end_page": 202,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.carbon",
+          "start_page": 203,
+          "end_page": 205,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite",
+          "start_page": 206,
+          "end_page": 210,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.natural",
+          "start_page": 211,
+          "end_page": 213,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.synthetic",
+          "start_page": 214,
+          "end_page": 216,
+          "own_content_only": true
+        },
+        {
+          "id": "material.hardcarbon",
+          "start_page": 218,
+          "end_page": 221,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.si",
+          "start_page": 223,
+          "end_page": 225,
+          "own_content_only": true
+        },
+        {
+          "id": "material.si",
+          "start_page": 226,
+          "end_page": 230,
+          "own_content_only": true
+        },
+        {
+          "id": "material.siox",
+          "start_page": 231,
+          "end_page": 233,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sic",
+          "start_page": 234,
+          "end_page": 237,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.oxide",
+          "start_page": 239,
+          "end_page": 241,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lto",
+          "start_page": 242,
+          "end_page": 244,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.metal",
+          "start_page": 246,
+          "end_page": 248,
+          "own_content_only": true
+        },
+        {
+          "id": "material.limetal",
+          "start_page": 249,
+          "end_page": 251,
+          "own_content_only": true
+        },
+        {
+          "id": "d.binder",
+          "start_page": 255,
+          "end_page": 258,
+          "own_content_only": true
+        },
+        {
+          "id": "material.pvdf",
+          "start_page": 259,
+          "end_page": 261,
+          "own_content_only": true
+        },
+        {
+          "id": "material.cmc",
+          "start_page": 262,
+          "end_page": 264,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sbr",
+          "start_page": 265,
+          "end_page": 267,
+          "own_content_only": true
+        },
+        {
+          "id": "material.paa",
+          "start_page": 268,
+          "end_page": 270,
+          "own_content_only": true
+        },
+        {
+          "id": "material.ptfe",
+          "start_page": 271,
+          "end_page": 274,
+          "own_content_only": true
+        },
+        {
+          "id": "d.conductive",
+          "start_page": 276,
+          "end_page": 279,
+          "own_content_only": true
+        },
+        {
+          "id": "material.carbonblack",
+          "start_page": 280,
+          "end_page": 283,
+          "own_content_only": true
+        },
+        {
+          "id": "material.cnt",
+          "start_page": 284,
+          "end_page": 286,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphene",
+          "start_page": 287,
+          "end_page": 289,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte",
+          "start_page": 291,
+          "end_page": 293,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.liquid",
+          "start_page": 294,
+          "end_page": 296,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.salt",
+          "start_page": 297,
+          "end_page": 299,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lipf6",
+          "start_page": 300,
+          "end_page": 302,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lifsi",
+          "start_page": 303,
+          "end_page": 305,
+          "own_content_only": true
+        },
+        {
+          "id": "material.litfsi",
+          "start_page": 306,
+          "end_page": 308,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.solvent",
+          "start_page": 310,
+          "end_page": 312,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.additive",
+          "start_page": 313,
+          "end_page": 315,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.solid",
+          "start_page": 317,
+          "end_page": 320,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.sulfide",
+          "start_page": 321,
+          "end_page": 323,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.oxide",
+          "start_page": 324,
+          "end_page": 326,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.polymer",
+          "start_page": 327,
+          "end_page": 329,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.gel",
+          "start_page": 331,
+          "end_page": 333,
+          "own_content_only": true
+        },
+        {
+          "id": "d.interphase",
+          "start_page": 334,
+          "end_page": 337,
+          "own_content_only": true
+        },
+        {
+          "id": "d.separator",
+          "start_page": 339,
+          "end_page": 342,
+          "own_content_only": true
+        },
+        {
+          "id": "d.separator.polyolefin",
+          "start_page": 343,
+          "end_page": 345,
+          "own_content_only": true
+        },
+        {
+          "id": "d.separator.coating",
+          "start_page": 346,
+          "end_page": 348,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector",
+          "start_page": 350,
+          "end_page": 353,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector.al",
+          "start_page": 354,
+          "end_page": 356,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector.cu",
+          "start_page": 357,
+          "end_page": 359,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector.surface",
+          "start_page": 360,
+          "end_page": 362,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode",
+          "start_page": 365,
+          "end_page": 365,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode.formula",
+          "start_page": 366,
+          "end_page": 366,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode.loading",
+          "start_page": 367,
+          "end_page": 367,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode.micro",
+          "start_page": 368,
+          "end_page": 368,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode.network",
+          "start_page": 369,
+          "end_page": 369,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode.balance",
+          "start_page": 370,
+          "end_page": 370,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrode.interface",
+          "start_page": 371,
+          "end_page": 371,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell",
+          "start_page": 373,
+          "end_page": 373,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell.target",
+          "start_page": 374,
+          "end_page": 374,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell.geometry",
+          "start_page": 375,
+          "end_page": 375,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell.window",
+          "start_page": 376,
+          "end_page": 376,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell.electrolyte",
+          "start_page": 377,
+          "end_page": 377,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell.pack",
+          "start_page": 378,
+          "end_page": 378,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cell.circular",
+          "start_page": 379,
+          "end_page": 379,
+          "own_content_only": true
+        },
+        {
+          "id": "d.eval",
+          "start_page": 381,
+          "end_page": 381,
+          "own_content_only": true
+        },
+        {
+          "id": "d.eval.echem",
+          "start_page": 382,
+          "end_page": 382,
+          "own_content_only": true
+        },
+        {
+          "id": "method.gcd",
+          "start_page": 383,
+          "end_page": 383,
+          "own_content_only": true
+        },
+        {
+          "id": "method.rate",
+          "start_page": 384,
+          "end_page": 384,
+          "own_content_only": true
+        },
+        {
+          "id": "method.eis",
+          "start_page": 385,
+          "end_page": 385,
+          "own_content_only": true
+        },
+        {
+          "id": "method.cv",
+          "start_page": 386,
+          "end_page": 386,
+          "own_content_only": true
+        },
+        {
+          "id": "method.gitt",
+          "start_page": 387,
+          "end_page": 387,
+          "own_content_only": true
+        },
+        {
+          "id": "method.dcir",
+          "start_page": 388,
+          "end_page": 388,
+          "own_content_only": true
+        },
+        {
+          "id": "method.dqdv",
+          "start_page": 389,
+          "end_page": 389,
+          "own_content_only": true
+        },
+        {
+          "id": "d.eval.material",
+          "start_page": 391,
+          "end_page": 391,
+          "own_content_only": true
+        },
+        {
+          "id": "method.xrd",
+          "start_page": 392,
+          "end_page": 392,
+          "own_content_only": true
+        },
+        {
+          "id": "method.sem",
+          "start_page": 393,
+          "end_page": 393,
+          "own_content_only": true
+        },
+        {
+          "id": "method.xps",
+          "start_page": 394,
+          "end_page": 394,
+          "own_content_only": true
+        },
+        {
+          "id": "method.icp",
+          "start_page": 395,
+          "end_page": 395,
+          "own_content_only": true
+        },
+        {
+          "id": "method.chrom",
+          "start_page": 396,
+          "end_page": 396,
+          "own_content_only": true
+        },
+        {
+          "id": "method.psa",
+          "start_page": 397,
+          "end_page": 397,
+          "own_content_only": true
+        },
+        {
+          "id": "method.thermal",
+          "start_page": 398,
+          "end_page": 398,
+          "own_content_only": true
+        },
+        {
+          "id": "d.eval.degradation",
+          "start_page": 400,
+          "end_page": 400,
+          "own_content_only": true
+        },
+        {
+          "id": "d.deg.lli",
+          "start_page": 401,
+          "end_page": 401,
+          "own_content_only": true
+        },
+        {
+          "id": "d.deg.lam",
+          "start_page": 402,
+          "end_page": 402,
+          "own_content_only": true
+        },
+        {
+          "id": "d.deg.impedance",
+          "start_page": 403,
+          "end_page": 403,
+          "own_content_only": true
+        },
+        {
+          "id": "d.deg.plating",
+          "start_page": 404,
+          "end_page": 404,
+          "own_content_only": true
+        },
+        {
+          "id": "d.deg.crosstalk",
+          "start_page": 405,
+          "end_page": 405,
+          "own_content_only": true
+        },
+        {
+          "id": "d.deg.failure",
+          "start_page": 406,
+          "end_page": 406,
+          "own_content_only": true
+        },
+        {
+          "id": "d.eval.safety",
+          "start_page": 408,
+          "end_page": 408,
+          "own_content_only": true
+        },
+        {
+          "id": "d.eval.standard",
+          "start_page": 409,
+          "end_page": 409,
+          "own_content_only": true
+        },
+        {
+          "id": "d.future",
+          "start_page": 411,
+          "end_page": 411,
+          "own_content_only": true
+        },
+        {
+          "id": "chem.solid",
+          "start_page": 412,
+          "end_page": 412,
+          "own_content_only": true
+        },
+        {
+          "id": "chem.sodium",
+          "start_page": 413,
+          "end_page": 413,
+          "own_content_only": true
+        },
+        {
+          "id": "chem.lis",
+          "start_page": 414,
+          "end_page": 414,
+          "own_content_only": true
+        },
+        {
+          "id": "chem.limetal",
+          "start_page": 415,
+          "end_page": 415,
           "own_content_only": true
         }
       ],
@@ -995,8 +995,8 @@
       "wbs": "1.1",
       "label": "소재·재료",
       "pdf_path": "References/wbs/1.1_소재·재료.pdf",
-      "pdf_pages": 125,
-      "own_pages": 1,
+      "pdf_pages": 363,
+      "own_pages": 4,
       "included_ids": [
         "d.material",
         "d.basics",
@@ -1096,563 +1096,563 @@
         {
           "id": "d.material",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         },
         {
           "id": "d.basics",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.elements",
-          "start_page": 3,
-          "end_page": 3,
-          "own_content_only": true
-        },
-        {
-          "id": "element.li",
-          "start_page": 4,
-          "end_page": 5,
-          "own_content_only": true
-        },
-        {
-          "id": "element.ni",
-          "start_page": 6,
-          "end_page": 6,
-          "own_content_only": true
-        },
-        {
-          "id": "element.co",
-          "start_page": 7,
+          "start_page": 5,
           "end_page": 7,
           "own_content_only": true
         },
         {
-          "id": "element.mn",
+          "id": "d.elements",
           "start_page": 8,
-          "end_page": 8,
-          "own_content_only": true
-        },
-        {
-          "id": "element.fe",
-          "start_page": 9,
-          "end_page": 9,
-          "own_content_only": true
-        },
-        {
-          "id": "element.p",
-          "start_page": 10,
-          "end_page": 10,
-          "own_content_only": true
-        },
-        {
-          "id": "element.c",
-          "start_page": 11,
           "end_page": 11,
           "own_content_only": true
         },
         {
-          "id": "element.si",
+          "id": "element.li",
           "start_page": 12,
-          "end_page": 12,
-          "own_content_only": true
-        },
-        {
-          "id": "element.al",
-          "start_page": 13,
-          "end_page": 13,
-          "own_content_only": true
-        },
-        {
-          "id": "element.cu",
-          "start_page": 14,
-          "end_page": 14,
-          "own_content_only": true
-        },
-        {
-          "id": "element.o",
-          "start_page": 15,
-          "end_page": 15,
-          "own_content_only": true
-        },
-        {
-          "id": "element.na",
-          "start_page": 16,
-          "end_page": 16,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal",
-          "start_page": 18,
-          "end_page": 18,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.layered",
-          "start_page": 19,
-          "end_page": 19,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.olivine",
-          "start_page": 20,
-          "end_page": 20,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.spinel",
-          "start_page": 21,
-          "end_page": 21,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.defect",
-          "start_page": 22,
-          "end_page": 22,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.stress",
-          "start_page": 23,
           "end_page": 23,
           "own_content_only": true
         },
         {
-          "id": "d.electronic",
-          "start_page": 25,
-          "end_page": 25,
+          "id": "element.ni",
+          "start_page": 24,
+          "end_page": 35,
           "own_content_only": true
         },
         {
-          "id": "d.electronic.bond",
-          "start_page": 26,
-          "end_page": 26,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.band",
-          "start_page": 27,
-          "end_page": 27,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.redox",
-          "start_page": 28,
-          "end_page": 28,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport",
-          "start_page": 30,
-          "end_page": 30,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.diffusion",
-          "start_page": 31,
-          "end_page": 31,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.electron",
-          "start_page": 32,
-          "end_page": 32,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.heat",
-          "start_page": 33,
-          "end_page": 33,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.interface",
-          "start_page": 34,
-          "end_page": 34,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder",
+          "id": "element.co",
           "start_page": 36,
-          "end_page": 36,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder.size",
-          "start_page": 37,
-          "end_page": 37,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder.area",
-          "start_page": 38,
           "end_page": 38,
           "own_content_only": true
         },
         {
-          "id": "d.powder.density",
+          "id": "element.mn",
           "start_page": 39,
-          "end_page": 39,
+          "end_page": 49,
           "own_content_only": true
         },
         {
-          "id": "d.active",
-          "start_page": 42,
-          "end_page": 42,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode",
-          "start_page": 43,
-          "end_page": 43,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.layered",
-          "start_page": 44,
-          "end_page": 44,
-          "own_content_only": true
-        },
-        {
-          "id": "material.ncm",
-          "start_page": 45,
-          "end_page": 46,
-          "own_content_only": true
-        },
-        {
-          "id": "material.nca",
-          "start_page": 47,
-          "end_page": 47,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lco",
-          "start_page": 48,
-          "end_page": 48,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.phosphate",
+          "id": "element.fe",
           "start_page": 50,
-          "end_page": 50,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lfp",
-          "start_page": 51,
           "end_page": 52,
           "own_content_only": true
         },
         {
-          "id": "material.lmfp",
+          "id": "element.p",
           "start_page": 53,
-          "end_page": 54,
+          "end_page": 55,
           "own_content_only": true
         },
         {
-          "id": "d.cathode.spinel",
+          "id": "element.c",
           "start_page": 56,
-          "end_page": 56,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lmo",
-          "start_page": 57,
           "end_page": 58,
           "own_content_only": true
         },
         {
-          "id": "material.lnmo",
+          "id": "element.si",
           "start_page": 59,
-          "end_page": 59,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.sulfur",
-          "start_page": 61,
-          "end_page": 61,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sulfur",
-          "start_page": 62,
           "end_page": 62,
           "own_content_only": true
         },
         {
-          "id": "d.anode",
-          "start_page": 65,
+          "id": "element.al",
+          "start_page": 63,
           "end_page": 65,
           "own_content_only": true
         },
         {
-          "id": "d.anode.carbon",
+          "id": "element.cu",
           "start_page": 66,
-          "end_page": 66,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite",
-          "start_page": 67,
-          "end_page": 67,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite.natural",
-          "start_page": 68,
           "end_page": 68,
           "own_content_only": true
         },
         {
-          "id": "material.graphite.synthetic",
+          "id": "element.o",
           "start_page": 69,
-          "end_page": 69,
-          "own_content_only": true
-        },
-        {
-          "id": "material.hardcarbon",
-          "start_page": 71,
           "end_page": 71,
           "own_content_only": true
         },
         {
-          "id": "d.anode.si",
-          "start_page": 73,
-          "end_page": 73,
-          "own_content_only": true
-        },
-        {
-          "id": "material.si",
-          "start_page": 74,
+          "id": "element.na",
+          "start_page": 72,
           "end_page": 74,
           "own_content_only": true
         },
         {
-          "id": "material.siox",
-          "start_page": 75,
-          "end_page": 75,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sic",
+          "id": "d.crystal",
           "start_page": 76,
-          "end_page": 76,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.oxide",
-          "start_page": 78,
-          "end_page": 78,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lto",
-          "start_page": 79,
           "end_page": 79,
           "own_content_only": true
         },
         {
-          "id": "d.anode.metal",
-          "start_page": 81,
-          "end_page": 81,
+          "id": "d.crystal.layered",
+          "start_page": 80,
+          "end_page": 83,
           "own_content_only": true
         },
         {
-          "id": "material.limetal",
-          "start_page": 82,
-          "end_page": 82,
-          "own_content_only": true
-        },
-        {
-          "id": "d.binder",
-          "start_page": 86,
-          "end_page": 86,
-          "own_content_only": true
-        },
-        {
-          "id": "material.pvdf",
-          "start_page": 87,
+          "id": "d.crystal.olivine",
+          "start_page": 84,
           "end_page": 87,
           "own_content_only": true
         },
         {
-          "id": "material.cmc",
+          "id": "d.crystal.spinel",
           "start_page": 88,
-          "end_page": 88,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sbr",
-          "start_page": 89,
-          "end_page": 89,
-          "own_content_only": true
-        },
-        {
-          "id": "material.paa",
-          "start_page": 90,
-          "end_page": 90,
-          "own_content_only": true
-        },
-        {
-          "id": "material.ptfe",
-          "start_page": 91,
           "end_page": 91,
           "own_content_only": true
         },
         {
-          "id": "d.conductive",
-          "start_page": 93,
-          "end_page": 93,
-          "own_content_only": true
-        },
-        {
-          "id": "material.carbonblack",
-          "start_page": 94,
+          "id": "d.crystal.defect",
+          "start_page": 92,
           "end_page": 94,
           "own_content_only": true
         },
         {
-          "id": "material.cnt",
+          "id": "d.crystal.stress",
           "start_page": 95,
-          "end_page": 95,
+          "end_page": 97,
           "own_content_only": true
         },
         {
-          "id": "material.graphene",
-          "start_page": 96,
-          "end_page": 96,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte",
-          "start_page": 98,
-          "end_page": 98,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.liquid",
+          "id": "d.electronic",
           "start_page": 99,
-          "end_page": 99,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.salt",
-          "start_page": 100,
-          "end_page": 100,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lipf6",
-          "start_page": 101,
           "end_page": 101,
           "own_content_only": true
         },
         {
-          "id": "material.lifsi",
+          "id": "d.electronic.bond",
           "start_page": 102,
-          "end_page": 102,
+          "end_page": 104,
           "own_content_only": true
         },
         {
-          "id": "material.litfsi",
-          "start_page": 103,
-          "end_page": 103,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.solvent",
+          "id": "d.electronic.band",
           "start_page": 105,
-          "end_page": 105,
+          "end_page": 107,
           "own_content_only": true
         },
         {
-          "id": "d.electrolyte.additive",
-          "start_page": 106,
-          "end_page": 106,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.solid",
+          "id": "d.electronic.redox",
           "start_page": 108,
-          "end_page": 108,
-          "own_content_only": true
-        },
-        {
-          "id": "d.solid.sulfide",
-          "start_page": 109,
-          "end_page": 109,
-          "own_content_only": true
-        },
-        {
-          "id": "d.solid.oxide",
-          "start_page": 110,
           "end_page": 110,
           "own_content_only": true
         },
         {
-          "id": "d.solid.polymer",
-          "start_page": 111,
-          "end_page": 111,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.gel",
-          "start_page": 113,
-          "end_page": 113,
-          "own_content_only": true
-        },
-        {
-          "id": "d.interphase",
-          "start_page": 114,
+          "id": "d.transport",
+          "start_page": 112,
           "end_page": 114,
           "own_content_only": true
         },
         {
-          "id": "d.separator",
-          "start_page": 116,
-          "end_page": 116,
-          "own_content_only": true
-        },
-        {
-          "id": "d.separator.polyolefin",
-          "start_page": 117,
-          "end_page": 117,
-          "own_content_only": true
-        },
-        {
-          "id": "d.separator.coating",
-          "start_page": 118,
+          "id": "d.transport.diffusion",
+          "start_page": 115,
           "end_page": 118,
           "own_content_only": true
         },
         {
-          "id": "d.collector",
-          "start_page": 120,
-          "end_page": 120,
-          "own_content_only": true
-        },
-        {
-          "id": "d.collector.al",
-          "start_page": 121,
-          "end_page": 121,
-          "own_content_only": true
-        },
-        {
-          "id": "d.collector.cu",
-          "start_page": 122,
+          "id": "d.transport.electron",
+          "start_page": 119,
           "end_page": 122,
           "own_content_only": true
         },
         {
-          "id": "d.collector.surface",
+          "id": "d.transport.heat",
           "start_page": 123,
-          "end_page": 123,
+          "end_page": 125,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport.interface",
+          "start_page": 126,
+          "end_page": 129,
+          "own_content_only": true
+        },
+        {
+          "id": "d.powder",
+          "start_page": 131,
+          "end_page": 133,
+          "own_content_only": true
+        },
+        {
+          "id": "d.powder.size",
+          "start_page": 134,
+          "end_page": 136,
+          "own_content_only": true
+        },
+        {
+          "id": "d.powder.area",
+          "start_page": 137,
+          "end_page": 140,
+          "own_content_only": true
+        },
+        {
+          "id": "d.powder.density",
+          "start_page": 141,
+          "end_page": 144,
+          "own_content_only": true
+        },
+        {
+          "id": "d.active",
+          "start_page": 147,
+          "end_page": 149,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode",
+          "start_page": 150,
+          "end_page": 152,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.layered",
+          "start_page": 153,
+          "end_page": 155,
+          "own_content_only": true
+        },
+        {
+          "id": "material.ncm",
+          "start_page": 156,
+          "end_page": 160,
+          "own_content_only": true
+        },
+        {
+          "id": "material.nca",
+          "start_page": 161,
+          "end_page": 163,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lco",
+          "start_page": 164,
+          "end_page": 166,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.phosphate",
+          "start_page": 168,
+          "end_page": 170,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lfp",
+          "start_page": 171,
+          "end_page": 175,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lmfp",
+          "start_page": 176,
+          "end_page": 179,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.spinel",
+          "start_page": 181,
+          "end_page": 183,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lmo",
+          "start_page": 184,
+          "end_page": 186,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lnmo",
+          "start_page": 187,
+          "end_page": 189,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.sulfur",
+          "start_page": 191,
+          "end_page": 193,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sulfur",
+          "start_page": 194,
+          "end_page": 196,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode",
+          "start_page": 199,
+          "end_page": 201,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.carbon",
+          "start_page": 202,
+          "end_page": 204,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite",
+          "start_page": 205,
+          "end_page": 209,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.natural",
+          "start_page": 210,
+          "end_page": 212,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.synthetic",
+          "start_page": 213,
+          "end_page": 215,
+          "own_content_only": true
+        },
+        {
+          "id": "material.hardcarbon",
+          "start_page": 217,
+          "end_page": 220,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.si",
+          "start_page": 222,
+          "end_page": 224,
+          "own_content_only": true
+        },
+        {
+          "id": "material.si",
+          "start_page": 225,
+          "end_page": 229,
+          "own_content_only": true
+        },
+        {
+          "id": "material.siox",
+          "start_page": 230,
+          "end_page": 232,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sic",
+          "start_page": 233,
+          "end_page": 236,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.oxide",
+          "start_page": 238,
+          "end_page": 240,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lto",
+          "start_page": 241,
+          "end_page": 243,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.metal",
+          "start_page": 245,
+          "end_page": 247,
+          "own_content_only": true
+        },
+        {
+          "id": "material.limetal",
+          "start_page": 248,
+          "end_page": 250,
+          "own_content_only": true
+        },
+        {
+          "id": "d.binder",
+          "start_page": 254,
+          "end_page": 257,
+          "own_content_only": true
+        },
+        {
+          "id": "material.pvdf",
+          "start_page": 258,
+          "end_page": 260,
+          "own_content_only": true
+        },
+        {
+          "id": "material.cmc",
+          "start_page": 261,
+          "end_page": 263,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sbr",
+          "start_page": 264,
+          "end_page": 266,
+          "own_content_only": true
+        },
+        {
+          "id": "material.paa",
+          "start_page": 267,
+          "end_page": 269,
+          "own_content_only": true
+        },
+        {
+          "id": "material.ptfe",
+          "start_page": 270,
+          "end_page": 273,
+          "own_content_only": true
+        },
+        {
+          "id": "d.conductive",
+          "start_page": 275,
+          "end_page": 278,
+          "own_content_only": true
+        },
+        {
+          "id": "material.carbonblack",
+          "start_page": 279,
+          "end_page": 282,
+          "own_content_only": true
+        },
+        {
+          "id": "material.cnt",
+          "start_page": 283,
+          "end_page": 285,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphene",
+          "start_page": 286,
+          "end_page": 288,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte",
+          "start_page": 290,
+          "end_page": 292,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.liquid",
+          "start_page": 293,
+          "end_page": 295,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.salt",
+          "start_page": 296,
+          "end_page": 298,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lipf6",
+          "start_page": 299,
+          "end_page": 301,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lifsi",
+          "start_page": 302,
+          "end_page": 304,
+          "own_content_only": true
+        },
+        {
+          "id": "material.litfsi",
+          "start_page": 305,
+          "end_page": 307,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.solvent",
+          "start_page": 309,
+          "end_page": 311,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.additive",
+          "start_page": 312,
+          "end_page": 314,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.solid",
+          "start_page": 316,
+          "end_page": 319,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.sulfide",
+          "start_page": 320,
+          "end_page": 322,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.oxide",
+          "start_page": 323,
+          "end_page": 325,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.polymer",
+          "start_page": 326,
+          "end_page": 328,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.gel",
+          "start_page": 330,
+          "end_page": 332,
+          "own_content_only": true
+        },
+        {
+          "id": "d.interphase",
+          "start_page": 333,
+          "end_page": 336,
+          "own_content_only": true
+        },
+        {
+          "id": "d.separator",
+          "start_page": 338,
+          "end_page": 341,
+          "own_content_only": true
+        },
+        {
+          "id": "d.separator.polyolefin",
+          "start_page": 342,
+          "end_page": 344,
+          "own_content_only": true
+        },
+        {
+          "id": "d.separator.coating",
+          "start_page": 345,
+          "end_page": 347,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector",
+          "start_page": 349,
+          "end_page": 352,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector.al",
+          "start_page": 353,
+          "end_page": 355,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector.cu",
+          "start_page": 356,
+          "end_page": 358,
+          "own_content_only": true
+        },
+        {
+          "id": "d.collector.surface",
+          "start_page": 359,
+          "end_page": 361,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -1660,8 +1660,8 @@
       "wbs": "1.1.1",
       "label": "소재 특성·전공 기초",
       "pdf_path": "References/wbs/1.1.1_소재_특성·전공_기초.pdf",
-      "pdf_pages": 40,
-      "own_pages": 1,
+      "pdf_pages": 142,
+      "own_pages": 3,
       "included_ids": [
         "d.basics",
         "d.elements",
@@ -1701,203 +1701,203 @@
         {
           "id": "d.basics",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         },
         {
           "id": "d.elements",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "element.li",
-          "start_page": 3,
-          "end_page": 4,
-          "own_content_only": true
-        },
-        {
-          "id": "element.ni",
-          "start_page": 5,
-          "end_page": 5,
-          "own_content_only": true
-        },
-        {
-          "id": "element.co",
-          "start_page": 6,
-          "end_page": 6,
-          "own_content_only": true
-        },
-        {
-          "id": "element.mn",
-          "start_page": 7,
+          "start_page": 4,
           "end_page": 7,
           "own_content_only": true
         },
         {
-          "id": "element.fe",
+          "id": "element.li",
           "start_page": 8,
-          "end_page": 8,
-          "own_content_only": true
-        },
-        {
-          "id": "element.p",
-          "start_page": 9,
-          "end_page": 9,
-          "own_content_only": true
-        },
-        {
-          "id": "element.c",
-          "start_page": 10,
-          "end_page": 10,
-          "own_content_only": true
-        },
-        {
-          "id": "element.si",
-          "start_page": 11,
-          "end_page": 11,
-          "own_content_only": true
-        },
-        {
-          "id": "element.al",
-          "start_page": 12,
-          "end_page": 12,
-          "own_content_only": true
-        },
-        {
-          "id": "element.cu",
-          "start_page": 13,
-          "end_page": 13,
-          "own_content_only": true
-        },
-        {
-          "id": "element.o",
-          "start_page": 14,
-          "end_page": 14,
-          "own_content_only": true
-        },
-        {
-          "id": "element.na",
-          "start_page": 15,
-          "end_page": 15,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal",
-          "start_page": 17,
-          "end_page": 17,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.layered",
-          "start_page": 18,
-          "end_page": 18,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.olivine",
-          "start_page": 19,
           "end_page": 19,
           "own_content_only": true
         },
         {
-          "id": "d.crystal.spinel",
+          "id": "element.ni",
           "start_page": 20,
-          "end_page": 20,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.defect",
-          "start_page": 21,
-          "end_page": 21,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.stress",
-          "start_page": 22,
-          "end_page": 22,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic",
-          "start_page": 24,
-          "end_page": 24,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.bond",
-          "start_page": 25,
-          "end_page": 25,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.band",
-          "start_page": 26,
-          "end_page": 26,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.redox",
-          "start_page": 27,
-          "end_page": 27,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport",
-          "start_page": 29,
-          "end_page": 29,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.diffusion",
-          "start_page": 30,
-          "end_page": 30,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.electron",
-          "start_page": 31,
           "end_page": 31,
           "own_content_only": true
         },
         {
-          "id": "d.transport.heat",
+          "id": "element.co",
           "start_page": 32,
-          "end_page": 32,
+          "end_page": 34,
+          "own_content_only": true
+        },
+        {
+          "id": "element.mn",
+          "start_page": 35,
+          "end_page": 45,
+          "own_content_only": true
+        },
+        {
+          "id": "element.fe",
+          "start_page": 46,
+          "end_page": 48,
+          "own_content_only": true
+        },
+        {
+          "id": "element.p",
+          "start_page": 49,
+          "end_page": 51,
+          "own_content_only": true
+        },
+        {
+          "id": "element.c",
+          "start_page": 52,
+          "end_page": 54,
+          "own_content_only": true
+        },
+        {
+          "id": "element.si",
+          "start_page": 55,
+          "end_page": 58,
+          "own_content_only": true
+        },
+        {
+          "id": "element.al",
+          "start_page": 59,
+          "end_page": 61,
+          "own_content_only": true
+        },
+        {
+          "id": "element.cu",
+          "start_page": 62,
+          "end_page": 64,
+          "own_content_only": true
+        },
+        {
+          "id": "element.o",
+          "start_page": 65,
+          "end_page": 67,
+          "own_content_only": true
+        },
+        {
+          "id": "element.na",
+          "start_page": 68,
+          "end_page": 70,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal",
+          "start_page": 72,
+          "end_page": 75,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.layered",
+          "start_page": 76,
+          "end_page": 79,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.olivine",
+          "start_page": 80,
+          "end_page": 83,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.spinel",
+          "start_page": 84,
+          "end_page": 87,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.defect",
+          "start_page": 88,
+          "end_page": 90,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.stress",
+          "start_page": 91,
+          "end_page": 93,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electronic",
+          "start_page": 95,
+          "end_page": 97,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electronic.bond",
+          "start_page": 98,
+          "end_page": 100,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electronic.band",
+          "start_page": 101,
+          "end_page": 103,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electronic.redox",
+          "start_page": 104,
+          "end_page": 106,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport",
+          "start_page": 108,
+          "end_page": 110,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport.diffusion",
+          "start_page": 111,
+          "end_page": 114,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport.electron",
+          "start_page": 115,
+          "end_page": 118,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport.heat",
+          "start_page": 119,
+          "end_page": 121,
           "own_content_only": true
         },
         {
           "id": "d.transport.interface",
-          "start_page": 33,
-          "end_page": 33,
+          "start_page": 122,
+          "end_page": 125,
           "own_content_only": true
         },
         {
           "id": "d.powder",
-          "start_page": 35,
-          "end_page": 35,
+          "start_page": 127,
+          "end_page": 129,
           "own_content_only": true
         },
         {
           "id": "d.powder.size",
-          "start_page": 36,
-          "end_page": 36,
+          "start_page": 130,
+          "end_page": 132,
           "own_content_only": true
         },
         {
           "id": "d.powder.area",
-          "start_page": 37,
-          "end_page": 37,
+          "start_page": 133,
+          "end_page": 136,
           "own_content_only": true
         },
         {
           "id": "d.powder.density",
-          "start_page": 38,
-          "end_page": 38,
+          "start_page": 137,
+          "end_page": 140,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -1905,8 +1905,8 @@
       "wbs": "1.1.1.1",
       "label": "원소·이온",
       "pdf_path": "References/wbs/1.1.1.1_원소·이온.pdf",
-      "pdf_pages": 15,
-      "own_pages": 1,
+      "pdf_pages": 68,
+      "own_pages": 4,
       "included_ids": [
         "d.elements",
         "element.li",
@@ -1926,83 +1926,83 @@
         {
           "id": "d.elements",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "element.li",
-          "start_page": 2,
-          "end_page": 3,
-          "own_content_only": true
-        },
-        {
-          "id": "element.ni",
-          "start_page": 4,
           "end_page": 4,
           "own_content_only": true
         },
         {
-          "id": "element.co",
+          "id": "element.li",
           "start_page": 5,
-          "end_page": 5,
+          "end_page": 16,
+          "own_content_only": true
+        },
+        {
+          "id": "element.ni",
+          "start_page": 17,
+          "end_page": 28,
+          "own_content_only": true
+        },
+        {
+          "id": "element.co",
+          "start_page": 29,
+          "end_page": 31,
           "own_content_only": true
         },
         {
           "id": "element.mn",
-          "start_page": 6,
-          "end_page": 6,
+          "start_page": 32,
+          "end_page": 42,
           "own_content_only": true
         },
         {
           "id": "element.fe",
-          "start_page": 7,
-          "end_page": 7,
+          "start_page": 43,
+          "end_page": 45,
           "own_content_only": true
         },
         {
           "id": "element.p",
-          "start_page": 8,
-          "end_page": 8,
+          "start_page": 46,
+          "end_page": 48,
           "own_content_only": true
         },
         {
           "id": "element.c",
-          "start_page": 9,
-          "end_page": 9,
+          "start_page": 49,
+          "end_page": 51,
           "own_content_only": true
         },
         {
           "id": "element.si",
-          "start_page": 10,
-          "end_page": 10,
+          "start_page": 52,
+          "end_page": 55,
           "own_content_only": true
         },
         {
           "id": "element.al",
-          "start_page": 11,
-          "end_page": 11,
+          "start_page": 56,
+          "end_page": 58,
           "own_content_only": true
         },
         {
           "id": "element.cu",
-          "start_page": 12,
-          "end_page": 12,
+          "start_page": 59,
+          "end_page": 61,
           "own_content_only": true
         },
         {
           "id": "element.o",
-          "start_page": 13,
-          "end_page": 13,
+          "start_page": 62,
+          "end_page": 64,
           "own_content_only": true
         },
         {
           "id": "element.na",
-          "start_page": 14,
-          "end_page": 14,
+          "start_page": 65,
+          "end_page": 67,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2010,8 +2010,8 @@
       "wbs": "1.1.1.1.1",
       "label": "Li: 원소·Li⁺·금속 음극",
       "pdf_path": "References/wbs/1.1.1.1.1_Li_원소·Li⁺·금속_음극.pdf",
-      "pdf_pages": 2,
-      "own_pages": 2,
+      "pdf_pages": 12,
+      "own_pages": 12,
       "included_ids": [
         "element.li"
       ],
@@ -2019,7 +2019,7 @@
         {
           "id": "element.li",
           "start_page": 1,
-          "end_page": 2,
+          "end_page": 12,
           "own_content_only": true
         }
       ],
@@ -2031,8 +2031,8 @@
       "wbs": "1.1.1.1.2",
       "label": "Ni: 니켈",
       "pdf_path": "References/wbs/1.1.1.1.2_Ni_니켈.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 12,
+      "own_pages": 12,
       "included_ids": [
         "element.ni"
       ],
@@ -2040,11 +2040,11 @@
         {
           "id": "element.ni",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 12,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2052,8 +2052,8 @@
       "wbs": "1.1.1.1.3",
       "label": "Co: 코발트",
       "pdf_path": "References/wbs/1.1.1.1.3_Co_코발트.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.co"
       ],
@@ -2061,11 +2061,11 @@
         {
           "id": "element.co",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2073,8 +2073,8 @@
       "wbs": "1.1.1.1.4",
       "label": "Mn: 망간",
       "pdf_path": "References/wbs/1.1.1.1.4_Mn_망간.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 11,
+      "own_pages": 11,
       "included_ids": [
         "element.mn"
       ],
@@ -2082,11 +2082,11 @@
         {
           "id": "element.mn",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 11,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2094,8 +2094,8 @@
       "wbs": "1.1.1.1.5",
       "label": "Fe: 철",
       "pdf_path": "References/wbs/1.1.1.1.5_Fe_철.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.fe"
       ],
@@ -2103,11 +2103,11 @@
         {
           "id": "element.fe",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2115,8 +2115,8 @@
       "wbs": "1.1.1.1.6",
       "label": "P: 인",
       "pdf_path": "References/wbs/1.1.1.1.6_P_인.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.p"
       ],
@@ -2124,11 +2124,11 @@
         {
           "id": "element.p",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2136,8 +2136,8 @@
       "wbs": "1.1.1.1.7",
       "label": "C: 탄소",
       "pdf_path": "References/wbs/1.1.1.1.7_C_탄소.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.c"
       ],
@@ -2145,11 +2145,11 @@
         {
           "id": "element.c",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2157,8 +2157,8 @@
       "wbs": "1.1.1.1.8",
       "label": "Si: 규소",
       "pdf_path": "References/wbs/1.1.1.1.8_Si_규소.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "element.si"
       ],
@@ -2166,11 +2166,11 @@
         {
           "id": "element.si",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2178,8 +2178,8 @@
       "wbs": "1.1.1.1.9",
       "label": "Al: 알루미늄",
       "pdf_path": "References/wbs/1.1.1.1.9_Al_알루미늄.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.al"
       ],
@@ -2187,11 +2187,11 @@
         {
           "id": "element.al",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2199,8 +2199,8 @@
       "wbs": "1.1.1.1.10",
       "label": "Cu: 구리",
       "pdf_path": "References/wbs/1.1.1.1.10_Cu_구리.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.cu"
       ],
@@ -2208,11 +2208,11 @@
         {
           "id": "element.cu",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2220,8 +2220,8 @@
       "wbs": "1.1.1.1.11",
       "label": "O: 산소",
       "pdf_path": "References/wbs/1.1.1.1.11_O_산소.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.o"
       ],
@@ -2229,11 +2229,11 @@
         {
           "id": "element.o",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2241,8 +2241,8 @@
       "wbs": "1.1.1.1.12",
       "label": "Na: 나트륨",
       "pdf_path": "References/wbs/1.1.1.1.12_Na_나트륨.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "element.na"
       ],
@@ -2250,11 +2250,11 @@
         {
           "id": "element.na",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2262,8 +2262,8 @@
       "wbs": "1.1.1.2",
       "label": "결정구조·결함",
       "pdf_path": "References/wbs/1.1.1.2_결정구조·결함.pdf",
-      "pdf_pages": 7,
-      "own_pages": 1,
+      "pdf_pages": 23,
+      "own_pages": 4,
       "included_ids": [
         "d.crystal",
         "d.crystal.layered",
@@ -2276,41 +2276,41 @@
         {
           "id": "d.crystal",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.layered",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.olivine",
-          "start_page": 3,
-          "end_page": 3,
-          "own_content_only": true
-        },
-        {
-          "id": "d.crystal.spinel",
-          "start_page": 4,
           "end_page": 4,
           "own_content_only": true
         },
         {
-          "id": "d.crystal.defect",
+          "id": "d.crystal.layered",
           "start_page": 5,
-          "end_page": 5,
+          "end_page": 8,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.olivine",
+          "start_page": 9,
+          "end_page": 12,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.spinel",
+          "start_page": 13,
+          "end_page": 16,
+          "own_content_only": true
+        },
+        {
+          "id": "d.crystal.defect",
+          "start_page": 17,
+          "end_page": 19,
           "own_content_only": true
         },
         {
           "id": "d.crystal.stress",
-          "start_page": 6,
-          "end_page": 6,
+          "start_page": 20,
+          "end_page": 22,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2318,8 +2318,8 @@
       "wbs": "1.1.1.2.1",
       "label": "층상 구조",
       "pdf_path": "References/wbs/1.1.1.2.1_층상_구조.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.crystal.layered"
       ],
@@ -2327,11 +2327,11 @@
         {
           "id": "d.crystal.layered",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2339,8 +2339,8 @@
       "wbs": "1.1.1.2.2",
       "label": "올리빈 구조",
       "pdf_path": "References/wbs/1.1.1.2.2_올리빈_구조.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.crystal.olivine"
       ],
@@ -2348,11 +2348,11 @@
         {
           "id": "d.crystal.olivine",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2360,8 +2360,8 @@
       "wbs": "1.1.1.2.3",
       "label": "스피넬 구조",
       "pdf_path": "References/wbs/1.1.1.2.3_스피넬_구조.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.crystal.spinel"
       ],
@@ -2369,11 +2369,11 @@
         {
           "id": "d.crystal.spinel",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2381,8 +2381,8 @@
       "wbs": "1.1.1.2.4",
       "label": "공공·자리 혼입·입계",
       "pdf_path": "References/wbs/1.1.1.2.4_공공·자리_혼입·입계.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.crystal.defect"
       ],
@@ -2390,11 +2390,11 @@
         {
           "id": "d.crystal.defect",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2402,8 +2402,8 @@
       "wbs": "1.1.1.2.5",
       "label": "상전이·응력·균열",
       "pdf_path": "References/wbs/1.1.1.2.5_상전이·응력·균열.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.crystal.stress"
       ],
@@ -2411,11 +2411,11 @@
         {
           "id": "d.crystal.stress",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2423,8 +2423,8 @@
       "wbs": "1.1.1.3",
       "label": "전자구조·결합",
       "pdf_path": "References/wbs/1.1.1.3_전자구조·결합.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 13,
+      "own_pages": 3,
       "included_ids": [
         "d.electronic",
         "d.electronic.bond",
@@ -2435,29 +2435,29 @@
         {
           "id": "d.electronic",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.bond",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electronic.band",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "d.electronic.redox",
+          "id": "d.electronic.bond",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 6,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electronic.band",
+          "start_page": 7,
+          "end_page": 9,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electronic.redox",
+          "start_page": 10,
+          "end_page": 12,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2465,8 +2465,8 @@
       "wbs": "1.1.1.3.1",
       "label": "화학결합·산화수",
       "pdf_path": "References/wbs/1.1.1.3.1_화학결합·산화수.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.electronic.bond"
       ],
@@ -2474,11 +2474,11 @@
         {
           "id": "d.electronic.bond",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2486,8 +2486,8 @@
       "wbs": "1.1.1.3.2",
       "label": "오비탈·밴드·전자상태",
       "pdf_path": "References/wbs/1.1.1.3.2_오비탈·밴드·전자상태.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.electronic.band"
       ],
@@ -2495,11 +2495,11 @@
         {
           "id": "d.electronic.band",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2507,8 +2507,8 @@
       "wbs": "1.1.1.3.3",
       "label": "산화·환원과 전위",
       "pdf_path": "References/wbs/1.1.1.3.3_산화·환원과_전위.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.electronic.redox"
       ],
@@ -2516,11 +2516,11 @@
         {
           "id": "d.electronic.redox",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2528,8 +2528,8 @@
       "wbs": "1.1.1.4",
       "label": "전달·반응·열 특성",
       "pdf_path": "References/wbs/1.1.1.4_전달·반응·열_특성.pdf",
-      "pdf_pages": 6,
-      "own_pages": 1,
+      "pdf_pages": 19,
+      "own_pages": 3,
       "included_ids": [
         "d.transport",
         "d.transport.diffusion",
@@ -2541,35 +2541,35 @@
         {
           "id": "d.transport",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.diffusion",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.transport.electron",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "d.transport.heat",
+          "id": "d.transport.diffusion",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 7,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport.electron",
+          "start_page": 8,
+          "end_page": 11,
+          "own_content_only": true
+        },
+        {
+          "id": "d.transport.heat",
+          "start_page": 12,
+          "end_page": 14,
           "own_content_only": true
         },
         {
           "id": "d.transport.interface",
-          "start_page": 5,
-          "end_page": 5,
+          "start_page": 15,
+          "end_page": 18,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2577,8 +2577,8 @@
       "wbs": "1.1.1.4.1",
       "label": "확산·이온 전달",
       "pdf_path": "References/wbs/1.1.1.4.1_확산·이온_전달.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.transport.diffusion"
       ],
@@ -2586,11 +2586,11 @@
         {
           "id": "d.transport.diffusion",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2598,8 +2598,8 @@
       "wbs": "1.1.1.4.2",
       "label": "전자 전달",
       "pdf_path": "References/wbs/1.1.1.4.2_전자_전달.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.transport.electron"
       ],
@@ -2607,11 +2607,11 @@
         {
           "id": "d.transport.electron",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2619,8 +2619,8 @@
       "wbs": "1.1.1.4.3",
       "label": "열전달·열 안정성",
       "pdf_path": "References/wbs/1.1.1.4.3_열전달·열_안정성.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.transport.heat"
       ],
@@ -2628,11 +2628,11 @@
         {
           "id": "d.transport.heat",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2640,8 +2640,8 @@
       "wbs": "1.1.1.4.4",
       "label": "계면 반응·젖음성",
       "pdf_path": "References/wbs/1.1.1.4.4_계면_반응·젖음성.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.transport.interface"
       ],
@@ -2649,11 +2649,11 @@
         {
           "id": "d.transport.interface",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2661,8 +2661,8 @@
       "wbs": "1.1.1.5",
       "label": "입자·분체·표면",
       "pdf_path": "References/wbs/1.1.1.5_입자·분체·표면.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 15,
+      "own_pages": 3,
       "included_ids": [
         "d.powder",
         "d.powder.size",
@@ -2673,29 +2673,29 @@
         {
           "id": "d.powder",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder.size",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.powder.area",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "d.powder.density",
+          "id": "d.powder.size",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 6,
+          "own_content_only": true
+        },
+        {
+          "id": "d.powder.area",
+          "start_page": 7,
+          "end_page": 10,
+          "own_content_only": true
+        },
+        {
+          "id": "d.powder.density",
+          "start_page": 11,
+          "end_page": 14,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2703,8 +2703,8 @@
       "wbs": "1.1.1.5.1",
       "label": "입도·입도분포",
       "pdf_path": "References/wbs/1.1.1.5.1_입도·입도분포.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.powder.size"
       ],
@@ -2712,11 +2712,11 @@
         {
           "id": "d.powder.size",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2724,8 +2724,8 @@
       "wbs": "1.1.1.5.2",
       "label": "비표면적·표면화학",
       "pdf_path": "References/wbs/1.1.1.5.2_비표면적·표면화학.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.powder.area"
       ],
@@ -2733,11 +2733,11 @@
         {
           "id": "d.powder.area",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2745,8 +2745,8 @@
       "wbs": "1.1.1.5.3",
       "label": "진밀도·탭밀도·충전성",
       "pdf_path": "References/wbs/1.1.1.5.3_진밀도·탭밀도·충전성.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.powder.density"
       ],
@@ -2754,11 +2754,11 @@
         {
           "id": "d.powder.density",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2766,8 +2766,8 @@
       "wbs": "1.1.2",
       "label": "활물질",
       "pdf_path": "References/wbs/1.1.2_활물질.pdf",
-      "pdf_pages": 44,
-      "own_pages": 1,
+      "pdf_pages": 107,
+      "own_pages": 3,
       "included_ids": [
         "d.active",
         "d.cathode",
@@ -2802,173 +2802,173 @@
         {
           "id": "d.active",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.layered",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.ncm",
+          "id": "d.cathode",
           "start_page": 4,
-          "end_page": 5,
-          "own_content_only": true
-        },
-        {
-          "id": "material.nca",
-          "start_page": 6,
           "end_page": 6,
           "own_content_only": true
         },
         {
-          "id": "material.lco",
+          "id": "d.cathode.layered",
           "start_page": 7,
-          "end_page": 7,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.phosphate",
-          "start_page": 9,
           "end_page": 9,
           "own_content_only": true
         },
         {
-          "id": "material.lfp",
+          "id": "material.ncm",
           "start_page": 10,
-          "end_page": 11,
+          "end_page": 14,
           "own_content_only": true
         },
         {
-          "id": "material.lmfp",
-          "start_page": 12,
-          "end_page": 13,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.spinel",
+          "id": "material.nca",
           "start_page": 15,
-          "end_page": 15,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lmo",
-          "start_page": 16,
           "end_page": 17,
           "own_content_only": true
         },
         {
-          "id": "material.lnmo",
+          "id": "material.lco",
           "start_page": 18,
-          "end_page": 18,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.sulfur",
-          "start_page": 20,
           "end_page": 20,
           "own_content_only": true
         },
         {
-          "id": "material.sulfur",
-          "start_page": 21,
-          "end_page": 21,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode",
-          "start_page": 24,
+          "id": "d.cathode.phosphate",
+          "start_page": 22,
           "end_page": 24,
           "own_content_only": true
         },
         {
-          "id": "d.anode.carbon",
+          "id": "material.lfp",
           "start_page": 25,
-          "end_page": 25,
+          "end_page": 29,
           "own_content_only": true
         },
         {
-          "id": "material.graphite",
-          "start_page": 26,
-          "end_page": 26,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite.natural",
-          "start_page": 27,
-          "end_page": 27,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite.synthetic",
-          "start_page": 28,
-          "end_page": 28,
-          "own_content_only": true
-        },
-        {
-          "id": "material.hardcarbon",
+          "id": "material.lmfp",
           "start_page": 30,
-          "end_page": 30,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.si",
-          "start_page": 32,
-          "end_page": 32,
-          "own_content_only": true
-        },
-        {
-          "id": "material.si",
-          "start_page": 33,
           "end_page": 33,
           "own_content_only": true
         },
         {
-          "id": "material.siox",
-          "start_page": 34,
-          "end_page": 34,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sic",
+          "id": "d.cathode.spinel",
           "start_page": 35,
-          "end_page": 35,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.oxide",
-          "start_page": 37,
           "end_page": 37,
           "own_content_only": true
         },
         {
-          "id": "material.lto",
+          "id": "material.lmo",
           "start_page": 38,
-          "end_page": 38,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.metal",
-          "start_page": 40,
           "end_page": 40,
           "own_content_only": true
         },
         {
-          "id": "material.limetal",
+          "id": "material.lnmo",
           "start_page": 41,
-          "end_page": 41,
+          "end_page": 43,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.sulfur",
+          "start_page": 45,
+          "end_page": 47,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sulfur",
+          "start_page": 48,
+          "end_page": 50,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode",
+          "start_page": 53,
+          "end_page": 55,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.carbon",
+          "start_page": 56,
+          "end_page": 58,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite",
+          "start_page": 59,
+          "end_page": 63,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.natural",
+          "start_page": 64,
+          "end_page": 66,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.synthetic",
+          "start_page": 67,
+          "end_page": 69,
+          "own_content_only": true
+        },
+        {
+          "id": "material.hardcarbon",
+          "start_page": 71,
+          "end_page": 74,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.si",
+          "start_page": 76,
+          "end_page": 78,
+          "own_content_only": true
+        },
+        {
+          "id": "material.si",
+          "start_page": 79,
+          "end_page": 83,
+          "own_content_only": true
+        },
+        {
+          "id": "material.siox",
+          "start_page": 84,
+          "end_page": 86,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sic",
+          "start_page": 87,
+          "end_page": 90,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.oxide",
+          "start_page": 92,
+          "end_page": 94,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lto",
+          "start_page": 95,
+          "end_page": 97,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.metal",
+          "start_page": 99,
+          "end_page": 101,
+          "own_content_only": true
+        },
+        {
+          "id": "material.limetal",
+          "start_page": 102,
+          "end_page": 104,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -2976,8 +2976,8 @@
       "wbs": "1.1.2.1",
       "label": "양극재",
       "pdf_path": "References/wbs/1.1.2.1_양극재.pdf",
-      "pdf_pages": 22,
-      "own_pages": 1,
+      "pdf_pages": 49,
+      "own_pages": 3,
       "included_ids": [
         "d.cathode",
         "d.cathode.layered",
@@ -2997,83 +2997,83 @@
         {
           "id": "d.cathode",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         },
         {
           "id": "d.cathode.layered",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.ncm",
-          "start_page": 3,
-          "end_page": 4,
-          "own_content_only": true
-        },
-        {
-          "id": "material.nca",
-          "start_page": 5,
-          "end_page": 5,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lco",
-          "start_page": 6,
+          "start_page": 4,
           "end_page": 6,
           "own_content_only": true
         },
         {
-          "id": "d.cathode.phosphate",
-          "start_page": 8,
-          "end_page": 8,
+          "id": "material.ncm",
+          "start_page": 7,
+          "end_page": 11,
           "own_content_only": true
         },
         {
-          "id": "material.lfp",
-          "start_page": 9,
-          "end_page": 10,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lmfp",
-          "start_page": 11,
-          "end_page": 12,
-          "own_content_only": true
-        },
-        {
-          "id": "d.cathode.spinel",
-          "start_page": 14,
+          "id": "material.nca",
+          "start_page": 12,
           "end_page": 14,
           "own_content_only": true
         },
         {
-          "id": "material.lmo",
+          "id": "material.lco",
           "start_page": 15,
-          "end_page": 16,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lnmo",
-          "start_page": 17,
           "end_page": 17,
           "own_content_only": true
         },
         {
-          "id": "d.cathode.sulfur",
+          "id": "d.cathode.phosphate",
           "start_page": 19,
-          "end_page": 19,
+          "end_page": 21,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lfp",
+          "start_page": 22,
+          "end_page": 26,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lmfp",
+          "start_page": 27,
+          "end_page": 30,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.spinel",
+          "start_page": 32,
+          "end_page": 34,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lmo",
+          "start_page": 35,
+          "end_page": 37,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lnmo",
+          "start_page": 38,
+          "end_page": 40,
+          "own_content_only": true
+        },
+        {
+          "id": "d.cathode.sulfur",
+          "start_page": 42,
+          "end_page": 44,
           "own_content_only": true
         },
         {
           "id": "material.sulfur",
-          "start_page": 20,
-          "end_page": 20,
+          "start_page": 45,
+          "end_page": 47,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3081,8 +3081,8 @@
       "wbs": "1.1.2.1.1",
       "label": "층상 산화물",
       "pdf_path": "References/wbs/1.1.2.1.1_층상_산화물.pdf",
-      "pdf_pages": 6,
-      "own_pages": 1,
+      "pdf_pages": 15,
+      "own_pages": 3,
       "included_ids": [
         "d.cathode.layered",
         "material.ncm",
@@ -3093,29 +3093,29 @@
         {
           "id": "d.cathode.layered",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.ncm",
-          "start_page": 2,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.nca",
+          "id": "material.ncm",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 8,
+          "own_content_only": true
+        },
+        {
+          "id": "material.nca",
+          "start_page": 9,
+          "end_page": 11,
           "own_content_only": true
         },
         {
           "id": "material.lco",
-          "start_page": 5,
-          "end_page": 5,
+          "start_page": 12,
+          "end_page": 14,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3123,8 +3123,8 @@
       "wbs": "1.1.2.1.1.1",
       "label": "NCM",
       "pdf_path": "References/wbs/1.1.2.1.1.1_NCM.pdf",
-      "pdf_pages": 2,
-      "own_pages": 2,
+      "pdf_pages": 5,
+      "own_pages": 5,
       "included_ids": [
         "material.ncm"
       ],
@@ -3132,7 +3132,7 @@
         {
           "id": "material.ncm",
           "start_page": 1,
-          "end_page": 2,
+          "end_page": 5,
           "own_content_only": true
         }
       ],
@@ -3144,8 +3144,8 @@
       "wbs": "1.1.2.1.1.2",
       "label": "NCA",
       "pdf_path": "References/wbs/1.1.2.1.1.2_NCA.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.nca"
       ],
@@ -3153,11 +3153,11 @@
         {
           "id": "material.nca",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3165,8 +3165,8 @@
       "wbs": "1.1.2.1.1.3",
       "label": "LCO",
       "pdf_path": "References/wbs/1.1.2.1.1.3_LCO.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.lco"
       ],
@@ -3174,11 +3174,11 @@
         {
           "id": "material.lco",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3186,8 +3186,8 @@
       "wbs": "1.1.2.1.2",
       "label": "인산염계",
       "pdf_path": "References/wbs/1.1.2.1.2_인산염계.pdf",
-      "pdf_pages": 6,
-      "own_pages": 1,
+      "pdf_pages": 13,
+      "own_pages": 3,
       "included_ids": [
         "d.cathode.phosphate",
         "material.lfp",
@@ -3197,23 +3197,23 @@
         {
           "id": "d.cathode.phosphate",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lfp",
-          "start_page": 2,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.lmfp",
+          "id": "material.lfp",
           "start_page": 4,
-          "end_page": 5,
+          "end_page": 8,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lmfp",
+          "start_page": 9,
+          "end_page": 12,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3221,8 +3221,8 @@
       "wbs": "1.1.2.1.2.1",
       "label": "LFP",
       "pdf_path": "References/wbs/1.1.2.1.2.1_LFP.pdf",
-      "pdf_pages": 2,
-      "own_pages": 2,
+      "pdf_pages": 5,
+      "own_pages": 5,
       "included_ids": [
         "material.lfp"
       ],
@@ -3230,7 +3230,7 @@
         {
           "id": "material.lfp",
           "start_page": 1,
-          "end_page": 2,
+          "end_page": 5,
           "own_content_only": true
         }
       ],
@@ -3242,8 +3242,8 @@
       "wbs": "1.1.2.1.2.2",
       "label": "LMFP",
       "pdf_path": "References/wbs/1.1.2.1.2.2_LMFP.pdf",
-      "pdf_pages": 2,
-      "own_pages": 2,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "material.lmfp"
       ],
@@ -3251,7 +3251,7 @@
         {
           "id": "material.lmfp",
           "start_page": 1,
-          "end_page": 2,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
@@ -3263,8 +3263,8 @@
       "wbs": "1.1.2.1.3",
       "label": "스피넬계",
       "pdf_path": "References/wbs/1.1.2.1.3_스피넬계.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 10,
+      "own_pages": 3,
       "included_ids": [
         "d.cathode.spinel",
         "material.lmo",
@@ -3274,23 +3274,23 @@
         {
           "id": "d.cathode.spinel",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lmo",
-          "start_page": 2,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.lnmo",
+          "id": "material.lmo",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 6,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lnmo",
+          "start_page": 7,
+          "end_page": 9,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3298,8 +3298,8 @@
       "wbs": "1.1.2.1.3.1",
       "label": "LMO",
       "pdf_path": "References/wbs/1.1.2.1.3.1_LMO.pdf",
-      "pdf_pages": 2,
-      "own_pages": 2,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.lmo"
       ],
@@ -3307,7 +3307,7 @@
         {
           "id": "material.lmo",
           "start_page": 1,
-          "end_page": 2,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
@@ -3319,8 +3319,8 @@
       "wbs": "1.1.2.1.3.2",
       "label": "LNMO",
       "pdf_path": "References/wbs/1.1.2.1.3.2_LNMO.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.lnmo"
       ],
@@ -3328,11 +3328,11 @@
         {
           "id": "material.lnmo",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3340,8 +3340,8 @@
       "wbs": "1.1.2.1.4",
       "label": "황·전환반응계",
       "pdf_path": "References/wbs/1.1.2.1.4_황·전환반응계.pdf",
-      "pdf_pages": 3,
-      "own_pages": 1,
+      "pdf_pages": 7,
+      "own_pages": 3,
       "included_ids": [
         "d.cathode.sulfur",
         "material.sulfur"
@@ -3350,17 +3350,17 @@
         {
           "id": "d.cathode.sulfur",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         },
         {
           "id": "material.sulfur",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 4,
+          "end_page": 6,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3368,8 +3368,8 @@
       "wbs": "1.1.2.1.4.1",
       "label": "황 양극",
       "pdf_path": "References/wbs/1.1.2.1.4.1_황_양극.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.sulfur"
       ],
@@ -3377,11 +3377,11 @@
         {
           "id": "material.sulfur",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3389,8 +3389,8 @@
       "wbs": "1.1.2.2",
       "label": "음극재",
       "pdf_path": "References/wbs/1.1.2.2_음극재.pdf",
-      "pdf_pages": 20,
-      "own_pages": 1,
+      "pdf_pages": 54,
+      "own_pages": 3,
       "included_ids": [
         "d.anode",
         "d.anode.carbon",
@@ -3411,89 +3411,89 @@
         {
           "id": "d.anode",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.carbon",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.graphite.natural",
+          "id": "d.anode.carbon",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 6,
           "own_content_only": true
         },
         {
-          "id": "material.graphite.synthetic",
-          "start_page": 5,
-          "end_page": 5,
-          "own_content_only": true
-        },
-        {
-          "id": "material.hardcarbon",
+          "id": "material.graphite",
           "start_page": 7,
-          "end_page": 7,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.si",
-          "start_page": 9,
-          "end_page": 9,
-          "own_content_only": true
-        },
-        {
-          "id": "material.si",
-          "start_page": 10,
-          "end_page": 10,
-          "own_content_only": true
-        },
-        {
-          "id": "material.siox",
-          "start_page": 11,
           "end_page": 11,
           "own_content_only": true
         },
         {
-          "id": "material.sic",
+          "id": "material.graphite.natural",
           "start_page": 12,
-          "end_page": 12,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.oxide",
-          "start_page": 14,
           "end_page": 14,
           "own_content_only": true
         },
         {
-          "id": "material.lto",
+          "id": "material.graphite.synthetic",
           "start_page": 15,
-          "end_page": 15,
-          "own_content_only": true
-        },
-        {
-          "id": "d.anode.metal",
-          "start_page": 17,
           "end_page": 17,
           "own_content_only": true
         },
         {
+          "id": "material.hardcarbon",
+          "start_page": 19,
+          "end_page": 22,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.si",
+          "start_page": 24,
+          "end_page": 26,
+          "own_content_only": true
+        },
+        {
+          "id": "material.si",
+          "start_page": 27,
+          "end_page": 31,
+          "own_content_only": true
+        },
+        {
+          "id": "material.siox",
+          "start_page": 32,
+          "end_page": 34,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sic",
+          "start_page": 35,
+          "end_page": 38,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.oxide",
+          "start_page": 40,
+          "end_page": 42,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lto",
+          "start_page": 43,
+          "end_page": 45,
+          "own_content_only": true
+        },
+        {
+          "id": "d.anode.metal",
+          "start_page": 47,
+          "end_page": 49,
+          "own_content_only": true
+        },
+        {
           "id": "material.limetal",
-          "start_page": 18,
-          "end_page": 18,
+          "start_page": 50,
+          "end_page": 52,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3501,8 +3501,8 @@
       "wbs": "1.1.2.2.1",
       "label": "탄소계",
       "pdf_path": "References/wbs/1.1.2.2.1_탄소계.pdf",
-      "pdf_pages": 7,
-      "own_pages": 1,
+      "pdf_pages": 20,
+      "own_pages": 3,
       "included_ids": [
         "d.anode.carbon",
         "material.graphite",
@@ -3514,35 +3514,35 @@
         {
           "id": "d.anode.carbon",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.graphite.natural",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.graphite.synthetic",
+          "id": "material.graphite",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 8,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.natural",
+          "start_page": 9,
+          "end_page": 11,
+          "own_content_only": true
+        },
+        {
+          "id": "material.graphite.synthetic",
+          "start_page": 12,
+          "end_page": 14,
           "own_content_only": true
         },
         {
           "id": "material.hardcarbon",
-          "start_page": 6,
-          "end_page": 6,
+          "start_page": 16,
+          "end_page": 19,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3550,8 +3550,8 @@
       "wbs": "1.1.2.2.1.1",
       "label": "흑연",
       "pdf_path": "References/wbs/1.1.2.2.1.1_흑연.pdf",
-      "pdf_pages": 4,
-      "own_pages": 1,
+      "pdf_pages": 12,
+      "own_pages": 5,
       "included_ids": [
         "material.graphite",
         "material.graphite.natural",
@@ -3561,23 +3561,23 @@
         {
           "id": "material.graphite",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 5,
           "own_content_only": true
         },
         {
           "id": "material.graphite.natural",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 6,
+          "end_page": 8,
           "own_content_only": true
         },
         {
           "id": "material.graphite.synthetic",
-          "start_page": 3,
-          "end_page": 3,
+          "start_page": 9,
+          "end_page": 11,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3585,8 +3585,8 @@
       "wbs": "1.1.2.2.1.1.1",
       "label": "천연흑연",
       "pdf_path": "References/wbs/1.1.2.2.1.1.1_천연흑연.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.graphite.natural"
       ],
@@ -3594,11 +3594,11 @@
         {
           "id": "material.graphite.natural",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3606,8 +3606,8 @@
       "wbs": "1.1.2.2.1.1.2",
       "label": "인조흑연",
       "pdf_path": "References/wbs/1.1.2.2.1.1.2_인조흑연.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.graphite.synthetic"
       ],
@@ -3615,11 +3615,11 @@
         {
           "id": "material.graphite.synthetic",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3627,8 +3627,8 @@
       "wbs": "1.1.2.2.1.2",
       "label": "하드카본",
       "pdf_path": "References/wbs/1.1.2.2.1.2_하드카본.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "material.hardcarbon"
       ],
@@ -3636,11 +3636,11 @@
         {
           "id": "material.hardcarbon",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3648,8 +3648,8 @@
       "wbs": "1.1.2.2.2",
       "label": "Si계·합금계",
       "pdf_path": "References/wbs/1.1.2.2.2_Si계·합금계.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 16,
+      "own_pages": 3,
       "included_ids": [
         "d.anode.si",
         "material.si",
@@ -3660,29 +3660,29 @@
         {
           "id": "d.anode.si",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.si",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.siox",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.sic",
+          "id": "material.si",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 8,
+          "own_content_only": true
+        },
+        {
+          "id": "material.siox",
+          "start_page": 9,
+          "end_page": 11,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sic",
+          "start_page": 12,
+          "end_page": 15,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3690,8 +3690,8 @@
       "wbs": "1.1.2.2.2.1",
       "label": "Si",
       "pdf_path": "References/wbs/1.1.2.2.2.1_Si.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 5,
+      "own_pages": 5,
       "included_ids": [
         "material.si"
       ],
@@ -3699,11 +3699,11 @@
         {
           "id": "material.si",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 5,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3711,8 +3711,8 @@
       "wbs": "1.1.2.2.2.2",
       "label": "SiOₓ",
       "pdf_path": "References/wbs/1.1.2.2.2.2_SiOₓ.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.siox"
       ],
@@ -3720,11 +3720,11 @@
         {
           "id": "material.siox",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3732,8 +3732,8 @@
       "wbs": "1.1.2.2.2.3",
       "label": "Si-C 복합체",
       "pdf_path": "References/wbs/1.1.2.2.2.3_Si-C_복합체.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "material.sic"
       ],
@@ -3741,11 +3741,11 @@
         {
           "id": "material.sic",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3753,8 +3753,8 @@
       "wbs": "1.1.2.2.3",
       "label": "삽입형 산화물",
       "pdf_path": "References/wbs/1.1.2.2.3_삽입형_산화물.pdf",
-      "pdf_pages": 3,
-      "own_pages": 1,
+      "pdf_pages": 7,
+      "own_pages": 3,
       "included_ids": [
         "d.anode.oxide",
         "material.lto"
@@ -3763,17 +3763,17 @@
         {
           "id": "d.anode.oxide",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         },
         {
           "id": "material.lto",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 4,
+          "end_page": 6,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3781,8 +3781,8 @@
       "wbs": "1.1.2.2.3.1",
       "label": "LTO",
       "pdf_path": "References/wbs/1.1.2.2.3.1_LTO.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.lto"
       ],
@@ -3790,11 +3790,11 @@
         {
           "id": "material.lto",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3802,8 +3802,8 @@
       "wbs": "1.1.2.2.4",
       "label": "금속 음극",
       "pdf_path": "References/wbs/1.1.2.2.4_금속_음극.pdf",
-      "pdf_pages": 3,
-      "own_pages": 1,
+      "pdf_pages": 7,
+      "own_pages": 3,
       "included_ids": [
         "d.anode.metal",
         "material.limetal"
@@ -3812,17 +3812,17 @@
         {
           "id": "d.anode.metal",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         },
         {
           "id": "material.limetal",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 4,
+          "end_page": 6,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3830,8 +3830,8 @@
       "wbs": "1.1.2.2.4.1",
       "label": "리튬 금속 음극",
       "pdf_path": "References/wbs/1.1.2.2.4.1_리튬_금속_음극.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.limetal"
       ],
@@ -3839,11 +3839,11 @@
         {
           "id": "material.limetal",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3851,8 +3851,8 @@
       "wbs": "1.1.3",
       "label": "바인더",
       "pdf_path": "References/wbs/1.1.3_바인더.pdf",
-      "pdf_pages": 7,
-      "own_pages": 1,
+      "pdf_pages": 21,
+      "own_pages": 4,
       "included_ids": [
         "d.binder",
         "material.pvdf",
@@ -3865,41 +3865,41 @@
         {
           "id": "d.binder",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.pvdf",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.cmc",
-          "start_page": 3,
-          "end_page": 3,
-          "own_content_only": true
-        },
-        {
-          "id": "material.sbr",
-          "start_page": 4,
           "end_page": 4,
           "own_content_only": true
         },
         {
-          "id": "material.paa",
+          "id": "material.pvdf",
           "start_page": 5,
-          "end_page": 5,
+          "end_page": 7,
+          "own_content_only": true
+        },
+        {
+          "id": "material.cmc",
+          "start_page": 8,
+          "end_page": 10,
+          "own_content_only": true
+        },
+        {
+          "id": "material.sbr",
+          "start_page": 11,
+          "end_page": 13,
+          "own_content_only": true
+        },
+        {
+          "id": "material.paa",
+          "start_page": 14,
+          "end_page": 16,
           "own_content_only": true
         },
         {
           "id": "material.ptfe",
-          "start_page": 6,
-          "end_page": 6,
+          "start_page": 17,
+          "end_page": 20,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3907,8 +3907,8 @@
       "wbs": "1.1.3.1",
       "label": "PVDF",
       "pdf_path": "References/wbs/1.1.3.1_PVDF.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.pvdf"
       ],
@@ -3916,11 +3916,11 @@
         {
           "id": "material.pvdf",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3928,8 +3928,8 @@
       "wbs": "1.1.3.2",
       "label": "CMC",
       "pdf_path": "References/wbs/1.1.3.2_CMC.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.cmc"
       ],
@@ -3937,11 +3937,11 @@
         {
           "id": "material.cmc",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3949,8 +3949,8 @@
       "wbs": "1.1.3.3",
       "label": "SBR",
       "pdf_path": "References/wbs/1.1.3.3_SBR.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.sbr"
       ],
@@ -3958,11 +3958,11 @@
         {
           "id": "material.sbr",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3970,8 +3970,8 @@
       "wbs": "1.1.3.4",
       "label": "PAA",
       "pdf_path": "References/wbs/1.1.3.4_PAA.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.paa"
       ],
@@ -3979,11 +3979,11 @@
         {
           "id": "material.paa",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -3991,8 +3991,8 @@
       "wbs": "1.1.3.5",
       "label": "PTFE",
       "pdf_path": "References/wbs/1.1.3.5_PTFE.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "material.ptfe"
       ],
@@ -4000,11 +4000,11 @@
         {
           "id": "material.ptfe",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4012,8 +4012,8 @@
       "wbs": "1.1.4",
       "label": "도전재",
       "pdf_path": "References/wbs/1.1.4_도전재.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 15,
+      "own_pages": 4,
       "included_ids": [
         "d.conductive",
         "material.carbonblack",
@@ -4024,29 +4024,29 @@
         {
           "id": "d.conductive",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         },
         {
           "id": "material.carbonblack",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 5,
+          "end_page": 8,
           "own_content_only": true
         },
         {
           "id": "material.cnt",
-          "start_page": 3,
-          "end_page": 3,
+          "start_page": 9,
+          "end_page": 11,
           "own_content_only": true
         },
         {
           "id": "material.graphene",
-          "start_page": 4,
-          "end_page": 4,
+          "start_page": 12,
+          "end_page": 14,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4054,8 +4054,8 @@
       "wbs": "1.1.4.1",
       "label": "카본블랙",
       "pdf_path": "References/wbs/1.1.4.1_카본블랙.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "material.carbonblack"
       ],
@@ -4063,11 +4063,11 @@
         {
           "id": "material.carbonblack",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4075,8 +4075,8 @@
       "wbs": "1.1.4.2",
       "label": "CNT",
       "pdf_path": "References/wbs/1.1.4.2_CNT.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.cnt"
       ],
@@ -4084,11 +4084,11 @@
         {
           "id": "material.cnt",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4096,8 +4096,8 @@
       "wbs": "1.1.4.3",
       "label": "그래핀",
       "pdf_path": "References/wbs/1.1.4.3_그래핀.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.graphene"
       ],
@@ -4105,11 +4105,11 @@
         {
           "id": "material.graphene",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4117,8 +4117,8 @@
       "wbs": "1.1.5",
       "label": "전해질",
       "pdf_path": "References/wbs/1.1.5_전해질.pdf",
-      "pdf_pages": 18,
-      "own_pages": 1,
+      "pdf_pages": 48,
+      "own_pages": 3,
       "included_ids": [
         "d.electrolyte",
         "d.electrolyte.liquid",
@@ -4139,89 +4139,89 @@
         {
           "id": "d.electrolyte",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.liquid",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.salt",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.lipf6",
+          "id": "d.electrolyte.liquid",
           "start_page": 4,
-          "end_page": 4,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lifsi",
-          "start_page": 5,
-          "end_page": 5,
-          "own_content_only": true
-        },
-        {
-          "id": "material.litfsi",
-          "start_page": 6,
           "end_page": 6,
           "own_content_only": true
         },
         {
-          "id": "d.electrolyte.solvent",
-          "start_page": 8,
-          "end_page": 8,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.additive",
-          "start_page": 9,
+          "id": "d.electrolyte.salt",
+          "start_page": 7,
           "end_page": 9,
           "own_content_only": true
         },
         {
-          "id": "d.electrolyte.solid",
-          "start_page": 11,
-          "end_page": 11,
-          "own_content_only": true
-        },
-        {
-          "id": "d.solid.sulfide",
-          "start_page": 12,
+          "id": "material.lipf6",
+          "start_page": 10,
           "end_page": 12,
           "own_content_only": true
         },
         {
-          "id": "d.solid.oxide",
+          "id": "material.lifsi",
           "start_page": 13,
-          "end_page": 13,
+          "end_page": 15,
+          "own_content_only": true
+        },
+        {
+          "id": "material.litfsi",
+          "start_page": 16,
+          "end_page": 18,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.solvent",
+          "start_page": 20,
+          "end_page": 22,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.additive",
+          "start_page": 23,
+          "end_page": 25,
+          "own_content_only": true
+        },
+        {
+          "id": "d.electrolyte.solid",
+          "start_page": 27,
+          "end_page": 30,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.sulfide",
+          "start_page": 31,
+          "end_page": 33,
+          "own_content_only": true
+        },
+        {
+          "id": "d.solid.oxide",
+          "start_page": 34,
+          "end_page": 36,
           "own_content_only": true
         },
         {
           "id": "d.solid.polymer",
-          "start_page": 14,
-          "end_page": 14,
+          "start_page": 37,
+          "end_page": 39,
           "own_content_only": true
         },
         {
           "id": "d.electrolyte.gel",
-          "start_page": 16,
-          "end_page": 16,
+          "start_page": 41,
+          "end_page": 43,
           "own_content_only": true
         },
         {
           "id": "d.interphase",
-          "start_page": 17,
-          "end_page": 17,
+          "start_page": 44,
+          "end_page": 47,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4229,8 +4229,8 @@
       "wbs": "1.1.5.1",
       "label": "액체 전해질",
       "pdf_path": "References/wbs/1.1.5.1_액체_전해질.pdf",
-      "pdf_pages": 9,
-      "own_pages": 1,
+      "pdf_pages": 23,
+      "own_pages": 3,
       "included_ids": [
         "d.electrolyte.liquid",
         "d.electrolyte.salt",
@@ -4244,47 +4244,47 @@
         {
           "id": "d.electrolyte.liquid",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "d.electrolyte.salt",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lipf6",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.lifsi",
+          "id": "d.electrolyte.salt",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 6,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lipf6",
+          "start_page": 7,
+          "end_page": 9,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lifsi",
+          "start_page": 10,
+          "end_page": 12,
           "own_content_only": true
         },
         {
           "id": "material.litfsi",
-          "start_page": 5,
-          "end_page": 5,
+          "start_page": 13,
+          "end_page": 15,
           "own_content_only": true
         },
         {
           "id": "d.electrolyte.solvent",
-          "start_page": 7,
-          "end_page": 7,
+          "start_page": 17,
+          "end_page": 19,
           "own_content_only": true
         },
         {
           "id": "d.electrolyte.additive",
-          "start_page": 8,
-          "end_page": 8,
+          "start_page": 20,
+          "end_page": 22,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4292,8 +4292,8 @@
       "wbs": "1.1.5.1.1",
       "label": "리튬염",
       "pdf_path": "References/wbs/1.1.5.1.1_리튬염.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 13,
+      "own_pages": 3,
       "included_ids": [
         "d.electrolyte.salt",
         "material.lipf6",
@@ -4304,29 +4304,29 @@
         {
           "id": "d.electrolyte.salt",
           "start_page": 1,
-          "end_page": 1,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lipf6",
-          "start_page": 2,
-          "end_page": 2,
-          "own_content_only": true
-        },
-        {
-          "id": "material.lifsi",
-          "start_page": 3,
           "end_page": 3,
           "own_content_only": true
         },
         {
-          "id": "material.litfsi",
+          "id": "material.lipf6",
           "start_page": 4,
-          "end_page": 4,
+          "end_page": 6,
+          "own_content_only": true
+        },
+        {
+          "id": "material.lifsi",
+          "start_page": 7,
+          "end_page": 9,
+          "own_content_only": true
+        },
+        {
+          "id": "material.litfsi",
+          "start_page": 10,
+          "end_page": 12,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4334,8 +4334,8 @@
       "wbs": "1.1.5.1.1.1",
       "label": "LiPF₆",
       "pdf_path": "References/wbs/1.1.5.1.1.1_LiPF₆.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.lipf6"
       ],
@@ -4343,11 +4343,11 @@
         {
           "id": "material.lipf6",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4355,8 +4355,8 @@
       "wbs": "1.1.5.1.1.2",
       "label": "LiFSI",
       "pdf_path": "References/wbs/1.1.5.1.1.2_LiFSI.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.lifsi"
       ],
@@ -4364,11 +4364,11 @@
         {
           "id": "material.lifsi",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4376,8 +4376,8 @@
       "wbs": "1.1.5.1.1.3",
       "label": "LiTFSI",
       "pdf_path": "References/wbs/1.1.5.1.1.3_LiTFSI.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "material.litfsi"
       ],
@@ -4385,11 +4385,11 @@
         {
           "id": "material.litfsi",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4397,8 +4397,8 @@
       "wbs": "1.1.5.1.2",
       "label": "용매",
       "pdf_path": "References/wbs/1.1.5.1.2_용매.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.electrolyte.solvent"
       ],
@@ -4406,11 +4406,11 @@
         {
           "id": "d.electrolyte.solvent",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4418,8 +4418,8 @@
       "wbs": "1.1.5.1.3",
       "label": "첨가제",
       "pdf_path": "References/wbs/1.1.5.1.3_첨가제.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.electrolyte.additive"
       ],
@@ -4427,11 +4427,11 @@
         {
           "id": "d.electrolyte.additive",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4439,8 +4439,8 @@
       "wbs": "1.1.5.2",
       "label": "고체 전해질",
       "pdf_path": "References/wbs/1.1.5.2_고체_전해질.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 14,
+      "own_pages": 4,
       "included_ids": [
         "d.electrolyte.solid",
         "d.solid.sulfide",
@@ -4451,29 +4451,29 @@
         {
           "id": "d.electrolyte.solid",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         },
         {
           "id": "d.solid.sulfide",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 5,
+          "end_page": 7,
           "own_content_only": true
         },
         {
           "id": "d.solid.oxide",
-          "start_page": 3,
-          "end_page": 3,
+          "start_page": 8,
+          "end_page": 10,
           "own_content_only": true
         },
         {
           "id": "d.solid.polymer",
-          "start_page": 4,
-          "end_page": 4,
+          "start_page": 11,
+          "end_page": 13,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4481,8 +4481,8 @@
       "wbs": "1.1.5.2.1",
       "label": "황화물계",
       "pdf_path": "References/wbs/1.1.5.2.1_황화물계.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.solid.sulfide"
       ],
@@ -4490,11 +4490,11 @@
         {
           "id": "d.solid.sulfide",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4502,8 +4502,8 @@
       "wbs": "1.1.5.2.2",
       "label": "산화물계",
       "pdf_path": "References/wbs/1.1.5.2.2_산화물계.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.solid.oxide"
       ],
@@ -4511,11 +4511,11 @@
         {
           "id": "d.solid.oxide",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4523,8 +4523,8 @@
       "wbs": "1.1.5.2.3",
       "label": "고분자계",
       "pdf_path": "References/wbs/1.1.5.2.3_고분자계.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.solid.polymer"
       ],
@@ -4532,11 +4532,11 @@
         {
           "id": "d.solid.polymer",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4544,8 +4544,8 @@
       "wbs": "1.1.5.3",
       "label": "겔·고분자 전해질",
       "pdf_path": "References/wbs/1.1.5.3_겔·고분자_전해질.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.electrolyte.gel"
       ],
@@ -4553,11 +4553,11 @@
         {
           "id": "d.electrolyte.gel",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4565,8 +4565,8 @@
       "wbs": "1.1.5.4",
       "label": "SEI·CEI 계면막",
       "pdf_path": "References/wbs/1.1.5.4_SEI·CEI_계면막.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 4,
+      "own_pages": 4,
       "included_ids": [
         "d.interphase"
       ],
@@ -4574,11 +4574,11 @@
         {
           "id": "d.interphase",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4586,8 +4586,8 @@
       "wbs": "1.1.6",
       "label": "분리막",
       "pdf_path": "References/wbs/1.1.6_분리막.pdf",
-      "pdf_pages": 4,
-      "own_pages": 1,
+      "pdf_pages": 11,
+      "own_pages": 4,
       "included_ids": [
         "d.separator",
         "d.separator.polyolefin",
@@ -4597,23 +4597,23 @@
         {
           "id": "d.separator",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         },
         {
           "id": "d.separator.polyolefin",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 5,
+          "end_page": 7,
           "own_content_only": true
         },
         {
           "id": "d.separator.coating",
-          "start_page": 3,
-          "end_page": 3,
+          "start_page": 8,
+          "end_page": 10,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4621,8 +4621,8 @@
       "wbs": "1.1.6.1",
       "label": "PE·PP계",
       "pdf_path": "References/wbs/1.1.6.1_PE·PP계.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.separator.polyolefin"
       ],
@@ -4630,11 +4630,11 @@
         {
           "id": "d.separator.polyolefin",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4642,8 +4642,8 @@
       "wbs": "1.1.6.2",
       "label": "세라믹·기능성 코팅",
       "pdf_path": "References/wbs/1.1.6.2_세라믹·기능성_코팅.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.separator.coating"
       ],
@@ -4651,11 +4651,11 @@
         {
           "id": "d.separator.coating",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4663,8 +4663,8 @@
       "wbs": "1.1.7",
       "label": "집전체",
       "pdf_path": "References/wbs/1.1.7_집전체.pdf",
-      "pdf_pages": 5,
-      "own_pages": 1,
+      "pdf_pages": 14,
+      "own_pages": 4,
       "included_ids": [
         "d.collector",
         "d.collector.al",
@@ -4675,29 +4675,29 @@
         {
           "id": "d.collector",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 4,
           "own_content_only": true
         },
         {
           "id": "d.collector.al",
-          "start_page": 2,
-          "end_page": 2,
+          "start_page": 5,
+          "end_page": 7,
           "own_content_only": true
         },
         {
           "id": "d.collector.cu",
-          "start_page": 3,
-          "end_page": 3,
+          "start_page": 8,
+          "end_page": 10,
           "own_content_only": true
         },
         {
           "id": "d.collector.surface",
-          "start_page": 4,
-          "end_page": 4,
+          "start_page": 11,
+          "end_page": 13,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4705,8 +4705,8 @@
       "wbs": "1.1.7.1",
       "label": "Al 집전체",
       "pdf_path": "References/wbs/1.1.7.1_Al_집전체.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.collector.al"
       ],
@@ -4714,11 +4714,11 @@
         {
           "id": "d.collector.al",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4726,8 +4726,8 @@
       "wbs": "1.1.7.2",
       "label": "Cu 집전체",
       "pdf_path": "References/wbs/1.1.7.2_Cu_집전체.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.collector.cu"
       ],
@@ -4735,11 +4735,11 @@
         {
           "id": "d.collector.cu",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
@@ -4747,8 +4747,8 @@
       "wbs": "1.1.7.3",
       "label": "표면 처리·복합 집전체",
       "pdf_path": "References/wbs/1.1.7.3_표면_처리·복합_집전체.pdf",
-      "pdf_pages": 1,
-      "own_pages": 1,
+      "pdf_pages": 3,
+      "own_pages": 3,
       "included_ids": [
         "d.collector.surface"
       ],
@@ -4756,11 +4756,11 @@
         {
           "id": "d.collector.surface",
           "start_page": 1,
-          "end_page": 1,
+          "end_page": 3,
           "own_content_only": true
         }
       ],
-      "content_level": "핵심 요약",
+      "content_level": "상세문서",
       "learning_status": "미학습"
     },
     {
