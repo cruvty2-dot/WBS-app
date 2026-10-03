@@ -241,7 +241,7 @@
         "Knowledge/materials/Li.md"
       ],
       "wbs_code": "1.1.1.1.1",
-      "pdf_path": "References/wbs/1.1.1.1.1_Li_원소·Li⁺·금속_음극.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.ni",
@@ -253,7 +253,7 @@
       ],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.2",
-      "pdf_path": "References/wbs/1.1.1.1.2_Ni_니켈.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.co",
@@ -275,7 +275,7 @@
       ],
       "reference_article_paths": [],
       "wbs_code": "1.1.1.1.4",
-      "pdf_path": "References/wbs/1.1.1.1.4_Mn_망간.pdf"
+      "pdf_path": null
     },
     {
       "id": "element.fe",
