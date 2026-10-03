@@ -1,208 +1,162 @@
 {
-  "schema_version": "1.0",
-  "id": "eis-example-analysis-20261003",
-  "request_id": "eis-example-analysis-20261003",
-  "title": "EIS 예시 데이터 기초 분석",
+  "schema_version": "2.0",
+  "id": "eis-buchicchio-soc-20261004",
   "primary_category_id": "method.eis",
-  "related_category_ids": [
-    "d.eval.degradation"
-  ],
-  "wbs_task_ids": [],
-  "input_files": [
+  "dataset_doi": "10.17632/mbv3bx847g.3",
+  "source_url": "https://data.mendeley.com/datasets/mbv3bx847g/3",
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9493380/",
+  "license": "CC BY 4.0",
+  "analyzed_at": "2026-10-04",
+  "review_status": "pending_user_review",
+  "question": "How do measured EIS curves differ at SOC 20, 50 and 80 percent for the same battery and measurement ID?",
+  "raw_files": [
     {
-      "path": "Data/static/eis/nmc-mj1-cathode-discharge-soc50.csv",
-      "sha256": "91337ce1407c10ed6cd2db1daf6ef3644dd52cc7a91c0fc1c30c0c80e4d1f8fb",
-      "source_url": null,
-      "source_status": "unconfirmed"
+      "filename": "frequencies.csv",
+      "sha256": "06a316d3d74fa87b8ccaf8db7390b0541aa75094a0a6c47bb00a26be00787a2c",
+      "bytes": 130,
+      "download_url": "https://data.mendeley.com/public-files/datasets/mbv3bx847g/files/c1972cb9-dc05-4d6a-932e-e29d306b613d/file_downloaded"
     },
     {
-      "path": "Data/static/eis/nmc811-21700-soc30-id01.csv",
-      "sha256": "1d39c825e8004fd526055fa778c3329205480c787db3c767d5ea143535ffe08e",
-      "source_url": null,
-      "source_status": "unconfirmed"
-    },
-    {
-      "path": "Data/static/eis/nmc811-21700-soc30-id02.csv",
-      "sha256": "d49054498ae4d03e62e963e056f2e2553a6e1743577ce906e66412c482dbe602",
-      "source_url": null,
-      "source_status": "unconfirmed"
-    },
-    {
-      "path": "Data/static/eis/nmc811-21700-soc30-id03.csv",
-      "sha256": "c268685c818760ebf12b2383aca395b9ba38f3c96039ec331e3f8e211c3c9c44",
-      "source_url": null,
-      "source_status": "unconfirmed"
+      "filename": "impedance.csv",
+      "sha256": "e028e759e0f26b66173a1ad2376bc0e31a4ff2e2149bc32b3d65c8f1b1a03c81",
+      "bytes": 187295,
+      "download_url": "https://data.mendeley.com/public-files/datasets/mbv3bx847g/files/1ada879d-afc4-4805-b9e8-036afa0604fa/file_downloaded"
     }
   ],
-  "code_files": [
-    "Tools/analyze_eis_examples.py"
+  "validation": {
+    "raw_points": 3360,
+    "groups": 240,
+    "points_per_spectrum": 14,
+    "selected_points": 42,
+    "duplicate_frequencies": 0,
+    "missing_or_nonfinite": 0,
+    "provider_hashes_match": true
+  },
+  "selection": {
+    "battery_id": "02",
+    "measure_id": "02_4",
+    "soc_pct": [
+      20,
+      50,
+      80
+    ],
+    "rule": "First sorted source measurement ID for battery 02; do not interpret the suffix as a proven cycle number."
+  },
+  "reported_conditions": {
+    "cell": "Samsung ICR18650-26J",
+    "nominal_capacity_mah": 2600,
+    "nominal_voltage_v": 3.7,
+    "temperature_c": "25 +/- 1 (reported chamber condition)",
+    "excitation": "random-phase multisine, 50 mA per frequency component; not total multisine RMS",
+    "instrument": "custom four-wire system with Keysight U2351A DAQ",
+    "soc_steps": "1 A discharge for 936 s removes 10% of nominal capacity; 1800 s relaxation",
+    "measurement_time_s": 40
+  },
+  "unconfirmed": [
+    "per-measurement actual temperature trace",
+    "amplitude peak/RMS convention",
+    "measurement-ID suffix to experimental cycle mapping",
+    "individual cell actual capacity SOC correction"
+  ],
+  "processing": [
+    "join FREQUENCY_ID to lookup",
+    "parse complex impedance in ohms",
+    "convert ohm to milliohm",
+    "sort high to low frequency for Nyquist",
+    "calculate magnitude and atan2 phase",
+    "retain all original rows and keep selected source line IDs"
+  ],
+  "focus_point": {
+    "source_line": 967,
+    "measure_id": "02_4",
+    "battery_id": "02",
+    "soc_pct": 50,
+    "frequency_id": "4",
+    "frequency_hz": 1.0,
+    "real_ohm": 0.0999931838023928,
+    "imag_ohm": -0.00183267524145727,
+    "real_mohm": 99.9931838023928,
+    "minus_imag_mohm": 1.83267524145727,
+    "magnitude_mohm": 100.0099770296932,
+    "phase_deg": -1.0499995836962,
+    "raw_impedance": "(0.0999931838023928-0.00183267524145727j)"
+  },
+  "summary": [
+    {
+      "soc_pct": 20,
+      "measure_id": "02_4",
+      "battery_id": "02",
+      "real_1000hz_mohm": 80.6114605178115,
+      "real_1hz_mohm": 104.750952673306,
+      "minus_imag_1hz_mohm": 2.25683603891093,
+      "magnitude_1hz_mohm": 104.77526136866337,
+      "phase_1hz_deg": -1.234233915717772,
+      "repeat_1hz_real_min_mohm": 100.40309565206799,
+      "repeat_1hz_real_max_mohm": 105.304112462538,
+      "repeat_count": 6
+    },
+    {
+      "soc_pct": 50,
+      "measure_id": "02_4",
+      "battery_id": "02",
+      "real_1000hz_mohm": 79.1873126476042,
+      "real_1hz_mohm": 99.9931838023928,
+      "minus_imag_1hz_mohm": 1.83267524145727,
+      "magnitude_1hz_mohm": 100.0099770296932,
+      "phase_1hz_deg": -1.0499995836962,
+      "repeat_1hz_real_min_mohm": 96.489196076152,
+      "repeat_1hz_real_max_mohm": 101.092344231241,
+      "repeat_count": 6
+    },
+    {
+      "soc_pct": 80,
+      "measure_id": "02_4",
+      "battery_id": "02",
+      "real_1000hz_mohm": 78.8288902800027,
+      "real_1hz_mohm": 101.210719021075,
+      "minus_imag_1hz_mohm": 2.5091402218519003,
+      "magnitude_1hz_mohm": 101.24181660468123,
+      "phase_1hz_deg": -1.4201430895661042,
+      "repeat_1hz_real_min_mohm": 97.3833362174458,
+      "repeat_1hz_real_max_mohm": 101.99483259598,
+      "repeat_count": 6
+    }
+  ],
+  "teaching_model": {
+    "purpose": "Illustration only, not experimental data or battery fitting",
+    "formula": "Rs + Rp/(1+j*2*pi*f*Rp*C)",
+    "rs_ohm": [
+      0.014,
+      0.019
+    ],
+    "rp_ohm": [
+      0.01,
+      0.02
+    ],
+    "capacitance_f": 0.05
+  },
+  "limits": [
+    "No real-axis crossing inside the selected measured domain; 1000 Hz real value is not Rs.",
+    "14 frequency points do not identify detailed electrode contributions.",
+    "SOC differences do not prove aging or electrode-specific Rct.",
+    "Observed ranges across six discharge runs are not confidence intervals or instrument uncertainty."
   ],
   "result_files": [
+    "Projects/eis-example-analysis/1.4.1.3 EIS.md",
     "Projects/eis-example-analysis/1.4.1.3 EIS분석예시.md",
-    "Projects/eis-example-analysis/summary.csv",
     "Projects/eis-example-analysis/derived_points.csv",
-    "Projects/eis-example-analysis/nmc811_nyquist_bode.png",
-    "Projects/eis-example-analysis/mj1_nyquist_bode.png"
+    "Projects/eis-example-analysis/summary.csv"
   ],
-  "created_at": "2026-10-03T18:39:44+09:00",
-  "author": "Codex",
-  "review_status": "pending_review",
-  "data_role": "external_example_unverified",
-  "user_data_statement": "User confirmed these are example data, not their own measured data.",
-  "publication_authorization": {
-    "scope": "four input CSVs and derived analysis artifacts on public GitHub",
-    "authorized_by": "user",
-    "authorized_on": "2026-10-03"
-  },
-  "measurements": [
-    {
-      "dataset": "nmc-mj1-cathode-discharge-soc50",
-      "rows": 72,
-      "unit": "source_unit_unconfirmed",
-      "f_min_hz": 0.01,
-      "f_max_hz": 2000000.0,
-      "min_real": 0.863441137403501,
-      "min_real_frequency_hz": 1594600.0,
-      "real_at_highest_f": 0.8647450061656514,
-      "imag_at_highest_f": 0.29102995288005995,
-      "real_at_lowest_f": 4.884925765407241,
-      "imag_at_lowest_f": -1.5579544304622224,
-      "magnitude_at_lowest_f": 5.1273503626079995,
-      "phase_at_lowest_f_deg": -17.689096360248502,
-      "hf_crossing_real_proxy": 0.9543688838519895,
-      "hf_crossing_frequency_hz": 1501730.0339417502,
-      "zero_crossings": [
-        {
-          "frequency_hz": 1501730.0339417502,
-          "real": 0.9543688838519895,
-          "imag_transition": "positive_to_negative"
-        }
-      ]
-    },
-    {
-      "dataset": "nmc811-21700-soc30-id01",
-      "rows": 44,
-      "unit": "ohm",
-      "f_min_hz": 0.0500000007450581,
-      "f_max_hz": 10000.0,
-      "min_real": 0.0137167598586529,
-      "min_real_frequency_hz": 3763.11059570312,
-      "real_at_highest_f": 0.01439659378957,
-      "imag_at_highest_f": 0.00577427260577679,
-      "real_at_lowest_f": 0.0198337409719898,
-      "imag_at_lowest_f": -0.00196329933092443,
-      "magnitude_at_lowest_f": 0.019930675482953287,
-      "phase_at_lowest_f_deg": -5.653169526640686,
-      "hf_crossing_real_proxy": 0.013961004068726936,
-      "hf_crossing_frequency_hz": 1540.2652487169141,
-      "zero_crossings": [
-        {
-          "frequency_hz": 1540.2652487169141,
-          "real": 0.013961004068726936,
-          "imag_transition": "positive_to_negative"
-        }
-      ]
-    },
-    {
-      "dataset": "nmc811-21700-soc30-id02",
-      "rows": 44,
-      "unit": "ohm",
-      "f_min_hz": 0.0500000007450581,
-      "f_max_hz": 10000.0,
-      "min_real": 0.0138619632925838,
-      "min_real_frequency_hz": 3763.11059570312,
-      "real_at_highest_f": 0.0145269109634683,
-      "imag_at_highest_f": 0.00583251006901264,
-      "real_at_lowest_f": 0.020210639767356,
-      "imag_at_lowest_f": -0.00196908633657245,
-      "magnitude_at_lowest_f": 0.020306335484441995,
-      "phase_at_lowest_f_deg": -5.56466218527807,
-      "hf_crossing_real_proxy": 0.014123600294313284,
-      "hf_crossing_frequency_hz": 1591.1813574685239,
-      "zero_crossings": [
-        {
-          "frequency_hz": 1591.1813574685239,
-          "real": 0.014123600294313284,
-          "imag_transition": "positive_to_negative"
-        }
-      ]
-    },
-    {
-      "dataset": "nmc811-21700-soc30-id03",
-      "rows": 44,
-      "unit": "ohm",
-      "f_min_hz": 0.0500000007450581,
-      "f_max_hz": 10000.0,
-      "min_real": 0.0135109012480825,
-      "min_real_frequency_hz": 3763.11059570312,
-      "real_at_highest_f": 0.0141171411378309,
-      "imag_at_highest_f": 0.00563794746994972,
-      "real_at_lowest_f": 0.0199675981029941,
-      "imag_at_lowest_f": -0.00198265430950073,
-      "magnitude_at_lowest_f": 0.020065789097707454,
-      "phase_at_lowest_f_deg": -5.670516225815846,
-      "hf_crossing_real_proxy": 0.013771278050227894,
-      "hf_crossing_frequency_hz": 1635.192761509979,
-      "zero_crossings": [
-        {
-          "frequency_hz": 1635.192761509979,
-          "real": 0.013771278050227894,
-          "imag_transition": "positive_to_negative"
-        }
-      ]
-    }
-  ],
-  "checks": {
-    "nmc-mj1-cathode-discharge-soc50": {
-      "finite": true,
-      "positive_frequency": true,
-      "duplicate_frequency_count": 0,
-      "negative_real_count": 0,
-      "rows": 72,
-      "supplied_magnitude_max_abs_error": 8.881784197001252e-16,
-      "supplied_phase_radian_max_abs_error": 5.551115123125783e-17
-    },
-    "nmc811-21700-soc30-id01": {
-      "finite": true,
-      "positive_frequency": true,
-      "duplicate_frequency_count": 0,
-      "negative_real_count": 0,
-      "rows": 44
-    },
-    "nmc811-21700-soc30-id02": {
-      "finite": true,
-      "positive_frequency": true,
-      "duplicate_frequency_count": 0,
-      "negative_real_count": 0,
-      "rows": 44
-    },
-    "nmc811-21700-soc30-id03": {
-      "finite": true,
-      "positive_frequency": true,
-      "duplicate_frequency_count": 0,
-      "negative_real_count": 0,
-      "rows": 44
-    }
-  },
-  "assumptions": [
-    "Frequency_Hz and Real_Ohm/Imag_Ohm follow their headers.",
-    "MJ1 f is treated as Hz provisionally; impedance unit remains unconfirmed.",
-    "MJ1 -Zimag is negated to recover Zimag; phase radians confirmed numerically.",
-    "SOC and cell/cathode descriptions come only from filenames."
-  ],
-  "limitations": [
-    "Original source, license, temperature, AC amplitude, equipment, cell history and geometry unavailable.",
-    "File IDs do not establish experimental replication.",
-    "No circuit fitting or Kramers-Kronig validation performed.",
-    "Real-axis crossing is an interpolated descriptive proxy, not a validated R_s.",
-    "Cell and cathode spectra are not ranked against one another."
-  ],
-  "standard_refs": [],
-  "environment": {
-    "python_version": "3.12.14",
-    "packages": {
-      "numpy": "2.5.3",
-      "matplotlib": "3.11.2"
-    }
-  }
+  "code_file": "Tools/analyze_eis_soc.py",
+  "figure_files": [
+    "soc_learning_nyquist.png",
+    "soc_learning_magnitude.png",
+    "soc_learning_phase.png",
+    "soc_compare_nyquist.png",
+    "soc_compare_magnitude.png",
+    "soc_compare_phase.png",
+    "soc_repeat_check.png",
+    "walkthrough_model_rs.png",
+    "walkthrough_model_rp.png"
+  ]
 }

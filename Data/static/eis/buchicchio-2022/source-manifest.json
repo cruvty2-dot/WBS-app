@@ -1,0 +1,36 @@
+{
+  "dataset_title": "Dataset on broadband Electrochemical Impedance Spectroscopy of Lithium-Ion Batteries for Different Values of the State of Charge",
+  "doi": "10.17632/mbv3bx847g.3",
+  "version": 3,
+  "source_url": "https://data.mendeley.com/datasets/mbv3bx847g/3",
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9493380/",
+  "authors": [
+    "Emanuele Buchicchio",
+    "Alessio De Angelis",
+    "Francesco Santoni",
+    "Paolo Carbone"
+  ],
+  "license": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International"
+  },
+  "retrieved_at": "2026-10-04",
+  "files": [
+    {
+      "filename": "frequencies.csv",
+      "sha256": "06a316d3d74fa87b8ccaf8db7390b0541aa75094a0a6c47bb00a26be00787a2c",
+      "bytes": 130,
+      "download_url": "https://data.mendeley.com/public-files/datasets/mbv3bx847g/files/c1972cb9-dc05-4d6a-932e-e29d306b613d/file_downloaded"
+    },
+    {
+      "filename": "impedance.csv",
+      "sha256": "e028e759e0f26b66173a1ad2376bc0e31a4ff2e2149bc32b3d65c8f1b1a03c81",
+      "bytes": 187295,
+      "download_url": "https://data.mendeley.com/public-files/datasets/mbv3bx847g/files/1ada879d-afc4-4805-b9e8-036afa0604fa/file_downloaded"
+    }
+  ]
+}

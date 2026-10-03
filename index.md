@@ -54,7 +54,7 @@ updated_at: 2026-10-04
 4. 링크·분류·PDF 포함 범위와 실제 배치를 검증한다.
 5. 작업 계획과 이 INDEX를 갱신하고 검증한 변경을 GitHub에 반영한다.
 
-현재 요청한 EIS 예시의 데이터→축 설정→그래프→해석 과정은 [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md), 기존 4개 파일의 계산 결과는 [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)에서 확인한다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
+EIS의 데이터→축 설정→그래프→해석 과정은 [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md), 같은 배터리의 SOC 20%·50%·80% 및 6개 측정 회차 비교는 [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)에서 확인한다. 현재 근거는 Buchicchio 등의 공개 원본 3360행이며 출처·조건·라이선스·해시는 [원본 기록](Data/static/eis/buchicchio-2022/source-manifest.json)에 남긴다. 이전 출처 미확인 예시를 현재 설명의 근거로 사용하지 않는다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
 
 ## 문서 운영 원칙
 
@@ -223,8 +223,9 @@ Data/taxonomy.json + Data/wbs-learning.json
 | 도구 | 용도 |
 | --- | --- |
 | [sync_document_index.py](Tools/sync_document_index.py) | 수동 구조 안내를 유지하며 전체 Markdown 링크 목록 동기화·파일 링크 검증 |
-| [analyze_eis_examples.py](Tools/analyze_eis_examples.py) | EIS 예시 분석·요약·그래프·분석 기록 생성 |
-| [build_eis_walkthrough.py](Tools/build_eis_walkthrough.py) | EIS 주석 그림·선택 행 계산표·교육용 모형 생성·검증 |
+| [analyze_eis_soc.py](Tools/analyze_eis_soc.py) | 출처 확인된 EIS 원본 검증·SOC 비교·계산표·개별 그래프·가상 회로 재현; Markdown·PDF 생성 없음 |
+| [test_eis_soc.py](Tools/test_eis_soc.py) | 실제 원본의 주파수 대응·알려진 값·중복 거부·가상 회로 계산 검증 |
+| [analyze_eis_examples.py](Tools/analyze_eis_examples.py) · [build_eis_walkthrough.py](Tools/build_eis_walkthrough.py) | 기존 실행 경로를 새 SOC 분석 도구로 연결; 수동 학습문서 보존 |
 | [build_wbs_pdfs.py](Tools/build_wbs_pdfs.py) | 요청한 개별 항목의 채팅용 PDF만 저장소 밖에 생성 |
 | [build_wbs_markdown.py](Tools/build_wbs_markdown.py) | 작성된 항목의 Markdown만 생성; PDF 제작과 분리 |
 | [build_wbs_index.py](Tools/build_wbs_index.py) | README·PDF 목록·근거 목록과 문서 연결 갱신 |
