@@ -29,7 +29,10 @@ def main():
         title = next((line[2:].strip() for line in path.read_text(encoding='utf-8').splitlines()
                       if line.startswith('# ')), path.stem)
         title = title.replace('[', r'\[').replace(']', r'\]')
-        lines.append(f'- [{title}]({relative.as_posix()})')
+        target = relative.as_posix()
+        for character, encoded in [('%', '%25'), (' ', '%20'), ('(', '%28'), (')', '%29'), ('#', '%23')]:
+            target = target.replace(character, encoded)
+        lines.append(f'- [{title}]({target})')
     lines.extend(['', END])
     block = '\n'.join(lines)
     if START in original or END in original:

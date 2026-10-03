@@ -38,7 +38,7 @@
     "Tools/analyze_eis_examples.py"
   ],
   "result_files": [
-    "Projects/eis-example-analysis/README.md",
+    "Projects/eis-example-analysis/예시) EIS분석결과.md",
     "Projects/eis-example-analysis/summary.csv",
     "Projects/eis-example-analysis/derived_points.csv",
     "Projects/eis-example-analysis/nmc811_nyquist_bode.png",

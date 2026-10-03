@@ -24,8 +24,8 @@ def main():
       '이차전지의 소재·설계·평가·제조공정을 **설계 / 공정** 두 축으로 공부한다. 분류를 유지하며 각 항목의 내용을 대화로 하나씩 다듬는다.','',
       '## 목차','',
       '| 문서·목차 | 역할 |','| --- | --- |',
-      '| [EIS 그래프 처음부터 읽기](Projects/eis-example-analysis/분석_따라하기.md) | 교육용 따라하기: 그래프 하나씩 축·점·선 설명 → 종합 해석 |',
-      '| [EIS 예시 분석 결과](Projects/eis-example-analysis/README.md) | CSV 4개 계산 결과와 Nyquist·Bode 그래프 |',
+      '| [EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md) | EIS학습하기: 그래프 하나씩 축·점·선 설명 → 종합 해석 |',
+      '| [예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md) | 이후 데이터의 분석·설명 방식을 함께 다듬는 예시 |',
       '| [전체 WBS 목차](#전체-wbs-목차) | 195개 항목의 학습 상태·핵심·항목 PDF |',
       '| [1. 설계](#1-설계) | 소재, 전극, 셀, 평가·열화, 차세대전지 |',
       '| [2. 공정](#2-공정) | 원료, 전극, 조립, 화성, 품질, 재사용·재활용, 공급망 |',
@@ -51,7 +51,7 @@ def main():
         md=f"Knowledge/items/{filename(x['wbs'],x['label'])}.md"
         if (ROOT/md).is_file():link=f'[내용]({md}) · '+link
         if k=='method.eis':
-            link='[교육용 따라하기](Projects/eis-example-analysis/분석_따라하기.md) · [예시 분석 결과](Projects/eis-example-analysis/README.md) · '+link
+            link='[EIS학습하기](Projects/eis-example-analysis/EIS학습하기.md) · [예시) EIS분석결과](Projects/eis-example-analysis/예시%29%20EIS분석결과.md) · '+link
         return f"| {x['wbs']} | {name} | {x['learning_status']} | {x['core']} | {link} |"
     for axis in children['battery']:
         lines += [f"## {items[axis]['wbs']}. {items[axis]['label']}",'',*headers,row(axis),'']
