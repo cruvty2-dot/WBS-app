@@ -1,6 +1,6 @@
 # WBS 핵심 설명의 참고자료
 
-> 확인일: 2026-10-02
+> 확인일: 2026-10-03
 
 핵심 설명은 학습을 시작하기 위한 짧은 정리다. 세부 조성·성능·시험 조건은 항목을 상세화할 때 원 자료와 함께 다룬다. 학습 경로·기록 항목·확인 질문은 학습을 돕기 위한 제안이다.
 
@@ -57,105 +57,166 @@
 | hardcarbon | [Closed pores in hard carbon, Nature Communications (2023)](https://doi.org/10.1038/s41467-023-39637-5) |
 | lto | [Atomic-scale storage in Li4Ti5O12, Nature Communications (2013)](https://doi.org/10.1038/ncomms2878) |
 | lnmo | [Graphene-wrapped LiNi0.5Mn1.5O4, Scientific Reports (2015)](https://doi.org/10.1038/srep11958) |
+| ni_element | [Royal Society of Chemistry: Nickel — 원소 및 금속 물성](https://periodic-table.rsc.org/element/28/nickel) |
+| atomic_weights | [CIAAW: Abridged Standard Atomic Weights 2024](https://ciaaw.org/abridged-atomic-weights.htm) |
+| faraday_text | [OpenStax Chemistry 2e §17.4 — 패러데이 상수와 전하량](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium) |
+| ni_redox | [An et al. (2024): Distinguishing bulk redox from near-surface degradation in lithium nickel oxide cathodes](https://doi.org/10.1039/D4EE02398F) |
+| ni_redox_author | [University of Oxford Materials (2024): 위 논문의 저자 기관 해설](https://www.materials.ox.ac.uk/article/distinguishing-bulk-redox-near-surface-degradation-in-batteries) |
+| ni_occupancy | [Nature Communications 16, 2203 (2025): Tuning Li occupancy and local structures for advanced Co-free Ni-rich positive electrodes](https://doi.org/10.1038/s41467-025-57063-7) |
+| ni_mechanics | [Nature Communications 15, 1503 (2024): Kirkendall effect-induced uniform stress distribution stabilizes nickel-rich layered oxide cathodes](https://doi.org/10.1038/s41467-024-45373-1) |
+| mn_element | [Royal Society of Chemistry: Manganese - 원소·금속 물성](https://periodic-table.rsc.org/element/25/manganese) |
+| li_dead | [Fang et al., Nature 572 (2019): Quantifying inactive lithium in lithium metal batteries](https://doi.org/10.1038/s41586-019-1481-z) |
+| li_plating | [Huang et al., Nature Communications 13 (2022): Onboard early detection and mitigation of lithium plating in fast-charging batteries](https://doi.org/10.1038/s41467-022-33486-4) |
+| li_quant | [Communications Materials 3 (2022): Protocol for quantifying inactive lithium in anode-free lithium batteries by mass spectrometry titration](https://doi.org/10.1038/s43246-022-00273-z) |
+| crystal_field | [OpenStax Chemistry 2e §19.3 - 배위 화합물의 전자상태·결정장](https://openstax.org/books/chemistry-2e/pages/19-3-spectroscopic-and-magnetic-properties-of-coordination-compounds) |
+| mn_phase | [Nature Communications 10 (2019): Correlation between manganese dissolution and dynamic phase stability in spinel-based lithium-ion battery](https://doi.org/10.1038/s41467-019-12626-3) |
+| mn_anode | [Nature Communications 4 (2013): Mn(II) deposition on anodes and its effects on capacity fade in spinel lithium manganate-carbon systems](https://doi.org/10.1038/ncomms3437) |
+| mn_olivine | [Wang et al. (2011), 저자 원고: LiMn1-xFexPO4 Nanorods Grown on Graphene Sheets for Ultra-High Rate Performance Lithium Ion Batteries](https://arxiv.org/abs/1107.0111) |
+| na_mof | [Metal-organic framework glass enables durable sodium-ion storage for hard carbon negative electrodes (2026)](https://doi.org/10.1038/s41467-026-75060-2) |
+| na_desolv | [Consummating ion desolvation in hard carbon anodes for reversible sodium storage (2024)](https://doi.org/10.1038/s41467-024-47522-y) |
+| na_epr | [Electron paramagnetic resonance as a tool to determine the sodium charge storage mechanism of hard carbon (2024)](https://doi.org/10.1038/s41467-024-45460-3) |
+| lmfp_defect | [Surface Antisite Defect-Induced Three-Dimensional Li+ Diffusion Enables Stable and Kinetic-Enhanced LiFe1-xMnxPO4 Cathodes (2026)](https://doi.org/10.1021/acs.nanolett.5c06021) |
+| lmfp_coating | [Sequential Additive Engineering Enables Uniform Carbon Coating and Enhanced Interfacial Properties in LiFe1-xMnxPO4 Cathodes (2025)](https://doi.org/10.1021/acsami.5c14564) |
+| lmfp_carbon | [Revealing the Role of Carbon Layers in Lithium Manganese Iron Phosphate Cathodes (2025)](https://doi.org/10.1021/acsaem.5c00437) |
+| co_single | [Reversing the polycrystalline rules in single-crystal battery positive electrodes (2026)](https://doi.org/10.1038/s41565-025-02078-w) |
+| ni_pores | [Uniform pore structure enables negligible degradation in undoped and uncoated Ni-rich cathodes (2026)](https://doi.org/10.1038/s41560-026-01988-w) |
+| sc_air | [Unraveling the origin of air-stability in single-crystalline layered oxide positive electrode materials (2025)](https://doi.org/10.1038/s41467-025-61304-0) |
+| fluorinefree | [Fluorine-free binder-based dry thick electrodes with Parafilm M (2026)](https://doi.org/10.1038/s41467-025-66082-3) |
+| al_salt | [Non-corrosive asymmetric fluorinated aryl sulfonimide lithium salt for high-temperature and high-voltage lithium metal batteries (2025)](https://doi.org/10.1038/s41467-025-64737-9) |
+| fsi_conc | [Electrolyte design for lithium-ion batteries with a cobalt-free cathode and silicon oxide anode (2023)](https://doi.org/10.1038/s41893-023-01237-y) |
+| cmc_adsorb | [Selective adsorption of carboxymethyl cellulose over styrene-butadiene rubber on graphite in lithium-ion battery slurries (2026)](https://doi.org/10.1038/s41428-026-01246-6) |
+| si_network | [Unravelling electro-chemo-mechanical processes in graphite/silicon composites for designing nanoporous and microstructured battery electrodes (2025)](https://doi.org/10.1038/s41565-025-02027-7) |
+| sulfur_solid | [A highly utilized and practical lithium-sulfur positive electrode enabled in all-solid-state batteries (2026)](https://doi.org/10.1038/s41467-026-69750-0) |
+| sulfide_new | [Liquid-phase synthesis of a series of superionic sulfide electrolytes for all-solid-state lithium-sulfur battery (2026)](https://doi.org/10.1038/s41467-026-76953-y) |
+| lco_coating | [Li2ZrF6 protective layer enabled high-voltage LiCoO2 positive electrode in sulfide all-solid-state batteries (2025)](https://doi.org/10.1038/s41467-024-55695-9) |
+| lco_crack | [Origin of crack propagation in lithium cobalt oxide positive electrode for lithium-ion batteries (2026)](https://doi.org/10.1038/s41467-026-75373-2) |
+| poly_gradient | [A mechano-integrated gradient electrolyte for long-cycling solid-state lithium metal batteries (2026)](https://doi.org/10.1038/s41467-026-74573-0) |
+| peo_network | [Revealing and reconstructing the 3D Li-ion transportation network for superionic poly(ethylene) oxide conductor (2024)](https://doi.org/10.1038/s41467-024-51191-2) |
+| oxide_plastic | [A self-healing plastic ceramic electrolyte by an aprotic dynamic polymer network for lithium metal batteries (2024)](https://doi.org/10.1038/s41467-024-53869-z) |
+| oxide_shield | [A flexible electron-blocking interfacial shield for dendrite-free solid lithium metal batteries (2021)](https://doi.org/10.1038/s41467-020-20463-y) |
+| gel_contact | [Modulating physicochemical interfaces enables li-rich oxides based ceramic solid-state li batteries under ambient conditions (2025)](https://doi.org/10.1038/s41467-025-64396-w) |
+| o_sulfide | [Interplay between oxygen redox and interfacial stability of Li-rich positive electrodes in sulfide-based all-solid-state batteries (2026)](https://doi.org/10.1038/s41467-026-74601-z) |
+| cnt_binder | [Charge-engineered cellulose nanofibril binders for PFAS-free, high-loading lithium battery positive electrodes (2026)](https://doi.org/10.1038/s41467-026-73909-0) |
+| cnt_lto | [Multi-layer electrode with nano-Li4Ti5O12 aggregates sandwiched between carbon nanotube and graphene networks (2014)](https://doi.org/10.1038/srep07334) |
+| nca_primary | [Influence of sintering temperatures on microstructure and electrochemical performances of LiNi0.93Co0.04Al0.03O2 cathode (2022)](https://doi.org/10.1038/s41598-022-13843-5) |
+| separator_new | [Multiscale interfacial stabilization via prelithiation separator engineering for Ah-level anode-free lithium batteries (2025)](https://doi.org/10.1038/s41467-025-59521-8) |
+| graphite_charge | [Electronic structure of alkali-intercalated graphite studied by soft-x-ray emission spectroscopy (1987)](https://doi.org/10.1103/PhysRevLett.58.614) |
+| oxidation | [IUPAC Gold Book: oxidation state - 형식 산화수의 정의](https://goldbook.iupac.org/terms/view/O04365) |
+| co_element | [Royal Society of Chemistry: cobalt - 원소·전자배치](https://periodic-table.rsc.org/element/27/cobalt) |
+| fe_element | [Royal Society of Chemistry: iron - 원소·전자배치](https://periodic-table.rsc.org/element/26/iron) |
+| p_element | [Royal Society of Chemistry: phosphorus - 원소·전자배치](https://periodic-table.rsc.org/element/15/phosphorus) |
+| c_element | [Royal Society of Chemistry: carbon - 원소·전자배치](https://periodic-table.rsc.org/element/6/carbon) |
+| si_element | [Royal Society of Chemistry: silicon - 원소·전자배치](https://periodic-table.rsc.org/element/14/silicon) |
+| al_element | [Royal Society of Chemistry: aluminium - 원소·전자배치](https://periodic-table.rsc.org/element/13/aluminium) |
+| cu_element | [Royal Society of Chemistry: copper - 원소·전자배치](https://periodic-table.rsc.org/element/29/copper) |
+| o_element | [Royal Society of Chemistry: oxygen - 원소·전자배치](https://periodic-table.rsc.org/element/8/oxygen) |
+| na_element | [Royal Society of Chemistry: sodium - 원소·전자배치](https://periodic-table.rsc.org/element/11/sodium) |
+| paa_primary | [Toward Efficient Binders for Li-Ion Battery Si-Based Anodes: Polyacrylic Acid (2010)](https://doi.org/10.1021/am100871y) |
+| paa_new | [Latent-Cross-Linkable Polyacrylate Binder for High-Performance Silicon Anodes (2026)](https://doi.org/10.1021/acsapm.6c01526) |
+| pf6_hydro | [Unraveling the Hydrolysis Mechanism of LiPF6 in Electrolyte of Lithium Ion Batteries (2024)](https://doi.org/10.1021/acs.nanolett.3c01682) |
+| pf6_solvent | [Hydrolysis of LiPF6 in Carbonate-Based Electrolytes and in Aqueous Media (2018)](https://doi.org/10.1021/acs.jpcc.8b02080) |
+| cu_over | [Studies on the deposition of copper in lithium-ion batteries during the deep discharge process (2021)](https://doi.org/10.1038/s41598-021-85575-x) |
+| collector_res | [Electrical resistance of the current collector controls lithium morphology (2022)](https://doi.org/10.1038/s41467-022-31507-w) |
+| celgard | [Celgard 2325: 25 μm PP/PE/PP 삼층 분리막 공식 자료 (2026-01)](https://www.celgard.com/storage/components/2325_com_data_2026-01.pdf) |
 
 ## 항목별 근거
 
 | WBS 번호 | 항목 | 근거 ID |
 | --- | --- | --- |
 | 1 | 설계 | battery |
-| 1.1 | 소재·재료 | battery |
-| 1.1.1 | 소재 특성·전공 기초 | lattice |
-| 1.1.1.1 | 원소·이온 | elements |
-| 1.1.1.1.1 | Li: 원소·Li⁺·금속 음극 | lithium, battery, limetal |
-| 1.1.1.1.2 | Ni: 니켈 | ncm |
-| 1.1.1.1.3 | Co: 코발트 | elements |
-| 1.1.1.1.4 | Mn: 망간 | lmo |
-| 1.1.1.1.5 | Fe: 철 | lmfp |
-| 1.1.1.1.6 | P: 인 | lmfp |
-| 1.1.1.1.7 | C: 탄소 | graphite |
-| 1.1.1.1.8 | Si: 규소 | silicon |
-| 1.1.1.1.9 | Al: 알루미늄 | surface |
-| 1.1.1.1.10 | Cu: 구리 | battery |
-| 1.1.1.1.11 | O: 산소 | ncm |
-| 1.1.1.1.12 | Na: 나트륨 | solid |
-| 1.1.1.2 | 결정구조·결함 | lattice |
-| 1.1.1.2.1 | 층상 구조 | ncm |
-| 1.1.1.2.2 | 올리빈 구조 | lmfp |
-| 1.1.1.2.3 | 스피넬 구조 | lmo |
-| 1.1.1.2.4 | 공공·자리 혼입·입계 | precursor |
-| 1.1.1.2.5 | 상전이·응력·균열 | degradation |
-| 1.1.1.3 | 전자구조·결합 | orbital |
-| 1.1.1.3.1 | 화학결합·산화수 | chemistry |
-| 1.1.1.3.2 | 오비탈·밴드·전자상태 | orbital |
-| 1.1.1.3.3 | 산화·환원과 전위 | chemistry |
-| 1.1.1.4 | 전달·반응·열 특성 | electrode |
-| 1.1.1.4.1 | 확산·이온 전달 | electrode |
-| 1.1.1.4.2 | 전자 전달 | electrode |
-| 1.1.1.4.3 | 열전달·열 안정성 | thermal |
-| 1.1.1.4.4 | 계면 반응·젖음성 | wetting |
-| 1.1.1.5 | 입자·분체·표면 | bet |
-| 1.1.1.5.1 | 입도·입도분포 | xrd |
-| 1.1.1.5.2 | 비표면적·표면화학 | bet |
-| 1.1.1.5.3 | 진밀도·탭밀도·충전성 | bet |
-| 1.1.2 | 활물질 | battery |
-| 1.1.2.1 | 양극재 | ncm |
-| 1.1.2.1.1 | 층상 산화물 | ncm |
-| 1.1.2.1.1.1 | NCM | ncm, precursor |
-| 1.1.2.1.1.2 | NCA | surface |
-| 1.1.2.1.1.3 | LCO | ncm |
-| 1.1.2.1.2 | 인산염계 | lmfp |
-| 1.1.2.1.2.1 | LFP | lmfp, lfp, electrode |
-| 1.1.2.1.2.2 | LMFP | lmfp, lmfp2 |
-| 1.1.2.1.3 | 스피넬계 | lmo |
-| 1.1.2.1.3.1 | LMO | lmo, icp |
-| 1.1.2.1.3.2 | LNMO | lnmo |
-| 1.1.2.1.4 | 황·전환반응계 | sulfur |
-| 1.1.2.1.4.1 | 황 양극 | sulfur |
-| 1.1.2.2 | 음극재 | silicon |
-| 1.1.2.2.1 | 탄소계 | hardcarbon |
-| 1.1.2.2.1.1 | 흑연 | graphite |
-| 1.1.2.2.1.1.1 | 천연흑연 | graphite |
-| 1.1.2.2.1.1.2 | 인조흑연 | graphite |
-| 1.1.2.2.1.2 | 하드카본 | hardcarbon |
-| 1.1.2.2.2 | Si계·합금계 | silicon |
-| 1.1.2.2.2.1 | Si | silicon |
-| 1.1.2.2.2.2 | SiOₓ | silicon |
-| 1.1.2.2.2.3 | Si-C 복합체 | silicon |
-| 1.1.2.2.3 | 삽입형 산화물 | battery |
-| 1.1.2.2.3.1 | LTO | lto |
-| 1.1.2.2.4 | 금속 음극 | limetal |
-| 1.1.2.2.4.1 | 리튬 금속 음극 | limetal |
-| 1.1.3 | 바인더 | binders |
-| 1.1.3.1 | PVDF | dry2 |
-| 1.1.3.2 | CMC | binders |
-| 1.1.3.3 | SBR | binders |
-| 1.1.3.4 | PAA | paa |
-| 1.1.3.5 | PTFE | dry |
-| 1.1.4 | 도전재 | electrode |
-| 1.1.4.1 | 카본블랙 | dry2 |
-| 1.1.4.2 | CNT | electrode |
-| 1.1.4.3 | 그래핀 | electrode |
-| 1.1.5 | 전해질 | electrolyte |
-| 1.1.5.1 | 액체 전해질 | electrolyte |
-| 1.1.5.1.1 | 리튬염 | electrolyte |
-| 1.1.5.1.1.1 | LiPF₆ | electrolyte |
-| 1.1.5.1.1.2 | LiFSI | electrolyte |
-| 1.1.5.1.1.3 | LiTFSI | electrolyte |
-| 1.1.5.1.2 | 용매 | electrolyte |
-| 1.1.5.1.3 | 첨가제 | formation |
-| 1.1.5.2 | 고체 전해질 | sulfide |
-| 1.1.5.2.1 | 황화물계 | sulfide |
-| 1.1.5.2.2 | 산화물계 | solid |
-| 1.1.5.2.3 | 고분자계 | sulfur |
-| 1.1.5.3 | 겔·고분자 전해질 | sulfur |
-| 1.1.5.4 | SEI·CEI 계면막 | formation |
-| 1.1.6 | 분리막 | battery |
-| 1.1.6.1 | PE·PP계 | battery |
-| 1.1.6.2 | 세라믹·기능성 코팅 | battery |
-| 1.1.7 | 집전체 | electrolyte |
-| 1.1.7.1 | Al 집전체 | electrolyte |
-| 1.1.7.2 | Cu 집전체 | battery |
-| 1.1.7.3 | 표면 처리·복합 집전체 | dry2 |
+| 1.1 | 소재·재료 | battery, electrode, si_network |
+| 1.1.1 | 소재 특성·전공 기초 | chemistry, lattice, electrode |
+| 1.1.1.1 | 원소·이온 | elements, oxidation, atomic_weights |
+| 1.1.1.1.1 | Li: 원소·Li⁺·금속 음극 | lithium, atomic_weights, faraday_text, battery, formation, li_dead, li_plating, li_quant, limetal, ni_occupancy, oxidation, graphite_charge |
+| 1.1.1.1.2 | Ni: 니켈 | ni_element, atomic_weights, faraday_text, ni_redox, ni_redox_author, ni_occupancy, ni_mechanics, ncm |
+| 1.1.1.1.3 | Co: 코발트 | co_element, oxidation, co_single |
+| 1.1.1.1.4 | Mn: 망간 | mn_element, atomic_weights, faraday_text, crystal_field, mn_phase, lmo, mn_olivine, mn_anode |
+| 1.1.1.1.5 | Fe: 철 | fe_element, oxidation, mn_olivine, lmfp_carbon, atomic_weights, faraday_text |
+| 1.1.1.1.6 | P: 인 | p_element, oxidation, mn_olivine |
+| 1.1.1.1.7 | C: 탄소 | c_element, graphite_charge, na_epr, na_mof |
+| 1.1.1.1.8 | Si: 규소 | si_element, silicon, si_network |
+| 1.1.1.1.9 | Al: 알루미늄 | al_element, al_salt, nca_primary |
+| 1.1.1.1.10 | Cu: 구리 | cu_element, cu_over, collector_res |
+| 1.1.1.1.11 | O: 산소 | o_element, ni_redox, o_sulfide |
+| 1.1.1.1.12 | Na: 나트륨 | na_element, chemistry, na_mof, atomic_weights, faraday_text |
+| 1.1.1.2 | 결정구조·결함 | lattice, ni_occupancy, ni_pores |
+| 1.1.1.2.1 | 층상 구조 | lattice, ni_occupancy, ni_pores |
+| 1.1.1.2.2 | 올리빈 구조 | lattice, mn_olivine, lmfp_defect |
+| 1.1.1.2.3 | 스피넬 구조 | lattice, lmo, lto |
+| 1.1.1.2.4 | 공공·자리 혼입·입계 | lattice, ni_occupancy, lmfp_defect |
+| 1.1.1.2.5 | 상전이·응력·균열 | lattice, ni_mechanics, ni_pores |
+| 1.1.1.3 | 전자구조·결합 | orbital, chemistry, ni_redox |
+| 1.1.1.3.1 | 화학결합·산화수 | oxidation, chemistry, graphite_charge |
+| 1.1.1.3.2 | 오비탈·밴드·전자상태 | orbital, crystal_field, ni_redox |
+| 1.1.1.3.3 | 산화·환원과 전위 | chemistry, faraday_text, ni_redox |
+| 1.1.1.4 | 전달·반응·열 특성 | electrode, chemistry, eis |
+| 1.1.1.4.1 | 확산·이온 전달 | electrode, gitt, lmfp_defect |
+| 1.1.1.4.2 | 전자 전달 | electrode, dry, si_network |
+| 1.1.1.4.3 | 열전달·열 안정성 | thermal, chemistry, electrode |
+| 1.1.1.4.4 | 계면 반응·젖음성 | electrolyte, na_desolv, na_mof |
+| 1.1.1.5 | 입자·분체·표면 | bet, electrode, dry |
+| 1.1.1.5.1 | 입도·입도분포 | bet, electrode, dry |
+| 1.1.1.5.2 | 비표면적·표면화학 | bet, electrode, na_epr |
+| 1.1.1.5.3 | 진밀도·탭밀도·충전성 | electrode, dry, si_network |
+| 1.1.2 | 활물질 | battery, chemistry, electrode |
+| 1.1.2.1 | 양극재 | chemistry, electrode, ni_pores |
+| 1.1.2.1.1 | 층상 산화물 | ni_redox, co_single, ni_pores |
+| 1.1.2.1.1.1 | NCM | ni_redox, ncm, ni_occupancy, ni_pores, atomic_weights, faraday_text |
+| 1.1.2.1.1.2 | NCA | nca_primary, ni_redox, ni_pores, atomic_weights, faraday_text |
+| 1.1.2.1.1.3 | LCO | lco_coating, lco_crack, oxidation, atomic_weights, faraday_text |
+| 1.1.2.1.2 | 인산염계 | mn_olivine, lmfp_defect, lmfp_coating |
+| 1.1.2.1.2.1 | LFP | mn_olivine, lmfp_carbon, electrode, atomic_weights, faraday_text |
+| 1.1.2.1.2.2 | LMFP | mn_olivine, lmfp, lmfp_defect, lmfp_coating, atomic_weights, faraday_text |
+| 1.1.2.1.3 | 스피넬계 | lmo, lnmo, mn_phase |
+| 1.1.2.1.3.1 | LMO | lmo, mn_phase, mn_anode, atomic_weights, faraday_text |
+| 1.1.2.1.3.2 | LNMO | lnmo, oxidation, electrolyte, atomic_weights, faraday_text |
+| 1.1.2.1.4 | 황·전환반응계 | sulfur, sulfur_solid |
+| 1.1.2.1.4.1 | 황 양극 | sulfur, sulfur_solid, atomic_weights, faraday_text |
+| 1.1.2.2 | 음극재 | chemistry, silicon, li_plating |
+| 1.1.2.2.1 | 탄소계 | graphite_charge, hardcarbon, na_epr, na_mof |
+| 1.1.2.2.1.1 | 흑연 | graphite, graphite_charge, li_plating, atomic_weights, faraday_text |
+| 1.1.2.2.1.1.1 | 천연흑연 | graphite, electrode, si_network |
+| 1.1.2.2.1.1.2 | 인조흑연 | graphite, electrode, si_network |
+| 1.1.2.2.1.2 | 하드카본 | hardcarbon, na_epr, na_desolv, na_mof |
+| 1.1.2.2.2 | Si계·합금계 | silicon, si_network |
+| 1.1.2.2.2.1 | Si | silicon, si_network |
+| 1.1.2.2.2.2 | SiOₓ | silicon, si_network |
+| 1.1.2.2.2.3 | Si-C 복합체 | silicon, si_network, graphite |
+| 1.1.2.2.3 | 삽입형 산화물 | lto, cnt_lto |
+| 1.1.2.2.3.1 | LTO | lto, cnt_lto, atomic_weights, faraday_text |
+| 1.1.2.2.4 | 금속 음극 | li_dead, li_quant, poly_gradient |
+| 1.1.2.2.4.1 | 리튬 금속 음극 | li_dead, li_quant, oxide_shield, poly_gradient |
+| 1.1.3 | 바인더 | binders, dry, si_network |
+| 1.1.3.1 | PVDF | dry2, binders, fluorinefree |
+| 1.1.3.2 | CMC | binders, cmc_adsorb |
+| 1.1.3.3 | SBR | binders, cmc_adsorb |
+| 1.1.3.4 | PAA | paa_primary, paa_new, si_network |
+| 1.1.3.5 | PTFE | dry, dry2, fluorinefree |
+| 1.1.4 | 도전재 | electrode, cnt_binder, si_network |
+| 1.1.4.1 | 카본블랙 | electrode, dry, si_network |
+| 1.1.4.2 | CNT | cnt_lto, cnt_binder |
+| 1.1.4.3 | 그래핀 | cnt_lto, lnmo |
+| 1.1.5 | 전해질 | electrolyte, solid, poly_gradient |
+| 1.1.5.1 | 액체 전해질 | electrolyte, pf6_solvent, fsi_conc |
+| 1.1.5.1.1 | 리튬염 | electrolyte, pf6_hydro, al_salt, fsi_conc |
+| 1.1.5.1.1.1 | LiPF₆ | pf6_hydro, pf6_solvent, al_salt |
+| 1.1.5.1.1.2 | LiFSI | fsi_conc, electrolyte, al_salt |
+| 1.1.5.1.1.3 | LiTFSI | al_salt, peo_network, electrolyte |
+| 1.1.5.1.2 | 용매 | electrolyte, na_desolv, na_mof |
+| 1.1.5.1.3 | 첨가제 | formation, pf6_solvent, electrolyte |
+| 1.1.5.2 | 고체 전해질 | solid, oxide_shield, poly_gradient |
+| 1.1.5.2.1 | 황화물계 | sulfide, lco_coating, sulfide_new, o_sulfide |
+| 1.1.5.2.2 | 산화물계 | oxide_shield, oxide_plastic, poly_gradient |
+| 1.1.5.2.3 | 고분자계 | peo_network, poly_gradient |
+| 1.1.5.3 | 겔·고분자 전해질 | gel_contact, peo_network |
+| 1.1.5.4 | SEI·CEI 계면막 | formation, li_dead, na_mof, lco_coating |
+| 1.1.6 | 분리막 | celgard, wetting, separator_new |
+| 1.1.6.1 | PE·PP계 | celgard, wetting |
+| 1.1.6.2 | 세라믹·기능성 코팅 | separator_new, celgard, wetting |
+| 1.1.7 | 집전체 | collector_res, al_salt, cu_over |
+| 1.1.7.1 | Al 집전체 | al_salt, fsi_conc |
+| 1.1.7.2 | Cu 집전체 | cu_over, collector_res |
+| 1.1.7.3 | 표면 처리·복합 집전체 | collector_res, al_salt |
 | 1.2 | 전극 설계 | electrode |
 | 1.2.1 | 조성·활물질 비율 | dry2 |
 | 1.2.2 | 로딩량·면적당 용량 | electrode |
