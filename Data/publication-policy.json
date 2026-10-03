@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-04",
   "pdf_policy": "Only on explicit user request, from current GitHub content, delivered in this chat; do not commit new PDFs. No parent or recursive compilations.",
   "removed_generated_pdfs": 195,
   "removed_generated_markdown": 95,
@@ -35,5 +35,93 @@
     }
   ],
   "existing_retained_pdfs": [],
-  "status_note": "기존 Li·Ni·Mn PDF 3개도 삭제 승인됨. WBS 학습 PDF는 저장소에 보관하지 않음."
+  "status_note": "기존 Li·Ni·Mn PDF 3개도 삭제 승인됨. WBS 학습 PDF는 저장소에 보관하지 않음.",
+  "example_retention_policy": {
+    "active_examples_only": true,
+    "on_replacement": "After validating the replacement and updating links, remove superseded raw data and unused derived results from the working tree and GitHub latest branch. Preserve reused figures, manual learning documents and source citations. Keep lightweight provenance in the cleanup record; do not retain duplicate raw backups. Git history is not rewritten.",
+    "pdf_artifacts": "Explicitly requested current study PDFs remain outside the repository. Remove disposable render previews after validation; remove older delivered PDFs only when explicitly requested or confirmed replaced."
+  },
+  "eis_cleanup_20261004": {
+    "active_dataset": "10.17632/mbv3bx847g.3",
+    "removed_files": [
+      {
+        "path": "Data/static/eis/nmc-mj1-cathode-discharge-soc50.csv",
+        "bytes": 6517,
+        "sha256": "91337ce1407c10ed6cd2db1daf6ef3644dd52cc7a91c0fc1c30c0c80e4d1f8fb"
+      },
+      {
+        "path": "Data/static/eis/nmc811-21700-soc30-id01.csv",
+        "bytes": 2557,
+        "sha256": "1d39c825e8004fd526055fa778c3329205480c787db3c767d5ea143535ffe08e"
+      },
+      {
+        "path": "Data/static/eis/nmc811-21700-soc30-id02.csv",
+        "bytes": 2556,
+        "sha256": "d49054498ae4d03e62e963e056f2e2553a6e1743577ce906e66412c482dbe602"
+      },
+      {
+        "path": "Data/static/eis/nmc811-21700-soc30-id03.csv",
+        "bytes": 2556,
+        "sha256": "c268685c818760ebf12b2383aca395b9ba38f3c96039ec331e3f8e211c3c9c44"
+      },
+      {
+        "path": "Projects/eis-example-analysis/mj1_nyquist_bode.png",
+        "bytes": 212532,
+        "sha256": "4e1f533d860d3300ce7d88acc198b821a3ddae7f4f30d90fdf9369cc038eb696"
+      },
+      {
+        "path": "Projects/eis-example-analysis/nmc811_nyquist_bode.png",
+        "bytes": 230136,
+        "sha256": "219e34d1b29f45e91867c221d643dee2c99661f85106fe2ae9cee20683fa021f"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_bode_magnitude.png",
+        "bytes": 53277,
+        "sha256": "a59a404cf61092a4aa6904b30e84f0294771786af0170819f37d4d6ed61b6ae4"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_bode_phase.png",
+        "bytes": 44020,
+        "sha256": "2e2da0d0c866fd38df312f0800e9ea8f7e6950f8b5f789ead56fc75f21511f33"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_bode.png",
+        "bytes": 114264,
+        "sha256": "7f6a009994dd85d15104070b0f613982cce4f7dd80f35fcdd0a99bcecbf6d20f"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_model_effects.png",
+        "bytes": 142580,
+        "sha256": "031ae5d061f8340c9e9b9fde95e411d7b90fdc93b807469291d7db0276c57c75"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_nyquist_full.png",
+        "bytes": 54241,
+        "sha256": "118dfddca80d73a76063e5e10463ee28f930655f366bb546c9f98d30e3758e9f"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_nyquist_zoom.png",
+        "bytes": 62675,
+        "sha256": "604033262e769db23be599525668ae590e825a2c95a57ad96db5e652b7eb6104"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_nyquist.png",
+        "bytes": 147083,
+        "sha256": "8cf2d962087fde5c3293fd4d7205c551797fa381b4cec64235a42e5f5cbca8a0"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough_points.csv",
+        "bytes": 630,
+        "sha256": "20da5269798048f4d2f0883d2118c70cf3b0f2b6165dfd8be3a39a3bca86e53c"
+      },
+      {
+        "path": "Projects/eis-example-analysis/walkthrough-record.json",
+        "bytes": 1287,
+        "sha256": "32402ba67e1e4c2328617af1203fb89a9930187a546f35d45629708b41130ee0"
+      }
+    ],
+    "removed_bytes": 1076911,
+    "wbs_pdfs_remaining": 0,
+    "original_reference_pdfs_preserved": 14
+  }
 }

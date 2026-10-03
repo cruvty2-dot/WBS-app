@@ -54,7 +54,7 @@ updated_at: 2026-10-04
 4. 링크·분류·PDF 포함 범위와 실제 배치를 검증한다.
 5. 작업 계획과 이 INDEX를 갱신하고 검증한 변경을 GitHub에 반영한다.
 
-EIS의 데이터→축 설정→그래프→해석 과정은 [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md), 같은 배터리의 SOC 20%·50%·80% 및 6개 측정 회차 비교는 [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)에서 확인한다. 현재 근거는 Buchicchio 등의 공개 원본 3360행이며 출처·조건·라이선스·해시는 [원본 기록](Data/static/eis/buchicchio-2022/source-manifest.json)에 남긴다. 이전 출처 미확인 예시를 현재 설명의 근거로 사용하지 않는다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
+EIS의 데이터→축 설정→그래프→해석 과정은 [1.4.1.3 EIS](Projects/eis-example-analysis/1.4.1.3%20EIS.md), 같은 배터리의 SOC 20%·50%·80% 및 6개 측정 회차 비교는 [1.4.1.3 EIS분석예시](Projects/eis-example-analysis/1.4.1.3%20EIS분석예시.md)에서 확인한다. 현재 근거는 Buchicchio 등의 공개 원본 3360행이며 출처·조건·라이선스·해시는 [원본 기록](Data/static/eis/buchicchio-2022/source-manifest.json)에 남긴다. 이전 출처 미확인 예시의 원본과 사용하지 않는 산출물은 삭제했다. 예시 교체 시 현재 사용 중인 데이터만 보관하며 [게시 정책](Data/publication-policy.json)에 삭제 목록을 남긴다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
 
 ## 문서 운영 원칙
 
