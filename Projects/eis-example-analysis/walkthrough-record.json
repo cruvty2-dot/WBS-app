@@ -1,0 +1,43 @@
+{
+  "role": "learning_walkthrough",
+  "input_file": "Data/static/eis/nmc811-21700-soc30-id01.csv",
+  "input_sha256": "1d39c825e8004fd526055fa778c3329205480c787db3c767d5ea143535ffe08e",
+  "rows": 44,
+  "worked_example_data_row": 9,
+  "worked_example": {
+    "frequency_hz": 1190.0,
+    "nyquist_x_mohm": 14.137316349661,
+    "nyquist_y_mohm": 0.36671385169029197,
+    "magnitude_mohm": 14.142071723033148,
+    "phase_deg": -1.4858863517299365
+  },
+  "hf_crossing_proxy": 0.013961004068726936,
+  "data_validation": {
+    "finite": true,
+    "positive_frequency": true,
+    "duplicate_frequency_count": 0,
+    "negative_real_count": 0,
+    "rows": 44
+  },
+  "model": {
+    "data_type": "synthetic_educational",
+    "fit_performed": false,
+    "rs_ohm": [
+      0.014,
+      0.019
+    ],
+    "rp_ohm": [
+      0.01,
+      0.02
+    ],
+    "c_f": 0.05,
+    "checks": [
+      "Rs shift exactly 0.005 ohm with zero imaginary change",
+      "Analytical RC crest real=Rs+Rp/2, minus-imag=Rp/2"
+    ]
+  },
+  "packages": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3"
+  }
+}

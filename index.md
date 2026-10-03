@@ -54,7 +54,7 @@ updated_at: 2026-10-03
 4. 링크·분류·PDF 포함 범위와 실제 배치를 검증한다.
 5. 작업 계획과 이 INDEX를 갱신하고 검증한 변경을 GitHub에 반영한다.
 
-현재 요청한 EIS 예시 데이터 분석 결과는 [EIS 분석 보고서](Projects/eis-example-analysis/README.md)에서 확인한다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
+현재 요청한 EIS 예시의 데이터→축 설정→그래프→해석 과정은 [한 파일 분석 따라하기](Projects/eis-example-analysis/분석_따라하기.md), 기존 4개 파일의 계산 결과는 [EIS 분석 보고서](Projects/eis-example-analysis/README.md)에서 확인한다. 후속 학습 항목과 웹앱·Hermes 연결은 사용자의 요청에 따라 범위를 정한다.
 
 ## 문서 운영 원칙
 
@@ -79,6 +79,7 @@ updated_at: 2026-10-03
 | 학습문서 작성 방식 확인 | [학습문서 양식](Templates/학습문서.md) |
 | 앱과 외부 도구 연결 계획 확인 | [앱 요구사항과 연동 계획](Docs/앱_요구사항과_연동계획.md) |
 | EIS 예시 분석·Nyquist·Bode 그래프 확인 | [EIS 예시 분석 결과](Projects/eis-example-analysis/README.md) |
+| 한 행의 좌표 계산·축 설정·곡선 읽기·조건 비교 학습 | [EIS 한 파일 분석 따라하기](Projects/eis-example-analysis/분석_따라하기.md) |
 
 ## 폴더 구조
 
@@ -195,6 +196,7 @@ Markdown 수량과 전체 파일 링크는 아래 자동 문서 목록에서 확
 | [재사용 아이디어](Knowledge/ideas/재사용_아이디어.md) | 아이디어를 질문·검증 과제로 정리 |
 | [재사용 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md) | 작업·산출물·완료 기준의 구조 예시 |
 | [EIS 예시 분석 결과](Projects/eis-example-analysis/README.md) | CSV 4개 검증·지표·Nyquist·Bode 그래프 |
+| [EIS 분석 따라하기](Projects/eis-example-analysis/분석_따라하기.md) | ID01 한 파일의 좌표 계산·주석 그래프·조건 비교 절차 |
 | [학습문서 양식](Templates/학습문서.md) | 항목별 학습문서 공통 구성 |
 | [작업요청 양식](Templates/작업요청.md) | 목적·입력·조건·산출물·완료 기준 |
 | [WBS PDF 목록](References/wbs/README.md) | 항목별 PDF와 상위 합본 탐색 |
@@ -237,6 +239,7 @@ Data/taxonomy.json + Data/wbs-learning.json
 | --- | --- |
 | [sync_document_index.py](Tools/sync_document_index.py) | 수동 구조 안내를 유지하며 전체 Markdown 링크 목록 동기화·파일 링크 검증 |
 | [analyze_eis_examples.py](Tools/analyze_eis_examples.py) | EIS 예시 분석·요약·그래프·분석 기록 생성 |
+| [build_eis_walkthrough.py](Tools/build_eis_walkthrough.py) | EIS 주석 그림·선택 행 계산표·교육용 모형 생성·검증 |
 | [build_wbs_pdfs.py](Tools/build_wbs_pdfs.py) | 항목별·상위 합본 PDF와 상세 Markdown 생성 |
 | [build_wbs_index.py](Tools/build_wbs_index.py) | README·PDF 목록·근거 목록과 문서 연결 갱신 |
 | [build_topic_pdfs.py](Tools/build_topic_pdfs.py) | 이전 원문 자료의 주제별 PDF 제작 |
@@ -258,7 +261,7 @@ python Tools/validate_knowledge.py
 <!-- document-index:start -->
 ## 자동 문서 목록
 
-Markdown 총 132개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다.
+Markdown 총 133개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다.
 
 ### 루트
 
@@ -398,6 +401,7 @@ Markdown 총 132개. 이 목록은 `Tools/sync_document_index.py`로 갱신한�
 ### Projects/eis-example-analysis
 
 - [EIS 예시 데이터 분석 결과](Projects/eis-example-analysis/README.md)
+- [예시 1 — EIS 데이터시트에서 그래프와 해석까지](Projects/eis-example-analysis/분석_따라하기.md)
 ### Projects
 
 - [재사용 진단 검증 프로젝트 WBS 예시](Projects/재사용_검증_WBS_예시.md)
