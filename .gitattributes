@@ -1,3 +1,2 @@
-*.pdf binary
-*.png binary
-*.svg text
+# Preserve publisher CSV bytes so provenance hashes survive Windows checkouts.
+Data/static/eis/buchicchio-2022/*.csv -text
