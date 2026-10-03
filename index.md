@@ -1,6 +1,70 @@
-# Battery Study 저장소 구조 안내
+---
+schema: battery-study-project-index/v1
+status: active
+document_role: project_index
+physical_name: index.md
+project_id: battery-study
+project_title: 이차전지 학습·지식 및 PDF 관리
+domain: battery-engineering
+source_repo: cruvty2-dot/battery-study
+source_branch: main
+root_document: study-plan.md
+updated_at: 2026-10-03
+---
+
+# INDEX — Battery Study
+
+## 프로젝트
+
+**battery-study**는 이차전지 소재·전극·셀·평가·제조공정을 학습하고, 설명·근거·PDF를 설계와 공정의 분류에 연결하는 저장소다. 현재 중심은 지식 문서와 PDF의 축적·개정이며, 탐색 웹앱과 분석 실행자 연결은 후속 계획이다.
 
 이 저장소는 이차전지 지식을 **설계 / 공정** 두 축으로 분류하고, 항목별 학습내용과 참고자료를 연결한다. 이 문서는 전체 파일 구조와 수정 경로를 안내한다. 개별 학습 항목은 [전체 학습 목차](README.md)에서 찾는다.
+
+## 핵심 문서
+
+| 역할 | 문서 | 상태 |
+| --- | --- | --- |
+| 현재 작업·학습 계획의 기준 | [study-plan.md](study-plan.md) | 운영 중 |
+| 지식 분류 기준 | [이차전지 지식 분류안](Docs/이차전지_지식분류안.md) | 현행 |
+| 내용 원본 | [항목별 학습 데이터](Data/wbs-learning.json) | 관리 중 |
+| 문서·PDF 작성 및 저장 기준 | [저장 구조와 기록 규칙](Docs/저장_구조와_기록규칙.md) | 현행 |
+| 전체 학습 목차 | [README](README.md) | 자동 생성 |
+| 에이전트 작업 규칙 | [AGENTS](AGENTS.md) | 적용 중 |
+| 후속 앱·연동 방향 | [앱 요구사항과 연동 계획](Docs/앱_요구사항과_연동계획.md) | 계획 |
+
+`root_document`는 현재 작업을 이어받는 기준인 `study-plan.md`를 가리킨다. 상세 학습내용의 원본은 `Data/wbs-learning.json`, 후속 앱 개발 방향은 `Docs/앱_요구사항과_연동계획.md`에서 관리한다.
+
+## 소스 구조
+
+| 영역 | 경로 | 설명 |
+| --- | --- | --- |
+| 학습 지식 | `Knowledge/` | 항목별 상세문서·주제별 보완 설명·아이디어 |
+| 데이터 원본·관계 | `Data/` | 학습내용·분류 ID·문서와 원본 쪽수 대응 |
+| PDF 자료 | `References/` | 현재 WBS PDF·상위 합본·이전 주제별 참고자료 |
+| 운영·계획 문서 | `Docs/` | 분류·근거·기록 규칙·앱 요구사항 |
+| 생성·검증 도구 | `Tools/` | Python 기반 문서·PDF 생성과 연결 검증 |
+| 프로젝트 작업 | `Projects/` | 작업·산출물·완료 기준을 가진 WBS 예시 |
+| 작성 양식 | `Templates/` | 학습문서·작업요청·분석 기록 |
+
+## 현재 우선순위
+
+1. GitHub 최신 자료와 로컬 상태를 확인하고 현재 계획을 읽는다.
+2. 사용자가 요청한 학습 항목의 선수학습·기초·핵심·근거를 보완한다.
+3. 내용 원본에서 상세 Markdown·해당 PDF·모든 상위 합본을 함께 갱신한다.
+4. 링크·분류·PDF 포함 범위와 실제 배치를 검증한다.
+5. 작업 계획과 이 INDEX를 갱신하고 검증한 변경을 GitHub에 반영한다.
+
+구체적인 다음 학습 항목은 아직 지정되지 않았다. 웹앱·Hermes 연결은 사용자가 요청할 때 범위를 정해 진행한다.
+
+## 문서 운영 원칙
+
+- 파일명은 기존 `index.md`를 유지한다. 새 Markdown은 해당 분류와 자동 문서 목록에서 링크로 연결한다.
+- 작업 목표·진행 상태·다음 행동은 `study-plan.md`, 실행 규칙은 `AGENTS.md`에 기록한다.
+- 학습내용은 `Data/wbs-learning.json`에서 수정하고 생성 결과에 반영한다. 학습 완료와 자료 준비 수준을 구분한다.
+- 구조 변경 시 README 생성 도구·관련 데이터와 지침·계획·본 INDEX의 영향 범위를 함께 확인하고 필요한 문서를 갱신한다.
+- 중요한 분류·생성 방식·기술 선택과 이유는 `Docs/`의 관련 문서에 기록한다.
+- 구현되지 않은 앱·자동화·분석 연결을 완료된 기능처럼 기술하지 않는다.
+- GitHub에서 정상적으로 표시되고 링크 검증 도구가 확인할 수 있는 표준 Markdown 링크를 사용한다.
 
 ## 빠른 탐색
 
@@ -190,7 +254,7 @@ Markdown 총 42개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다
 
 ### 루트
 
-- [저장소 작업 지침](AGENTS.md)
+- [AGENTS.md — Battery Study 작업 규칙](AGENTS.md)
 ### Docs
 
 - [WBS 핵심 설명의 참고자료](Docs/WBS_핵심설명_참고자료.md)
@@ -252,7 +316,7 @@ Markdown 총 42개. 이 목록은 `Tools/sync_document_index.py`로 갱신한다
 - [WBS 번호 항목 이름](Templates/학습문서.md)
 ### 루트
 
-- [Battery Study 저장소 구조 안내](index.md)
+- [INDEX — Battery Study](index.md)
 - [학습 및 작업 계획](study-plan.md)
 
 <!-- document-index:end -->
